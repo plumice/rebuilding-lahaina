@@ -1,9 +1,112 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import ContentCard from '../components/ContentCard.astro';
+import Timeline from '../components/Timeline.astro';
+import { getCollection } from 'astro:content';
+
+const sections = await getCollection('sections');
+const drawings = await getCollection('drawings');
+const maps = await getCollection('maps');
+const featured = drawings.slice(0, 3);
 ---
 
 <BaseLayout title="Home">
-  <div class="min-h-screen flex items-center justify-center">
-    <h1 class="font-serif text-4xl text-accent">Rebuilding Lahaina</h1>
+  <!-- SEARCH BAR -->
+  <section class="max-w-3xl mx-auto px-6 pt-16 pb-8">
+    <a href="/search" class="block bg-surface border border-border p-4 flex items-center gap-3 hover:border-[#333] transition-colors no-underline group">
+      <svg class="w-5 h-5 text-text-muted group-hover:text-accent transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <span class="text-text-muted text-sm group-hover:text-text transition-colors">Search all thesis content...</span>
+    </a>
+  </section>
+
+  <!-- HERO -->
+  <div class="min-h-screen flex flex-col justify-end p-12 md:p-16 relative overflow-hidden"
+    style="background: linear-gradient(180deg, rgba(10,10,10,0) 0%, rgba(10,10,10,0.85) 70%, #0a0a0a 100%), linear-gradient(135deg, #1a1510 0%, #0a0a0a 100%);">
+    <div class="absolute inset-0 pointer-events-none" style="background: repeating-linear-gradient(0deg, transparent, transparent 120px, rgba(196,162,101,0.03) 120px, rgba(196,162,101,0.03) 121px);" />
+
+    <div class="relative z-10">
+      <div class="text-[0.85rem] text-text-muted tracking-widest uppercase mb-3">
+        Graduate Thesis — Tulane School of Architecture
+      </div>
+      <h1 class="font-serif text-[clamp(2.8rem,6vw,5rem)] font-normal leading-[1.1] mb-5 max-w-[700px]">
+        Rebuilding <em class="text-accent italic">Lahaina</em>
+      </h1>
+      <div class="font-serif text-lg text-text-muted mb-8">
+        Akhil Singh &nbsp;|&nbsp; Director: Inaki Alday &nbsp;|&nbsp; Co-Director: Sean Fowler
+      </div>
+      <div class="flex gap-8 flex-wrap text-[0.8rem] text-text-muted tracking-wide uppercase opacity-60">
+        <span>M.Arch 2025</span>
+        <span>Post-Disaster Recovery</span>
+        <span>Resilient Urbanism</span>
+        <span>Water Systems</span>
+      </div>
+    </div>
   </div>
+
+  <!-- ENTRY POINTS -->
+  <section class="max-w-5xl mx-auto px-6 py-12">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+      <a href="/read/" class="block bg-surface border border-border p-8 text-center no-underline hover:border-accent transition-colors group">
+        <div class="text-[0.8rem] text-accent tracking-widest uppercase mb-3">Narrative</div>
+        <h2 class="font-serif text-2xl mb-2 text-text group-hover:text-accent transition-colors">Read the Thesis</h2>
+        <p class="text-text-muted text-sm">Follow the full argument from context through design</p>
+      </a>
+      <a href="/topic/" class="block bg-surface border border-border p-8 text-center no-underline hover:border-accent transition-colors group">
+        <div class="text-[0.8rem] text-accent tracking-widest uppercase mb-3">Thematic</div>
+        <h2 class="font-serif text-2xl mb-2 text-text group-hover:text-accent transition-colors">Explore by Topic</h2>
+        <p class="text-text-muted text-sm">Water, housing, mobility, coastal resilience, and more</p>
+      </a>
+      <a href="/scale/" class="block bg-surface border border-border p-8 text-center no-underline hover:border-accent transition-colors group">
+        <div class="text-[0.8rem] text-accent tracking-widest uppercase mb-3">Spatial</div>
+        <h2 class="font-serif text-2xl mb-2 text-text group-hover:text-accent transition-colors">Explore by Scale</h2>
+        <p class="text-text-muted text-sm">Regional, district, town, site, and node</p>
+      </a>
+    </div>
+  </section>
+
+  <!-- ABSTRACT -->
+  <section class="max-w-4xl mx-auto px-6 pb-20">
+    <div class="section-label">Abstract</div>
+    <div class="bg-surface border border-border border-l-[3px] border-l-accent p-8 font-serif text-lg leading-[1.8] text-[#ccc]">
+      The 2023 wildfire in Lahaina revealed critical vulnerabilities in infrastructure, water management, and disaster preparedness. This thesis proposes recovery through a multi-scale plan that includes the major urban systems, the relation of the urban fabric with the coast and the hinterland, and a sequence of strategic nodes to serve the communities.
+    </div>
+  </section>
+
+  <!-- FEATURED DRAWINGS -->
+  {featured.length > 0 && (
+    <section class="max-w-5xl mx-auto px-6 pb-20">
+      <div class="section-label">Featured Drawings</div>
+      <h2 class="section-title mb-8">Selected Plates</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {featured.map((d) => (
+          <ContentCard
+            title={d.data.title}
+            href={`/drawing/${d.id}`}
+            description={d.data.alt}
+            label={d.data.scaleLevel}
+            tags={d.data.tags.topic}
+          />
+        ))}
+      </div>
+    </section>
+  )}
+
+  <!-- MAP PREVIEW -->
+  {maps.length > 0 && (
+    <section class="max-w-5xl mx-auto px-6 pb-20">
+      <div class="section-label">Spatial Data</div>
+      <h2 class="section-title mb-8">Interactive Maps</h2>
+      <div class="grid gap-4">
+        {maps.map((m) => (
+          <ContentCard
+            title={m.data.title}
+            href={`/map/${m.id}`}
+            description={m.data.description}
+            label="Interactive Map"
+            tags={m.data.tags.topic}
+          />
+        ))}
+      </div>
+    </section>
+  )}
 </BaseLayout>
