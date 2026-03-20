@@ -1,6 +1,6 @@
 ---
 title: "Buffer Framework Overview"
-image: "/images/drawings/figure_3_34_buffer_framework_overview.jpg"
+image: "/images/drawings/rebuildinglahaina_final_presentation_page_15.jpg"
 alt: "Comprehensive diagram of the four-buffer system with principles and spatial logic"
 scaleLevel: "town"
 drawingType: "diagram"
