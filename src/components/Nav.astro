@@ -2,27 +2,27 @@
 const { pathname } = Astro.url;
 
 const navLinks = [
-  { href: '/read/', label: 'Read' },
-  { href: '/topic/', label: 'Topics' },
-  { href: '/scale/', label: 'Scales' },
-  { href: '/drawing/', label: 'Drawings' },
+  { href: '/read/', label: 'The Thesis' },
+  { href: '/topic/', label: 'Browse Topics' },
+  { href: '/drawing/', label: 'Maps & Drawings' },
   { href: '/timeline', label: 'Timeline' },
   { href: '/search', label: 'Search' },
 ];
 ---
 
-<nav class="fixed top-0 left-0 right-0 z-50 bg-[rgba(255,255,255,0.92)] backdrop-blur-lg border-b border-border px-8 flex items-center justify-between h-14" role="navigation" aria-label="Main navigation">
-  <a href="/" class="font-serif text-lg tracking-wide text-accent no-underline">
+<nav class="fixed top-0 left-0 right-0 z-50 bg-[rgba(255,255,255,0.95)] backdrop-blur-lg border-b border-border px-6 md:px-8 flex items-center justify-between h-14" role="navigation" aria-label="Main navigation">
+  <a href="/" class="font-serif text-lg tracking-wide text-accent no-underline shrink-0">
     Rebuilding <em>Lahaina</em>
-    <span class="text-text-muted font-light"> — Thesis</span>
   </a>
-  <ul class="list-none flex gap-7">
+
+  <!-- Desktop nav -->
+  <ul class="list-none hidden md:flex gap-6">
     {navLinks.map(({ href, label }) => (
       <li>
         <a
           href={href}
           class:list={[
-            'text-text-muted no-underline text-[0.8rem] font-medium tracking-widest uppercase transition-colors hover:text-text',
+            'text-text-muted no-underline text-sm font-medium transition-colors hover:text-text',
             { 'text-text': pathname.startsWith(href) },
           ]}
         >
@@ -31,4 +31,58 @@ const navLinks = [
       </li>
     ))}
   </ul>
+
+  <!-- Mobile menu button -->
+  <button
+    id="mobile-menu-btn"
+    class="md:hidden p-2 text-text-muted hover:text-text transition-colors"
+    aria-label="Open menu"
+    aria-expanded="false"
+  >
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <path d="M4 6h16M4 12h16M4 18h16" />
+    </svg>
+  </button>
 </nav>
+
+<!-- Mobile menu overlay -->
+<div id="mobile-menu" class="fixed inset-0 z-[60] bg-[rgba(255,255,255,0.98)] hidden flex-col items-center justify-center gap-6" role="dialog" aria-label="Navigation menu">
+  <button
+    id="mobile-menu-close"
+    class="absolute top-4 right-6 p-2 text-text-muted hover:text-text transition-colors"
+    aria-label="Close menu"
+  >
+    <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+      <path d="M6 18L18 6M6 6l12 12" />
+    </svg>
+  </button>
+  {navLinks.map(({ href, label }) => (
+    <a
+      href={href}
+      class:list={[
+        'text-2xl font-serif no-underline transition-colors hover:text-accent',
+        pathname.startsWith(href) ? 'text-accent' : 'text-text',
+      ]}
+    >
+      {label}
+    </a>
+  ))}
+</div>
+
+<script>
+  const btn = document.getElementById('mobile-menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  const close = document.getElementById('mobile-menu-close');
+
+  btn?.addEventListener('click', () => {
+    menu?.classList.remove('hidden');
+    menu?.classList.add('flex');
+    btn?.setAttribute('aria-expanded', 'true');
+  });
+
+  close?.addEventListener('click', () => {
+    menu?.classList.add('hidden');
+    menu?.classList.remove('flex');
+    btn?.setAttribute('aria-expanded', 'false');
+  });
+</script>
