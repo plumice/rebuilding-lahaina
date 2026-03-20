@@ -23,3 +23,10 @@ At the town scale, the fire footprint, zoning map, street network, and building 
 At the site scale, specific intersections, stream corridors, and community facilities are examined for their potential as catalysts for recovery.
 
 At the node scale, individual buildings and public spaces are designed as prototypes — demonstrating how architecture can serve both everyday community needs and emergency response functions.
+
+## Sources & Notes
+
+- Regional data: USGS Digital Elevation Models; Rainfall Atlas of Hawaiʻi; State of Hawaiʻi SLR-XA projections.
+- Fire damage assessments: County of Maui GIS Division, 2023–2024; FEMA DR-4724.
+- Methodology: Adapted from Iñaki Alday and Pankaj Vir Gupta, *Yamuna River Project* (2018), 22–45, "Urban Layers" analytical methodology.
+- Resilience evaluation: Adapted from Lawrence J. Vale and Thomas J. Campanella, eds., *The Resilient City* (2005).

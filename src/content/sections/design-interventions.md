@@ -19,3 +19,12 @@ The thesis develops four specific design interventions that demonstrate how the 
 **Banyan Tree Civic Space** — The historic Banyan Tree, one of Lahaina's most significant cultural landmarks, anchors a redesigned civic plaza at the heart of the coastal buffer. The space connects the coastal promenade to the interior street network, creating a transition between the public waterfront and the residential community.
 
 **Coastal Promenade** — Front Street transforms from a commercial vehicular corridor into a pedestrian promenade. The redesign preserves access to surviving historic structures while creating continuous public space along the coast. Landscaping uses native coastal species and incorporates stormwater management into the streetscape design.
+
+## Sources & Notes
+
+- School as mat-building: Alison Smithson, "How to Recognise and Read Mat-Building," *Architectural Design* 44, no. 9 (1974): 573–590.
+- Van Eyck precedent: Francis Strauven, *Aldo van Eyck: The Shape of Relativity* (1998); Aldo van Eyck, "Steps Toward a Configurative Discipline," *Forum* 3 (1962).
+- Hertzberger school design: Herman Hertzberger, *Space and Learning* (010 Publishers, 2008).
+- Coastal promenade: Author plan; ADA accessibility standards for shared-use paths; FEMA/NOAA living shoreline design standards.
+- Banyan Tree and heritage sites: National Register of Historic Places records; Secretary of the Interior's Standards for Rehabilitation.
+- Mokuhinia restoration: Friends of Mokuhinia, *Restoration Master Plan* (2019).

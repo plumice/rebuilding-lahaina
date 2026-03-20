@@ -19,3 +19,11 @@ Historical data shows a century-long trend of aridification, with drying most pr
 The streams that flow from mountain to coast — Kaua'ula, Kahoma, Kanahā — are critical lifelines. But decades of diversion have reduced many to intermittent flows. The historic Moku'ula site, once a 17-acre freshwater wetland and fishpond fed by underground springs and diverted streams, was filled with coral rubble in 1914 and converted to a baseball field. The fire exposed the consequences of this erasure — drying the land removed the town's natural firebreak.
 
 Sea level rise compounds these challenges. Current projections show 0.6 feet of rise by 2040, 3.5 feet by 2100, and up to 11.9 feet by 2300 under worst-case scenarios. At 3.5 feet, the Moku'ula site floods and Front Street's commercial core faces encroachment. Groundwater inundation — where saltwater infiltrates aquifers from below — will affect foundations before surface flooding becomes visible.
+
+## Sources & Notes
+
+- Rainfall data: Rainfall Atlas of Hawaiʻi, University of Hawaiʻi at Mānoa; Thomas W. Giambelluca et al., "Online Rainfall Atlas of Hawaiʻi," *Bulletin of the American Meteorological Society* 94, no. 3 (2013): 313–316.
+- Sea level rise projections: Hawaiʻi Climate Change Mitigation and Adaptation Commission, *Sea Level Rise Vulnerability and Adaptation Report* (2017, updated 2023).
+- Mokuhinia wetland history: "Mokuʻula," ArcGIS StoryMaps, accessed December 2024; Lilikalā Kameʻeleihiwa, *Native Land and Foreign Desires* (1992).
+- Fire-fuel dynamics: Hawaiʻi Wildfire Management Organization preliminary assessments; PBS FRONTLINE, "Maui's Deadly Firestorm" (2024).
+- GIS analysis: Author analysis using USGS Digital Elevation Models, West Maui quadrangle.

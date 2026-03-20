@@ -23,3 +23,12 @@ Reliable capacity stands at approximately 4.26 million gallons per day (MGD), wh
 The Iao Water Management Rule establishes tiered triggers: at 95% of sustainable yield, a Caution status triggers development restrictions. At 98%, new water meters are frozen. Lahaina has blown past both thresholds. The rule also permits surcharges of 3x to 20x the highest block rate during shortage periods, and penalties up to service termination for repeated violations.
 
 This is the paradox the thesis addresses: West Maui receives enormous rainfall at elevation, but virtually none of it reaches the town. The plantation-era ditch system captured mountain water for sugarcane — water that never served the community after the mill closed. Recovery requires not just building new pipes, but fundamentally redesigning how water moves from mountain to coast.
+
+## Sources & Notes
+
+- Stage 2 Water Shortage Declaration: Maui County Department of Water Supply, September 2025.
+- Aquifer designation: State of Hawaiʻi Commission on Water Resource Management, Lahaina Aquifer Sector, June 2022.
+- 3-Year water usage forecast: Maui County Department of Water Supply, November 2025.
+- Pump failure during fire: PBS FRONTLINE, "Maui's Deadly Firestorm" (2024); Maui Recovers, "Lahaina Water Infrastructure Resilience and Hardening."
+- HDPE pipe contamination: Fire Safety Research Institute, "Lahaina Fire Incident Analysis Report."
+- Ditch infrastructure history: WSP USA Inc., *Reconnaissance Level Architectural Historic Resource Survey* (October 2024); Pioneer Mill Company records.

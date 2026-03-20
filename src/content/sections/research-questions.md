@@ -31,3 +31,12 @@ tags:
 **H4:** Equitable recovery policies that prioritize affordable housing, community land trusts, and anti-displacement measures can prevent disaster gentrification.
 
 **H5:** An iterative, participatory methodology that integrates community input with technical expertise produces more equitable and sustainable recovery outcomes.
+
+## Sources & Notes
+
+- Adaptive recovery frameworks: Laurie A. Johnson and Robert B. Olshansky, *After Great Disasters* (Lincoln Institute of Land Policy, 2010), 15–32.
+- Ahupuʻa system as model: Office of Hawaiian Affairs, Kipuka Database, accessed 2024.
+- Cultural continuity: Kamanamaikalani Beamer, *No Mākou Ka Mana* (2014), 45–78.
+- Disaster gentrification: Kevin Fox Gotham, "Disaster, Inc.," *Perspectives on Politics* 10, no. 3 (2012): 633–646.
+- Water systems integration: Waggonner & Ball Architects, *Greater New Orleans Urban Water Plan* (2013), 42–58.
+- Iterative methodology: Iñaki Alday and Pankaj Vir Gupta, *Yamuna River Project* (2018), 112–134.
