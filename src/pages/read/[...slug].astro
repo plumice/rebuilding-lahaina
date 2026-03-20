@@ -1,0 +1,38 @@
+---
+import SectionLayout from '../../layouts/SectionLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const sections = await getCollection('sections');
+  const sorted = sections.sort((a, b) => {
+    if (a.data.chapter !== b.data.chapter) return a.data.chapter.localeCompare(b.data.chapter);
+    return a.data.order - b.data.order;
+  });
+
+  return sorted.map((section, i) => ({
+    params: { slug: section.id },
+    props: {
+      section,
+      prev: i > 0 ? { slug: sorted[i - 1].id, title: sorted[i - 1].data.title } : undefined,
+      next: i < sorted.length - 1 ? { slug: sorted[i + 1].id, title: sorted[i + 1].data.title } : undefined,
+    },
+  }));
+}
+
+const { section, prev, next } = Astro.props;
+const { Content } = await render(section);
+---
+
+<SectionLayout
+  title={section.data.title}
+  chapter={section.data.chapter}
+  summary={section.data.summary}
+  tags={section.data.tags}
+  relatedDrawings={section.data.relatedDrawings}
+  relatedSources={section.data.relatedSources}
+  relatedTerms={section.data.relatedTerms}
+  prev={prev}
+  next={next}
+>
+  <Content />
+</SectionLayout>
