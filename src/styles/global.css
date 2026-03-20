@@ -6,14 +6,14 @@
 
 @layer base {
   :root {
-    --bg: #0a0a0a;
-    --surface: #141414;
-    --surface-hover: #1a1a1a;
-    --border: #222222;
-    --text: #e8e8e8;
-    --text-muted: #999999;
-    --accent: #c4a265;
-    --accent-dim: rgba(196, 162, 101, 0.12);
+    --bg: #ffffff;
+    --surface: #f7f7f5;
+    --surface-hover: #eeeeec;
+    --border: #e0e0de;
+    --text: #1a1a1a;
+    --text-muted: #6b6b6b;
+    --accent: #8b7355;
+    --accent-dim: rgba(139, 115, 85, 0.08);
     --serif: 'EB Garamond', Georgia, serif;
     --sans: Inter, -apple-system, sans-serif;
   }
@@ -56,7 +56,7 @@
     font-family: var(--serif);
     font-size: 1.05rem;
     line-height: 1.8;
-    color: #ccc;
+    color: #3a3a3a;
     max-width: 65ch;
   }
 
