@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TagPills from '../../components/TagPills.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const sources = await getCollection('sources');
+  return sources.map((source) => ({
+    params: { slug: source.id },
+    props: { source },
+  }));
+}
+
+const { source } = Astro.props;
+const { Content } = await render(source);
+---
+
+<BaseLayout title={source.data.title} description={source.data.relevance}>
+  <div class="max-w-3xl mx-auto px-6 py-20" data-pagefind-body>
+    <Breadcrumbs crumbs={[
+      { label: 'Sources', href: '/source/' },
+      { label: source.data.title },
+    ]} />
+
+    <div class="section-label">{source.data.sourceType.replaceAll('-', ' ')}</div>
+    <h1 class="section-title mb-2">{source.data.title}</h1>
+    <p class="text-text-muted text-lg font-serif mb-2">{source.data.author}</p>
+    {source.data.publisher && <p class="text-text-muted text-sm">{source.data.publisher}{source.data.date && `, ${source.data.date}`}</p>}
+
+    <div class="mt-6 mb-6">
+      <TagPills topics={source.data.tags.topic} types={source.data.tags.type} />
+    </div>
+
+    <div class="bg-surface border-l-[3px] border-accent p-6 text-text-muted font-serif text-base leading-relaxed">
+      {source.data.relevance}
+    </div>
+
+    <div class="prose mt-8">
+      <Content />
+    </div>
+  </div>
+</BaseLayout>

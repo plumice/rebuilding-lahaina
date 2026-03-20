@@ -1,0 +1,18 @@
+---
+import { getCollection } from 'astro:content';
+
+const events = await getCollection('timeline');
+const sorted = events.sort((a, b) => a.data.sortOrder - b.data.sortOrder);
+---
+
+<div class="relative pl-8">
+  <div class="absolute left-0 top-0 bottom-0 w-px bg-border" />
+  {sorted.map((event) => (
+    <div class="relative mb-8 pl-6">
+      <div class="absolute -left-[2.28rem] top-[0.35rem] w-[7px] h-[7px] rounded-full bg-accent" />
+      <div class="text-[0.8rem] text-accent tracking-wide mb-1">{event.data.era}</div>
+      <h4 class="font-serif text-base mb-1">{event.data.title}</h4>
+      <p class="text-[0.85rem] text-text-muted leading-relaxed">{event.data.description}</p>
+    </div>
+  ))}
+</div>
