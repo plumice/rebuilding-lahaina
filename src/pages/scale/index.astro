@@ -1,0 +1,30 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ScaleNav from '../../components/ScaleNav.astro';
+import ContentCard from '../../components/ContentCard.astro';
+import { getCollection } from 'astro:content';
+
+const scales = await getCollection('scales');
+---
+
+<BaseLayout title="Explore by Scale" description="Browse thesis content by spatial scale.">
+  <section class="max-w-4xl mx-auto px-6 py-20">
+    <div class="section-label">Scale Navigator</div>
+    <h1 class="section-title mb-4">Explore by Scale</h1>
+    <p class="text-text-muted text-[0.92rem] leading-relaxed mb-12 max-w-2xl">
+      The thesis operates across five spatial scales. Select a scale to see all analysis, drawings, and proposals at that level.
+    </p>
+
+    <ScaleNav />
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-8">
+      {scales.map((scale) => (
+        <ContentCard
+          title={scale.data.title}
+          href={`/scale/${scale.id}`}
+          description={scale.data.summary}
+        />
+      ))}
+    </div>
+  </section>
+</BaseLayout>

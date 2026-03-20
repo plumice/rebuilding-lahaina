@@ -1,0 +1,31 @@
+---
+const scales = [
+  { id: 'regional', label: 'Regional' },
+  { id: 'district', label: 'District' },
+  { id: 'town', label: 'Town' },
+  { id: 'site', label: 'Site' },
+  { id: 'node', label: 'Node' },
+];
+
+interface Props {
+  active?: string;
+}
+
+const { active } = Astro.props;
+---
+
+<nav class="flex gap-1 mb-8" aria-label="Scale navigation">
+  {scales.map((scale) => (
+    <a
+      href={`/scale/${scale.id}`}
+      class:list={[
+        'px-4 py-2 text-[0.8rem] tracking-widest uppercase no-underline transition-colors border',
+        active === scale.id
+          ? 'bg-accent text-bg border-accent'
+          : 'bg-surface text-text-muted border-border hover:text-text hover:border-[#333]',
+      ]}
+    >
+      {scale.label}
+    </a>
+  ))}
+</nav>

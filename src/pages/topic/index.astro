@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ContentCard from '../../components/ContentCard.astro';
+import { getCollection } from 'astro:content';
+
+const topics = await getCollection('topics');
+---
+
+<BaseLayout title="Explore by Topic" description="Browse thesis content by thematic topic.">
+  <section class="max-w-4xl mx-auto px-6 py-20">
+    <div class="section-label">Topic Explorer</div>
+    <h1 class="section-title mb-4">Explore by Topic</h1>
+    <p class="text-text-muted text-[0.92rem] leading-relaxed mb-12 max-w-2xl">
+      Browse all thesis content organized by thematic topic. Each topic aggregates related sections, drawings, maps, and sources.
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+      {topics.map((topic) => (
+        <ContentCard
+          title={topic.data.title}
+          href={`/topic/${topic.id}`}
+          description={topic.data.summary}
+        />
+      ))}
+    </div>
+  </section>
+</BaseLayout>
