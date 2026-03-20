@@ -1,0 +1,56 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+---
+
+<BaseLayout title="Search" description="Search all thesis content.">
+  <section class="max-w-4xl mx-auto px-6 py-20">
+    <div class="section-label">Search</div>
+    <h1 class="section-title mb-8">Search the Thesis</h1>
+
+    <div id="search-container" class="min-h-[400px]">
+      <div id="search" />
+    </div>
+  </section>
+</BaseLayout>
+
+<script is:inline>
+  async function initSearch() {
+    const { PagefindUI } = await import('/pagefind/pagefind-ui.js');
+    new PagefindUI({
+      element: '#search',
+      showSubResults: true,
+      showImages: false,
+    });
+  }
+  initSearch();
+</script>
+
+<style is:global>
+  /* Override Pagefind UI to match dark theme */
+  .pagefind-ui {
+    --pagefind-ui-scale: 1;
+    --pagefind-ui-primary: #c4a265;
+    --pagefind-ui-text: #e8e8e8;
+    --pagefind-ui-background: #141414;
+    --pagefind-ui-border: #222222;
+    --pagefind-ui-tag: #1a1a1a;
+    --pagefind-ui-border-width: 1px;
+    --pagefind-ui-border-radius: 2px;
+    --pagefind-ui-font: Inter, -apple-system, sans-serif;
+  }
+
+  .pagefind-ui__search-input {
+    background: #0a0a0a !important;
+    color: #e8e8e8 !important;
+  }
+
+  .pagefind-ui__result-link {
+    color: #c4a265 !important;
+  }
+
+  .pagefind-ui__result-excerpt {
+    color: #999 !important;
+  }
+</style>
+
+<link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
