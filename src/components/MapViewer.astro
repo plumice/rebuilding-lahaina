@@ -1,0 +1,88 @@
+---
+interface Layer {
+  name: string;
+  file: string;
+  color: string;
+}
+
+interface Props {
+  id: string;
+  center: [number, number];
+  zoom: number;
+  layers: Layer[];
+}
+
+const { id, center, zoom, layers } = Astro.props;
+---
+
+<div id={`map-${id}`} class="w-full h-[600px] bg-surface border border-border relative" data-center={JSON.stringify(center)} data-zoom={zoom} data-layers={JSON.stringify(layers)}>
+  <noscript>
+    <p class="p-8 text-text-muted">Interactive map requires JavaScript.</p>
+  </noscript>
+</div>
+
+<!-- Layer toggle panel -->
+<div id={`legend-${id}`} class="bg-surface border border-border p-4 mt-2">
+  <h4 class="text-[0.8rem] tracking-widest uppercase text-accent mb-3">Layers</h4>
+  <div class="space-y-2">
+    {layers.map((layer) => (
+      <label class="flex items-center gap-2 cursor-pointer text-sm text-text-muted hover:text-text transition-colors">
+        <input type="checkbox" checked class="accent-accent" data-layer-name={layer.name} />
+        <span class="w-3 h-3 rounded-full inline-block" style={`background: ${layer.color}`} />
+        {layer.name}
+      </label>
+    ))}
+  </div>
+</div>
+
+<script>
+  import L from 'leaflet';
+  import 'leaflet/dist/leaflet.css';
+
+  document.querySelectorAll('[id^="map-"]').forEach(async (el) => {
+    const mapEl = el as HTMLElement;
+    const id = mapEl.id.replace('map-', '');
+    const center = JSON.parse(mapEl.dataset.center!) as [number, number];
+    const zoom = Number(mapEl.dataset.zoom);
+    const layers = JSON.parse(mapEl.dataset.layers!) as Array<{ name: string; file: string; color: string }>;
+
+    const map = L.map(mapEl.id).setView(center, zoom);
+
+    L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+      attribution: '&copy; OSM &amp; CARTO',
+      maxZoom: 19,
+    }).addTo(map);
+
+    const layerMap = new Map<string, L.GeoJSON>();
+
+    for (const layerDef of layers) {
+      try {
+        const resp = await fetch(layerDef.file);
+        if (!resp.ok) continue;
+        const geojson = await resp.json();
+        const geoLayer = L.geoJSON(geojson, {
+          style: { color: layerDef.color, weight: 2, opacity: 0.8, fillOpacity: 0.15 },
+        }).addTo(map);
+        layerMap.set(layerDef.name, geoLayer);
+      } catch {
+        // GeoJSON file not available yet — skip silently during development
+      }
+    }
+
+    // Layer toggle
+    const legendEl = document.getElementById(`legend-${id}`);
+    legendEl?.querySelectorAll('input[data-layer-name]').forEach((checkbox) => {
+      const input = checkbox as HTMLInputElement;
+      const name = input.dataset.layerName!;
+      input.addEventListener('change', () => {
+        const layer = layerMap.get(name);
+        if (!layer) return;
+        if (input.checked) {
+          map.addLayer(layer);
+        } else {
+          map.removeLayer(layer);
+        }
+      });
+    });
+  });
+</script>
