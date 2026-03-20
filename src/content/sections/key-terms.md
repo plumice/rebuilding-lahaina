@@ -39,3 +39,10 @@ The following terms recur throughout this thesis and carry specific meanings wit
 - **Social Cohesion** — The strength of relationships, trust, and shared identity within a community, recognized as a critical factor in disaster recovery and long-term resilience.
 
 - **Vulnerability Cycles** — Recurring patterns in which systemic failures in infrastructure, policy, and social systems compound over time, increasing a community's exposure to future disasters.
+
+## Sources & Notes
+
+- Hawaiian language definitions: Mary Kawena Pukui and Samuel H. Elbert, *Hawaiian Dictionary* (University of Hawaiʻi Press, 1986).
+- Land tenure context: Lilikalā Kameʻeleihiwa, *Native Land and Foreign Desires* (Bishop Museum Press, 1992).
+- Agricultural systems: Patrick Vinton Kirch, *Feathered Gods and Fishhooks* (University of Hawaiʻi Press, 1985).
+- Mālama ʻāina ethic: Kamanamaikalani Beamer, *No Mākou Ka Mana* (2014).

@@ -23,3 +23,13 @@ Solar response is built into the module's orientation and shading strategy. Laha
 Modules aggregate into larger buildings by connecting along their edges. Three modules in a row create a classroom wing. A cluster of modules around a courtyard creates a residential compound. The school building is an aggregation of dozens of modules, demonstrating how a simple unit can produce complex, humane architecture at community scale.
 
 The module is explicitly designed as a prototype — a replicable unit that communities can adapt and build upon, not a fixed product imposed from outside.
+
+## Sources & Notes
+
+- Hawaiian hale traditions: County of Maui Department of Public Works, "Rules Pertaining to Indigenous Hawaiian Architecture Structures," Chapter 15-110 (2004).
+- Architectural style: Mason Architects, *Lahaina Architectural Style Book* (2010), 12–35.
+- Correa's climate-responsive architecture: Charles Correa, *Charles Correa* (Thames & Hudson, 1996); Kenneth Frampton, *Charles Correa* (Perennial Press, 2000).
+- Mat-building theory: Alison Smithson, "How to Recognise and Read Mat-Building" (1974).
+- Fire-resistant construction: FEMA modular construction documentation; International Building Code (2021), Type V wood-frame standards.
+- Lahaina Historic District materials: County of Maui Historic Commission, *Architectural Style Book* (1969).
+- Robert Wenkam, *Maui: The Last Hawaiian Place* (Friends of the Earth, 1970) — historical landscape documentation.

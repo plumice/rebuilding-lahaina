@@ -19,3 +19,11 @@ The most promising zones for recovery are BR (Business Residential), which allow
 The most problematic zones include AG (Agricultural), which restricts housing and commercial development on large tracts of land; INT (Interim), which creates regulatory uncertainty; and R-1 (Single-Family Residential), whose low density conflicts with the urgent need for housing.
 
 The fire burned across multiple zoning boundaries, and the recovery plan must address these contradictions. Strategic rezoning — particularly converting underutilized AG and INT parcels adjacent to the urban core — could unlock land for housing without displacing existing communities. The key principle: housing first, commercial second.
+
+## Sources & Notes
+
+- Zoning classifications: County of Maui zoning maps and ordinances.
+- West Maui planning policies: County of Maui, *West Maui Community Plan*, adopted December 2021.
+- Housing tenure data: U.S. Census Bureau, American Community Survey, Lahaina CDP, showing 83.2% renter-occupied units.
+- Disaster gentrification risk: Kevin Fox Gotham, "Disaster, Inc." (2012); Naomi Klein, *The Shock Doctrine* (2007).
+- Short-term rental impacts: County of Maui, Minatoya List; PBS FRONTLINE, "Maui's Deadly Firestorm" (2024).

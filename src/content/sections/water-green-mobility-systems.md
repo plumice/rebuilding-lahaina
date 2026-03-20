@@ -19,3 +19,12 @@ Three interconnected systems form the infrastructure of recovery.
 **Green Infrastructure** — The pre-fire green system was fragmented and insufficient. The proposed network connects four continuous corridors: the coastal promenade, riparian stream corridors, a coastal park, and the agricultural edge. Together these create a continuous green system that manages stormwater, provides habitat, reduces urban heat, and offers recreational space. Native and fire-resistant plantings replace the invasive grasses that fueled the wildfire.
 
 **Mobility** — Before the fire, Lahaina suffered from a single-spine road network centered on Front Street, creating catastrophic bottlenecks during evacuation. The proposed mobility system introduces a new boulevard (converting the existing highway corridor) as the primary circulation spine, with Lahaina Luna Avenue and Kahoma Boulevard providing cross-connections. Front Street becomes a car-free coastal promenade. The network prioritizes walking and cycling within the town core, with vehicular access concentrated on the boulevard. This redundancy ensures multiple evacuation routes in emergencies.
+
+## Sources & Notes
+
+- Water system design: WSP USA Inc. (2024) on ditch rehabilitation; EPA *Stormwater Best Management Practices* (2021).
+- Gravity-fed distribution: Iñaki Alday and Pankaj Vir Gupta, "Urban Hydrology," in *Global Water: Issues and Insights* (ANU Press, 2014).
+- Green infrastructure: Waggonner & Ball, *Greater New Orleans Urban Water Plan* (2013), stream restoration principles.
+- Mobility failures: PBS FRONTLINE, "Maui's Deadly Firestorm" (2024); State of Hawaiʻi Attorney General, *Lahaina Fire Comprehensive Report* (2024).
+- Street design: National Association of City Transportation Officials, *Urban Street Design Guide* (Island Press, 2013), 120–142.
+- Pre-fire mobility mapping: Author photo-telemetric study; County of Maui, *West Maui Community Plan* (2021).
