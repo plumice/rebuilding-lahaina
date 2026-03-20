@@ -1,6 +1,7 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ContentCard from '../components/ContentCard.astro';
+import NewsBulletin from '../components/NewsBulletin.astro';
 import { getCollection } from 'astro:content';
 
 const drawings = await getCollection('drawings');
@@ -66,6 +67,9 @@ const featured = drawings.slice(0, 3);
       </p>
     </div>
   </section>
+
+  <!-- NEWS BULLETIN -->
+  <NewsBulletin />
 
   <!-- FEATURED DRAWINGS -->
   {featured.length > 0 && (
