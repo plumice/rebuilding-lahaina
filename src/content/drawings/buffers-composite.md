@@ -1,6 +1,6 @@
 ---
 title: "Complete Buffer System"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_31.jpg"
+image: "/images/drawings/updated_local_all_buffers.jpg"
 alt: "All four buffer zones overlaid — coastal, riparian, peri-urban, and water collection — in one comprehensive plan"
 scaleLevel: "town"
 drawingType: "composite-plan"

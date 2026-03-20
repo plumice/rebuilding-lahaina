@@ -1,6 +1,6 @@
 ---
 title: "Water Collection Hinterland"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_28.jpg"
+image: "/images/drawings/updated_local_watercollection.jpg"
 alt: "Map showing water capture zones above the highway reinforcing the historic ditch system"
 scaleLevel: "district"
 drawingType: "plan"

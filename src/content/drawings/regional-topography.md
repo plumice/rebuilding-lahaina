@@ -1,6 +1,6 @@
 ---
 title: "Regional Topography — Mauka to Makai"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_10.jpg"
+image: "/images/drawings/updated_regional_base.jpg"
 alt: "Topographic map of West Maui showing coast-to-peak elevation and building footprints"
 scaleLevel: "regional"
 drawingType: "analytical-map"

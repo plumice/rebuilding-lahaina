@@ -1,6 +1,6 @@
 ---
 title: "Streams & Ditch Systems"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_12.jpg"
+image: "/images/drawings/updated_regional_streams.jpg"
 alt: "Map of natural stream network overlaid with historic plantation ditch infrastructure"
 scaleLevel: "regional"
 drawingType: "analytical-map"

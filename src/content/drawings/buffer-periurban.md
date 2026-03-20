@@ -1,6 +1,6 @@
 ---
 title: "Peri-Urban Buffer"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_27.jpg"
+image: "/images/drawings/updated_local_periurban.jpg"
 alt: "Agricultural transition zone between the proposed boulevard and highway serving as firebreak"
 scaleLevel: "district"
 drawingType: "diagram"

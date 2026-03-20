@@ -1,6 +1,6 @@
 ---
 title: "Sea Level Rise Projections"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_13.jpg"
+image: "/images/drawings/updated_regional_slr.jpg"
 alt: "Projected coastal encroachment scenarios from 2040 to 2300 along Lahaina's coastline"
 scaleLevel: "regional"
 drawingType: "analytical-map"

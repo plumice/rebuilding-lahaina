@@ -1,6 +1,6 @@
 ---
 title: "Water Collection Strategy"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_30.jpg"
+image: "/images/drawings/updated_local_water_proposed.jpg"
 alt: "Diagram showing water collection pond system and distribution from mountain hinterland to town"
 scaleLevel: "district"
 drawingType: "diagram"

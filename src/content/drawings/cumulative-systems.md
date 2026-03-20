@@ -1,6 +1,6 @@
 ---
 title: "Cumulative Systems Plan"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_45.jpg"
+image: "/images/drawings/updated_local_all_buffers.jpg"
 alt: "All systems overlaid — buffers, mobility, green infrastructure, water, community hubs, and density — in one comprehensive plan"
 scaleLevel: "town"
 drawingType: "composite-plan"

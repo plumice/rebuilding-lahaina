@@ -1,6 +1,6 @@
 ---
 title: "Composite Regional Analysis"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_14.jpg"
+image: "/images/drawings/updated_regional_composite.jpg"
 alt: "Combined systems map identifying developable edges and constraint zones across West Maui"
 scaleLevel: "regional"
 drawingType: "composite-map"

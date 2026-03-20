@@ -1,6 +1,6 @@
 ---
 title: "Burnt vs. Unburnt Overlay"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_21.jpg"
+image: "/images/drawings/updated_local_fire.jpg"
 alt: "Map showing burned and unburned structures across Lahaina after the 2023 wildfire"
 scaleLevel: "town"
 drawingType: "figure-ground"
