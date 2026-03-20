@@ -19,7 +19,7 @@ const { active } = Astro.props;
     <a
       href={`/scale/${scale.id}`}
       class:list={[
-        'px-4 py-2 text-[0.8rem] tracking-widest uppercase no-underline transition-colors border',
+        'px-4 py-3 text-[0.8rem] tracking-widest uppercase no-underline transition-colors border',
         active === scale.id
           ? 'bg-accent text-bg border-accent'
           : 'bg-surface text-text-muted border-border hover:text-text hover:border-accent',

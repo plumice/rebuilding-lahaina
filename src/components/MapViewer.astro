@@ -23,6 +23,7 @@ const { id, center, zoom, layers } = Astro.props;
 
 <!-- Layer toggle panel -->
 <div id={`legend-${id}`} class="bg-surface border border-border p-4 mt-2">
+  <p class="text-xs text-text-muted mb-3">Use arrow keys to pan, + and - to zoom. Toggle layers below.</p>
   <h4 class="text-[0.8rem] tracking-widest uppercase text-accent mb-3">Layers</h4>
   <div class="space-y-2">
     {layers.map((layer) => (
