@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const terms = await getCollection('terms');
+const concepts = terms.filter((t) => t.data.category === 'concept');
+const hawaiian = terms.filter((t) => t.data.category === 'hawaiian');
+const acronyms = terms.filter((t) => t.data.category === 'acronym');
+
+const groups = [
+  { label: 'Key Terms', terms: concepts },
+  { label: 'Hawaiian Terms', terms: hawaiian },
+  { label: 'Acronyms', terms: acronyms },
+].filter((g) => g.terms.length > 0);
+---
+
+<BaseLayout title="Terms & Glossary" description="Core terminology used throughout the thesis.">
+  <section class="max-w-4xl mx-auto px-6 py-20">
+    <div class="section-label">Glossary</div>
+    <h1 class="section-title mb-12">Definitions & Key Terms</h1>
+
+    {groups.map(({ label, terms: grouped }) => (
+      <div class="mb-10">
+        <h2 class="font-serif text-xl mb-4">{label}</h2>
+        <div class="space-y-4">
+          {grouped.map((term) => (
+            <a href={`/term/${term.id}`} class="block border-b border-border pb-4 no-underline hover:bg-surface-hover transition-colors" data-pagefind-body>
+              <h4 class="text-[0.85rem] tracking-wide uppercase text-accent mb-1">{term.data.term}</h4>
+              <p class="text-text-muted text-[0.9rem] leading-relaxed">{term.data.definition}</p>
+            </a>
+          ))}
+        </div>
+      </div>
+    ))}
+  </section>
+</BaseLayout>

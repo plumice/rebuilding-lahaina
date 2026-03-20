@@ -1,0 +1,32 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+
+const sources = await getCollection('sources');
+const byType = ['book', 'report', 'government-doc', 'research-note'].map((type) => ({
+  type,
+  label: type === 'government-doc' ? 'Government Documents' : type === 'research-note' ? 'Research Notes' : type.charAt(0).toUpperCase() + type.slice(1) + 's',
+  sources: sources.filter((s) => s.data.sourceType === type),
+})).filter((g) => g.sources.length > 0);
+---
+
+<BaseLayout title="Sources" description="Complete directory of research sources.">
+  <section class="max-w-5xl mx-auto px-6 py-20">
+    <div class="section-label">Source Directory</div>
+    <h1 class="section-title mb-12">Research Sources & References</h1>
+
+    {byType.map(({ label, sources: typed }) => (
+      <div class="mb-10">
+        <h2 class="font-serif text-xl mb-4">{label}</h2>
+        <div class="border border-border">
+          {typed.map((source) => (
+            <a href={`/source/${source.id}`} class="block p-4 border-b border-border hover:bg-surface-hover no-underline transition-colors" data-pagefind-body>
+              <div class="font-serif text-base text-text">{source.data.title}</div>
+              <div class="text-[0.85rem] text-text-muted mt-1">{source.data.author} {source.data.date && `— ${source.data.date}`}</div>
+            </a>
+          ))}
+        </div>
+      </div>
+    ))}
+  </section>
+</BaseLayout>

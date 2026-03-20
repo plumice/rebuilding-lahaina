@@ -1,0 +1,16 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import Timeline from '../components/Timeline.astro';
+---
+
+<BaseLayout title="Timeline" description="Key events in Lahaina's history from pre-contact to the present.">
+  <section class="max-w-3xl mx-auto px-6 py-20" data-pagefind-body>
+    <div class="section-label">Historical Context</div>
+    <h1 class="section-title mb-4">Lahaina — Key Events</h1>
+    <p class="text-text-muted text-[0.92rem] leading-relaxed mb-12 max-w-2xl">
+      Major spatial and infrastructural events that shaped the town.
+    </p>
+
+    <Timeline />
+  </section>
+</BaseLayout>

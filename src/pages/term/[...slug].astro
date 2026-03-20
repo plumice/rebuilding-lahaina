@@ -1,0 +1,57 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import TagPills from '../../components/TagPills.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const terms = await getCollection('terms');
+  return terms.map((term) => ({
+    params: { slug: term.id },
+    props: { term },
+  }));
+}
+
+const { term } = Astro.props;
+const { Content } = await render(term);
+
+const sections = await getCollection('sections');
+const related = sections.filter((s) => term.data.relatedSections.includes(s.id));
+---
+
+<BaseLayout title={term.data.term} description={term.data.definition}>
+  <div class="max-w-3xl mx-auto px-6 py-20" data-pagefind-body>
+    <Breadcrumbs crumbs={[
+      { label: 'Terms', href: '/term/' },
+      { label: term.data.term },
+    ]} />
+
+    <div class="section-label">{term.data.category}</div>
+    <h1 class="section-title mb-4">{term.data.term}</h1>
+
+    <div class="bg-surface border-l-[3px] border-accent p-6 font-serif text-lg leading-relaxed text-[#ccc] mb-6">
+      {term.data.definition}
+    </div>
+
+    <TagPills topics={term.data.tags.topic} />
+
+    <div class="prose mt-8">
+      <Content />
+    </div>
+
+    {related.length > 0 && (
+      <div class="mt-12">
+        <h3 class="text-[0.8rem] tracking-widest uppercase text-accent mb-4">Used In</h3>
+        <ul class="space-y-2 list-none">
+          {related.map((s) => (
+            <li>
+              <a href={`/read/${s.id}`} class="text-text-muted hover:text-text no-underline transition-colors">
+                {s.data.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+  </div>
+</BaseLayout>
