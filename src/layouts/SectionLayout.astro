@@ -1,0 +1,59 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import TagPills from '../components/TagPills.astro';
+import PrevNext from '../components/PrevNext.astro';
+import Sidebar from '../components/Sidebar.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+
+interface Link {
+  slug: string;
+  title: string;
+}
+
+interface Props {
+  title: string;
+  chapter: string;
+  summary: string;
+  tags: { topic: string[]; scale: string[]; type: string[] };
+  relatedDrawings?: string[];
+  relatedSources?: string[];
+  relatedTerms?: string[];
+  prev?: Link;
+  next?: Link;
+}
+
+const { title, chapter, summary, tags, relatedDrawings, relatedSources, relatedTerms, prev, next } = Astro.props;
+
+const chapterLabels: Record<string, string> = {
+  'ch1-introduction': '01 — Introduction',
+  'ch2-overview': '02 — Subject Overview',
+  'ch3-analysis': '03 — Research Analysis',
+  'ch4-principles': '04 — Design Principles',
+  'ch5-design': '05 — Design',
+};
+---
+
+<BaseLayout title={title} description={summary}>
+  <div class="max-w-6xl mx-auto px-6 py-20">
+    <Breadcrumbs crumbs={[
+      { label: 'Read', href: '/read/' },
+      { label: chapterLabels[chapter] || chapter, href: '/read/' },
+      { label: title },
+    ]} />
+
+    <div class="section-label">{chapterLabels[chapter] || chapter}</div>
+    <h1 class="section-title mb-4">{title}</h1>
+
+    <TagPills topics={tags.topic} scales={tags.scale} types={tags.type} />
+
+    <div class="grid grid-cols-1 lg:grid-cols-[1fr_280px] gap-12 mt-10">
+      <article class="prose" data-pagefind-body>
+        <slot />
+      </article>
+
+      <Sidebar relatedDrawings={relatedDrawings} relatedSources={relatedSources} relatedTerms={relatedTerms} />
+    </div>
+
+    <PrevNext prev={prev} next={next} />
+  </div>
+</BaseLayout>

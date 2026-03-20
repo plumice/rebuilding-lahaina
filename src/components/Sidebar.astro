@@ -1,0 +1,64 @@
+---
+import { getCollection } from 'astro:content';
+
+interface Props {
+  relatedDrawings?: string[];
+  relatedSources?: string[];
+  relatedTerms?: string[];
+}
+
+const { relatedDrawings = [], relatedSources = [], relatedTerms = [] } = Astro.props;
+
+const allDrawings = await getCollection('drawings');
+const allSources = await getCollection('sources');
+const allTerms = await getCollection('terms');
+
+const drawings = allDrawings.filter((d) => relatedDrawings.includes(d.id));
+const sources = allSources.filter((s) => relatedSources.includes(s.id));
+const terms = allTerms.filter((t) => relatedTerms.includes(t.id));
+---
+
+<aside class="space-y-8" role="complementary" aria-label="Related content">
+  {drawings.length > 0 && (
+    <div>
+      <h4 class="text-[0.8rem] tracking-widest uppercase text-accent mb-3">Related Drawings</h4>
+      <ul class="space-y-2 list-none">
+        {drawings.map((d) => (
+          <li>
+            <a href={`/drawing/${d.id}`} class="text-text-muted hover:text-text no-underline text-sm transition-colors">
+              {d.data.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )}
+  {terms.length > 0 && (
+    <div>
+      <h4 class="text-[0.8rem] tracking-widest uppercase text-accent mb-3">Key Terms</h4>
+      <ul class="space-y-2 list-none">
+        {terms.map((t) => (
+          <li>
+            <a href={`/term/${t.id}`} class="text-text-muted hover:text-text no-underline text-sm transition-colors">
+              {t.data.term}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )}
+  {sources.length > 0 && (
+    <div>
+      <h4 class="text-[0.8rem] tracking-widest uppercase text-accent mb-3">Sources</h4>
+      <ul class="space-y-2 list-none">
+        {sources.map((s) => (
+          <li>
+            <a href={`/source/${s.id}`} class="text-text-muted hover:text-text no-underline text-sm transition-colors">
+              {s.data.title}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </div>
+  )}
+</aside>

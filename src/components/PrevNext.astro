@@ -1,0 +1,28 @@
+---
+interface Link {
+  slug: string;
+  title: string;
+}
+
+interface Props {
+  prev?: Link;
+  next?: Link;
+}
+
+const { prev, next } = Astro.props;
+---
+
+<nav class="flex justify-between border-t border-border pt-8 mt-12" aria-label="Section navigation">
+  {prev ? (
+    <a href={`/read/${prev.slug}`} class="text-text-muted hover:text-text no-underline transition-colors">
+      <span class="text-[0.8rem] tracking-widest uppercase block mb-1">Previous</span>
+      <span class="font-serif text-lg">{prev.title}</span>
+    </a>
+  ) : <div />}
+  {next ? (
+    <a href={`/read/${next.slug}`} class="text-text-muted hover:text-text no-underline transition-colors text-right">
+      <span class="text-[0.8rem] tracking-widest uppercase block mb-1">Next</span>
+      <span class="font-serif text-lg">{next.title}</span>
+    </a>
+  ) : <div />}
+</nav>
