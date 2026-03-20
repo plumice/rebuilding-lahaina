@@ -1,6 +1,6 @@
 ---
 title: "Proposed Mobility Network"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_34.jpg"
+image: "/images/drawings/updated_local_mobility_proposed.jpg"
 alt: "Redesigned street hierarchy with new boulevard, pedestrian promenade, and multiple evacuation routes"
 scaleLevel: "town"
 drawingType: "plan"

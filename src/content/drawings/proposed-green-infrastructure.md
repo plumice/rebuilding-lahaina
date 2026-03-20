@@ -1,6 +1,6 @@
 ---
 title: "Proposed Green Infrastructure"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_37.jpg"
+image: "/images/drawings/updated_local_green_proposed.jpg"
 alt: "Expanded green network connecting coastal promenade, riparian corridors, and agricultural edge"
 scaleLevel: "town"
 drawingType: "plan"

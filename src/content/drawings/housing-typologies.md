@@ -1,6 +1,6 @@
 ---
 title: "Housing Typologies"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_43.jpg"
+image: "/images/drawings/updated_local_redensification.jpg"
 alt: "Matrix of proposed housing types including townhomes, stacked apartments, and mixed-use buildings"
 scaleLevel: "town"
 drawingType: "diagram"

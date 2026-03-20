@@ -1,6 +1,6 @@
 ---
 title: "Fire Footprint: Before & After"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_21.jpg"
+image: "/images/drawings/updated_local_fire.jpg"
 alt: "Pre-fire urban fabric compared to post-fire footprint with 1-foot contour intervals"
 scaleLevel: "town"
 drawingType: "figure-ground"

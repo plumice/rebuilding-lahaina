@@ -1,6 +1,6 @@
 ---
 title: "Buffer Framework Concept"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_22.jpg"
+image: "/images/drawings/updated_local_coastal.jpg"
 alt: "Concept diagram showing the four buffer zones — coastal, riparian, peri-urban, and water collection"
 scaleLevel: "town"
 drawingType: "concept-diagram"

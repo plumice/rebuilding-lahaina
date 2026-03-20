@@ -1,6 +1,6 @@
 ---
 title: "Rainfall Distribution"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_11.jpg"
+image: "/images/drawings/updated_regional_rainfall.jpg"
 alt: "Rainfall gradient map showing precipitation from 400 inches at summit to 12 inches at coast"
 scaleLevel: "regional"
 drawingType: "analytical-map"

@@ -1,6 +1,6 @@
 ---
 title: "Existing Mobility Network"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_33.jpg"
+image: "/images/drawings/updated_local_base.jpg"
 alt: "Pre-fire street network showing single-spine road system and evacuation bottlenecks"
 scaleLevel: "town"
 drawingType: "analytical-map"

@@ -1,6 +1,6 @@
 ---
 title: "Coastal Buffer Map"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_24.jpg"
+image: "/images/drawings/updated_local_coastal.jpg"
 alt: "Plan showing the coastal buffer zone defined by sea level rise projections and Wainee Street boundary"
 scaleLevel: "town"
 drawingType: "plan"

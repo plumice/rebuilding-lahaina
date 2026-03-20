@@ -1,6 +1,6 @@
 ---
 title: "Composite Regional Analysis"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_14.jpg"
+image: "/images/drawings/updated_regional_composite.jpg"
 alt: "Combined overlay of topography, rainfall, streams, and sea level rise identifying constraint zones"
 scaleLevel: "regional"
 drawingType: "composite-map"

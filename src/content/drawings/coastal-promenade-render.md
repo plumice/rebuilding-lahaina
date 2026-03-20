@@ -1,6 +1,6 @@
 ---
 title: "Coastal Promenade Rendering"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_51.jpg"
+image: "/images/drawings/updated_coastal_diagram.jpg"
 alt: "Perspective rendering of the proposed Front Street pedestrian promenade with coastal landscaping"
 scaleLevel: "site"
 drawingType: "rendering"

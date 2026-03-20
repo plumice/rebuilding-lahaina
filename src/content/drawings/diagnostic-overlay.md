@@ -1,6 +1,6 @@
 ---
 title: "Diagnostic Overlay — Systemic Vulnerabilities"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_09.jpg"
+image: "/images/drawings/updated_local_base.jpg"
 alt: "Composite analysis showing overlapping infrastructure, water, and fire vulnerabilities across Lahaina"
 scaleLevel: "town"
 drawingType: "composite-map"
