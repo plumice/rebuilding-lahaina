@@ -1,0 +1,1016 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Rebuilding Lahaina — Akhil Singh</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+<style>
+:root {
+  --bg: #0a0a0a;
+  --surface: #141414;
+  --surface-hover: #1a1a1a;
+  --border: #222;
+  --text: #e8e8e8;
+  --text-muted: #888;
+  --accent: #c4a265;
+  --accent-dim: rgba(196,162,101,0.12);
+  --serif: 'EB Garamond', Georgia, serif;
+  --sans: 'Inter', -apple-system, sans-serif;
+}
+* { margin:0; padding:0; box-sizing:border-box; }
+html { scroll-behavior: smooth; }
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* NAV */
+nav {
+  position: fixed; top:0; left:0; right:0; z-index:100;
+  background: rgba(10,10,10,0.92);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid var(--border);
+  padding: 0 2rem;
+  display: flex; align-items: center; justify-content: space-between;
+  height: 56px;
+}
+nav .logo {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  letter-spacing: 0.04em;
+  color: var(--accent);
+  text-decoration: none;
+}
+nav .logo span { color: var(--text-muted); font-weight:300; }
+nav ul { list-style:none; display:flex; gap:1.8rem; }
+nav ul a {
+  color: var(--text-muted);
+  text-decoration: none;
+  font-size: 0.78rem;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  transition: color 0.2s;
+}
+nav ul a:hover, nav ul a.active { color: var(--text); }
+
+/* HERO */
+.hero {
+  height: 100vh;
+  display: flex; flex-direction: column;
+  justify-content: flex-end;
+  padding: 4rem 3rem;
+  background: linear-gradient(180deg, rgba(10,10,10,0) 0%, rgba(10,10,10,0.85) 70%, var(--bg) 100%),
+              linear-gradient(135deg, #1a1510 0%, #0a0a0a 100%);
+  position: relative;
+  overflow: hidden;
+}
+.hero::before {
+  content:'';
+  position:absolute; top:0; left:0; right:0; bottom:0;
+  background: repeating-linear-gradient(0deg, transparent, transparent 120px, rgba(196,162,101,0.03) 120px, rgba(196,162,101,0.03) 121px);
+  pointer-events:none;
+}
+.hero h1 {
+  font-family: var(--serif);
+  font-size: clamp(2.8rem, 6vw, 5rem);
+  font-weight: 400;
+  line-height: 1.1;
+  margin-bottom: 1.2rem;
+  max-width: 700px;
+}
+.hero h1 em { font-style:italic; color: var(--accent); }
+.hero .subtitle {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  max-width: 600px;
+  margin-bottom: 0.6rem;
+}
+.hero .author {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  color: var(--text-muted);
+  margin-bottom: 2rem;
+}
+.hero .meta-row {
+  display: flex; gap: 2rem; flex-wrap: wrap;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+}
+.hero .meta-row span { opacity: 0.6; }
+
+/* SECTIONS */
+section { padding: 5rem 3rem; max-width: 1200px; margin: 0 auto; }
+section.full { max-width: 100%; padding: 5rem 3rem; }
+.section-label {
+  font-size: 0.7rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.8rem;
+}
+.section-title {
+  font-family: var(--serif);
+  font-size: clamp(1.6rem, 3vw, 2.4rem);
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.section-desc {
+  color: var(--text-muted);
+  max-width: 640px;
+  font-size: 0.92rem;
+  line-height: 1.7;
+  margin-bottom: 3rem;
+}
+
+/* ABSTRACT BLOCK */
+.abstract-block {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--accent);
+  padding: 2rem 2.5rem;
+  margin-bottom: 3rem;
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: #ccc;
+  max-width: 800px;
+}
+
+/* THESIS STRUCTURE */
+.structure-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 1px;
+  background: var(--border);
+  border: 1px solid var(--border);
+  margin-bottom: 3rem;
+}
+.structure-cell {
+  background: var(--surface);
+  padding: 1.5rem;
+  transition: background 0.2s;
+}
+.structure-cell:hover { background: var(--surface-hover); }
+.structure-cell .num {
+  font-size: 0.65rem;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.4rem;
+}
+.structure-cell h3 {
+  font-family: var(--serif);
+  font-size: 1.1rem;
+  font-weight: 400;
+  margin-bottom: 0.4rem;
+}
+.structure-cell p {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+/* SOURCE DIRECTORY */
+.source-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 2rem;
+}
+.source-table th {
+  text-align: left;
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  padding: 0.8rem 1rem;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+.source-table td {
+  padding: 0.9rem 1rem;
+  border-bottom: 1px solid var(--border);
+  font-size: 0.85rem;
+  vertical-align: top;
+}
+.source-table tr:hover { background: var(--surface-hover); }
+.source-table .tag {
+  display: inline-block;
+  font-size: 0.65rem;
+  padding: 0.15rem 0.5rem;
+  border: 1px solid var(--border);
+  border-radius: 2px;
+  color: var(--text-muted);
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-right: 0.3rem;
+  margin-bottom: 0.2rem;
+}
+.source-table .tag.primary { border-color: var(--accent); color: var(--accent); }
+
+/* DRAWING INDEX */
+.drawing-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+.drawing-card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  padding: 1.5rem;
+  transition: border-color 0.2s, transform 0.2s;
+}
+.drawing-card:hover { border-color: #333; transform: translateY(-2px); }
+.drawing-card .scale {
+  font-size: 0.65rem;
+  color: var(--accent);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+}
+.drawing-card h3 {
+  font-family: var(--serif);
+  font-size: 1.05rem;
+  margin-bottom: 0.3rem;
+}
+.drawing-card p {
+  font-size: 0.78rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+.drawing-card .type {
+  margin-top: 0.8rem;
+  font-size: 0.7rem;
+  color: #555;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* KEY TERMS */
+.terms-list { columns: 2; column-gap: 2rem; margin-bottom: 2rem; }
+.term-item {
+  break-inside: avoid;
+  margin-bottom: 1.2rem;
+  padding-bottom: 1.2rem;
+  border-bottom: 1px solid var(--border);
+}
+.term-item h4 {
+  font-size: 0.78rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.3rem;
+}
+.term-item p {
+  font-size: 0.85rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+/* TIMELINE */
+.timeline { position: relative; padding-left: 2rem; margin-bottom: 3rem; }
+.timeline::before {
+  content:''; position:absolute; left:0; top:0; bottom:0;
+  width:1px; background: var(--border);
+}
+.timeline-item {
+  position: relative;
+  margin-bottom: 2rem;
+  padding-left: 1.5rem;
+}
+.timeline-item::before {
+  content:'';
+  position:absolute; left:-2.28rem; top:0.35rem;
+  width: 7px; height:7px; border-radius:50%;
+  background: var(--accent);
+}
+.timeline-item .year {
+  font-size: 0.7rem;
+  color: var(--accent);
+  letter-spacing: 0.08em;
+  margin-bottom: 0.2rem;
+}
+.timeline-item h4 {
+  font-family: var(--serif);
+  font-size: 1rem;
+  margin-bottom: 0.2rem;
+}
+.timeline-item p {
+  font-size: 0.82rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+/* ACRONYMS */
+.acronym-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+.acronym-item {
+  display: flex;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(34,34,34,0.5);
+  font-size: 0.82rem;
+}
+.acronym-item strong {
+  min-width: 90px;
+  color: var(--accent);
+  font-weight: 500;
+  font-size: 0.75rem;
+  letter-spacing: 0.04em;
+}
+.acronym-item span { color: var(--text-muted); }
+
+/* FOOTER */
+footer {
+  border-top: 1px solid var(--border);
+  padding: 3rem;
+  text-align: center;
+  font-size: 0.75rem;
+  color: #444;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  nav { padding: 0 1rem; }
+  nav ul { gap: 1rem; }
+  section { padding: 3rem 1.5rem; }
+  .hero { padding: 3rem 1.5rem; }
+  .terms-list { columns: 1; }
+  .drawing-grid { grid-template-columns: 1fr; }
+}
+</style>
+</head>
+<body>
+
+<!-- NAVIGATION -->
+<nav>
+  <a href="#" class="logo">Rebuilding <em>Lahaina</em> <span>&mdash; Thesis 2025</span></a>
+  <ul>
+    <li><a href="#abstract">Abstract</a></li>
+    <li><a href="#structure">Structure</a></li>
+    <li><a href="#drawings">Drawings</a></li>
+    <li><a href="#sources">Sources</a></li>
+    <li><a href="#terms">Terms</a></li>
+    <li><a href="#timeline">Timeline</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="subtitle">Graduate Thesis &mdash; Tulane School of Architecture</div>
+  <h1>Rebuilding <em>Lahaina</em></h1>
+  <div class="author">Akhil Singh &nbsp;|&nbsp; Director: Inaki Alday &nbsp;|&nbsp; Co-Director: Sean Fowler</div>
+  <div class="meta-row">
+    <span>M.Arch Candidate 2025</span>
+    <span>Post-Disaster Recovery</span>
+    <span>Resilient Urbanism</span>
+    <span>Water Systems</span>
+  </div>
+</div>
+
+<!-- ABSTRACT -->
+<section id="abstract">
+  <div class="section-label">00 &mdash; Abstract</div>
+  <div class="section-title">Thesis Statement</div>
+  <div class="abstract-block">
+    The 2023 wildfire in Lahaina revealed critical vulnerabilities in infrastructure, water management, and disaster preparedness. Lack of water to control the fires, poor accessibility to certain areas of the city and other dysfunctionalities ended in one of the most catastrophic events in Hawaiian history.<br><br>
+    Currently there is no clear route map for the rebuilding of the city nor its adaptation to climate events and their increasing frequency and violence. This thesis proposes recovery through a multi-scale plan that includes the major urban systems, the relation of the urban fabric with the coast and the hinterland, and a sequence of strategic nodes to serve the communities. It integrates water systems, slow mobility, and human-centered infrastructure to create a resilient and adaptive framework for Lahaina&rsquo;s long-term redevelopment.<br><br>
+    By holistically targeting these systemic weaknesses through scalable site-specific interventions, the model challenges conventional fragmented disaster recovery paradigms and sets a new footprint for urban resilience, adaptation and post-disaster recovery.
+  </div>
+
+  <div class="section-label">Research Questions</div>
+  <div style="max-width:800px; margin-bottom:2rem;">
+    <p style="color:var(--text-muted); font-size:0.88rem; margin-bottom:0.6rem;">1. How can Lahaina&rsquo;s recovery address systemic vulnerabilities in infrastructure, water management, and housing to ensure resilience against future disasters?</p>
+    <p style="color:var(--text-muted); font-size:0.88rem; margin-bottom:0.6rem;">2. What role can cultural and historical identity play in shaping Lahaina&rsquo;s recovery framework?</p>
+    <p style="color:var(--text-muted); font-size:0.88rem; margin-bottom:0.6rem;">3. How can global precedents (New Orleans post-Katrina, Kobe 1995) inform Lahaina&rsquo;s recovery strategies?</p>
+    <p style="color:var(--text-muted); font-size:0.88rem; margin-bottom:0.6rem;">4. How can recovery efforts balance land ownership, zoning, and economic disparities to avoid disaster gentrification?</p>
+    <p style="color:var(--text-muted); font-size:0.88rem;">5. What methodologies can best integrate community participation, stakeholder engagement, and technical expertise?</p>
+  </div>
+</section>
+
+<!-- THESIS STRUCTURE -->
+<section id="structure">
+  <div class="section-label">01 &mdash; Thesis Structure</div>
+  <div class="section-title">Paper Organization</div>
+  <div class="section-desc">The thesis is organized across four major parts, moving from contextual framing through analysis to design intervention.</div>
+
+  <div class="structure-grid">
+    <div class="structure-cell">
+      <div class="num">Part One</div>
+      <h3>Dedication &amp; Acknowledgements</h3>
+      <p>Dedication to the Island of Maui and affected communities worldwide.</p>
+    </div>
+    <div class="structure-cell">
+      <div class="num">1C</div>
+      <h3>Abstract</h3>
+      <p>Thesis scope, methods, and broader implications for disaster-resilient urbanism.</p>
+    </div>
+    <div class="structure-cell">
+      <div class="num">1D</div>
+      <h3>Research Questions &amp; Hypotheses</h3>
+      <p>Five primary questions and five testable hypotheses framing the investigation.</p>
+    </div>
+    <div class="structure-cell">
+      <div class="num">Part Two</div>
+      <h3>Key Terms &amp; Definitions</h3>
+      <p>15 key terms, acronyms, abbreviations, and Hawaiian language glossary.</p>
+    </div>
+    <div class="structure-cell">
+      <div class="num">2B</div>
+      <h3>Resilience Drivers (Case Studies)</h3>
+      <p>New Orleans post-Katrina, Kobe earthquake, and global post-disaster precedents.</p>
+    </div>
+    <div class="structure-cell">
+      <div class="num">2C</div>
+      <h3>Community Anchors (Case Studies)</h3>
+      <p>Node-based urbanism, community hubs, and spatial anchors for social cohesion.</p>
+    </div>
+    <div class="structure-cell">
+      <div class="num">Part Three</div>
+      <h3>History of Lahaina</h3>
+      <p>Royal capital to tourism economy &mdash; 9 key spatial events shaping the town.</p>
+    </div>
+    <div class="structure-cell">
+      <div class="num">3B</div>
+      <h3>Environmental Analysis</h3>
+      <p>Water systems, rainfall, streams, ditches, sea-level rise, and aquifer conditions.</p>
+    </div>
+    <div class="structure-cell">
+      <div class="num">3C</div>
+      <h3>Zoning &amp; Land-Use Analysis</h3>
+      <p>Zoning classification breakdown, conflicts, and strategic rebuild zones.</p>
+    </div>
+    <div class="structure-cell">
+      <div class="num">3D</div>
+      <h3>Infrastructure &amp; Water</h3>
+      <p>Historic ditch systems, aquifer designation, Stage 2 water shortage, and meter moratorium.</p>
+    </div>
+    <div class="structure-cell">
+      <div class="num">Part Four</div>
+      <h3>Multi-Scalar Diagnostic</h3>
+      <p>Regional &rarr; District &rarr; Town &rarr; Site &rarr; Node analysis framework.</p>
+    </div>
+    <div class="structure-cell">
+      <div class="num">4B</div>
+      <h3>Design Principles &amp; Buffers</h3>
+      <p>Coastal, riparian, peri-urban, and water collection zone strategies.</p>
+    </div>
+    <div class="structure-cell">
+      <div class="num">4C</div>
+      <h3>Systems: Water, Green, Mobility</h3>
+      <p>Proposed water capture, green infrastructure, boulevard redesign, and connectivity.</p>
+    </div>
+    <div class="structure-cell">
+      <div class="num">4D</div>
+      <h3>Redensification &amp; Hub Network</h3>
+      <p>2,200 units within walkable zone, three community hub typologies.</p>
+    </div>
+    <div class="structure-cell">
+      <div class="num">4E</div>
+      <h3>Design Interventions</h3>
+      <p>Elementary school, modular housing, Banyan Tree civic space, coastal promenade.</p>
+    </div>
+    <div class="structure-cell">
+      <div class="num">4F</div>
+      <h3>Module System</h3>
+      <p>26&times;26 module using Hawaiian vernacular joinery, water capture, and solar response.</p>
+    </div>
+  </div>
+</section>
+
+<!-- DRAWING INDEX -->
+<section id="drawings">
+  <div class="section-label">02 &mdash; Drawing Index</div>
+  <div class="section-title">Plates &amp; Drawings</div>
+  <div class="section-desc">Complete index of all analytical and design drawings produced for the thesis, organized by scale.</div>
+
+  <div class="drawing-grid">
+    <!-- REGIONAL -->
+    <div class="drawing-card">
+      <div class="scale">Regional Scale</div>
+      <h3>Base Topography</h3>
+      <p>Coast-to-peak topographic reading of West Maui, mauka to makai.</p>
+      <div class="type">Analytical Map</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Regional Scale</div>
+      <h3>Rainfall, Streams &amp; Ditches</h3>
+      <p>Precipitation overlay with natural drainage and post-contact ditch system.</p>
+      <div class="type">Analytical Map / Overlay</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Regional Scale</div>
+      <h3>Sea Level Rise Scenarios</h3>
+      <p>Projected coastal encroachment 2040&ndash;2300 at makai edge.</p>
+      <div class="type">Analytical Map / Projection</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Regional Scale</div>
+      <h3>Composite Regional Analysis</h3>
+      <p>Combined systems identifying developable edges and constraint zones.</p>
+      <div class="type">Composite Map</div>
+    </div>
+
+    <!-- DESIGN PRINCIPLES -->
+    <div class="drawing-card">
+      <div class="scale">Design Principles</div>
+      <h3>Fire Footprint: Before &amp; After</h3>
+      <p>Pre-fire urban fabric vs. post-fire footprint with 1&prime; contour intervals.</p>
+      <div class="type">Figure-Ground / Analytical</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Design Principles</div>
+      <h3>Burnt vs. Unburnt Overlay</h3>
+      <p>Existing structures mapped against fire damage extent.</p>
+      <div class="type">Figure-Ground</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Design Principles</div>
+      <h3>Before &amp; After Photographs</h3>
+      <p>Site visit documentation: elementary school, Banyan Tree, coastal edge.</p>
+      <div class="type">Photography / Documentation</div>
+    </div>
+
+    <!-- BUFFERS -->
+    <div class="drawing-card">
+      <div class="scale">Buffer Strategy</div>
+      <h3>Concept &amp; Entrances (Mobility Logic)</h3>
+      <p>New boulevard spine, Lahaina Luna and Kahoma BLVD access points.</p>
+      <div class="type">Concept Diagram</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Buffer Strategy</div>
+      <h3>Coastal Buffer Map</h3>
+      <p>Defined by sea-level rise analysis and Wainee St. boundary.</p>
+      <div class="type">Plan / Map</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Buffer Strategy</div>
+      <h3>Coastal Buffer Diagram</h3>
+      <p>Principles: partial retreat, public access, heritage protection, coastal park.</p>
+      <div class="type">Diagram</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Buffer Strategy</div>
+      <h3>Riparian Buffer Map &amp; Diagram</h3>
+      <p>Stream restoration, re-vegetation, public access, brackish mouth.</p>
+      <div class="type">Plan + Diagram</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Buffer Strategy</div>
+      <h3>Peri-Urban Buffer Map &amp; Diagram</h3>
+      <p>Agricultural transition zone between boulevard and highway.</p>
+      <div class="type">Plan + Diagram</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Buffer Strategy</div>
+      <h3>Water Collection Hinterland</h3>
+      <p>Main ditch reinforcement zones for water capture and distribution.</p>
+      <div class="type">Plan / Map</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Buffer Strategy</div>
+      <h3>Full Buffer Composite</h3>
+      <p>Three buffers with complete hinterland treatment overlay.</p>
+      <div class="type">Composite Plan</div>
+    </div>
+
+    <!-- SYSTEMS -->
+    <div class="drawing-card">
+      <div class="scale">Systems</div>
+      <h3>Existing Water Infrastructure</h3>
+      <p>Pre-fire water systems, natural streams, and degraded ditch network.</p>
+      <div class="type">Analytical Map</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Systems</div>
+      <h3>Proposed Water System</h3>
+      <p>Zone 1 (hinterland capture) and Zone 2 (agricultural park distribution).</p>
+      <div class="type">Proposed Plan</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Systems</div>
+      <h3>Water Capture Diagrams</h3>
+      <p>Runoff capture, highway interception, collection pool typologies.</p>
+      <div class="type">Detail Diagrams</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Systems</div>
+      <h3>Existing &amp; Proposed Green Infrastructure</h3>
+      <p>Promenade, riparian corridor, coastal park, and agricultural edge.</p>
+      <div class="type">Before/After Map</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Systems</div>
+      <h3>Existing &amp; Proposed Mobility</h3>
+      <p>Dead-end analysis, new boulevard, Front St. promenade, arterial connectivity.</p>
+      <div class="type">Before/After Map</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Systems</div>
+      <h3>Front Street Density Analysis</h3>
+      <p>Pre-fire commercial corridor study of highest-density zone.</p>
+      <div class="type">Analytical Drawing</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Systems</div>
+      <h3>Cultural Heritage Sites</h3>
+      <p>Destroyed sites and historic district boundaries.</p>
+      <div class="type">Map / Inventory</div>
+    </div>
+
+    <!-- REDENSIFICATION -->
+    <div class="drawing-card">
+      <div class="scale">Redensification</div>
+      <h3>Existing vs. Proposed Density</h3>
+      <p>6,000&ndash;7,000 displaced residents; 2,200 new units at max 4 stories.</p>
+      <div class="type">Comparative Map</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Redensification</div>
+      <h3>Hub Locations &amp; Typologies</h3>
+      <p>Three community hubs: School, First Response/Hospital, First Response.</p>
+      <div class="type">Plan / Diagram</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Redensification</div>
+      <h3>Cumulative Systems Plan</h3>
+      <p>All systems overlaid: buffers, mobility, green, water, hubs, density.</p>
+      <div class="type">Composite Plan</div>
+    </div>
+
+    <!-- DESIGN -->
+    <div class="drawing-card">
+      <div class="scale">Design Intervention</div>
+      <h3>Coast to Peri-Urban Plan</h3>
+      <p>Full buffer relationship at most typical transect.</p>
+      <div class="type">Plan</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Design Intervention</div>
+      <h3>Sections: Before / After / Proposed</h3>
+      <p>Coast-to-peri-urban profile showing fire impact and new spatial logic.</p>
+      <div class="type">Section &times; 3</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Design Intervention</div>
+      <h3>Elementary School Site Plan</h3>
+      <p>Boulevard intersection at Lahaina Luna; hub as neighborhood anchor.</p>
+      <div class="type">Plan</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Design Intervention</div>
+      <h3>Elementary School Floor Plan</h3>
+      <p>Combined school, health service point, and neighborhood center.</p>
+      <div class="type">Architectural Plan</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Design Intervention</div>
+      <h3>School Sections (Zoom)</h3>
+      <p>Detail sections through classroom modules and service areas.</p>
+      <div class="type">Section Details</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Design Intervention</div>
+      <h3>Large Section: NW&ndash;SE &amp; Makai&ndash;Mauka</h3>
+      <p>Module aggregation responding to topographic changes.</p>
+      <div class="type">Section &times; 2</div>
+    </div>
+
+    <!-- MODULE -->
+    <div class="drawing-card">
+      <div class="scale">Module System</div>
+      <h3>Typical Section</h3>
+      <p>Three-module connection: classroom, deck extension, walkway.</p>
+      <div class="type">Section</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Module System</div>
+      <h3>Typical Section: Water</h3>
+      <p>Gutter capture between modules, volcanic gravel filtration, sub-grade tanks.</p>
+      <div class="type">Technical Section</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Module System</div>
+      <h3>Typical Section: Sunlight</h3>
+      <p>Solar protection strategy for Lahaina&rsquo;s west-facing exposure.</p>
+      <div class="type">Environmental Section</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Module System</div>
+      <h3>Module Core &amp; Connections</h3>
+      <p>26&times;26 unit with Hawaiian vernacular joinery techniques.</p>
+      <div class="type">Exploded Detail</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Module System</div>
+      <h3>Perspectives</h3>
+      <p>Interior and exterior views of module assemblies.</p>
+      <div class="type">Renderings</div>
+    </div>
+    <div class="drawing-card">
+      <div class="scale">Module System</div>
+      <h3>Axonometric</h3>
+      <p>Axonometric projection of module aggregation and site relationship.</p>
+      <div class="type">Axonometric</div>
+    </div>
+  </div>
+</section>
+
+<!-- SOURCES -->
+<section id="sources">
+  <div class="section-label">03 &mdash; Source Directory</div>
+  <div class="section-title">Research Sources &amp; References</div>
+  <div class="section-desc">Complete directory of primary and secondary sources informing the thesis, organized by type.</div>
+
+  <!-- BOOKS -->
+  <h3 style="font-family:var(--serif); margin-bottom:1rem; font-size:1.15rem;">Books &amp; Monographs</h3>
+  <table class="source-table">
+    <thead>
+      <tr><th>Author</th><th>Title</th><th>Publisher / Date</th><th>Relevance</th><th>Tags</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Blackford, Mansel G.</td>
+        <td><em>Fragile Paradise: The Impact of Tourism on Maui, 1959&ndash;2000</em></td>
+        <td>University Press of Kansas, 2001</td>
+        <td>Tourism-driven transformation; development vs. preservation conflict</td>
+        <td><span class="tag primary">Economic History</span><span class="tag">Maui</span></td>
+      </tr>
+      <tr>
+        <td>Burney, David A.</td>
+        <td><em>Back to the Future in the Caves of Kaua&rsquo;i</em></td>
+        <td>Yale University Press, 2010</td>
+        <td>Pre-human ecosystem reconstruction; deep-time ecological context</td>
+        <td><span class="tag primary">Ecology</span><span class="tag">Paleoenvironment</span></td>
+      </tr>
+      <tr>
+        <td>Holmes, Kristin</td>
+        <td><em>Under a Maui Roof: A Collection of Significant Island Architecture</em></td>
+        <td>Maui Publishing Co., 1994</td>
+        <td>Evolution of local architectural styles; vernacular vs. modern</td>
+        <td><span class="tag primary">Architecture</span><span class="tag">Typology</span></td>
+      </tr>
+      <tr>
+        <td>Johnson, Laurie A. &amp; Olshansky, Robert B.</td>
+        <td><em>After Great Disasters: An In-Depth Analysis of How Six Communities Managed Recovery</em></td>
+        <td>Lincoln Institute of Land Policy, 2017</td>
+        <td>Post-disaster urban planning; governance; &ldquo;building back better&rdquo; framework</td>
+        <td><span class="tag primary">Disaster Recovery</span><span class="tag">Case Study</span></td>
+      </tr>
+      <tr>
+        <td>Livingston, Morna</td>
+        <td><em>Steps to Water: The Ancient Stepwells of India</em></td>
+        <td>Princeton Architectural Press, 2002</td>
+        <td>Vernacular water infrastructure as architecture; precedent for water-space integration</td>
+        <td><span class="tag primary">Water Systems</span><span class="tag">Precedent</span></td>
+      </tr>
+      <tr>
+        <td>Machado, Rodolfo &amp; Silvetti, Jorge</td>
+        <td><em>Buildings for Cities</em></td>
+        <td>Princeton Architectural Press, 1989</td>
+        <td>Urban design theory; intervention in historic or sensitive urban fabrics</td>
+        <td><span class="tag primary">Urban Design</span><span class="tag">Theory</span></td>
+      </tr>
+      <tr>
+        <td>Malnar, Joy M. &amp; Vodvarka, Frank</td>
+        <td><em>New Architecture on Indigenous Lands</em></td>
+        <td>University of Minnesota Press, 2013</td>
+        <td>Cultural identity in contemporary architecture; Hawaiian cultural linkage</td>
+        <td><span class="tag primary">Indigenous</span><span class="tag">Architecture</span></td>
+      </tr>
+      <tr>
+        <td>Reissberg, Anja Christina</td>
+        <td><em>Managing Natural Catastrophes</em></td>
+        <td>Campus Verlag, 2013</td>
+        <td>Risk management; Hawaiian example of island fragility</td>
+        <td><span class="tag primary">Risk</span><span class="tag">Management</span></td>
+      </tr>
+      <tr>
+        <td>Wenkam, Robert</td>
+        <td><em>Maui: The Last Hawaiian Place</em></td>
+        <td>Friends of the Earth, 1970</td>
+        <td>Conservation argument; historical landscape documentation</td>
+        <td><span class="tag primary">Conservation</span><span class="tag">Photography</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- REPORTS & TECHNICAL -->
+  <h3 style="font-family:var(--serif); margin:2rem 0 1rem; font-size:1.15rem;">Technical Reports &amp; Government Documents</h3>
+  <table class="source-table">
+    <thead>
+      <tr><th>Source</th><th>Title / Description</th><th>Date</th><th>Relevance</th><th>Tags</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>WSP USA Inc.</td>
+        <td><em>Reconnaissance Level Architectural Historic Resource Survey, Honoapi&rsquo;ilani Highway</em></td>
+        <td>Oct 2024</td>
+        <td>40 architectural resources; 11 water structures; Olowalu Sugar Plantation Historic District</td>
+        <td><span class="tag primary">Historic Survey</span><span class="tag">Infrastructure</span></td>
+      </tr>
+      <tr>
+        <td>Maui County DWS</td>
+        <td>Stage 2 Water Shortage Declaration, West Maui</td>
+        <td>Sept 2025</td>
+        <td>Demand exceeds reliable capacity by 41.8%; new meter moratorium</td>
+        <td><span class="tag primary">Water Crisis</span><span class="tag">Policy</span></td>
+      </tr>
+      <tr>
+        <td>CWRM (State of Hawai&rsquo;i)</td>
+        <td>Lahaina Aquifer Sector Designation &mdash; Surface &amp; Ground Water Management Area</td>
+        <td>June 2022</td>
+        <td>State-level regulatory control; water use permits required for all withdrawals</td>
+        <td><span class="tag primary">Regulation</span><span class="tag">Aquifer</span></td>
+      </tr>
+      <tr>
+        <td>Maui County Code</td>
+        <td>Title 16, Chapter 9 &mdash; Water Code / Iao Rule</td>
+        <td>&mdash;</td>
+        <td>Sustainable yield triggers; shortage declaration procedures</td>
+        <td><span class="tag primary">Zoning</span><span class="tag">Water Law</span></td>
+      </tr>
+      <tr>
+        <td>FEMA / EPA</td>
+        <td>Lahaina Recovery Status Reports</td>
+        <td>2023&ndash;2025</td>
+        <td>~$3B in aid; 1,500+ sites cleared; wastewater infrastructure rebuild</td>
+        <td><span class="tag primary">Federal Aid</span><span class="tag">Recovery</span></td>
+      </tr>
+      <tr>
+        <td>LSB (University of Hawai&rsquo;i)</td>
+        <td>Land Study Bureau Agricultural Classifications (A&ndash;E)</td>
+        <td>1960s</td>
+        <td>Soil productivity grading; land-use planning and zoning basis</td>
+        <td><span class="tag primary">Land Use</span><span class="tag">Agriculture</span></td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- ANALYTICAL NOTES -->
+  <h3 style="font-family:var(--serif); margin:2rem 0 1rem; font-size:1.15rem;">Research Notes &amp; Analysis Files</h3>
+  <table class="source-table">
+    <thead>
+      <tr><th>File</th><th>Content</th><th>Tags</th></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Research_Streams.txt</td>
+        <td>Cultural vs. aquatic stream resources; LSB land classifications A&ndash;E</td>
+        <td><span class="tag">Streams</span><span class="tag">Classification</span></td>
+      </tr>
+      <tr>
+        <td>Research_Streets.txt</td>
+        <td>Road hierarchy: local, collector, arterial definitions for Maui context</td>
+        <td><span class="tag">Mobility</span><span class="tag">Infrastructure</span></td>
+      </tr>
+      <tr>
+        <td>Research_ZoningBreakdown.txt</td>
+        <td>All zoning types analyzed: problematic vs. promising for rebuild (BR, R-2, R-3, H-M, HD, B-2, M-1)</td>
+        <td><span class="tag">Zoning</span><span class="tag">Policy</span></td>
+      </tr>
+      <tr>
+        <td>Research_FreshwaterEmergentWetland.txt</td>
+        <td>Freshwater emergent wetland characteristics: hydrology, vegetation, ecosystem functions</td>
+        <td><span class="tag">Ecology</span><span class="tag">Wetland</span></td>
+      </tr>
+      <tr>
+        <td>Research_Buffers_Coastal Zone.docx</td>
+        <td>Buffer zone principles: coastal, riparian, agricultural, water retention, residential</td>
+        <td><span class="tag">Design</span><span class="tag">Buffers</span></td>
+      </tr>
+      <tr>
+        <td>Analysis_Architectural Study_Appendix 3.6</td>
+        <td>Water infrastructure analysis: hydraulic engineering, materiality (basalt/coral/concrete), bike path conflict at AR 9</td>
+        <td><span class="tag">Heritage</span><span class="tag">Water</span></td>
+      </tr>
+      <tr>
+        <td>Analysis_code16-9_NOTES.txt</td>
+        <td>West Maui aquifer data; Stage 2 shortage analysis; 3-year usage forecast</td>
+        <td><span class="tag">Water</span><span class="tag">Critical</span></td>
+      </tr>
+    </tbody>
+  </table>
+</section>
+
+<!-- KEY TERMS -->
+<section id="terms">
+  <div class="section-label">04 &mdash; Key Terms</div>
+  <div class="section-title">Definitions &amp; Glossary</div>
+  <div class="section-desc">Core terminology used throughout the thesis.</div>
+
+  <div class="terms-list">
+    <div class="term-item"><h4>Adaptive Recovery</h4><p>Framework for rebuilding that incorporates flexibility and resilience to adapt to future climate, social, and economic changes.</p></div>
+    <div class="term-item"><h4>Ahupua&rsquo;a</h4><p>Traditional Hawaiian land divisions extending from mountains to sea, integrating natural water systems for agriculture and community sustenance.</p></div>
+    <div class="term-item"><h4>Cultural Resilience</h4><p>A community&rsquo;s ability to preserve and adapt its cultural identity, traditions, and social structures in the face of adversity.</p></div>
+    <div class="term-item"><h4>Disaster Gentrification</h4><p>Post-disaster recovery processes that disproportionately benefit wealthier or external actors, leading to community displacement.</p></div>
+    <div class="term-item"><h4>Integrated Water Systems</h4><p>Holistic water management combining flood control, ecological preservation, and community accessibility.</p></div>
+    <div class="term-item"><h4>Iterative Design</h4><p>Cyclical design methodology emphasizing continuous refinement through feedback, testing, and evaluation.</p></div>
+    <div class="term-item"><h4>Node-Based Planning</h4><p>Urban design creating interconnected functional and symbolic spaces as catalysts for community cohesion and resilience.</p></div>
+    <div class="term-item"><h4>Permeable Frameworks</h4><p>Urban systems designed to manage water sustainably by incorporating natural and built environments.</p></div>
+    <div class="term-item"><h4>Post-Disaster Urbanism</h4><p>Study and design of cities following catastrophic events, focusing on resilience, equity, and sustainable development.</p></div>
+    <div class="term-item"><h4>Resilient Housing</h4><p>Housing designed to withstand environmental stressors and adapt to future risks through modular and sustainable approaches.</p></div>
+    <div class="term-item"><h4>Slow Mobility Networks</h4><p>Transportation systems prioritizing pedestrians, cyclists, and public transit to reduce environmental impact.</p></div>
+    <div class="term-item"><h4>Social Cohesion</h4><p>The strength of relationships and solidarity within a community, fostered through inclusive planning.</p></div>
+    <div class="term-item"><h4>Vulnerability Cycles</h4><p>Recurring patterns of risk and recovery failure caused by systemic weaknesses in infrastructure, planning, and governance.</p></div>
+  </div>
+
+  <div class="section-label" style="margin-top:2rem;">Acronyms</div>
+  <div class="acronym-grid">
+    <div class="acronym-item"><strong>CDBG-DR</strong><span>Community Development Block Grant &mdash; Disaster Relief</span></div>
+    <div class="acronym-item"><strong>CWPP</strong><span>Community Wildfire Protection Plan</span></div>
+    <div class="acronym-item"><strong>CWRM</strong><span>Commission on Water Resource Management</span></div>
+    <div class="acronym-item"><strong>DLNR</strong><span>Dept. of Land and Natural Resources</span></div>
+    <div class="acronym-item"><strong>FEMA</strong><span>Federal Emergency Management Agency</span></div>
+    <div class="acronym-item"><strong>HI-EMA</strong><span>Hawai&rsquo;i Emergency Management Agency</span></div>
+    <div class="acronym-item"><strong>HUD</strong><span>Dept. of Housing and Urban Development</span></div>
+    <div class="acronym-item"><strong>HWMO</strong><span>Hawai&rsquo;i Wildfire Management Organization</span></div>
+    <div class="acronym-item"><strong>LIHTC</strong><span>Low-Income Housing Tax Credits</span></div>
+    <div class="acronym-item"><strong>LTRP</strong><span>Long-Term Recovery Plan</span></div>
+    <div class="acronym-item"><strong>MEMA</strong><span>Maui Emergency Management Agency</span></div>
+    <div class="acronym-item"><strong>NHLD</strong><span>National Historic Landmark District</span></div>
+    <div class="acronym-item"><strong>TCP</strong><span>Traditional Cultural Properties</span></div>
+    <div class="acronym-item"><strong>TVR</strong><span>Transient Vacation Rental</span></div>
+    <div class="acronym-item"><strong>WMCP</strong><span>West Maui Community Plan</span></div>
+    <div class="acronym-item"><strong>WUI</strong><span>Wildland Urban Interface</span></div>
+  </div>
+</section>
+
+<!-- TIMELINE -->
+<section id="timeline">
+  <div class="section-label">05 &mdash; Timeline</div>
+  <div class="section-title">Lahaina &mdash; Key Events</div>
+  <div class="section-desc">Major spatial and infrastructural events that shaped the town.</div>
+
+  <div class="timeline">
+    <div class="timeline-item">
+      <div class="year">Pre-Contact</div>
+      <h4>Ahupua&rsquo;a System</h4>
+      <p>Traditional Hawaiian land management from mountain to sea; integrated water systems for agriculture and community.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="year">1820s</div>
+      <h4>Royal Capital &amp; Missionary Settlement</h4>
+      <p>Lahaina serves as capital of the Hawaiian Kingdom; missionary-era construction introduces new building materials.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="year">~1860s</div>
+      <h4>Lanakila Church &amp; Coral Construction</h4>
+      <p>Coral and stone cobble construction (AR 24) links to this era; pre-industrial water infrastructure.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="year">~1901</div>
+      <h4>Pioneer Mill Water Infrastructure</h4>
+      <p>Expansive network of ditches, reservoirs, and pipes developed; electric pumps irrigating 10,000+ acres by 1935.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="year">1959</div>
+      <h4>Statehood &amp; Tourism Transformation</h4>
+      <p>Hawai&rsquo;i statehood triggers rapid tourism development; Lahaina shifts from agricultural to tourism-dependent economy.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="year">June 2022</div>
+      <h4>Lahaina Aquifer Sector Designated</h4>
+      <p>CWRM designates entire sector as Surface and Ground Water Management Area; state-level control imposed.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="year">August 2023</div>
+      <h4>Wildfire Devastation</h4>
+      <p>Fire destroys ~2,200 homes, displaces 6,000&ndash;7,000 residents, eliminates historic sites and infrastructure.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="year">Sept 2025</div>
+      <h4>Stage 2 Water Shortage Declared</h4>
+      <p>Demand exceeds reliable capacity by 41.8%; new water meters cannot be processed, blocking reconstruction.</p>
+    </div>
+    <div class="timeline-item">
+      <div class="year">2026 (Projected)</div>
+      <h4>Kahana Well Online</h4>
+      <p>New well expected to reduce deficit to ~15.7% &mdash; still insufficient for full recovery demand.</p>
+    </div>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  Akhil Singh &nbsp;&bull;&nbsp; Tulane School of Architecture &nbsp;&bull;&nbsp; M.Arch 2025 &nbsp;&bull;&nbsp; Rebuilding Lahaina
+</footer>
+
+</body>
+</html>
