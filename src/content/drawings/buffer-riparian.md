@@ -1,7 +1,7 @@
 ---
 title: "Riparian Buffer"
-image: "/images/drawings/riparian_buffer.jpg"
-alt: "Riparian corridor restoration plan showing stream buffers, re-vegetation, and public access trails"
+image: "/images/drawings/rebuildinglahaina_final_presentation_page_25.jpg"
+alt: "Riparian buffer design principles with section detail showing stream corridor restoration"
 scaleLevel: "town"
 drawingType: "plan"
 relatedSections: ["buffer-framework"]
