@@ -1,0 +1,99 @@
+@import './fonts.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg: #0a0a0a;
+    --surface: #141414;
+    --surface-hover: #1a1a1a;
+    --border: #222222;
+    --text: #e8e8e8;
+    --text-muted: #999999;
+    --accent: #c4a265;
+    --accent-dim: rgba(196, 162, 101, 0.12);
+    --serif: 'EB Garamond', Georgia, serif;
+    --sans: Inter, -apple-system, sans-serif;
+  }
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--sans);
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+    font-size: 1rem;
+  }
+
+  .skip-to-content {
+    position: absolute;
+    left: -9999px;
+    top: 0;
+    z-index: 999;
+    padding: 0.5rem 1rem;
+    background: var(--accent);
+    color: var(--bg);
+    font-weight: 600;
+  }
+
+  .skip-to-content:focus {
+    left: 0;
+  }
+
+  .prose {
+    font-family: var(--serif);
+    font-size: 1.05rem;
+    line-height: 1.8;
+    color: #ccc;
+    max-width: 65ch;
+  }
+
+  .prose p {
+    margin-bottom: 1.2em;
+  }
+
+  .prose h2 {
+    font-size: 1.6rem;
+    font-weight: 400;
+    margin-top: 2em;
+    margin-bottom: 0.8em;
+    color: var(--text);
+  }
+
+  .prose h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-top: 1.5em;
+    margin-bottom: 0.6em;
+    color: var(--text);
+  }
+
+  .section-label {
+    font-family: var(--sans);
+    font-size: 0.8rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.8rem;
+  }
+
+  .section-title {
+    font-family: var(--serif);
+    font-size: clamp(1.6rem, 3vw, 2.4rem);
+    font-weight: 400;
+    margin-bottom: 1rem;
+    color: var(--text);
+  }
+}
