@@ -1,0 +1,73 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import MapViewer from '../../components/MapViewer.astro';
+import TagPills from '../../components/TagPills.astro';
+import Breadcrumbs from '../../components/Breadcrumbs.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const maps = await getCollection('maps');
+  return maps.map((m) => ({
+    params: { slug: m.id },
+    props: { map: m },
+  }));
+}
+
+const { map } = Astro.props;
+const { Content } = await render(map);
+
+const sections = (await getCollection('sections')).filter((s) => map.data.relatedSections.includes(s.id));
+const drawings = (await getCollection('drawings')).filter((d) => map.data.relatedDrawings.includes(d.id));
+---
+
+<BaseLayout title={map.data.title} description={map.data.description}>
+  <section class="max-w-6xl mx-auto px-6 py-20" data-pagefind-body>
+    <Breadcrumbs crumbs={[
+      { label: 'Maps', href: '/map/' },
+      { label: map.data.title },
+    ]} />
+
+    <div class="section-label">Interactive Map</div>
+    <h1 class="section-title mb-4">{map.data.title}</h1>
+
+    <TagPills topics={map.data.tags.topic} scales={map.data.tags.scale} />
+
+    <div class="mt-8">
+      <MapViewer
+        id={map.id}
+        center={map.data.defaultCenter}
+        zoom={map.data.defaultZoom}
+        layers={map.data.layers}
+      />
+    </div>
+
+    <div class="prose mt-8">
+      <Content />
+    </div>
+
+    {(sections.length > 0 || drawings.length > 0) && (
+      <div class="mt-12 grid grid-cols-1 md:grid-cols-2 gap-8">
+        {sections.length > 0 && (
+          <div>
+            <h3 class="text-[0.8rem] tracking-widest uppercase text-accent mb-4">Related Sections</h3>
+            <ul class="space-y-2 list-none">
+              {sections.map((s) => (
+                <li><a href={`/read/${s.id}`} class="text-text-muted hover:text-text no-underline transition-colors">{s.data.title}</a></li>
+              ))}
+            </ul>
+          </div>
+        )}
+        {drawings.length > 0 && (
+          <div>
+            <h3 class="text-[0.8rem] tracking-widest uppercase text-accent mb-4">Related Drawings</h3>
+            <ul class="space-y-2 list-none">
+              {drawings.map((d) => (
+                <li><a href={`/drawing/${d.id}`} class="text-text-muted hover:text-text no-underline transition-colors">{d.data.title}</a></li>
+              ))}
+            </ul>
+          </div>
+        )}
+      </div>
+    )}
+  </section>
+</BaseLayout>

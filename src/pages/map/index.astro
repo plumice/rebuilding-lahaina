@@ -1,0 +1,29 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ContentCard from '../../components/ContentCard.astro';
+import { getCollection } from 'astro:content';
+
+const maps = await getCollection('maps');
+---
+
+<BaseLayout title="Interactive Maps" description="Explore Lahaina's spatial data through interactive GIS maps.">
+  <section class="max-w-4xl mx-auto px-6 py-20">
+    <div class="section-label">GIS Maps</div>
+    <h1 class="section-title mb-4">Interactive Maps</h1>
+    <p class="text-text-muted text-[0.92rem] leading-relaxed mb-12 max-w-2xl">
+      Explore Lahaina's spatial data through interactive maps with toggleable layers.
+    </p>
+
+    <div class="grid gap-4">
+      {maps.map((m) => (
+        <ContentCard
+          title={m.data.title}
+          href={`/map/${m.id}`}
+          description={m.data.description}
+          label="Interactive Map"
+          tags={m.data.tags.topic}
+        />
+      ))}
+    </div>
+  </section>
+</BaseLayout>
