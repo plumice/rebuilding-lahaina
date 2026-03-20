@@ -9,9 +9,9 @@ export default {
         'surface-hover': '#eeeeec',
         border: '#e0e0de',
         text: '#1a1a1a',
-        'text-muted': '#6b6b6b',
-        accent: '#8b7355',
-        'accent-dim': 'rgba(139,115,85,0.08)',
+        'text-muted': '#555555',
+        accent: '#6d5344',
+        'accent-dim': 'rgba(109,83,68,0.08)',
       },
       fontFamily: {
         serif: ['"EB Garamond"', 'Georgia', 'serif'],

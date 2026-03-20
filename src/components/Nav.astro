@@ -35,7 +35,7 @@ const navLinks = [
   <!-- Mobile menu button -->
   <button
     id="mobile-menu-btn"
-    class="md:hidden p-2 text-text-muted hover:text-text transition-colors"
+    class="md:hidden p-3 min-h-[44px] min-w-[44px] flex items-center justify-center text-text-muted hover:text-text transition-colors"
     aria-label="Open menu"
     aria-expanded="false"
   >
@@ -73,16 +73,30 @@ const navLinks = [
   const btn = document.getElementById('mobile-menu-btn');
   const menu = document.getElementById('mobile-menu');
   const close = document.getElementById('mobile-menu-close');
+  const navLinks = menu?.querySelectorAll('a');
 
-  btn?.addEventListener('click', () => {
+  function openMenu() {
     menu?.classList.remove('hidden');
     menu?.classList.add('flex');
     btn?.setAttribute('aria-expanded', 'true');
-  });
+    close?.focus();
+  }
 
-  close?.addEventListener('click', () => {
+  function closeMenu() {
     menu?.classList.add('hidden');
     menu?.classList.remove('flex');
     btn?.setAttribute('aria-expanded', 'false');
+    btn?.focus();
+  }
+
+  btn?.addEventListener('click', openMenu);
+  close?.addEventListener('click', closeMenu);
+  navLinks?.forEach((link) => link.addEventListener('click', closeMenu));
+
+  // Close on Escape key
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape' && !menu?.classList.contains('hidden')) {
+      closeMenu();
+    }
   });
 </script>

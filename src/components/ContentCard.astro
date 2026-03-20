@@ -10,7 +10,7 @@ interface Props {
 const { title, href, description, label, tags = [] } = Astro.props;
 ---
 
-<a href={href} class="block bg-surface border border-border p-6 transition-all hover:border-accent hover:-translate-y-0.5 no-underline group">
+<a href={href} class="block bg-surface border border-border p-6 transition-all hover:border-accent hover:shadow-sm no-underline group">
   {label && (
     <div class="text-[0.8rem] text-accent tracking-widest uppercase mb-2">
       {label}
@@ -20,7 +20,7 @@ const { title, href, description, label, tags = [] } = Astro.props;
     {title}
   </h3>
   {description && (
-    <p class="text-[0.85rem] text-text-muted leading-relaxed">
+    <p class="text-sm text-text-muted leading-relaxed">
       {description}
     </p>
   )}
