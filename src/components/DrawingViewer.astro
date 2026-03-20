@@ -1,0 +1,29 @@
+---
+interface Props {
+  src: string;
+  alt: string;
+  title: string;
+}
+
+const { src, alt, title } = Astro.props;
+---
+
+<figure class="bg-surface border border-border p-4">
+  <img
+    src={src}
+    alt={alt}
+    class="w-full h-auto cursor-zoom-in zoomable"
+    loading="lazy"
+  />
+  <figcaption class="mt-3 text-[0.8rem] text-text-muted tracking-wide">
+    {title}
+  </figcaption>
+</figure>
+
+<script>
+  import mediumZoom from 'medium-zoom';
+  mediumZoom('.zoomable', {
+    background: 'rgba(10, 10, 10, 0.95)',
+    margin: 24,
+  });
+</script>

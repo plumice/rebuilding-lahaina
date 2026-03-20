@@ -1,0 +1,27 @@
+---
+import DrawingLayout from '../../layouts/DrawingLayout.astro';
+import { getCollection, render } from 'astro:content';
+
+export async function getStaticPaths() {
+  const drawings = await getCollection('drawings');
+  return drawings.map((drawing) => ({
+    params: { slug: drawing.id },
+    props: { drawing },
+  }));
+}
+
+const { drawing } = Astro.props;
+const { Content } = await render(drawing);
+---
+
+<DrawingLayout
+  title={drawing.data.title}
+  image={drawing.data.image}
+  alt={drawing.data.alt}
+  scaleLevel={drawing.data.scaleLevel}
+  drawingType={drawing.data.drawingType}
+  relatedSections={drawing.data.relatedSections}
+  tags={drawing.data.tags}
+>
+  <Content />
+</DrawingLayout>
