@@ -1,6 +1,6 @@
 ---
 title: "Community Space — Interior View"
-image: "/images/drawings/interior_render.jpg"
+image: "/images/drawings/rebuildinglahaina_final_presentation_page_65.jpg"
 alt: "Interior perspective of covered community gathering space with modular roof structure"
 scaleLevel: "node"
 drawingType: "rendering"

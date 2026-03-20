@@ -1,0 +1,14 @@
+---
+title: "Sections — Current Condition"
+image: "/images/drawings/rebuildinglahaina_final_presentation_page_49.jpg"
+alt: "Cross-sections showing Lahaina's devastated condition after the 2023 wildfire"
+scaleLevel: "site"
+drawingType: "section"
+relatedSections: ["history-of-lahaina"]
+tags:
+  topic: [fire, recovery]
+  scale: [site]
+  type: [analysis]
+---
+
+The same transects after the fire — showing the devastating loss of built fabric and the exposed landscape conditions.

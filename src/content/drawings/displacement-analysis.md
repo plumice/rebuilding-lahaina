@@ -1,6 +1,6 @@
 ---
 title: "Displacement & Redensification"
-image: "/images/drawings/figure_3_61_displacement_analysis.jpg"
+image: "/images/drawings/rebuildinglahaina_final_presentation_page_42.jpg"
 alt: "Map showing 6,000-7,000 displaced residents and proposed 2,200-unit redensification plan"
 scaleLevel: "town"
 drawingType: "analytical-map"

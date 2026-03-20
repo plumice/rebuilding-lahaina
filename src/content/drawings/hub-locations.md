@@ -1,6 +1,6 @@
 ---
 title: "Community Hub Network"
-image: "/images/drawings/figure_3_16_hub_typology_matrix.jpg"
+image: "/images/drawings/rebuildinglahaina_final_presentation_page_44.jpg"
 alt: "Three community hub typologies positioned within walkable distance of all residential areas"
 scaleLevel: "town"
 drawingType: "diagram"
