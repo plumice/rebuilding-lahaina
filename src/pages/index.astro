@@ -1,82 +1,76 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import ContentCard from '../components/ContentCard.astro';
-import Timeline from '../components/Timeline.astro';
 import { getCollection } from 'astro:content';
 
-const sections = await getCollection('sections');
 const drawings = await getCollection('drawings');
 const maps = await getCollection('maps');
 const featured = drawings.slice(0, 3);
 ---
 
-<BaseLayout title="Home">
-  <!-- SEARCH BAR -->
-  <section class="max-w-3xl mx-auto px-6 pt-16 pb-8">
-    <a href="/search" class="block bg-surface border border-border p-4 flex items-center gap-3 hover:border-accent transition-colors no-underline group">
-      <svg class="w-5 h-5 text-text-muted group-hover:text-accent transition-colors" fill="none" stroke="currentColor" viewBox="0 0 24 24"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
-      <span class="text-text-muted text-sm group-hover:text-text transition-colors">Search all thesis content...</span>
-    </a>
-  </section>
-
+<BaseLayout title="Home" description="A plan for rebuilding Lahaina after the 2023 wildfire — addressing water, housing, infrastructure, and community resilience.">
   <!-- HERO -->
-  <div class="min-h-screen flex flex-col justify-end p-12 md:p-16 relative overflow-hidden"
-    style="background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.85) 70%, #ffffff 100%), linear-gradient(135deg, #f5f0eb 0%, #ffffff 100%);">
-    <div class="absolute inset-0 pointer-events-none" style="background: repeating-linear-gradient(0deg, transparent, transparent 120px, rgba(139,115,85,0.04) 120px, rgba(139,115,85,0.04) 121px);" />
+  <div class="min-h-[85vh] flex flex-col justify-end px-6 md:px-16 pb-12 md:pb-16 pt-20 relative overflow-hidden"
+    style="background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 70%, #ffffff 100%), linear-gradient(135deg, #f5f0eb 0%, #ffffff 100%);">
 
-    <div class="relative z-10">
-      <div class="text-[0.85rem] text-text-muted tracking-widest uppercase mb-3">
-        Graduate Thesis — Tulane School of Architecture
-      </div>
-      <h1 class="font-serif text-[clamp(2.8rem,6vw,5rem)] font-normal leading-[1.1] mb-5 max-w-[700px]">
+    <div class="relative z-10 max-w-3xl">
+      <h1 class="font-serif text-[clamp(2.4rem,5vw,4.2rem)] font-normal leading-[1.15] mb-6">
         Rebuilding <em class="text-accent italic">Lahaina</em>
       </h1>
-      <div class="font-serif text-lg text-text-muted mb-8">
-        Akhil Singh &nbsp;|&nbsp; Director: Inaki Alday &nbsp;|&nbsp; Co-Director: Sean Fowler
+      <p class="text-lg md:text-xl text-text-muted leading-relaxed mb-8 max-w-2xl">
+        After the 2023 wildfire, Lahaina needs a path forward. This project proposes a recovery plan addressing water systems, housing, infrastructure, and community resilience — built from research, data, and the land itself.
+      </p>
+      <div class="flex flex-wrap gap-3">
+        <a href="/read/" class="inline-block px-6 py-3 bg-accent text-white text-sm font-medium no-underline rounded hover:opacity-90 transition-opacity">
+          Start Reading
+        </a>
+        <a href="/search" class="inline-block px-6 py-3 border border-border text-text-muted text-sm font-medium no-underline rounded hover:border-accent hover:text-text transition-colors">
+          Search the Site
+        </a>
       </div>
-      <div class="flex gap-8 flex-wrap text-[0.8rem] text-text-muted tracking-wide uppercase opacity-60">
-        <span>M.Arch 2025</span>
-        <span>Post-Disaster Recovery</span>
-        <span>Resilient Urbanism</span>
-        <span>Water Systems</span>
-      </div>
+      <p class="text-sm text-text-muted mt-8">
+        A graduate thesis by Akhil Singh — Tulane School of Architecture, M.Arch 2025
+      </p>
     </div>
   </div>
 
-  <!-- ENTRY POINTS -->
-  <section class="max-w-5xl mx-auto px-6 py-12">
-    <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-      <a href="/read/" class="block bg-surface border border-border p-8 text-center no-underline hover:border-accent transition-colors group">
-        <div class="text-[0.8rem] text-accent tracking-widest uppercase mb-3">Narrative</div>
-        <h2 class="font-serif text-2xl mb-2 text-text group-hover:text-accent transition-colors">Read the Thesis</h2>
-        <p class="text-text-muted text-sm">Follow the full argument from context through design</p>
+  <!-- WHAT IS THIS -->
+  <section class="max-w-4xl mx-auto px-6 py-16">
+    <h2 class="font-serif text-2xl mb-4">What you'll find here</h2>
+    <p class="text-text-muted text-base leading-relaxed mb-10 max-w-2xl">
+      This site is a public resource. Everything from the research, maps, and analysis to the recovery plan itself is here for anyone to explore — whether you're a resident, a planner, a researcher, or just someone who cares about Lahaina's future.
+    </p>
+
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-5">
+      <a href="/read/" class="block bg-surface border border-border p-6 no-underline hover:border-accent transition-colors group rounded">
+        <h3 class="font-serif text-xl mb-2 text-text group-hover:text-accent transition-colors">Read the Full Thesis</h3>
+        <p class="text-text-muted text-sm leading-relaxed">Follow the complete story — from what happened, to what the data shows, to what could be built.</p>
       </a>
-      <a href="/topic/" class="block bg-surface border border-border p-8 text-center no-underline hover:border-accent transition-colors group">
-        <div class="text-[0.8rem] text-accent tracking-widest uppercase mb-3">Thematic</div>
-        <h2 class="font-serif text-2xl mb-2 text-text group-hover:text-accent transition-colors">Explore by Topic</h2>
-        <p class="text-text-muted text-sm">Water, housing, mobility, coastal resilience, and more</p>
+      <a href="/topic/" class="block bg-surface border border-border p-6 no-underline hover:border-accent transition-colors group rounded">
+        <h3 class="font-serif text-xl mb-2 text-text group-hover:text-accent transition-colors">Browse by Topic</h3>
+        <p class="text-text-muted text-sm leading-relaxed">Jump straight to what matters to you — water, housing, fire prevention, cultural heritage, and more.</p>
       </a>
-      <a href="/scale/" class="block bg-surface border border-border p-8 text-center no-underline hover:border-accent transition-colors group">
-        <div class="text-[0.8rem] text-accent tracking-widest uppercase mb-3">Spatial</div>
-        <h2 class="font-serif text-2xl mb-2 text-text group-hover:text-accent transition-colors">Explore by Scale</h2>
-        <p class="text-text-muted text-sm">Regional, district, town, site, and node</p>
+      <a href="/drawing/" class="block bg-surface border border-border p-6 no-underline hover:border-accent transition-colors group rounded">
+        <h3 class="font-serif text-xl mb-2 text-text group-hover:text-accent transition-colors">View Maps & Drawings</h3>
+        <p class="text-text-muted text-sm leading-relaxed">See the analysis and proposals through detailed maps, plans, sections, and diagrams.</p>
       </a>
     </div>
   </section>
 
-  <!-- ABSTRACT -->
-  <section class="max-w-4xl mx-auto px-6 pb-20">
-    <div class="section-label">Abstract</div>
-    <div class="bg-surface border border-border border-l-[3px] border-l-accent p-8 font-serif text-lg leading-[1.8] text-[#3a3a3a]">
-      The 2023 wildfire in Lahaina revealed critical vulnerabilities in infrastructure, water management, and disaster preparedness. This thesis proposes recovery through a multi-scale plan that includes the major urban systems, the relation of the urban fabric with the coast and the hinterland, and a sequence of strategic nodes to serve the communities.
+  <!-- ABOUT THE PROJECT -->
+  <section class="max-w-4xl mx-auto px-6 pb-16">
+    <div class="bg-surface border border-border border-l-[3px] border-l-accent p-6 md:p-8 rounded">
+      <h3 class="font-serif text-xl mb-3">About this project</h3>
+      <p class="text-text-muted text-base leading-relaxed">
+        The 2023 wildfire destroyed roughly 2,200 homes and displaced thousands of residents. Recovery has been blocked by a severe water shortage — demand exceeds supply by over 40%. This thesis proposes a multi-scale recovery plan that works with the land: restoring water systems, creating safe buffer zones, rebuilding housing, and strengthening community infrastructure. It draws on Hawaiian land management traditions, global disaster recovery precedents, and detailed site analysis.
+      </p>
     </div>
   </section>
 
   <!-- FEATURED DRAWINGS -->
   {featured.length > 0 && (
-    <section class="max-w-5xl mx-auto px-6 pb-20">
-      <div class="section-label">Featured Drawings</div>
-      <h2 class="section-title mb-8">Selected Plates</h2>
+    <section class="max-w-5xl mx-auto px-6 pb-16">
+      <h2 class="font-serif text-2xl mb-6">Featured Drawings</h2>
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
         {featured.map((d) => (
           <ContentCard
@@ -91,11 +85,11 @@ const featured = drawings.slice(0, 3);
     </section>
   )}
 
-  <!-- MAP PREVIEW -->
+  <!-- INTERACTIVE MAPS -->
   {maps.length > 0 && (
-    <section class="max-w-5xl mx-auto px-6 pb-20">
-      <div class="section-label">Spatial Data</div>
-      <h2 class="section-title mb-8">Interactive Maps</h2>
+    <section class="max-w-5xl mx-auto px-6 pb-16">
+      <h2 class="font-serif text-2xl mb-6">Interactive Maps</h2>
+      <p class="text-text-muted text-base mb-6">Explore the spatial data behind the proposals — toggle layers to see water systems, fire damage, zoning, and more.</p>
       <div class="grid gap-4">
         {maps.map((m) => (
           <ContentCard
@@ -109,4 +103,13 @@ const featured = drawings.slice(0, 3);
       </div>
     </section>
   )}
+
+  <!-- TIMELINE PREVIEW -->
+  <section class="max-w-4xl mx-auto px-6 pb-20">
+    <h2 class="font-serif text-2xl mb-3">Lahaina's Story</h2>
+    <p class="text-text-muted text-base mb-6">From the traditional ahupua'a system to the 2023 fire and beyond.</p>
+    <a href="/timeline" class="inline-block px-5 py-2.5 border border-border text-sm font-medium no-underline rounded hover:border-accent hover:text-accent transition-colors">
+      View Full Timeline
+    </a>
+  </section>
 </BaseLayout>

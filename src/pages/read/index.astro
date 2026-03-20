@@ -10,11 +10,11 @@ const sorted = sections.sort((a, b) => {
 });
 
 const chapterLabels: Record<string, string> = {
-  'ch1-introduction': '01 — Introduction',
-  'ch2-overview': '02 — Subject Overview',
-  'ch3-analysis': '03 — Research Analysis',
-  'ch4-principles': '04 — Design Principles',
-  'ch5-design': '05 — Design',
+  'ch1-introduction': 'Introduction — What Happened',
+  'ch2-overview': 'Background — Context & Precedents',
+  'ch3-analysis': 'Analysis — Understanding the Land',
+  'ch4-principles': 'Approach — Design Principles',
+  'ch5-design': 'The Plan — Recovery & Rebuilding',
 };
 
 const chapters = Object.entries(chapterLabels).map(([key, label]) => ({
@@ -26,10 +26,9 @@ const chapters = Object.entries(chapterLabels).map(([key, label]) => ({
 
 <BaseLayout title="Read the Thesis" description="Read the full Rebuilding Lahaina thesis organized by chapter.">
   <section class="max-w-4xl mx-auto px-6 py-20">
-    <div class="section-label">Narrative Path</div>
-    <h1 class="section-title mb-4">Read the Thesis</h1>
-    <p class="text-text-muted text-[0.92rem] leading-relaxed mb-12 max-w-2xl">
-      Read the full thesis from start to finish, organized by chapter. Each section is a self-contained page.
+    <h1 class="section-title mb-4">Read the Full Thesis</h1>
+    <p class="text-text-muted text-base leading-relaxed mb-12 max-w-2xl">
+      Start from the beginning or jump to any section. Each one is written to stand on its own, so you can read what interests you most.
     </p>
 
     {chapters.map(({ label, sections: chapterSections }) => (
