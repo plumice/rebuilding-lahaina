@@ -1,7 +1,7 @@
 ---
 title: "Abstract"
 chapter: "ch1-introduction"
-order: 1
+order: 2
 summary: "Thesis scope, methods, and broader implications for disaster-resilient urbanism."
 relatedDrawings: []
 relatedSources: []
