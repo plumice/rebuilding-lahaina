@@ -1,0 +1,11 @@
+---
+title: "Online Rainfall Atlas of Hawaiʻi"
+author: "Giambelluca, Thomas W. et al."
+publisher: "Bulletin of the American Meteorological Society"
+date: "2013"
+sourceType: "report"
+relevance: "Definitive rainfall data for Hawaiʻi; source for the 97% precipitation gradient analysis from Puʻu Kukui to Lahaina coast"
+tags:
+  topic: [water, ecology]
+  type: [data]
+---
