@@ -12,8 +12,13 @@ const byType = ['book', 'report', 'government-doc', 'research-note'].map((type) 
 
 <BaseLayout title="Sources" description="Complete directory of research sources.">
   <section class="max-w-5xl mx-auto px-6 py-20">
-    <div class="section-label">Source Directory</div>
-    <h1 class="section-title mb-12">Research Sources & References</h1>
+    <h1 class="section-title mb-4">Sources & References</h1>
+    <p class="text-text-muted text-base leading-relaxed mb-4 max-w-2xl">
+      Every claim, data point, and design decision in this thesis is grounded in documented sources. Below is the complete bibliography — {sources.length} sources spanning academic research, government documents, technical reports, and field analysis.
+    </p>
+    <p class="text-text-muted text-base leading-relaxed mb-12 max-w-2xl">
+      Click any source to see how it connects to the thesis and which sections reference it.
+    </p>
 
     {byType.map(({ label, sources: typed }) => (
       <div class="mb-10">
