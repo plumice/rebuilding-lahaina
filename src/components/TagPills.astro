@@ -1,0 +1,27 @@
+---
+interface Props {
+  topics?: string[];
+  scales?: string[];
+  types?: string[];
+}
+
+const { topics = [], scales = [], types = [] } = Astro.props;
+---
+
+<div class="flex flex-wrap gap-2">
+  {topics.map((tag) => (
+    <a href={`/topic/${tag}`} class="inline-block text-[0.8rem] px-2 py-0.5 border border-accent text-accent rounded-sm tracking-wide uppercase no-underline hover:bg-accent-dim transition-colors" data-pagefind-filter={`topic:${tag}`}>
+      {tag.replaceAll('-', ' ')}
+    </a>
+  ))}
+  {scales.map((tag) => (
+    <a href={`/scale/${tag}`} class="inline-block text-[0.8rem] px-2 py-0.5 border border-border text-text-muted rounded-sm tracking-wide uppercase no-underline hover:bg-surface-hover transition-colors" data-pagefind-filter={`scale:${tag}`}>
+      {tag}
+    </a>
+  ))}
+  {types.map((tag) => (
+    <span class="inline-block text-[0.8rem] px-2 py-0.5 border border-border text-text-muted rounded-sm tracking-wide uppercase" data-pagefind-filter={`type:${tag}`}>
+      {tag}
+    </span>
+  ))}
+</div>
