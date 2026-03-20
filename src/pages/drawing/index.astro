@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ContentCard from '../../components/ContentCard.astro';
+import { getCollection } from 'astro:content';
+
+const drawings = await getCollection('drawings');
+
+const scaleOrder = ['regional', 'district', 'town', 'site', 'node'];
+const byScale = scaleOrder
+  .map((scale) => ({
+    scale,
+    drawings: drawings.filter((d) => d.data.scaleLevel === scale),
+  }))
+  .filter((group) => group.drawings.length > 0);
+---
+
+<BaseLayout title="Drawings" description="Complete index of all analytical and design drawings.">
+  <section class="max-w-5xl mx-auto px-6 py-20">
+    <div class="section-label">Drawing Index</div>
+    <h1 class="section-title mb-4">Plates & Drawings</h1>
+    <p class="text-text-muted text-[0.92rem] leading-relaxed mb-12 max-w-2xl">
+      Complete index of all analytical and design drawings produced for the thesis, organized by scale.
+    </p>
+
+    {byScale.map(({ scale, drawings: scaledDrawings }) => (
+      <div class="mb-10">
+        <h2 class="font-serif text-xl mb-4 text-text capitalize">{scale} Scale</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+          {scaledDrawings.map((drawing) => (
+            <ContentCard
+              title={drawing.data.title}
+              href={`/drawing/${drawing.id}`}
+              description={drawing.data.alt}
+              label={drawing.data.drawingType}
+              tags={drawing.data.tags.topic}
+            />
+          ))}
+        </div>
+      </div>
+    ))}
+  </section>
+</BaseLayout>

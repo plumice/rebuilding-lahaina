@@ -1,0 +1,60 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import DrawingViewer from '../components/DrawingViewer.astro';
+import TagPills from '../components/TagPills.astro';
+import Breadcrumbs from '../components/Breadcrumbs.astro';
+import { getCollection } from 'astro:content';
+
+interface Props {
+  title: string;
+  image: string;
+  alt: string;
+  scaleLevel: string;
+  drawingType: string;
+  relatedSections?: string[];
+  tags: { topic: string[]; scale: string[]; type: string[] };
+}
+
+const { title, image, alt, scaleLevel, drawingType, relatedSections = [], tags } = Astro.props;
+
+const allSections = await getCollection('sections');
+const sections = allSections.filter((s) => relatedSections.includes(s.id));
+---
+
+<BaseLayout title={title} description={alt}>
+  <div class="max-w-5xl mx-auto px-6 py-20" data-pagefind-body>
+    <Breadcrumbs crumbs={[
+      { label: 'Drawings', href: '/drawing/' },
+      { label: scaleLevel, href: `/scale/${scaleLevel}` },
+      { label: title },
+    ]} />
+
+    <div class="section-label">{scaleLevel} Scale — {drawingType}</div>
+    <h1 class="section-title mb-4">{title}</h1>
+
+    <TagPills topics={tags.topic} scales={tags.scale} types={tags.type} />
+
+    <div class="mt-8">
+      <DrawingViewer src={image} alt={alt} title={title} />
+    </div>
+
+    <div class="prose mt-8">
+      <slot />
+    </div>
+
+    {sections.length > 0 && (
+      <div class="mt-12">
+        <h3 class="text-[0.8rem] tracking-widest uppercase text-accent mb-4">Related Sections</h3>
+        <ul class="space-y-2 list-none">
+          {sections.map((s) => (
+            <li>
+              <a href={`/read/${s.id}`} class="text-text-muted hover:text-text no-underline transition-colors">
+                {s.data.title}
+              </a>
+            </li>
+          ))}
+        </ul>
+      </div>
+    )}
+  </div>
+</BaseLayout>
