@@ -1,6 +1,6 @@
 ---
 title: "Sections — Before, Current, Proposed"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_50.jpg"
+image: "/images/drawings/complete_ppt/Slide53.JPG"
 alt: "Three cross-sections comparing Lahaina before the fire, current condition, and proposed recovery"
 scaleLevel: "site"
 drawingType: "section"

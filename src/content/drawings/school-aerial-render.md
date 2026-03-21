@@ -1,6 +1,6 @@
 ---
 title: "Elementary School — Aerial View"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_62.jpg"
+image: "/images/drawings/complete_ppt/Slide63.JPG"
 alt: "Aerial perspective rendering of the proposed elementary school and surrounding neighborhood"
 scaleLevel: "node"
 drawingType: "rendering"

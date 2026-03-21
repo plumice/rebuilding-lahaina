@@ -1,6 +1,6 @@
 ---
 title: "Resilience Evaluation Matrix"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_07.jpg"
+image: "/images/drawings/complete_ppt/Slide9.JPG"
 alt: "Evaluation framework measuring proposed interventions against resilience criteria"
 scaleLevel: "town"
 drawingType: "diagram"

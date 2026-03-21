@@ -1,6 +1,6 @@
 ---
 title: "Sections — Current Condition"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_49.jpg"
+image: "/images/drawings/complete_ppt/Slide52.JPG"
 alt: "Cross-sections showing Lahaina's devastated condition after the 2023 wildfire"
 scaleLevel: "site"
 drawingType: "section"

@@ -1,6 +1,6 @@
 ---
 title: "Design Principles"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_16.jpg"
+image: "/images/drawings/complete_ppt/Slide18.JPG"
 alt: "Core design principles including residential rebuilding rights, public access, buffer edges, multi-functional spaces, and cultural preservation"
 scaleLevel: "town"
 drawingType: "diagram"

@@ -1,6 +1,6 @@
 ---
 title: "The Module — Core Design"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_55.jpg"
+image: "/images/drawings/complete_ppt/Slide58.JPG"
 alt: "Three identical pitched-roof modules showing the basic 26x26-foot building unit"
 scaleLevel: "node"
 drawingType: "diagram"

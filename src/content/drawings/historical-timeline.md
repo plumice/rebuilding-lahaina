@@ -1,6 +1,6 @@
 ---
 title: "Historical Timeline — 1795 to 2023"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_02.jpg"
+image: "/images/drawings/complete_ppt/Slide2.JPG"
 alt: "Visual timeline of major events in Lahaina from pre-contact era through the 2023 wildfire"
 scaleLevel: "town"
 drawingType: "diagram"

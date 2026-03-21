@@ -1,6 +1,6 @@
 ---
 title: "Elementary School Floor Plan"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_52.jpg"
+image: "/images/drawings/complete_ppt/Slide55.JPG"
 alt: "Ground floor plan of the proposed elementary school showing modular classroom arrangement and community facilities"
 scaleLevel: "node"
 drawingType: "architectural-plan"

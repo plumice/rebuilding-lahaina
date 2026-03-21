@@ -1,6 +1,6 @@
 ---
 title: "Module Assembly"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_61.jpg"
+image: "/images/drawings/complete_ppt/Slide64.JPG"
 alt: "Isometric diagram showing how individual modules connect and stack to form larger buildings"
 scaleLevel: "node"
 drawingType: "diagram"
