@@ -1,6 +1,6 @@
 ---
 title: "School — Program Details"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_53.jpg"
+image: "/images/drawings/complete_ppt/Slide56.JPG"
 alt: "Detailed zoom views of school functional areas: health offices, cafeteria, classrooms, and gymnasium"
 scaleLevel: "node"
 drawingType: "architectural-plan"

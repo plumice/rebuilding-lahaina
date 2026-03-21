@@ -1,6 +1,6 @@
 ---
 title: "Module Connection Details"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_59.jpg"
+image: "/images/drawings/complete_ppt/Slide62.JPG"
 alt: "Technical drawings showing roof connections, gutter details, and wall-column joinery"
 scaleLevel: "node"
 drawingType: "detail"

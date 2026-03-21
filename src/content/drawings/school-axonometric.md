@@ -1,6 +1,6 @@
 ---
 title: "School Axonometric"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_66.jpg"
+image: "/images/drawings/complete_ppt/Slide66.JPG"
 alt: "3D isometric view of the complete elementary school complex with surrounding landscape"
 scaleLevel: "node"
 drawingType: "axonometric"

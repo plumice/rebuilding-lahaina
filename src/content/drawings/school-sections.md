@@ -1,6 +1,6 @@
 ---
 title: "School Sections"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_54.jpg"
+image: "/images/drawings/complete_ppt/Slide57.JPG"
 alt: "Two cross-sections through the elementary school showing modular roof forms and spatial organization"
 scaleLevel: "node"
 drawingType: "section"

@@ -1,6 +1,6 @@
 ---
 title: "Module — Design Breakdown"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_60.jpg"
+image: "/images/drawings/complete_ppt/Slide61.JPG"
 alt: "Isometric 3D breakdown of the module showing five design aspects: vernacular roots, climate response, urban integration, community healing, and build strategy"
 scaleLevel: "node"
 drawingType: "diagram"

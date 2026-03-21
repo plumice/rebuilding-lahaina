@@ -1,6 +1,6 @@
 ---
 title: "Module — Solar & Ventilation"
-image: "/images/drawings/rebuildinglahaina_final_presentation_page_57.jpg"
+image: "/images/drawings/complete_ppt/Slide60.JPG"
 alt: "Section showing heat flow, ventilation patterns, and passive cooling strategy for west-facing exposure"
 scaleLevel: "node"
 drawingType: "technical-section"
