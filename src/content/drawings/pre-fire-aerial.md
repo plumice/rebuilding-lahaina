@@ -1,6 +1,6 @@
 ---
 title: "Pre-Fire Aerial View"
-image: "/images/drawings/complete_ppt/Slide21.JPG"
+image: "/images/drawings/prefire_aerial_satellite.jpg"
 alt: "Satellite image of Lahaina before the 2023 wildfire showing coastal development and agricultural land"
 scaleLevel: "town"
 drawingType: "photography"

@@ -1,6 +1,6 @@
 ---
 title: "Community Hub Network"
-image: "/images/drawings/updated_local_nodes.jpg"
+image: "/images/drawings/complete_ppt/Slide48.JPG"
 alt: "Three community hub typologies positioned within walkable distance of all residential areas"
 scaleLevel: "town"
 drawingType: "diagram"

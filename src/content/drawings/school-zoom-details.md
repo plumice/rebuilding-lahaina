@@ -1,6 +1,6 @@
 ---
 title: "School — Program Details"
-image: "/images/drawings/complete_ppt/Slide50.JPG"
+image: "/images/drawings/complete_ppt/Slide60.JPG"
 alt: "Detailed zoom views of school functional areas: health offices, cafeteria, classrooms, and gymnasium"
 scaleLevel: "node"
 drawingType: "architectural-plan"
