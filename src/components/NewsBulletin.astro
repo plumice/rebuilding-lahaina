@@ -38,18 +38,8 @@
     if (!feed || !status) return;
 
     try {
-      var isLocal = window.location.hostname === 'localhost';
-      var url = isLocal
-        ? null
-        : '/.netlify/functions/news';
-
-      if (isLocal) {
-        feed.replaceChildren(makeMessage('Live News Updates', 'News feed activates when the site is deployed to Netlify.'));
-        status.textContent = 'Preview mode';
-        return;
-      }
-
-      var resp = await fetch(url);
+      var resp = await fetch('/data/news.json');
+      if (!resp.ok) throw new Error('No news data');
       var data = await resp.json();
       var items = data.items || [];
 
@@ -93,7 +83,11 @@
       });
       feed.replaceChildren(frag);
 
-      status.textContent = 'Updated just now';
+      if (data.updated) {
+        status.textContent = 'Updated ' + formatTimeAgo(new Date(data.updated));
+      } else {
+        status.textContent = '';
+      }
 
     } catch (err) {
       feed.replaceChildren(makeMessage('News Unavailable', 'Please try refreshing the page.'));

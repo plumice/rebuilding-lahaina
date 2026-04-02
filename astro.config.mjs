@@ -3,7 +3,7 @@ import tailwindcss from '@astrojs/tailwind';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://rebuilding-lahaina.netlify.app',
+  site: 'https://rebuildinglahaina.org',
   integrations: [tailwindcss(), sitemap()],
   output: 'static',
 });
