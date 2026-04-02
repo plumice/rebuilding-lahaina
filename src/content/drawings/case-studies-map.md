@@ -1,6 +1,6 @@
 ---
 title: "Global Recovery Precedents"
-image: "/images/drawings/complete_ppt/Slide9.JPG"
+image: "/images/drawings/complete_ppt/Slide3.JPG"
 alt: "World map showing post-disaster recovery case studies referenced in the thesis"
 scaleLevel: "regional"
 drawingType: "diagram"

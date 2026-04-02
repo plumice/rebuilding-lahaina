@@ -1,6 +1,6 @@
 ---
 title: "The Module — Core Design"
-image: "/images/drawings/complete_ppt/Slide58.JPG"
+image: "/images/drawings/complete_ppt/Slide61.JPG"
 alt: "Three identical pitched-roof modules showing the basic 26x26-foot building unit"
 scaleLevel: "node"
 drawingType: "diagram"

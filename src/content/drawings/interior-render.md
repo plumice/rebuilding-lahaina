@@ -1,6 +1,6 @@
 ---
 title: "Community Space — Interior View"
-image: "/images/drawings/complete_ppt/Slide65.JPG"
+image: "/images/drawings/complete_ppt/Slide69.JPG"
 alt: "Interior perspective of covered community gathering space with modular roof structure"
 scaleLevel: "node"
 drawingType: "rendering"

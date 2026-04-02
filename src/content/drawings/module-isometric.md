@@ -1,6 +1,6 @@
 ---
 title: "Module — Design Breakdown"
-image: "/images/drawings/complete_ppt/Slide61.JPG"
+image: "/images/drawings/complete_ppt/Slide62.JPG"
 alt: "Isometric 3D breakdown of the module showing five design aspects: vernacular roots, climate response, urban integration, community healing, and build strategy"
 scaleLevel: "node"
 drawingType: "diagram"

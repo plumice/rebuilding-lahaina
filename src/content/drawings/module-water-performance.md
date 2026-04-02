@@ -1,6 +1,6 @@
 ---
 title: "Module — Water Capture"
-image: "/images/drawings/complete_ppt/Slide59.JPG"
+image: "/images/drawings/complete_ppt/Slide65.JPG"
 alt: "Section showing rainwater collection system with flow paths through module roof and filtration"
 scaleLevel: "node"
 drawingType: "technical-section"

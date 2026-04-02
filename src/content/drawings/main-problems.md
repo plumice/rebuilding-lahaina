@@ -1,6 +1,6 @@
 ---
 title: "Five Key Problems"
-image: "/images/drawings/complete_ppt/Slide10.JPG"
+image: "/images/drawings/complete_ppt/Slide13.JPG"
 alt: "Diagram identifying five systemic problems: urban risk, weak coastal protection, displacement, lack of structure, and disconnected recovery"
 scaleLevel: "town"
 drawingType: "diagram"

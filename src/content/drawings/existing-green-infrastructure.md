@@ -1,6 +1,6 @@
 ---
 title: "Existing Green Infrastructure"
-image: "/images/drawings/updated_local_green_before.jpg"
+image: "/images/drawings/complete_ppt/Slide40.JPG"
 alt: "Pre-fire map showing fragmented green spaces and limited tree canopy in Lahaina"
 scaleLevel: "town"
 drawingType: "analytical-map"

@@ -1,6 +1,6 @@
 ---
 title: "Cumulative Systems Plan"
-image: "/images/drawings/updated_local_all_buffers.jpg"
+image: "/images/drawings/complete_ppt/Slide56.JPG"
 alt: "All systems overlaid — buffers, mobility, green infrastructure, water, community hubs, and density — in one comprehensive plan"
 scaleLevel: "town"
 drawingType: "composite-plan"

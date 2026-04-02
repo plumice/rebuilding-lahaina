@@ -1,6 +1,6 @@
 ---
 title: "Water Collection Strategy"
-image: "/images/drawings/updated_local_water_proposed.jpg"
+image: "/images/drawings/complete_ppt/Slide37.JPG"
 alt: "Diagram showing water collection pond system and distribution from mountain hinterland to town"
 scaleLevel: "district"
 drawingType: "diagram"

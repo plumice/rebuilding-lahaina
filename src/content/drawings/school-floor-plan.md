@@ -1,6 +1,6 @@
 ---
 title: "Elementary School Floor Plan"
-image: "/images/drawings/complete_ppt/Slide55.JPG"
+image: "/images/drawings/complete_ppt/Slide57.JPG"
 alt: "Ground floor plan of the proposed elementary school showing modular classroom arrangement and community facilities"
 scaleLevel: "node"
 drawingType: "architectural-plan"

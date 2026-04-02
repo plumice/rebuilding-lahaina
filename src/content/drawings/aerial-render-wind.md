@@ -1,6 +1,6 @@
 ---
 title: "Housing Complex — Wind Analysis"
-image: "/images/drawings/complete_ppt/Slide67.JPG"
+image: "/images/drawings/complete_ppt/Slide64.JPG"
 alt: "3D rendering of housing complex with wind flow patterns showing natural ventilation through the module arrangement"
 scaleLevel: "node"
 drawingType: "rendering"
