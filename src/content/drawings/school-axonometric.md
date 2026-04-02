@@ -1,6 +1,6 @@
 ---
 title: "School Axonometric"
-image: "/images/drawings/complete_ppt/Slide66.JPG"
+image: "/images/drawings/complete_ppt/Slide68.JPG"
 alt: "3D isometric view of the complete elementary school complex with surrounding landscape"
 scaleLevel: "node"
 drawingType: "axonometric"

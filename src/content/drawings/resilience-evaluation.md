@@ -1,6 +1,6 @@
 ---
 title: "Resilience Evaluation Matrix"
-image: "/images/drawings/complete_ppt/Slide9.JPG"
+image: "/images/drawings/complete_ppt/Slide5.JPG"
 alt: "Evaluation framework measuring proposed interventions against resilience criteria"
 scaleLevel: "town"
 drawingType: "diagram"
