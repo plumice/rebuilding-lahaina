@@ -12,37 +12,100 @@ tags:
   type: [documentation]
 ---
 
-The following terms recur throughout this thesis and carry specific meanings within the context of post-disaster recovery, resilient urbanism, and Hawaiian cultural practice. Understanding these definitions is essential for engaging with the analysis and proposals that follow.
+Developing this framework required grounding in vocabulary I did not initially possess. Hawaiian terms — ahupuaʻa, mālama ʻāina, loʻi kalo, kuleana — encode relationships between land, water, and community that English planning language cannot fully capture. These are not nostalgic references. They describe operational principles: how water moved through the landscape, how land was managed across elevation, how responsibility was distributed among those who lived there. Alongside this Hawaiian vocabulary, the thesis draws on terms from post-disaster scholarship — disaster gentrification, vulnerability cycles, adaptive recovery — that name patterns recurring across geographies when reconstruction fails the people it claims to serve. I assembled this glossary as a discipline: to be precise about what I mean, to respect the specificity of this place, and to establish shared language for everything that follows.
 
-- **Adaptive Recovery** — A recovery approach that treats reconstruction not as a return to pre-disaster conditions but as an opportunity to address systemic vulnerabilities and improve community resilience.
+## Core Concepts
 
-- **Ahupua'a** — A traditional Hawaiian land division extending from mountain to sea, organizing resource management along watershed boundaries. The ahupua'a model integrates ecological stewardship with community governance.
+- **Adaptive Recovery** — A framework for rebuilding that incorporates flexibility to respond to future climate, social, and economic changes. Adaptive recovery treats reconstruction as opportunity to address pre-existing vulnerabilities rather than replicate them.
 
-- **Cultural Resilience** — The capacity of a community to maintain, adapt, and transmit its cultural identity and practices through periods of crisis and change.
+- **Ahupuaʻa** — Traditional Hawaiian land division extending from mountains (mauka) to sea (makai), integrating natural water systems for agriculture, community sustenance, and ecological balance. The ahupuaʻa organized land as continuous hydrological and social unit, with resource management distributed across elevation zones.
 
-- **Disaster Gentrification** — The process by which post-disaster recovery investment displaces existing residents through rising property values, speculative development, and inequitable rebuilding policies.
+- **Cultural Resilience** — The capacity of a community to preserve and adapt its cultural identity, traditions, and social structures under adversity. In Lahaina, cultural resilience shapes recovery efforts honoring the town's significance as former royal capital and continuing center of Native Hawaiian life.
 
-- **Integrated Water Systems** — Infrastructure that manages stormwater, groundwater, and wastewater as a unified system, incorporating green infrastructure, permeable surfaces, and natural drainage patterns.
+- **Disaster Gentrification** — The process by which post-disaster recovery disproportionately benefits external actors, displacing existing communities. Common patterns include land speculation, rising property values during reconstruction, and prioritization of tourism infrastructure over resident housing.
 
-- **Iterative Design** — A design methodology based on repeated cycles of prototyping, testing, and refinement informed by community feedback and evolving conditions.
+- **Integrated Water Systems** — A holistic approach combining flood control, ecological preservation, drought resilience, and community accessibility. For Lahaina, this means leveraging both natural systems (streams, wetlands, groundwater) and engineered infrastructure (storage, distribution, capture) to restore hydrological continuity.
 
-- **Node-Based Planning** — An urban planning approach that organizes neighborhoods around community anchors — schools, health centers, markets — connected by mobility networks.
+- **Iterative Design** — A cyclical methodology emphasizing continuous refinement through feedback and testing. The process moves through phases of diagnosis, projection, implementation, and synthesis, allowing recovery solutions to adapt as conditions evolve.
 
-- **Permeable Frameworks** — Planning and design systems that allow flexibility, adaptation, and community agency rather than imposing rigid, top-down solutions.
+- **Land Ownership Complexities** — The overlapping interests of private, public, and indigenous landowners that complicate recovery. In Lahaina, fragmented tenure, historic claims, and speculative pressure require navigation of multiple legal and cultural frameworks simultaneously.
 
-- **Post-Disaster Urbanism** — The field of urban design and planning focused on reconstruction, resilience, and transformation in the aftermath of natural or human-caused disasters.
+- **Node-Based Planning** — An urban design strategy creating interconnected spaces serving as catalysts for community cohesion. Nodes in Lahaina's recovery include water infrastructure, housing clusters, schools, health facilities, and cultural hubs distributed across the rebuilt town.
 
-- **Resilient Housing** — Housing designed to withstand future hazards while remaining affordable, culturally appropriate, and adaptable to changing household needs.
+- **Permeable Frameworks** — Urban systems managing water through distributed infiltration, retention, and conveyance rather than centralized pipe-and-pump infrastructure.
 
-- **Slow Mobility Networks** — Transportation infrastructure prioritizing walking, cycling, and low-speed transit over automobile dependence, designed to enhance community connectivity and reduce environmental impact.
+- **Post-Disaster Urbanism** — The study and design of cities following catastrophic events, examining how disasters expose systemic vulnerabilities and how reconstruction can restructure the conditions that produced them.
 
-- **Social Cohesion** — The strength of relationships, trust, and shared identity within a community, recognized as a critical factor in disaster recovery and long-term resilience.
+- **Resilient Housing** — Housing designed to withstand environmental stressors and adapt to future risks, including fire-resistant construction, elevated foundations in flood-prone zones, and modular designs addressing both immediate displacement and long-term sustainability.
 
-- **Vulnerability Cycles** — Recurring patterns in which systemic failures in infrastructure, policy, and social systems compound over time, increasing a community's exposure to future disasters.
+- **Slow Mobility Networks** — Transportation systems prioritizing pedestrians, cyclists, and public transit over private vehicles, integrating with water-sensitive infrastructure to create adaptive frameworks functioning under both normal and emergency conditions.
 
-## Sources & Notes
+- **Social Cohesion** — The strength of relationships and solidarity within a community, fostered through inclusive planning, community-driven interventions, and spatial organization around shared civic spaces.
 
-- Hawaiian language definitions: Mary Kawena Pukui and Samuel H. Elbert, *Hawaiian Dictionary* (University of Hawaiʻi Press, 1986).
-- Land tenure context: Lilikalā Kameʻeleihiwa, *Native Land and Foreign Desires* (Bishop Museum Press, 1992).
-- Agricultural systems: Patrick Vinton Kirch, *Feathered Gods and Fishhooks* (University of Hawaiʻi Press, 1985).
-- Mālama ʻāina ethic: Kamanamaikalani Beamer, *No Mākou Ka Mana* (2014).
+- **Sustainable Urbanism** — An approach integrating environmental, economic, and social sustainability through ecological preservation, climate-adaptive infrastructure, and equitable land-use policies.
+
+- **Vulnerability Cycles** — Recurring patterns of risk and recovery failure caused by systemic weaknesses in infrastructure, planning, and governance. Breaking these cycles requires addressing root causes rather than treating each disaster as isolated.
+
+## Acronyms and Abbreviations
+
+| Acronym | Definition |
+|---------|-----------|
+| CDBG-DR | Community Development Block Grant – Disaster Relief |
+| CDP | Census-Designated Place |
+| CWPP | Community Wildfire Protection Plan |
+| CWRM | Commission on Water Resource Management |
+| DBEDT | State of Hawaiʻi Department of Business, Economic Development, and Tourism |
+| DEM | County of Maui Department of Environmental Management |
+| DLNR | State of Hawaiʻi Department of Land and Natural Resources |
+| DOE | State of Hawaiʻi Department of Education |
+| DOH | State of Hawaiʻi Department of Health |
+| DOT | Department of Transportation |
+| DPW | County of Maui Department of Public Works |
+| EDA | U.S. Economic Development Administration |
+| ERC | Economic Recovery Commission |
+| FEMA | Federal Emergency Management Agency |
+| HI-EMA | State of Hawaiʻi Emergency Management Agency |
+| HUD | U.S. Department of Housing and Urban Development |
+| HWMO | Hawaiʻi Wildfire Management Organization |
+| LIHTC | Low-Income Housing Tax Credits |
+| LTRP | Long-Term Recovery Plan |
+| MEMA | Maui Emergency Management Agency |
+| MFD | County of Maui Department of Fire and Public Safety |
+| NEA | National Endowment for the Arts |
+| NHHBG | Native Hawaiian Housing Block Grant |
+| NHLD | National Historic Landmark District |
+| NPS | National Park Service |
+| NRCS | Natural Resources Conservation Service |
+| OED | County of Maui Office of Economic Development |
+| RSF | Recovery Support Function |
+| TCP | Traditional Cultural Properties |
+| TVR | Transient Vacation Rental |
+| USACE | U.S. Army Corps of Engineers |
+| USDA | U.S. Department of Agriculture |
+| WMCP | West Maui Community Plan |
+| WUI | Wildland-Urban Interface |
+
+## Glossary of Hawaiian Language Words
+
+| Term | Definition |
+|------|-----------|
+| ʻāina | Land, earth |
+| aliʻi | Chief, chiefess, ruler, monarch; royal, aristocratic |
+| ahupuaʻa | Traditional land division extending from mountain to sea |
+| Great Māhele | The great land division of 1848, which restructured Hawaiian land tenure |
+| ʻike | To see, know, feel, recognize, perceive, understand |
+| kanikapila | To play or make music |
+| kauaʻula | A strong wind from the mountains, caused by trade winds breaking over the West Maui peaks; often destructive at Lahaina |
+| keiki | Child |
+| kona | Leeward sides of the Hawaiian Islands |
+| kuleana | Right, privilege, concern, responsibility |
+| kūpuna | Elder, grandparent, ancestor |
+| lāhui | Nation, race, tribe, people |
+| lele | To fly, to jump; also the traditional name for Lahaina |
+| loʻi kalo | Irrigated terrace for taro cultivation |
+| lomilomi | Traditional Hawaiian massage |
+| mālama ʻāina | Care for the land; environmental stewardship |
+| makai | Toward the ocean; the seaward direction |
+| mauka | Toward the mountain; the inland direction |
+| moku | District; a subdivision of an island |
+| wai | Fresh water; wealth |

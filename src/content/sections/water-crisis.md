@@ -12,23 +12,15 @@ tags:
   type: [analysis]
 ---
 
-Water is the single biggest obstacle to Lahaina's recovery. The numbers tell the story: current water demand exceeds reliable supply capacity by 41.8%.
+The most immediate constraint on recovery is water supply. West Maui operates under a Stage 2 Water Shortage declaration—structural acknowledgment that demand exceeds sustainable supply. The numbers are unambiguous. The West Maui Water System has a Maximum Reliable Capacity of 4.26 million gallons per day. Projected demand for 2027—assuming rebuilding of lost homes and fulfillment of DHHL reservations—is 6.04 MGD. The deficit of 1.78 MGD prohibits issuance of new water meters, acting as a hard brake on development beyond what was previously permitted.
 
-In June 2022, the Commission on Water Resource Management (CWRM) designated the entire Lahaina Aquifer Sector as a Surface and Ground Water Management Area. This placed all water withdrawals under state-level regulatory control — a recognition of just how severe the deficit had become.
+| Metric | Volume (MGD) | Status |
+|---|---|---|
+| Max Reliable Capacity (MRC) | 4.26 | Baseline limit |
+| Pre-Fire Demand (Avg) | 5.50 | Exceeds MRC (129%) |
+| Projected Demand 2027 | 6.04 | Exceeds MRC (141.8%) |
+| Deficit | -1.78 | Critical shortage |
 
-The Stage 2 Water Shortage Declaration, effective September 2025, made the crisis tangible: the Department of Water Supply explicitly stated that "new or additional water service in West Maui cannot currently be processed." This means new water meters for rebuilt homes cannot be issued. Thousands of displaced residents cannot return home not because their lots aren't cleared, but because there is no water to serve new construction.
+The June 2022 designation of the Lahaina Aquifer Sector as a Water Management Area shifted from County to State Commission on Water Resource Management. Water is no longer guaranteed right attached to land ownership. All users must apply for Water Use Permits; the Commission must prioritize public trust purposes—traditional usage, DHHL allocations—over other uses. The Kahana Well, coming online early 2026 with 0.96 MGD capacity, will reduce but not eliminate the deficit.
 
-Reliable capacity stands at approximately 4.26 million gallons per day (MGD), while demand runs at roughly 6.04 MGD. Even with the projected Kahana Well coming online in 2026, the deficit would only reduce to approximately 15.7% — still insufficient for full recovery.
-
-The Iao Water Management Rule establishes tiered triggers: at 95% of sustainable yield, a Caution status triggers development restrictions. At 98%, new water meters are frozen. Lahaina has blown past both thresholds. The rule also permits surcharges of 3x to 20x the highest block rate during shortage periods, and penalties up to service termination for repeated violations.
-
-This is the paradox the thesis addresses: West Maui receives enormous rainfall at elevation, but virtually none of it reaches the town. The plantation-era ditch system captured mountain water for sugarcane — water that never served the community after the mill closed. Recovery requires not just building new pipes, but fundamentally redesigning how water moves from mountain to coast.
-
-## Sources & Notes
-
-- Stage 2 Water Shortage Declaration: Maui County Department of Water Supply, September 2025.
-- Aquifer designation: State of Hawaiʻi Commission on Water Resource Management, Lahaina Aquifer Sector, June 2022.
-- 3-Year water usage forecast: Maui County Department of Water Supply, November 2025.
-- Pump failure during fire: PBS FRONTLINE, "Maui's Deadly Firestorm" (2024); Maui Recovers, "Lahaina Water Infrastructure Resilience and Hardening."
-- HDPE pipe contamination: Fire Safety Research Institute, "Lahaina Fire Incident Analysis Report."
-- Ditch infrastructure history: WSP USA Inc., *Reconnaissance Level Architectural Historic Resource Survey* (October 2024); Pioneer Mill Company records.
+The system failed during the fire due to power loss stopping pumps and melting of HDPE lateral lines causing depressurization. Hydrants ran dry. Negative pressure pulled combustion byproducts—volatile organic compounds including benzene—into water mains, contaminating the grid.

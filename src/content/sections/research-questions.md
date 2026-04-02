@@ -12,31 +12,16 @@ tags:
   type: [documentation]
 ---
 
+A contradiction runs through post-disaster literature: recovery frameworks that succeed in one context often fail when transplanted to another, yet the underlying vulnerabilities — infrastructure neglect, housing precarity, fragmented governance — recur with striking consistency. Lahaina exhibits all of these. Five questions structure the investigation:
+
 ## Research Questions
 
 1. How can Lahaina's recovery address systemic vulnerabilities in infrastructure, water management, and housing to ensure resilience against future disasters?
-2. What role can cultural and historical identity play in shaping Lahaina's recovery framework?
-3. How can global precedents (New Orleans post-Katrina, Kobe 1995) inform Lahaina's recovery strategies?
-4. How can recovery efforts balance land ownership, zoning, and economic disparities to avoid disaster gentrification?
-5. What methodologies can best integrate community participation, stakeholder engagement, and technical expertise?
+2. What role should cultural and historical identity play in shaping the reconstruction framework, and how can heritage sites operate as functional elements of the rebuilt town rather than preserved artifacts?
+3. What models from post-disaster contexts such as New Orleans and Kobe demonstrate transferable strategies for resilient, community-grounded recovery?
+4. How can recovery efforts prevent displacement and long-term inequity in a landscape where land tenure is fragmented, housing precarity is high, and redevelopment pressures are accelerating? This question has no easy answer, but it cannot be avoided.
+5. What methods support meaningful integration of community participation with technical planning across multiple scales of intervention?
 
-## Hypotheses
+## Hypothesis
 
-**H1:** A multi-scale recovery plan integrating water management, green infrastructure, and resilient housing can rebuild Lahaina while addressing vulnerabilities exposed by the wildfire.
-
-**H2:** Incorporating Lahaina's cultural identity (Native Hawaiian traditions, historic preservation, community heritage) into the recovery framework strengthens social cohesion and long-term resilience.
-
-**H3:** Global precedents such as New Orleans post-Katrina and Kobe 1995 provide actionable strategies for phased reconstruction, community engagement, and infrastructure design applicable to Lahaina.
-
-**H4:** Equitable recovery policies that prioritize affordable housing, community land trusts, and anti-displacement measures can prevent disaster gentrification.
-
-**H5:** An iterative, participatory methodology that integrates community input with technical expertise produces more equitable and sustainable recovery outcomes.
-
-## Sources & Notes
-
-- Adaptive recovery frameworks: Laurie A. Johnson and Robert B. Olshansky, *After Great Disasters* (Lincoln Institute of Land Policy, 2010), 15–32.
-- Ahupuʻa system as model: Office of Hawaiian Affairs, Kipuka Database, accessed 2024.
-- Cultural continuity: Kamanamaikalani Beamer, *No Mākou Ka Mana* (2014), 45–78.
-- Disaster gentrification: Kevin Fox Gotham, "Disaster, Inc.," *Perspectives on Politics* 10, no. 3 (2012): 633–646.
-- Water systems integration: Waggonner & Ball Architects, *Greater New Orleans Urban Water Plan* (2013), 42–58.
-- Iterative methodology: Iñaki Alday and Pankaj Vir Gupta, *Yamuna River Project* (2018), 112–134.
+The working hypothesis is that integrated water systems and resilient housing — structured around a clear multi-scalar framework — form the foundation of long-term recovery. Cultural identity and historical continuity, when treated as operational components rather than symbolic references, strengthen the legitimacy and social cohesion of reconstruction. Lessons from global precedents indicate that recovery efforts anchored in community-driven processes and adaptive design perform more consistently over time and resist common cycles of post-disaster inequity. Iterative, multi-scalar methodologies — moving from regional systems through district organization to site-specific interventions — enhance the adaptability and coherence of the recovery framework.
