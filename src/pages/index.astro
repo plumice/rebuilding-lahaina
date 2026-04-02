@@ -13,16 +13,16 @@ const featured = drawings.slice(0, 3);
   <!-- HERO WITH FLOATING NEWS BULLETIN -->
   <div class="relative">
     <!-- Hero background -->
-    <div class="min-h-[90vh] flex flex-col justify-center px-6 md:px-16 pt-20 pb-32 relative overflow-hidden"
+    <div class="min-h-[90vh] flex flex-col justify-end px-6 md:px-16 pb-16 pt-20 relative overflow-hidden"
       style="background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0.9) 70%, #ffffff 100%), linear-gradient(135deg, #f5f0eb 0%, #ffffff 100%);">
 
-      <div class="relative z-10 grid grid-cols-1 lg:grid-cols-[1fr_380px] gap-10 max-w-6xl mx-auto items-end">
-        <!-- Left: Title and intro -->
+      <div class="relative z-10 grid grid-cols-1 lg:grid-cols-[1fr_440px] gap-12 max-w-7xl mx-auto w-full items-end">
+        <!-- Left bottom corner: Title and intro -->
         <div>
           <h1 class="font-serif text-[clamp(2.4rem,5vw,4.2rem)] font-normal leading-[1.15] mb-6">
             Rebuilding <em class="text-accent italic">Lahaina</em>
           </h1>
-          <p class="text-lg md:text-xl text-text-muted leading-relaxed mb-8 max-w-2xl">
+          <p class="text-lg md:text-xl text-text-muted leading-relaxed mb-8 max-w-xl">
             After the 2023 wildfire, Lahaina needs a path forward. This project proposes a recovery plan addressing water systems, housing, infrastructure, and community resilience — built from research, data, and the land itself.
           </p>
           <div class="flex flex-wrap gap-3">
@@ -38,8 +38,8 @@ const featured = drawings.slice(0, 3);
           </p>
         </div>
 
-        <!-- Right: Floating news bulletin -->
-        <div class="lg:-mb-20 relative z-20">
+        <!-- Right: Floating news bulletin (bigger) -->
+        <div class="lg:-mb-24 relative z-20">
           <NewsBulletin />
         </div>
       </div>
