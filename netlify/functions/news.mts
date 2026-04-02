@@ -32,6 +32,7 @@ export default async function handler(req: Request, _context: Context) {
       const url = `https://news.google.com/rss/search?q=${query}&hl=en-US&gl=US&ceid=US:en`;
       const resp = await fetch(url, {
         headers: { "User-Agent": "Mozilla/5.0 (compatible; RebuildingLahaina/1.0)" },
+        signal: AbortSignal.timeout(5000),
       });
 
       if (!resp.ok) continue;

@@ -25,6 +25,7 @@ const navLinks = [
             'text-text-muted no-underline text-sm font-medium transition-colors hover:text-text',
             { 'text-text': pathname.startsWith(href) },
           ]}
+          aria-current={pathname.startsWith(href) ? 'page' : undefined}
         >
           {label}
         </a>
@@ -63,6 +64,7 @@ const navLinks = [
         'text-2xl font-serif no-underline transition-colors hover:text-accent',
         pathname.startsWith(href) ? 'text-accent' : 'text-text',
       ]}
+      aria-current={pathname.startsWith(href) ? 'page' : undefined}
     >
       {label}
     </a>

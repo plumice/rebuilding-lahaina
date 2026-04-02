@@ -1,5 +1,5 @@
 ---
-title: "Composite Regional Analysis"
+title: "Composite Regional Systems Overlay"
 image: "/images/drawings/updated_regional_composite.jpg"
 alt: "Combined overlay of topography, rainfall, streams, and sea level rise identifying constraint zones"
 scaleLevel: "regional"

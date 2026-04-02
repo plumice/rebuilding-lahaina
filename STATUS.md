@@ -16,7 +16,7 @@
 | Sections (thesis text) | 29 |
 | Drawings | 60 |
 | Sources (bibliography) | 48 |
-| Terms (glossary) | 18 |
+| Terms (glossary) | 21 |
 | Timeline events | 9 |
 | Topics | 11 |
 | Scales | 5 |
@@ -58,7 +58,7 @@ thesis-website/
 │   │   ├── sections/    (29)   # Thesis text with endnotes
 │   │   ├── drawings/    (60)   # Drawing metadata + image refs
 │   │   ├── sources/     (48)   # Complete bibliography
-│   │   ├── terms/       (18)   # Glossary
+│   │   ├── terms/       (21)   # Glossary
 │   │   ├── timeline/     (9)   # Historical events
 │   │   ├── maps/         (1)   # Interactive map configs
 │   │   ├── topics/      (11)   # Topic page intros
@@ -133,7 +133,7 @@ thesis-website/
 - 29 thesis sections with endnotes/citations on every page
 - 60 drawing entries — all verified against actual slide images
 - 48 sources — complete thesis bibliography
-- 18 terms, 9 timeline events, 11 topics, 5 scales
+- 21 terms, 9 timeline events, 11 topics, 5 scales
 - Light theme, WCAG AA accessible, mobile-friendly
 - Cover rendering as hero image
 - News bulletin floating on homepage
@@ -145,7 +145,7 @@ thesis-website/
 
 1. **Deploy to Netlify** — connect repo from netlify.app dashboard
 2. **Thesis PDF hosting** — 204MB, needs Netlify Large Media or external link
-3. **GIS data** — export from ArcGIS Pro or embed ArcGIS Online map
+3. ~~**GIS data**~~ — DONE: streams (70 features) + ditches (213 features) from Hawaii State GIS
 4. **Mobile testing** — test on actual devices
 5. **Custom domain** — optional
 

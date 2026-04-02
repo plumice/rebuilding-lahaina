@@ -14,8 +14,9 @@ const { src, alt, title } = Astro.props;
     alt={alt}
     class="w-full h-auto cursor-zoom-in zoomable"
     loading="lazy"
+    tabindex="0"
     role="button"
-    aria-label={`Click to enlarge: ${title}`}
+    aria-label={`Press Enter to enlarge: ${title}`}
   />
   <figcaption class="mt-3 text-[0.8rem] text-text-muted tracking-wide">
     {title}
@@ -24,8 +25,16 @@ const { src, alt, title } = Astro.props;
 
 <script>
   import mediumZoom from 'medium-zoom';
-  mediumZoom('.zoomable', {
+  const zoom = mediumZoom('.zoomable', {
     background: 'rgba(255, 255, 255, 0.95)',
     margin: 24,
+  });
+  document.querySelectorAll('.zoomable').forEach((img) => {
+    img.addEventListener('keydown', (e) => {
+      if (e.key === 'Enter' || e.key === ' ') {
+        e.preventDefault();
+        zoom.open({ target: img });
+      }
+    });
   });
 </script>
