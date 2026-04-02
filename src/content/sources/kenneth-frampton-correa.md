@@ -1,5 +1,5 @@
 ---
-title: "Charles Correa"
+title: "Charles Correa (Frampton Critical Analysis)"
 author: "Frampton, Kenneth"
 publisher: "Perennial Press, 2000"
 sourceType: "book"
