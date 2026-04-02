@@ -1,6 +1,6 @@
 ---
 title: "Post-Fire Aerial View"
-image: "/images/drawings/complete_ppt/Slide22.JPG"
+image: "/images/drawings/postfire_aerial_satellite.jpg"
 alt: "Satellite image of Lahaina after the 2023 wildfire showing extent of burn damage"
 scaleLevel: "town"
 drawingType: "photography"

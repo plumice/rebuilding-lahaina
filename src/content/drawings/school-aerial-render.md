@@ -1,6 +1,6 @@
 ---
 title: "Elementary School — Aerial View"
-image: "/images/drawings/complete_ppt/Slide69.JPG"
+image: "/images/drawings/complete_ppt/Slide68.JPG"
 alt: "Aerial perspective rendering of the proposed elementary school and surrounding neighborhood"
 scaleLevel: "node"
 drawingType: "rendering"

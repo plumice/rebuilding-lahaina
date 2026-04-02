@@ -1,6 +1,6 @@
 ---
 title: "Before & After Site Documentation"
-image: "/images/drawings/complete_ppt/Slide22.JPG"
+image: "/images/drawings/postfire_aerial_satellite.jpg"
 alt: "Photographic documentation comparing Lahaina locations before and after the wildfire"
 scaleLevel: "town"
 drawingType: "photography"
