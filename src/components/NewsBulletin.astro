@@ -1,73 +1,72 @@
 ---
 ---
 
-<section class="max-w-4xl mx-auto px-6 py-16">
-  <div class="flex items-baseline justify-between mb-6">
-    <h2 class="font-serif text-2xl">Latest Maui & Lahaina News</h2>
-    <span id="news-status" class="text-sm text-text-muted">Loading...</span>
-  </div>
-
-  <div id="news-feed" class="space-y-0 border border-border rounded overflow-hidden">
-    <!-- Skeleton loading state -->
-    <div class="news-skeleton">
-      {Array.from({ length: 4 }).map(() => (
-        <div class="p-4 border-b border-border animate-pulse">
-          <div class="h-4 bg-surface rounded w-3/4 mb-2" />
-          <div class="h-3 bg-surface rounded w-1/3" />
-        </div>
-      ))}
+<section class="bg-surface border-y border-border">
+  <div class="max-w-4xl mx-auto px-6 py-10">
+    <div class="flex items-center justify-between mb-5">
+      <div class="flex items-center gap-3">
+        <span class="inline-block w-2.5 h-2.5 rounded-full bg-red-500 animate-pulse" aria-hidden="true"></span>
+        <h2 class="font-serif text-2xl">Maui & Lahaina News</h2>
+      </div>
+      <span id="news-status" class="text-sm text-text-muted">Loading...</span>
     </div>
-  </div>
 
-  <p class="text-xs text-text-muted mt-3">
-    News sourced from Google News. Updates automatically.
-  </p>
+    <div id="news-feed" class="bg-bg border border-border rounded overflow-hidden">
+      <!-- Skeleton loading state -->
+      <div class="news-skeleton">
+        {Array.from({ length: 5 }).map(() => (
+          <div class="p-4 border-b border-border animate-pulse">
+            <div class="h-4 bg-surface rounded w-3/4 mb-2" />
+            <div class="h-3 bg-surface rounded w-1/3" />
+          </div>
+        ))}
+      </div>
+    </div>
+
+    <p class="text-xs text-text-muted mt-3">
+      Live news from Google News — updates automatically every visit.
+    </p>
+  </div>
 </section>
 
 <script is:inline>
   (async function loadNews() {
-    const feed = document.getElementById('news-feed');
-    const status = document.getElementById('news-status');
+    var feed = document.getElementById('news-feed');
+    var status = document.getElementById('news-status');
     if (!feed || !status) return;
 
     try {
-      // Use Netlify function in production, fallback for local dev
-      const isLocal = window.location.hostname === 'localhost';
-      const url = isLocal
-        ? 'https://news.google.com/rss/search?q=Lahaina+Maui&hl=en-US&gl=US&ceid=US:en'
+      var isLocal = window.location.hostname === 'localhost';
+      var url = isLocal
+        ? null
         : '/.netlify/functions/news';
 
-      let items = [];
-
       if (isLocal) {
-        // In local dev, show a placeholder message
-        feed.innerHTML = `
-          <div class="p-6 text-center text-text-muted">
-            <p class="text-sm">News feed loads from Netlify in production.</p>
-            <p class="text-sm mt-1">Deploy to Netlify to see live news.</p>
-          </div>
-        `;
+        feed.innerHTML =
+          '<div class="p-6 text-center text-text-muted">' +
+            '<p class="text-sm font-medium mb-1">Live News Updates</p>' +
+            '<p class="text-sm">News feed activates when the site is deployed to Netlify.</p>' +
+          '</div>';
         status.textContent = 'Preview mode';
         return;
       }
 
-      const resp = await fetch(url);
-      const data = await resp.json();
-      items = data.items || [];
+      var resp = await fetch(url);
+      var data = await resp.json();
+      var items = data.items || [];
 
       if (items.length === 0) {
-        feed.innerHTML = `
-          <div class="p-6 text-center text-text-muted">
-            <p class="text-sm">No recent news available right now. Check back later.</p>
-          </div>
-        `;
+        feed.innerHTML =
+          '<div class="p-6 text-center text-text-muted">' +
+            '<p class="text-sm">No recent news available right now. Check back later.</p>' +
+          '</div>';
         status.textContent = '';
         return;
       }
 
       feed.innerHTML = items.map(function(item) {
-        const date = item.date ? new Date(item.date) : null;
-        const timeAgo = date ? formatTimeAgo(date) : '';
+        var date = item.date ? new Date(item.date) : null;
+        var timeAgo = date ? formatTimeAgo(date) : '';
 
         return '<a href="' + item.link + '" target="_blank" rel="noopener noreferrer" ' +
           'class="block p-4 border-b border-border last:border-b-0 no-underline hover:bg-surface transition-colors group">' +
@@ -84,8 +83,11 @@
       status.textContent = 'Updated just now';
 
     } catch (err) {
-      feed.innerHTML = '<div class="p-6 text-center text-text-muted">' +
-        '<p class="text-sm">Unable to load news right now.</p></div>';
+      feed.innerHTML =
+        '<div class="p-6 text-center text-text-muted">' +
+          '<p class="text-sm font-medium mb-1">News Unavailable</p>' +
+          '<p class="text-xs">Please try refreshing the page.</p>' +
+        '</div>';
       status.textContent = '';
     }
   })();
