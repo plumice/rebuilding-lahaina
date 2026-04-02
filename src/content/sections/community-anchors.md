@@ -2,25 +2,24 @@
 title: "Community Anchors — Node-Based Urbanism"
 chapter: "ch2-overview"
 order: 3
-summary: "How community hubs and spatial anchors foster social cohesion in post-disaster recovery."
-relatedDrawings: []
-relatedSources: []
-relatedTerms: []
+summary: "How distributing essential functions across multiple nodes prevents simultaneous loss and serves both daily life and crisis response."
+relatedDrawings: ["hub-locations", "redensification-plan"]
+relatedSources: ["coming-home-new-orleans"]
+relatedTerms: ["node-based-planning"]
 tags:
-  topic: [housing, recovery]
-  scale: [town, node]
+  topic: [housing, infrastructure, recovery]
+  scale: [district, town]
   type: [precedent]
 ---
 
-Node-based urbanism places community facilities — schools, health centers, markets — as anchors that structure neighborhood life. In post-disaster contexts, these nodes serve dual functions: everyday community service and emergency response infrastructure.
+The fire removed Princess Nāhiʻenaʻena Elementary, the civic center, and the commercial core in the same burn event because they occupied the same zone. Concentration produced simultaneous loss. The recovery framework distributes essential functions across multiple sites to prevent recurrence.
 
-Precedents include Medellín's Library Parks, which transformed informal settlements through strategic placement of public facilities that catalyzed surrounding development. Singapore's Park Connector Network demonstrates how green corridors linking community nodes create both recreational infrastructure and emergency evacuation routes. The Netherlands' Room for the River program shows how water infrastructure can simultaneously serve ecological, recreational, and flood protection functions.
+Functional nodes pair daily program with emergency capacity. A school contains classrooms, but it also contains large interior volumes, commercial kitchens, backup power connections, and water storage — the same infrastructure required for emergency shelter. Separating these functions produces redundant buildings: a school that sits empty during crisis, a shelter that sits empty during daily life. Combining them produces a single facility maintained through constant use. The framework proposes three functional node types distributed across the redensification zone: primary school with neighborhood center, health services with first response, and first response with neighborhood center. Each operates independently when others fail.
 
-For Lahaina, the community anchor model translates into a network of three hub typologies: primary schools with health services, first response centers, and mixed-use community facilities — each positioned within walkable distance of residential areas and connected by the proposed boulevard and green corridor system.
+## Precedents
 
-## Sources & Notes
+The node-based strategy draws on precedents studied during the thesis research. Medellín's Library Parks transformed informal settlements through strategic placement of public facilities that catalyzed surrounding development. Singapore's Park Connector Network demonstrates how green corridors linking community nodes create both recreational infrastructure and emergency evacuation routes. The Netherlands' Room for the River program shows how water infrastructure can simultaneously serve ecological, recreational, and flood protection functions.
 
-- Water park as public infrastructure: Iñaki Alday, Margarita Jover, and Christine Dalnoky, *El parque del agua* (Actar, 2008), 34–56.
-- Urban ecology methodology: Iñaki Alday and Pankaj Vir Gupta, *Yamuna River Project* (Actar Publishers, 2018), on node-based planning, 156–178.
-- Displacement risks: D. Asher Ghertner, *Rule by Aesthetics* (Oxford University Press, 2015).
-- Ahupuʻa as watershed infrastructure: Kamanamaikalani Beamer, *No Mākou Ka Mana* (2014).
+## Cultural Nodes
+
+Cultural nodes treat heritage sites as operational infrastructure rather than preserved artifacts. Mokuʻula was a royal residence built on a spring-fed island within Mokuhinia wetland; the wetland was drained and filled in 1914. Restoration is typically framed as historical recovery. The framework reframes it as water infrastructure: the same excavation that exposes the buried pond creates retention capacity, groundwater recharge, and coastal buffer function. The Banyan Tree survived the fire and now anchors the cleared waterfront. Programming the surrounding territory as civic space — markets, gathering, ceremony — ensures the tree receives daily maintenance rather than monument-status neglect.
