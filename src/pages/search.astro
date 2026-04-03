@@ -11,16 +11,16 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
     <div id="search" class="min-h-[400px]"></div>
     <noscript><p class="text-text-muted">Search requires JavaScript.</p></noscript>
-
-    <script is:inline type="module">
-      import { PagefindUI } from '/pagefind/pagefind-ui.js';
-      new PagefindUI({
-        element: '#search',
-        showSubResults: true,
-        showImages: false,
-      });
-    </script>
   </section>
+
+  <script is:inline src="/pagefind/pagefind-ui.js"></script>
+  <script is:inline>
+    new PagefindUI({
+      element: "#search",
+      showSubResults: true,
+      showImages: false
+    });
+  </script>
 </BaseLayout>
 
 <style is:global>
