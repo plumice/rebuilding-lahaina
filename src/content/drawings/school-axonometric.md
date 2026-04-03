@@ -4,9 +4,9 @@ image: "/images/drawings/complete_ppt/Slide68.JPG"
 alt: "3D isometric view of the complete elementary school complex with surrounding landscape"
 scaleLevel: "node"
 drawingType: "axonometric"
-relatedSections: ["design-interventions", "module-system"]
+relatedSections: ["design-interventions", "module-system", "school-design-detail"]
 tags:
-  topic: [housing, recovery]
+  topic: [recovery]
   scale: [node]
   type: [proposal]
 ---

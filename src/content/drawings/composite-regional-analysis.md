@@ -4,7 +4,7 @@ image: "/images/drawings/updated_regional_composite.jpg"
 alt: "Combined systems map identifying developable edges and constraint zones across West Maui"
 scaleLevel: "regional"
 drawingType: "composite-map"
-relatedSections: ["pioneer-mill-water-infrastructure"]
+relatedSections: ["environmental-analysis", "multi-scalar-diagnostic"]
 tags:
   topic: [water, coastal, ecology]
   scale: [regional]

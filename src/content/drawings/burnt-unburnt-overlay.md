@@ -4,7 +4,7 @@ image: "/images/drawings/updated_local_fire.jpg"
 alt: "Map showing burned and unburned structures across Lahaina after the 2023 wildfire"
 scaleLevel: "town"
 drawingType: "figure-ground"
-relatedSections: ["history-of-lahaina"]
+relatedSections: ["history-of-lahaina", "fire-analysis"]
 tags:
   topic: [fire, recovery]
   scale: [town]

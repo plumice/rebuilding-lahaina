@@ -2,9 +2,9 @@
 title: "Sections — Before, Current, Proposed"
 image: "/images/drawings/complete_ppt/Slide55.JPG"
 alt: "Three cross-sections comparing Lahaina before the fire, current condition, and proposed recovery"
-scaleLevel: "site"
+scaleLevel: "district"
 drawingType: "section"
-relatedSections: ["design-interventions"]
+relatedSections: ["design-interventions", "buffer-framework"]
 tags:
   topic: [recovery, coastal, housing]
   scale: [site]

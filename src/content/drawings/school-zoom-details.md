@@ -4,9 +4,9 @@ image: "/images/drawings/complete_ppt/Slide60.JPG"
 alt: "Detailed zoom views of school functional areas: health offices, cafeteria, classrooms, and gymnasium"
 scaleLevel: "node"
 drawingType: "architectural-plan"
-relatedSections: ["design-interventions"]
+relatedSections: ["design-interventions", "school-design-detail"]
 tags:
-  topic: [housing, recovery]
+  topic: [recovery, infrastructure]
   scale: [node]
   type: [proposal]
 ---

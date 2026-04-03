@@ -4,7 +4,7 @@ image: "/images/drawings/updated_local_mobility_proposed.jpg"
 alt: "Redesigned street hierarchy with new boulevard, pedestrian promenade, and multiple evacuation routes"
 scaleLevel: "town"
 drawingType: "plan"
-relatedSections: ["water-green-mobility-systems"]
+relatedSections: ["water-green-mobility-systems", "mobility-street-design"]
 tags:
   topic: [mobility, infrastructure]
   scale: [town]

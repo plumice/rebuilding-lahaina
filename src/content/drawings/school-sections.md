@@ -4,9 +4,9 @@ image: "/images/drawings/complete_ppt/Slide63.JPG"
 alt: "Two cross-sections through the elementary school showing modular roof forms and spatial organization"
 scaleLevel: "node"
 drawingType: "section"
-relatedSections: ["design-interventions", "module-system"]
+relatedSections: ["design-interventions", "module-system", "school-design-detail"]
 tags:
-  topic: [housing]
+  topic: [recovery, infrastructure]
   scale: [node]
   type: [proposal]
 ---

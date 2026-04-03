@@ -4,7 +4,7 @@ image: "/images/drawings/complete_ppt/Slide58.JPG"
 alt: "Technical drawings showing roof connections, gutter details, and wall-column joinery"
 scaleLevel: "node"
 drawingType: "detail"
-relatedSections: ["module-system"]
+relatedSections: ["module-system", "module-assembly-rules"]
 tags:
   topic: [housing, cultural-heritage]
   scale: [node]

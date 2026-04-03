@@ -6,7 +6,7 @@ scaleLevel: "town"
 drawingType: "diagram"
 relatedSections: ["redensification-hubs"]
 tags:
-  topic: [housing]
+  topic: [housing, recovery]
   scale: [town, site]
   type: [proposal]
 ---

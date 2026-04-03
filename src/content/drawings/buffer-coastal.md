@@ -4,9 +4,9 @@ image: "/images/drawings/updated_local_coastal.jpg"
 alt: "Plan showing the coastal buffer zone defined by sea level rise projections and Wainee Street boundary"
 scaleLevel: "town"
 drawingType: "plan"
-relatedSections: ["buffer-framework"]
+relatedSections: ["buffer-framework", "environmental-analysis"]
 tags:
-  topic: [coastal]
+  topic: [coastal, water]
   scale: [town]
   type: [proposal]
 ---
