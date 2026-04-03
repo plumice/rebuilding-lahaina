@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-  <!-- Ditch cross-section: trapezoidal channel with water line -->
-  <path d="M2 8l5 10h10l5-10"/>
-  <!-- Water level -->
-  <path d="M8.5 14.5c1-0.5 2.5-0.5 3.5 0s2.5 0.5 3.5 0"/>
-  <!-- Ground surface -->
-  <path d="M1 8h22"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+  <rect width="24" height="24" rx="4" fill="currentColor"/>
+  <g fill="none" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M3 8.5l5 9h8l5-9"/>
+    <path d="M9 14c1-.5 2.5-.5 3.5 0s2.5.5 3.5 0"/>
+    <path d="M2 8.5h20"/>
+  </g>
 </svg>
