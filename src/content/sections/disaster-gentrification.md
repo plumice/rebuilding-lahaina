@@ -35,3 +35,8 @@ Community organizations have mobilized where government response falls short. La
 ## No Displacement
 
 Lahaina was 83% renter-occupied before the fire. Renters held no deeds, carried no homeowner's insurance, and have no automatic claim in a recovery system structured around property ownership. Over 1,500 families have already relocated off-island permanently. The framework intervenes directly: inclusionary zoning requiring 20% affordable units in any project exceeding ten units; community land trust acquisition prioritized within the coastal buffer; right-of-first-refusal for displaced renters on rebuilt units within their former census tract. Speculative purchases within the burn zone require disclosure of intent and carry anti-flip provisions for 36 months. These mechanisms do not guarantee equity. They make displacement harder to execute and more expensive to pursue.
+
+## Primary Sources
+
+- [Maui Recovers](https://www.mauirecovers.org/)
+- [West Maui Community Plan](https://www.mauicounty.gov/2625/West-Maui-Community-Plan)

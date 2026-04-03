@@ -15,3 +15,7 @@ relatedSections:
 ---
 
 The thesis draws extensively on this report for sea-level rise projections defining the spatial limits of recovery. The report projects 3.2 feet of rise by mid-century under current emissions trajectories. Mapping these projections against Lahaina's coastal zone using the SLR-XA model -- incorporating passive flooding, annual high-wave flooding, and coastal erosion -- defines the seaward boundary of the recovery framework. At 3.2 feet of rise, approximately 3,130 acres of West Maui coastal land face chronic flooding, 780 structures sit within the exposure area, and an estimated 1,600 residents face displacement from flooding independent of fire-related damage.
+
+## External Links
+
+- [Hawaii Sea Level Rise Report](https://climate.hawaii.gov/sea-level-rise/)

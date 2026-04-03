@@ -20,3 +20,7 @@ relatedSections:
 ---
 
 PBS FRONTLINE's "Maui's Deadly Firestorm" is one of the most frequently cited sources throughout the thesis, referenced in over thirty endnotes. The documentary provides primary documentation of the August 8, 2023 fire timeline, infrastructure failures, evacuation collapse, and fatality documentation. The thesis draws on it for evidence of the single-source water distribution network failure and lack of backup capacity, the dead-end streets that functioned as trap points during evacuation, upland routes including Lahaina Luna Road as viable escape paths, the lack of nearby emergency medical capacity and transport delays for injured residents, housing affordability and commuting patterns before the fire, and community response through organizations like Lahaina Strong and Ka Ko'o Maui.
+
+## External Links
+
+- [PBS FRONTLINE](https://www.pbs.org/wgbh/frontline/)

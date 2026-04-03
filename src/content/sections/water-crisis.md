@@ -53,3 +53,8 @@ The system failed during the fire due to power loss stopping pumps and melting o
 | | Irrigation Ditches AR 39 | Early-Mid 20th c. | Variable | Poor | 17 ditch/culvert segments; eroded |
 
 Sources: CWRM Surface Water Diversion Database; CWRM IIFS Decisions (2018, 2019, 2022); WSP USA Inc., Reconnaissance Level Architectural Historic Resource Survey (2024); USGS Stream Gaging Records.
+
+## Primary Sources
+
+- [CWRM Water Management](https://dlnr.hawaii.gov/cwrm/)
+- [Maui County Department of Water Supply](https://www.mauicounty.gov/605/Department-of-Water-Supply)

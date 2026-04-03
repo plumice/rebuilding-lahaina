@@ -101,3 +101,9 @@ Tourism replaced agriculture as the economic base. Short-term vacation rentals e
 Road networks built for a smaller population channeled traffic toward the coast. The municipal water system met normal residential demand but could not sustain simultaneous firefighting draw across multiple hydrants. Electrical infrastructure aged without systematic replacement or fire-risk protocols.
 
 The West Maui Community Plan, adopted in December 2021, preceded the fire but anticipated several conditions now central to recovery. Goal 2.1.5 directs the county to protect shoreline and beaches by preserving waterfront land within the Sea Level Rise Exposure Area (SLR-XA) as open space. Goals 2.1.1 through 2.1.3 restrict new permanent structures within the SLR-XA, require coordination on collective relocation of at-risk structures, and prohibit property owners from holding the county liable for future hazard mitigation costs. These provisions establish a planning framework for managed retreat and adaptive coastal development. The plan also includes a Climate Change and Sea Level Rise Technical Resource Paper that informed policy guidance through community input. The fire accelerated implementation timelines. Whether regulatory apparatus can match that pace determines the gap between planning language and occupied housing.
+
+## Primary Sources
+
+- [FEMA DR-4724 Maui Wildfires](https://www.fema.gov/disaster/4724)
+- [PBS FRONTLINE](https://www.pbs.org/wgbh/frontline/)
+- [Maui Recovers](https://www.mauirecovers.org/)

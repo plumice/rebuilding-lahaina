@@ -57,3 +57,9 @@ Fire is the acute threat; sea-level rise is the chronic constraint defining spat
 | Displaced Persons | 1,600 residents | Need for relocation housing in mauka zones |
 
 The West Maui Community Plan, adopted December 2021, establishes policy framework for this exposure. Goal 2.1.5 designates the SLR-XA zone for preservation as open space, prohibiting new residential construction within the projected flood boundary. The Managed Retreat Revolving Fund,funded by 20 percent of the Transient Accommodations Tax,provides capital to acquire vulnerable properties. In 2025, the County Council approved up to $5 million from this fund for the Lahaina Community Land Trust to acquire shoreline properties.
+
+## Primary Sources
+
+- [Rainfall Atlas of Hawaii](https://rainfall.geography.hawaii.edu/)
+- [Hawaii Sea Level Rise Report](https://climate.hawaii.gov/sea-level-rise/)
+- [Hawaii Statewide GIS Program](https://geoportal.hawaii.gov/)
