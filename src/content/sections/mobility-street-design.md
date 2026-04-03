@@ -28,7 +28,7 @@ The building frontages along the boulevard are set up to have commercial uses on
 
 This street is a strengthened connector that goes north to south. It links the new boulevard to the upland neighborhoods and educational institutions. Lahaina Luna Avenue acts as the primary avenue for the re-densified core. They integrate expanded road width, improved pedestrian safety, and cycling access.
 
-This road helps distributing traffic away from the coastal coast. It is super useful for daily mobility and for emergency circulation. It connects right to Lahainaluna High School and the upland residential areas that survived the fire. This gives an evacuation route to get from the re-densification zone to higher ground. If you look back at the 2023 fire, roads going up like Lahaina Luna Road were pretty much the only viable escape for people trapped coastal blockages. So, the upgraded avenue formalizes that. It has widened lanes and clear signage now to help things distributing. Plus, they intersection improvements to prioritize outbound flow during evacuation.
+This road helps distributing traffic away from the coastal coast. It is super useful for daily mobility and for emergency circulation. It connects right to Lahainaluna High School and the upland residential areas that survived the fire. This gives a evacuation route to get from the re-densification zone to higher ground. If you look back at the 2023 fire, roads going up like Lahaina Luna Road were pretty much the only viable escape for people trapped coastal blockages. So, the upgraded avenue formalizes that. It has widened lanes and clear signage now to help things distributing. Plus, they intersection improvements to prioritize outbound flow during evacuation.
 
 ## New Kahoma Boulevard
 
