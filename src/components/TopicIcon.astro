@@ -8,16 +8,15 @@ interface Props {
 const { topic, size = 'md', class: className = '' } = Astro.props;
 
 const sizeMap = {
-  sm: 'h-4',
-  md: 'h-6',
-  lg: 'h-12',
+  sm: 'w-5 h-5',
+  md: 'w-8 h-8',
+  lg: 'w-12 h-12',
 };
 
 const sizeClass = sizeMap[size] || sizeMap.md;
 
 const topics = ['water', 'fire', 'coastal', 'cultural-heritage', 'ecology', 'housing', 'infrastructure', 'mobility', 'policy', 'recovery', 'zoning'];
 const hasIcon = topics.includes(topic);
-const label = topic.replaceAll('-', ' ');
 ---
 
 {hasIcon && (
@@ -25,7 +24,7 @@ const label = topic.replaceAll('-', ' ');
     src={`/icons/topics/${topic}.png`}
     alt=""
     aria-hidden="true"
-    class:list={[sizeClass, 'w-auto inline-block rounded-sm', className]}
+    class:list={[sizeClass, 'inline-block object-contain', className]}
     loading="lazy"
   />
 )}
