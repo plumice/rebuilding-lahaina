@@ -2,7 +2,7 @@
 title: "Community Hub Operations"
 chapter: "ch5-design"
 order: 7
-summary: "How the three community hubs function daily and convert to emergency facilities — program details, accessibility, and dual-use design."
+summary: "How the three community hubs function daily and convert to emergency facilities , program details, accessibility, and dual-use design."
 relatedDrawings: ["hub-locations", "school-floor-plan", "cumulative-systems"]
 relatedSources: ["after-great-disasters"]
 relatedTerms: ["node-based-planning"]
@@ -11,6 +11,10 @@ tags:
   scale: [site, node]
   type: [proposal]
 ---
+
+## Network of Nodes
+
+Imagine a network where there are community anchors like primary schools, health centers, and emergency response facilities all positioned within walking distance. You can walk to them easily from the re-densified core. These spots essential daily and emergency essential services. They also play a focal point for rebuilding and reinvest the areas around them. The community hub in Lahaina is kind of a community hub post-disaster redevelopment. It's hybridized node but also collective gathering spaces, plus it has resilient infrastructure.
 
 ## Hub 1: Neighborhood Center with Primary School
 

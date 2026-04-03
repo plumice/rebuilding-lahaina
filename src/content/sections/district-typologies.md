@@ -2,7 +2,7 @@
 title: "Three District Typologies"
 chapter: "ch5-design"
 order: 6
-summary: "Boulevard District, Riparian Edge District, and Coastal Edge District — how housing character varies across the recovery zone."
+summary: "Boulevard District, Riparian Edge District, and Coastal Edge District , how housing character varies across the recovery zone."
 relatedDrawings: ["redensification-plan", "housing-typologies", "displacement-analysis"]
 relatedSources: ["west-maui-community-plan"]
 relatedTerms: ["resilient-housing", "disaster-gentrification"]
@@ -22,10 +22,10 @@ Also, multi-family R-3 developments were pretty much stuck in isolated pockets. 
 
 | Zone | Permitted Density | Pattern Type | Fire Vulnerability |
 |---|---|---|---|
-| R-1 | 1 unit / 6,000 sq ft | Dispersed single-family; large setbacks | Moderate — separation aids defensibility |
-| R-2 | 1 unit / 3,500 sq ft | Duplex/small multi-family; reduced setbacks | Elevated — proximity without fire breaks |
-| R-3 | 1 unit / 1,500 sq ft | Clustered multi-family; minimal separation | High — fire spread between attached units |
-| B-CT | Varies by FAR | Mixed tourist/commercial; Front Street corridor | Extreme — continuous building frontage |
+| R-1 | 1 unit / 6,000 sq ft | Dispersed single-family; large setbacks | Moderate , separation aids defensibility |
+| R-2 | 1 unit / 3,500 sq ft | Duplex/small multi-family; reduced setbacks | Elevated , proximity without fire breaks |
+| R-3 | 1 unit / 1,500 sq ft | Clustered multi-family; minimal separation | High , fire spread between attached units |
+| B-CT | Varies by FAR | Mixed tourist/commercial; Front Street corridor | Extreme , continuous building frontage |
 
 ### Housing Tenure and Type Distribution
 

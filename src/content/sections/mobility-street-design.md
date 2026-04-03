@@ -18,7 +18,7 @@ This is a new waterfront route that replaces the former Front Street corridor. B
 
 ## New Boulevard
 
-West Maui jurisdictions are making a primary inland corridor by changing the existing Highway 30. The boulevard becomes Lahaina's primary urban spine — the commercial and civic corridor replacing Front Street's former role, with all major access routes connecting to it. The Lafitte Greenway in New Orleans provides the precedent: an abandoned rail corridor transformed into linear park integrating cycling, pedestrian, and slow-vehicle mobility with stormwater management and community programming. Lahaina's transformation follows this model.
+West Maui / Jurisdictions are making a primary inland corridor by changing the existing Highway 30. The boulevard becomes Lahaina's primary urban spine, the commercial and civic corridor replacing Front Street's former role, with all major access routes connecting to it. The Lafitte Greenway in New Orleans provides the precedent: an abandoned rail corridor transformed into linear park integrating cycling, pedestrian, and slow-vehicle mobility with stormwater management and community programming. Lahaina's transformation follows this model.
 
 Both the West Maui Community Plan and Long-Term Recovery Plan show that Highway 30 is set for a greenway conversion running through West Maui. Lahaina's section will be the urban anchor for a regional multi-modal network. Because the boulevard acts as a primary collector, all the secondary streets feed into single continuous corridor. There are multiple exits at both the northern and southern edges of town. This is the inverse of the pre-fire condition.
 
@@ -32,13 +32,13 @@ This road helps distributing traffic away from the coastal coast. It is super us
 
 ## New Kahoma Boulevard
 
-Kahoma Boulevard is a north-south corridor. It runs right alongside the riparian water park and follows Kahoma Stream. The street connects the new boulevard to the coastal and peri-urban zones. Also, it uses green buffers and stormwater features. This is done for both mobility and ecological function. The street operates as the seam between the redensification zone and the riparian buffer — development frontage on the town side, vegetated edge on the stream side. Crossings are limited to designated nodes, maintaining stream corridor continuity. At these spots, pedestrian bridges could provide access to the riparian park. This is super important because it lets people interrupt stream corridor continuity without messing the natural flow.
+Kahoma Boulevard is a north-south corridor. It runs right alongside the riparian water park and follows Kahoma Stream. The street connects the new boulevard to the coastal and peri-urban zones. Also, it uses green buffers and stormwater features. This is done for both mobility and ecological function. The street operates as the seam between the redensification zone and the riparian buffer, development frontage on the town side, vegetated edge on the stream side. Crossings are limited to designated nodes, maintaining stream corridor continuity. At these spots, pedestrian bridges could provide access to the riparian park. This is super important because it lets people interrupt stream corridor continuity without messing the natural flow.
 
 The boulevard provides as a second spine going north to south. It runs parallel to Lahaina Luna Avenue. This spine is critical because it ensures the re-densification zone to never depend on just a single corridor for emergency egress.
 
 ## New Wainee Street
 
-The located New Wainee Street is below the new boulevard right inside the coastal park zone. It provides direct access to homes, services, and amenities in the waterfront area.
+The located New Wainee Street is below the new boulevard right inside the coastal park zone. It provides direct access to homes, services, and amenities in the waterfront area; refer to the coast to peri-urban proposed section again.
 
 The design pretty much prioritizes low-speed local traffic. It cares a lot about pedestrian safety and making sure there is a seamless connection to things like the coastal promenade and inland routes. Basically, Wainee Street acts as the boundary between the coastal buffer and the re-densification zone. So, if you look at the inland side, that is where the residential frontage is. But then on the coastal side, you have the public park interface. Also, the street is built to emergency vehicle access the coastal park and promenade if they need to. Discouraging traffic, though. Otherwise, it would mess up the pedestrian character of the waterfront.
 
