@@ -8,4 +8,10 @@ relevance: "Early conservation argument with historical landscape photography do
 tags:
   topic: [ecology, cultural-heritage]
   type: [precedent]
+relatedSections:
+  - literature-methodology
+  - cultural-heritage-strategy
+  - history-of-lahaina
 ---
+
+Robert Wenkam's *Maui: The Last Hawaiian Place* documents the island before mass tourism transformed its economy and landscape. The thesis describes the photographs and text as recording what has been lost. The book functions as historical conscience -- evidence of conditions that recovery might reference without pretending to restore.

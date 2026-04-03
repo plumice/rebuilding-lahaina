@@ -8,4 +8,10 @@ relevance: "Official tracking of recovery progress including site clearance, per
 tags:
   topic: [recovery, infrastructure]
   type: [data]
+relatedSections:
+  - fire-analysis
+  - water-crisis
+  - disaster-gentrification
 ---
+
+Referenced in the thesis for official tracking of recovery progress. The thesis cites these reports alongside FEMA data for the status of site clearance, water shortage conditions, and community response, noting that recovery status and water shortage conditions constrain every phase of rebuilding.

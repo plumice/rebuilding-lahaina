@@ -1,8 +1,10 @@
 ---
 term: "Permeable Frameworks"
-definition: "Urban systems designed to manage water sustainably by incorporating natural and built environments."
+definition: "Urban systems managing water through distributed infiltration, retention, and conveyance rather than centralized pipe-and-pump infrastructure."
 category: "concept"
-relatedSections: []
+relatedSections: ["key-terms", "resilience-drivers", "literature-methodology", "environmental-analysis", "buffer-framework", "water-green-mobility-systems", "water-system-zones", "results-discussion"]
 tags:
   topic: [water, infrastructure]
 ---
+
+Urban systems managing water through distributed infiltration, retention, and conveyance rather than centralized pipe-and-pump infrastructure.

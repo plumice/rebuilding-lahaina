@@ -8,4 +8,9 @@ relevance: "Soil productivity grading (A through E) forming the basis for land-u
 tags:
   topic: [zoning, ecology]
   type: [data]
+relatedSections:
+  - zoning-analysis
+  - environmental-analysis
 ---
+
+Referenced in the thesis for soil productivity grading (A through E) that forms the basis for land-use planning and zoning decisions in the Lahaina watershed area.

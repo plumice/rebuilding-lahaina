@@ -8,4 +8,9 @@ relevance: "Comprehensive history of early Hawaiian Kingdom including Lahaina as
 tags:
   topic: [cultural-heritage]
   type: [precedent]
+relatedSections:
+  - history-of-lahaina
+  - cultural-heritage-strategy
 ---
+
+Kuykendall's comprehensive history is cited multiple times in the thesis endnotes for the whaling era and early Lahaina history: the whaling industry's Pacific expansion (pages 91-120), Lahaina as seat of government (pages 138-156), missionary establishment and Lahainaluna Seminary (pages 100-115), and the decline of Pacific whaling (pages 303-312).

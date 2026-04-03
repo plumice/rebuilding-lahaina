@@ -1,8 +1,10 @@
 ---
 term: "Post-Disaster Urbanism"
-definition: "Study and design of cities following catastrophic events, focusing on resilience, equity, and sustainable development."
+definition: "The study and design of cities following catastrophic events, examining how disasters expose systemic vulnerabilities and how reconstruction can restructure the conditions that produced them."
 category: "concept"
-relatedSections: []
+relatedSections: ["abstract", "key-terms", "research-questions", "literature-methodology", "history-of-lahaina", "disaster-gentrification", "multi-scalar-diagnostic", "results-discussion", "contribution"]
 tags:
   topic: [recovery, policy]
 ---
+
+The study and design of cities following catastrophic events, examining how disasters expose systemic vulnerabilities and how reconstruction can restructure the conditions that produced them.
