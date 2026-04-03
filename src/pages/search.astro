@@ -7,34 +7,29 @@ import BaseLayout from '../layouts/BaseLayout.astro';
     <div class="section-label">Search</div>
     <h1 class="section-title mb-8">Search the Thesis</h1>
 
-    <div id="search-container" class="min-h-[400px]">
-      <div id="search" />
-      <noscript><p class="text-text-muted">Search requires JavaScript.</p></noscript>
-    </div>
+    <link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
+
+    <div id="search" class="min-h-[400px]"></div>
+    <noscript><p class="text-text-muted">Search requires JavaScript.</p></noscript>
   </section>
 </BaseLayout>
 
-<script is:inline>
-  window.addEventListener('DOMContentLoaded', async function() {
-    try {
-      var link = document.createElement('link');
-      link.rel = 'stylesheet';
-      link.href = '/pagefind/pagefind-ui.css';
-      document.head.appendChild(link);
-      var mod = await import('/pagefind/pagefind-ui.js');
-      new mod.PagefindUI({
-        element: '#search',
-        showSubResults: true,
-        showImages: false,
-      });
-    } catch (e) {
+<script data-cfasync="false" is:inline>
+  (function() {
+    function loadSearch() {
       var el = document.getElementById('search');
-      var msg = document.createElement('p');
-      msg.style.color = '#555';
-      msg.textContent = 'Search index is loading. If this persists, try refreshing the page.';
-      el.appendChild(msg);
+      if (!el) return;
+      var script = document.createElement('script');
+      script.type = 'module';
+      script.textContent = "import {PagefindUI} from '/pagefind/pagefind-ui.js'; new PagefindUI({element:'#search',showSubResults:true,showImages:false});";
+      document.body.appendChild(script);
     }
-  });
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', loadSearch);
+    } else {
+      loadSearch();
+    }
+  })();
 </script>
 
 <style is:global>
