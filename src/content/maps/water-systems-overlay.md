@@ -8,12 +8,21 @@ layers:
   - name: "Historic Ditches"
     file: "/data/geojson/ditches.geojson"
     color: "#c4a265"
+  - name: "Aquifer Boundaries"
+    file: "/data/geojson/aquifers.geojson"
+    color: "#2ca89a"
+  - name: "Watersheds"
+    file: "/data/geojson/watersheds.geojson"
+    color: "#8855aa"
+  - name: "SLR 3.2ft Flood Exposure"
+    file: "/data/geojson/slr_exposure.geojson"
+    color: "#cc4444"
 defaultCenter: [20.8783, -156.6825]
 defaultZoom: 14
-relatedSections: ["pioneer-mill-water-infrastructure"]
+relatedSections: ["pioneer-mill-water-infrastructure", "environmental-analysis", "water-crisis"]
 relatedDrawings: ["composite-regional-analysis"]
 tags:
-  topic: [water, infrastructure]
+  topic: [water, infrastructure, coastal]
   scale: [district, town]
   type: [analysis]
 ---
