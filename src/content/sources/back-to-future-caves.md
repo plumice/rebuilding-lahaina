@@ -8,4 +8,8 @@ relevance: "Pre-human ecosystem reconstruction providing deep-time ecological co
 tags:
   topic: [ecology]
   type: [precedent]
+relatedSections:
+  - environmental-analysis
 ---
+
+Referenced in the thesis bibliography. Burney's pre-human ecosystem reconstruction provides deep-time ecological context for understanding Hawaiian landscapes and the environmental systems that the recovery framework seeks to restore.

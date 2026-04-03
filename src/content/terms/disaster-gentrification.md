@@ -1,8 +1,10 @@
 ---
 term: "Disaster Gentrification"
-definition: "Post-disaster recovery processes that disproportionately benefit wealthier or external actors, leading to community displacement."
+definition: "The process by which post-disaster recovery disproportionately benefits external actors, displacing existing communities. Common patterns include land speculation, rising property values during reconstruction, and prioritization of tourism infrastructure over resident housing."
 category: "concept"
-relatedSections: []
+relatedSections: ["abstract", "key-terms", "research-questions", "disaster-gentrification", "literature-methodology", "history-of-lahaina", "multi-scalar-diagnostic", "redensification-hubs", "results-discussion", "contribution"]
 tags:
   topic: [housing, policy, recovery]
 ---
+
+The process by which post-disaster recovery disproportionately benefits external actors, displacing existing communities. Common patterns include land speculation, rising property values during reconstruction, and prioritization of tourism infrastructure over resident housing.

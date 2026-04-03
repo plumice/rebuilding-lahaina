@@ -8,4 +8,14 @@ relevance: "Privatization dynamics in post-disaster rebuilding; warnings about d
 tags:
   topic: [recovery, policy, housing]
   type: [precedent]
+relatedSections:
+  - literature-methodology
+  - disaster-gentrification
+  - abstract
+  - research-questions
+  - resilience-drivers
 ---
+
+Kevin Fox Gotham's "Disaster, Inc." documented the mechanisms of disaster gentrification in post-Katrina New Orleans. Land clearance, deregulation, public subsidy of private development, and the structural exclusion of renters from compensation programs produced a recovery that displaced the population it claimed to serve. The Road Home program compensated homeowners at pre-flood values while reconstruction costs exceeded those values by 30-50 percent; renters received no equivalent program. The thesis identifies Lahaina's 80-percent renter population as facing identical structural disadvantage. Gotham's analysis provides the vocabulary -- disaster capitalism, speculative accumulation, recovery capture -- that name what is already visible in Lahaina's post-fire land market.
+
+The thesis also draws on Gotham's analysis of the Lower Ninth Ward, which lost 5,000 structures; fifteen years later, less than 40 percent of pre-storm residents had returned. Road Home grants calculated compensation at pre-flood assessed value while reconstruction costs exceeded those values by 30-50 percent. Homeowners with resources bridged the gap; those without sold to investors or abandoned claims. Renters -- 60 percent of the city's displaced -- received nothing equivalent. The neighborhood that rebuilt became a different neighborhood.
