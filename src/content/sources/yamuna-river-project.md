@@ -24,3 +24,7 @@ The methodology validates the thesis's approach to Lahaina. Superimposing pre-pl
 The Yamuna project proposes "hybrid infrastructures" that co-locate utilities with public program: a pedestrian bridge functioning as filtration dam and vegetable market; a library built atop a treatment tank; sanitation hubs recycling water and generating biogas for community kitchens. The thesis adopts the same principle. Lahaina's water reservoirs should not be fenced utilities but public pavilions. Cisterns function as shaded gathering spaces. Pump houses double as community centers. The operational requirement is identical -- store and move water -- but the spatial product serves daily life rather than sitting empty until emergency.
 
 The Yamuna framework also raises a warning that the thesis takes seriously. Riverfront beautification in Delhi has historically produced eviction of slum dwellers and displacement of small-scale farmers who work floodplains. Green infrastructure must not become a gentrification tool. Lahaina's recovery must integrate existing landowners and long-term renters into ecological zones as stewards rather than obstacles.
+
+## External Links
+
+- [Yamuna River Project](https://yamunariverproject.org/)

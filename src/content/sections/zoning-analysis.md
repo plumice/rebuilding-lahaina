@@ -21,3 +21,7 @@ Over 80 percent of Lahaina's pre-fire residents were renters. The 2,200 destroye
 The West Maui Community Plan, adopted December 2021, anticipated several conditions now central to recovery. Goal 2.1.5 directs the county to preserve waterfront land within the Sea Level Rise Exposure Area as open space. Goals 2.1.1 through 2.1.3 restrict new permanent structures in the SLR-XA, require coordination on collective relocation of at-risk buildings, and prohibit property owners from holding the county liable for future hazard mitigation costs. These provisions establish a framework for managed retreat. They were written for gradual implementation over decades. The fire compressed that timeline.
 
 Post-disaster land markets concentrate benefits among those with capital. The pattern documented in New Orleans is visible in Lahaina: external investors acquiring parcels in anticipation of publicly funded reconstruction. Preventing displacement requires deliberate intervention , land trusts, zoning reform, participatory planning that prioritizes existing residents. The West Maui Community Plan establishes managed retreat as policy; implementation requires sustained pressure from affected communities.
+
+## Primary Sources
+
+- [West Maui Community Plan](https://www.mauicounty.gov/2625/West-Maui-Community-Plan)

@@ -21,3 +21,7 @@ Iñaki Alday and Margarita Jover's *El parque del agua* documents the 125-hectar
 Three claims from the Zaragoza project transfer directly to Lahaina's recovery framework. First, water infrastructure should be visible and integrated into public space rather than buried. Second, "dynamic incompleteness" is a design principle -- landscapes completed by time through vegetation growth and flood cycles rather than fixed at opening day. Third, coexistence replaces containment: the park functions as expansion valve during floods, accepting water to reduce risk elsewhere rather than resisting until failure.
 
 The material vocabulary also matters. Alday and Jover describe their approach as "without complexes" -- unapologetic use of cheap, available, culturally honest materials. Pump stations wrapped in greenhouse textiles. Parapets in corrugated steel that rusts to match river silt. The implication for Lahaina: recovery need not import expensive finished materials but can draw on local basalt, unpolished timber, and agricultural fabrics that acknowledge the town's working-class and agrarian history. The Zaragoza precedent also informs the buffer framework's concept of "daily resilience" -- buffers that sit empty and unused will not be maintained properly, and will fail when needed.
+
+## External Links
+
+- [Alday Jover Architects](https://www.aldayjover.com/en/projects/water-park/)

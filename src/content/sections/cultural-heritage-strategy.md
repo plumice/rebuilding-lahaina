@@ -33,3 +33,8 @@ Mokuʻula was a royal residence built on a spring-fed island within Mokuhinia we
 ## Preserve Cultural Heritage
 
 Lahaina was the royal capital of the Hawaiian Kingdom before it became a plantation town, and a plantation town before it became a tourist destination. Mokuʻula,the royal residence and sacred site at the town's center,proceeds as public park integrated with the riparian buffer, accessible daily for gathering and ceremony, not enclosed as museum. The Banyan Tree Plaza remains civic commons; no permanent commercial structure may occupy the 100-foot radius surrounding the canopy. Lahainaluna, established in 1831 as the first American school west of the Rockies, connects to the node network as educational and emergency anchor. Historic district overlays (HD-1, HD-2) permit fire-resistant materials and contemporary construction methods where they replicate pre-fire character: wood-frame appearance, corrugated metal roofing, covered lanai, 35-foot height maximum per the Lahaina Architectural Style Book. Preservation operates through occupation,daily use, civic function, living memory,not through separation from the rebuilt town.
+
+## Primary Sources
+
+- [NPS Lahaina Historic District](https://www.nps.gov/places/lahaina-historic-district.htm)
+- [Friends of Moku'ula](https://www.friendsofmokuula.org/)
