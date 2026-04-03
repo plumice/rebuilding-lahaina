@@ -2,7 +2,7 @@
 title: "Module Assembly & Aggregation"
 chapter: "ch5-design"
 order: 5
-summary: "How the 26x26-foot module connects, clusters, and grows — the architectural grammar of recovery."
+summary: "How the 26x26-foot module connects, clusters, and grows , the architectural grammar of recovery."
 relatedDrawings: ["module-core", "module-connections", "module-assembly", "module-isometric"]
 relatedSources: ["indigenous-architecture-rules"]
 relatedTerms: ["hale", "resilient-housing"]
@@ -34,6 +34,6 @@ The school comprises 85 modules totaling 57,460 square feet of gross floor area 
 | Multi-Use Utilization | ~3,500+ hours/year |
 | Multi-Use Multiplier | 2.5x |
 
-When configured as a community hub — hosting evening gatherings, weekend markets, health clinics, and emergency shelter operations — utilization rises to 3,500 hours or more per year. This 2.5x multiplier justifies the capital investment in civic-scale construction while ensuring the facility serves displaced residents and surrounding neighborhoods outside school hours.
+When configured as a community hub, hosting evening gatherings, weekend markets, health clinics, and emergency shelter operations, utilization rises to 3,500 hours or more per year. This 2.5x multiplier justifies the capital investment in civic-scale construction while ensuring the facility serves displaced residents and surrounding neighborhoods outside school hours.
 
-The kit-of-parts system positions the module as a prototype for housing, shelter, and community anchor construction across Lahaina's recovery — fast deployment through community assembly, off-grid capable, resilient to future disruptions. Its limitless aggregation potential extends beyond this single school to the broader recovery framework.
+The kit-of-parts system positions the module as a prototype for housing, shelter, and community anchor construction across Lahaina's recovery, fast deployment through community assembly, off-grid capable, resilient to future disruptions. Its limitless aggregation potential extends beyond this single school to the broader recovery framework.

@@ -12,7 +12,7 @@ tags:
   type: [proposal]
 ---
 
-The module is the fundamental unit of the school's architecture — the repeatable element from which all larger assemblies and aggregations derive. Its design integrates structural, environmental, and programmatic requirements into a single system capable of adaptation across varying conditions.
+The module is the fundamental unit of the school's architecture , the repeatable element from which all larger assemblies and aggregations derive. Its design integrates structural, environmental, and programmatic requirements into a single system capable of adaptation across varying conditions.
 
 ## Core Dimensions
 
@@ -26,11 +26,11 @@ The module is the fundamental unit of the school's architecture — the repeatab
 | Bottom Edge Beam | 8" |
 | Roof Pitch | ~45 degrees |
 
-The structural system employs a post-and-beam hierarchy using mass timber (glulam or CLT) to achieve the 26-foot clear span that would have required multiple posts in traditional construction — a scalar translation of vernacular logic into contemporary structural capacity. Components from top to bottom include: breathable thatching roof material; hipped rafters (long and horizontal); wood ridge beam with wrap connection; 4-inch top edge beam at wall-to-roof transition; 8-inch bottom edge beam at wall plate level; 8-inch columns; aluminum gutters at roof valleys; customizable wall connector panels; and 26' x 26' foundation base.
+The structural system employs a post-and-beam hierarchy using mass timber (glulam or CLT) to achieve the 26-foot clear span that would have required multiple posts in traditional construction , a scalar translation of vernacular logic into contemporary structural capacity. Components from top to bottom include: breathable thatching roof material; hipped rafters (long and horizontal); wood ridge beam with wrap connection; 4-inch top edge beam at wall-to-roof transition; 8-inch bottom edge beam at wall plate level; 8-inch columns; aluminum gutters at roof valleys; customizable wall connector panels; and 26' x 26' foundation base.
 
 ## Performance: Water Collection
 
-The hipped roof geometry directs rainwater toward central valleys between modules, where aluminum gutters intercept and channel runoff. A custom Y-shaped column connector at valley gutters merges structural and drainage functions — a modern adaptation is not present in traditional hale but essential to the water-harvesting strategy. Subsurface volcanic gravel beds and storage tanks beneath module clusters capture collected water for non-potable reuse.
+The hipped roof geometry directs rainwater toward central valleys between modules, where aluminum gutters intercept and channel runoff. A custom Y-shaped column connector at valley gutters merges structural and drainage functions , a modern adaptation is not present in traditional hale but essential to the water-harvesting strategy. Subsurface volcanic gravel beds and storage tanks beneath module clusters capture collected water for non-potable reuse.
 
 | Water Performance Metric | Value |
 |---|---|
@@ -45,7 +45,7 @@ This on-site rainwater harvesting is a regulatory necessity given West Maui's St
 
 ## Performance: Solar Protection
 
-The three-module assembly operates as a solar protection system. The steep 45-degree roof pitch deflects high-angle midday sun; adjacent shading modules block low-angle western afternoon sun; thatched or breathable roofing reduces radiant heat transfer; and the 8-foot wall height below the roof maintains shaded interior volume. At no point does direct western sunlight penetrate the enclosed classroom space — the flanking modules act as permanent solar shields.
+The three-module assembly operates as a solar protection system. The steep 45-degree roof pitch deflects high-angle midday sun; adjacent shading modules block low-angle western afternoon sun; thatched or breathable roofing reduces radiant heat transfer; and the 8-foot wall height below the roof maintains shaded interior volume. At no point does direct western sunlight penetrate the enclosed classroom space , the flanking modules act as permanent solar shields.
 
 | Solar Performance Strategy | Effect |
 |---|---|
@@ -70,14 +70,14 @@ Joint types echo Hawaiian lashing and plantation-era timber connections, maintai
 | Rafter to Wall Plate | Birdsmouth / notched | O'a-to-lohelau bearing |
 | Gutter to Column (Y-joint) | Custom connector | Modern adaptation for water harvesting |
 
-The module is not a literal hale replica — it is a scalar and performative translation of Hawaiian building logic into a contemporary kit-of-parts system. Traditional Hawaiian construction at the scale of Hale Halawai (up to 30' x 60') required multiple intermediate posts; the module uses mass timber to achieve the 26-foot clear span with corner posts alone.
+The module is not a literal hale replica , it is a scalar and performative translation of Hawaiian building logic into a contemporary kit-of-parts system. Traditional Hawaiian construction at the scale of Hale Halawai (up to 30' x 60') required multiple intermediate posts; the module uses mass timber to achieve the 26-foot clear span with corner posts alone.
 
 ## Hawaiian Hale Construction
 
-The module's structural hierarchy directly maps to traditional hale construction as defined in Maui County's Indigenous Hawaiian Architecture regulations (HAR SS15-110). The structural correspondence translates as follows: the wood ridge (kauhuhu) as main ridgepole; hipped rafters (o'a) spanning the module; top edge beam (lohelau kua) as upper wall plate; bottom edge beam (lohelau) as lower wall plate; and 8-inch columns (pou kihi) as corner posts. The module exceeds IHA structural minimums for Hale Halawai (assembly hall, 30' x 60') while maintaining the same hierarchical logic — heavy corner posts to wall plates to ridge beam to rafters.
+The module's structural hierarchy directly maps to traditional hale construction as defined in Maui County's Indigenous Hawaiian Architecture regulations (HAR SS15-110). The structural correspondence translates as follows: the wood ridge (kauhuhu) as main ridgepole; hipped rafters (o'a) spanning the module; top edge beam (lohelau kua) as upper wall plate; bottom edge beam (lohelau) as lower wall plate; and 8-inch columns (pou kihi) as corner posts. The module exceeds IHA structural minimums for Hale Halawai (assembly hall, 30' x 60') while maintaining the same hierarchical logic , heavy corner posts to wall plates to ridge beam to rafters.
 
 ## Reaction to Elevation
 
 The modular grid allows the aggregation to step with grade changes across the site. Section drawings from northwest to southeast and from makai to mauka reveal how the 26-foot module maintains its structural logic while accommodating the site's 12-foot elevation change. This flexibility permits identical construction details across varying terrain, reducing complexity while preserving the field.
 
-The kit-of-parts system positions the module as a prototype for housing, shelter, and community anchor construction across Lahaina's recovery — fast deployment through community assembly, off-grid capable, resilient to future disruptions. Its limitless aggregation potential extends beyond this single school to the broader recovery framework.
+The kit-of-parts system positions the module as a prototype for housing, shelter, and community anchor construction across Lahaina's recovery , fast deployment through community assembly, off-grid capable, resilient to future disruptions. Its limitless aggregation potential extends beyond this single school to the broader recovery framework.
