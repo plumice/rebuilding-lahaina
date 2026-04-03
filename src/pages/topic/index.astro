@@ -15,15 +15,13 @@ const topics = await getCollection('topics');
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
       {topics.map((topic) => (
-        <a href={`/topic/${topic.id}`} class="block bg-surface border border-border rounded p-6 no-underline hover:bg-surface-hover transition-colors group">
-          <div class="flex items-start gap-4">
-            <div class="text-accent shrink-0 mt-0.5">
-              <TopicIcon topic={topic.id} size="lg" />
-            </div>
-            <div>
-              <h2 class="font-serif text-lg text-text group-hover:text-accent transition-colors mb-1">{topic.data.title}</h2>
-              <p class="text-sm text-text-muted leading-relaxed">{topic.data.summary}</p>
-            </div>
+        <a href={`/topic/${topic.id}`} class="flex items-center gap-4 bg-surface border border-border rounded p-5 no-underline hover:bg-surface-hover transition-colors group">
+          <div class="shrink-0">
+            <TopicIcon topic={topic.id} size="lg" />
+          </div>
+          <div class="min-w-0">
+            <h2 class="font-serif text-lg text-text group-hover:text-accent transition-colors mb-0.5">{topic.data.title}</h2>
+            <p class="text-sm text-text-muted leading-relaxed">{topic.data.summary}</p>
           </div>
         </a>
       ))}
