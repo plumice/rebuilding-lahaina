@@ -9,27 +9,38 @@ import BaseLayout from '../layouts/BaseLayout.astro';
 
     <div id="search-container" class="min-h-[400px]">
       <div id="search" />
+      <noscript><p class="text-text-muted">Search requires JavaScript.</p></noscript>
     </div>
   </section>
 </BaseLayout>
 
 <script is:inline>
-  async function initSearch() {
-    const { PagefindUI } = await import('/pagefind/pagefind-ui.js');
-    new PagefindUI({
-      element: '#search',
-      showSubResults: true,
-      showImages: false,
-    });
-  }
-  initSearch();
+  window.addEventListener('DOMContentLoaded', async function() {
+    try {
+      var link = document.createElement('link');
+      link.rel = 'stylesheet';
+      link.href = '/pagefind/pagefind-ui.css';
+      document.head.appendChild(link);
+      var mod = await import('/pagefind/pagefind-ui.js');
+      new mod.PagefindUI({
+        element: '#search',
+        showSubResults: true,
+        showImages: false,
+      });
+    } catch (e) {
+      var el = document.getElementById('search');
+      var msg = document.createElement('p');
+      msg.style.color = '#555';
+      msg.textContent = 'Search index is loading. If this persists, try refreshing the page.';
+      el.appendChild(msg);
+    }
+  });
 </script>
 
 <style is:global>
-  /* Override Pagefind UI to match light theme */
   .pagefind-ui {
     --pagefind-ui-scale: 1;
-    --pagefind-ui-primary: #8b7355;
+    --pagefind-ui-primary: #6d5344;
     --pagefind-ui-text: #1a1a1a;
     --pagefind-ui-background: #f7f7f5;
     --pagefind-ui-border: #e0e0de;
@@ -45,12 +56,10 @@ import BaseLayout from '../layouts/BaseLayout.astro';
   }
 
   .pagefind-ui__result-link {
-    color: #8b7355 !important;
+    color: #6d5344 !important;
   }
 
   .pagefind-ui__result-excerpt {
-    color: #6b6b6b !important;
+    color: #555555 !important;
   }
 </style>
-
-<link rel="stylesheet" href="/pagefind/pagefind-ui.css" />
