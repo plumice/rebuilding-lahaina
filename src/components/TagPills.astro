@@ -1,4 +1,6 @@
 ---
+import TopicIcon from './TopicIcon.astro';
+
 interface Props {
   topics?: string[];
   scales?: string[];
@@ -10,7 +12,8 @@ const { topics = [], scales = [], types = [] } = Astro.props;
 
 <div class="flex flex-wrap gap-2">
   {topics.map((tag) => (
-    <a href={`/topic/${tag}`} class="inline-block text-[0.8rem] px-3 py-1.5 border border-accent text-accent rounded-sm tracking-wide uppercase no-underline hover:bg-accent-dim transition-colors" data-pagefind-filter={`topic:${tag}`}>
+    <a href={`/topic/${tag}`} class="inline-flex items-center gap-1.5 text-[0.8rem] px-3 py-1.5 border border-accent text-accent rounded-sm tracking-wide uppercase no-underline hover:bg-accent-dim transition-colors" data-pagefind-filter={`topic:${tag}`}>
+      <TopicIcon topic={tag} size="sm" />
       {tag.replaceAll('-', ' ')}
     </a>
   ))}

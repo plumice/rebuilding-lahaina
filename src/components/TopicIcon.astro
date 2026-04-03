@@ -1,0 +1,35 @@
+---
+import fs from 'node:fs';
+import path from 'node:path';
+
+interface Props {
+  topic: string;
+  size?: 'sm' | 'md' | 'lg';
+  class?: string;
+}
+
+const { topic, size = 'md', class: className = '' } = Astro.props;
+
+const sizeMap = {
+  sm: 'w-4 h-4',
+  md: 'w-6 h-6',
+  lg: 'w-12 h-12',
+};
+
+const sizeClass = sizeMap[size] || sizeMap.md;
+const label = topic.replaceAll('-', ' ');
+
+let svgContent = '';
+try {
+  const filePath = path.resolve('public/icons/topics', `${topic}.svg`);
+  svgContent = fs.readFileSync(filePath, 'utf-8');
+  // Add currentColor class and strip xml declaration if present
+  svgContent = svgContent
+    .replace(/<svg/, `<svg class="${sizeClass} inline-block ${className}" role="img" aria-label="${label} icon"`)
+    .replace(/<\?xml[^?]*\?>/, '');
+} catch {
+  // Icon not found — render nothing
+}
+---
+
+{svgContent && <Fragment set:html={svgContent} />}

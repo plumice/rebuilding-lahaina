@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+  <!-- Mauka-to-makai elevation bands: narrow at top (hinterland), wide at bottom (coastal) -->
+  <!-- Hinterland -->
+  <path d="M9 3h6"/>
+  <!-- Peri-urban -->
+  <path d="M7 8.5h10"/>
+  <!-- Urban -->
+  <path d="M5 14h14"/>
+  <!-- Coastal -->
+  <path d="M3 19.5h18"/>
+  <!-- Connecting edges (tapered form) -->
+  <path d="M9 3c-1.5 4-3.5 10-6 16.5"/>
+  <path d="M15 3c1.5 4 3.5 10 6 16.5"/>
+</svg>

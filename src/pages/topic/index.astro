@@ -1,6 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
-import ContentCard from '../../components/ContentCard.astro';
+import TopicIcon from '../../components/TopicIcon.astro';
 import { getCollection } from 'astro:content';
 
 const topics = await getCollection('topics');
@@ -15,11 +15,17 @@ const topics = await getCollection('topics');
 
     <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
       {topics.map((topic) => (
-        <ContentCard
-          title={topic.data.title}
-          href={`/topic/${topic.id}`}
-          description={topic.data.summary}
-        />
+        <a href={`/topic/${topic.id}`} class="block bg-surface border border-border rounded p-6 no-underline hover:bg-surface-hover transition-colors group">
+          <div class="flex items-start gap-4">
+            <div class="text-accent shrink-0 mt-0.5">
+              <TopicIcon topic={topic.id} size="lg" />
+            </div>
+            <div>
+              <h2 class="font-serif text-lg text-text group-hover:text-accent transition-colors mb-1">{topic.data.title}</h2>
+              <p class="text-sm text-text-muted leading-relaxed">{topic.data.summary}</p>
+            </div>
+          </div>
+        </a>
       ))}
     </div>
   </section>
