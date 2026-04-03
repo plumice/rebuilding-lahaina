@@ -65,6 +65,13 @@
     line-height: 1.8;
     color: #3a3a3a;
     max-width: 65ch;
+    overflow-wrap: break-word;
+  }
+
+  .prose table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
   }
 
   .prose p {

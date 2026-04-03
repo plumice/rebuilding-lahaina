@@ -15,7 +15,7 @@ interface Props {
 const { id, center, zoom, layers } = Astro.props;
 ---
 
-<div id={`map-${id}`} class="w-full h-[600px] bg-surface border border-border relative" data-center={JSON.stringify(center)} data-zoom={zoom} data-layers={JSON.stringify(layers)}>
+<div id={`map-${id}`} class="w-full h-[400px] md:h-[600px] bg-surface border border-border relative" data-center={JSON.stringify(center)} data-zoom={zoom} data-layers={JSON.stringify(layers)}>
   <noscript>
     <p class="p-8 text-text-muted">Interactive map requires JavaScript.</p>
   </noscript>
