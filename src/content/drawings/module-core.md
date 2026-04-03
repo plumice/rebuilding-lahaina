@@ -4,7 +4,7 @@ image: "/images/drawings/complete_ppt/Slide61.JPG"
 alt: "Three identical pitched-roof modules showing the basic 26x26-foot building unit"
 scaleLevel: "node"
 drawingType: "diagram"
-relatedSections: ["module-system"]
+relatedSections: ["module-system", "module-assembly-rules"]
 tags:
   topic: [housing, cultural-heritage]
   scale: [node]

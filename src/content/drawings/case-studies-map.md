@@ -4,7 +4,7 @@ image: "/images/drawings/complete_ppt/Slide3.JPG"
 alt: "World map showing post-disaster recovery case studies referenced in the thesis"
 scaleLevel: "regional"
 drawingType: "diagram"
-relatedSections: ["resilience-drivers", "community-anchors"]
+relatedSections: ["resilience-drivers", "community-anchors", "literature-methodology"]
 tags:
   topic: [recovery]
   scale: [regional]

@@ -4,7 +4,7 @@ image: "/images/drawings/complete_ppt/Slide59.JPG"
 alt: "Isometric diagram showing how individual modules connect and stack to form larger buildings"
 scaleLevel: "node"
 drawingType: "diagram"
-relatedSections: ["module-system"]
+relatedSections: ["module-system", "module-assembly-rules"]
 tags:
   topic: [housing, cultural-heritage]
   scale: [node]

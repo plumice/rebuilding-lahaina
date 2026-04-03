@@ -4,7 +4,7 @@ image: "/images/drawings/updated_local_water_systems.jpg"
 alt: "Diagram showing water capture and distribution zones from mountain to coast"
 scaleLevel: "district"
 drawingType: "diagram"
-relatedSections: ["water-green-mobility-systems", "water-crisis"]
+relatedSections: ["water-green-mobility-systems", "water-crisis", "water-system-zones"]
 tags:
   topic: [water, infrastructure]
   scale: [district, regional]

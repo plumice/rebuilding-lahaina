@@ -4,7 +4,7 @@ image: "/images/drawings/updated_local_fire.jpg"
 alt: "Pre-fire urban fabric compared to post-fire footprint with 1-foot contour intervals"
 scaleLevel: "town"
 drawingType: "figure-ground"
-relatedSections: ["abstract"]
+relatedSections: ["fire-analysis", "history-of-lahaina"]
 tags:
   topic: [fire, recovery]
   scale: [town]

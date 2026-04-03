@@ -4,7 +4,7 @@ image: "/images/drawings/updated_local_base.jpg"
 alt: "Pre-fire street network showing single-spine road system and evacuation bottlenecks"
 scaleLevel: "town"
 drawingType: "analytical-map"
-relatedSections: ["water-green-mobility-systems"]
+relatedSections: ["water-green-mobility-systems", "mobility-street-design"]
 tags:
   topic: [mobility, infrastructure]
   scale: [town]

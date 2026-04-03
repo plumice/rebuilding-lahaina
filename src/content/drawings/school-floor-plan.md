@@ -4,9 +4,9 @@ image: "/images/drawings/complete_ppt/Slide57.JPG"
 alt: "Ground floor plan of the proposed elementary school showing modular classroom arrangement and community facilities"
 scaleLevel: "node"
 drawingType: "architectural-plan"
-relatedSections: ["design-interventions", "module-system"]
+relatedSections: ["design-interventions", "module-system", "school-design-detail"]
 tags:
-  topic: [housing, recovery]
+  topic: [recovery, infrastructure]
   scale: [node]
   type: [proposal]
 ---

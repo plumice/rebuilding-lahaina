@@ -4,7 +4,7 @@ image: "/images/drawings/complete_ppt/Slide37.JPG"
 alt: "Diagram showing water collection pond system and distribution from mountain hinterland to town"
 scaleLevel: "district"
 drawingType: "diagram"
-relatedSections: ["water-crisis", "water-green-mobility-systems"]
+relatedSections: ["water-crisis", "water-green-mobility-systems", "water-system-zones"]
 tags:
   topic: [water, infrastructure]
   scale: [district]
