@@ -1,6 +1,6 @@
 ---
 title: "Existing Mobility Network"
-image: "/images/drawings/updated_local_base.jpg"
+image: "/images/drawings/complete_ppt/Slide21.JPG"
 alt: "Pre-fire street network showing single-spine road system and evacuation bottlenecks"
 scaleLevel: "town"
 drawingType: "analytical-map"
