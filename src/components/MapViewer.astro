@@ -116,6 +116,14 @@ const { id, center, zoom, layers } = Astro.props;
       }
     }
 
+    // Fit map to show all loaded layer data
+    if (layerMap.size > 0) {
+      const allBounds = L.featureGroup(Array.from(layerMap.values())).getBounds();
+      if (allBounds.isValid()) {
+        map.fitBounds(allBounds, { padding: [20, 20], maxZoom: zoom });
+      }
+    }
+
     // Layer toggle
     const legendEl = document.getElementById(`legend-${id}`);
     legendEl?.querySelectorAll('input[data-layer-name]').forEach((checkbox) => {
