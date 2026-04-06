@@ -3,7 +3,7 @@ title: "Cultural Heritage & Preservation"
 chapter: "ch3-analysis"
 order: 8
 summary: "Lahaina's cultural significance, the Moku'ula restoration, and how Hawaiian identity shapes the recovery framework."
-relatedDrawings: ["historical-timeline", "before-after-photos"]
+relatedDrawings: ["historical-timeline", "before-after-photos", "alii-houses", "pili-grass-hale", "hale-foundation-detail", "hale-halawai-framing", "hale-halawai-hip-alternate", "hale-kaa-framing"]
 relatedSources: ["no-makou-ka-mana", "native-land-foreign-desires", "hawaiian-kingdom", "architectural-style-book", "feathered-gods-fishhooks"]
 relatedTerms: ["ahupuaa", "mauka", "makai", "hale"]
 tags:
