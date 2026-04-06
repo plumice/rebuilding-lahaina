@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 
 const { scale } = Astro.props;
 const { Content } = await render(scale);
-const level = scale.id;
+const level = scale.id as 'regional' | 'district' | 'town' | 'site' | 'node';
 
 const sections = (await getCollection('sections')).filter((s) => s.data.tags.scale?.includes(level));
 const drawings = (await getCollection('drawings')).filter((d) => d.data.tags.scale?.includes(level));

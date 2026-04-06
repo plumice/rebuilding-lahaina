@@ -5,7 +5,6 @@ import NewsBulletin from '../components/NewsBulletin.astro';
 import { getCollection } from 'astro:content';
 
 const drawings = await getCollection('drawings');
-const maps = await getCollection('maps');
 const featured = drawings.slice(0, 3);
 ---
 
