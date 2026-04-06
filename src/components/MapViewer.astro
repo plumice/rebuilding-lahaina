@@ -29,7 +29,7 @@ const { id, center, zoom, layers } = Astro.props;
     {layers.map((layer) => (
       <label class="flex items-center gap-2 cursor-pointer text-sm text-text-muted hover:text-text transition-colors">
         <input type="checkbox" checked class="accent-accent" data-layer-name={layer.name} />
-        <span class="w-3 h-3 rounded-full inline-block" style={`background: ${layer.color}`} />
+        <span class="w-4 h-0.5 inline-block" style={`background: ${layer.color}; border-bottom: 2px ${layer.name.includes('Ditch') || layer.name.includes('Proposed') || layer.name.includes('Cultural') || layer.name.includes('Aquifer') || layer.name.includes('Watershed') || layer.name.includes('Hydro') || layer.name.includes('Sidewalk') ? 'dashed' : 'solid'} ${layer.color}`} />
         {layer.name}
       </label>
     ))}
@@ -56,16 +56,43 @@ const { id, center, zoom, layers } = Astro.props;
 
     const layerMap = new Map<string, L.GeoJSON>();
 
+    // Style hierarchy by layer name
+    const layerStyles: Record<string, any> = {
+      // Water: solid, medium weight
+      'Existing Streams (DAR)':        { weight: 2.5, opacity: 0.9, dashArray: null },
+      'Historic Ditches (CWRM)':       { weight: 2,   opacity: 0.8, dashArray: '8 4' },
+      'Streams with Aquatic Resources': { weight: 2,  opacity: 0.7, dashArray: null },
+      'Streams with Cultural Resources': { weight: 2, opacity: 0.7, dashArray: '4 4' },
+      // Boundaries: dashed, heavier
+      'Aquifer Boundaries (DLNR)':     { weight: 3,   opacity: 0.6, dashArray: '10 6', fillOpacity: 0.05 },
+      'Watersheds (CWRM)':             { weight: 2.5, opacity: 0.5, dashArray: '12 4 4 4', fillOpacity: 0.04 },
+      'Hydrologic Units':              { weight: 2,   opacity: 0.5, dashArray: '6 6', fillOpacity: 0.03 },
+      // Hazards: solid, prominent
+      'SLR 3.2ft Flood Exposure':      { weight: 1.5, opacity: 0.8, dashArray: null, fillOpacity: 0.25 },
+      // Roads: thin, solid
+      'Roads':                         { weight: 1,   opacity: 0.4, dashArray: null },
+      'Sidewalks and Paths':           { weight: 1.5, opacity: 0.7, dashArray: '3 3' },
+      'Existing Bikeways':             { weight: 3,   opacity: 0.9, dashArray: null },
+      'Proposed Bikeways':             { weight: 3,   opacity: 0.7, dashArray: '6 4' },
+    };
+
     for (const layerDef of layers) {
       try {
         const resp = await fetch(layerDef.file);
         if (!resp.ok) continue;
         const geojson = await resp.json();
+        const custom = layerStyles[layerDef.name] || {};
         const geoLayer = L.geoJSON(geojson, {
-          style: { color: layerDef.color, weight: 2, opacity: 0.8, fillOpacity: 0.15 },
+          style: {
+            color: layerDef.color,
+            weight: custom.weight || 2,
+            opacity: custom.opacity || 0.8,
+            fillOpacity: custom.fillOpacity ?? 0.1,
+            dashArray: custom.dashArray || null,
+          },
           pointToLayer: (feature, latlng) => {
             return L.circleMarker(latlng, {
-              radius: 6,
+              radius: 7,
               fillColor: layerDef.color,
               color: '#ffffff',
               weight: 2,
@@ -74,8 +101,13 @@ const { id, center, zoom, layers } = Astro.props;
             });
           },
           onEachFeature: (feature, layer) => {
-            const name = feature.properties?.name || feature.properties?.sys_name || feature.properties?.stream_nam || '';
-            if (name) layer.bindPopup('<strong>' + name + '</strong>');
+            const props = feature.properties || {};
+            const name = props.name || props.sys_name || props.stream_nam || props.status || '';
+            const type = props.type || props.func_cls || props.status || '';
+            let popup = '';
+            if (name) popup += '<strong>' + name + '</strong>';
+            if (type && type !== name) popup += '<br><span style="color:#999">' + type + '</span>';
+            if (popup) layer.bindPopup(popup);
           },
         }).addTo(map);
         layerMap.set(layerDef.name, geoLayer);
