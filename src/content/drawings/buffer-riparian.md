@@ -1,6 +1,6 @@
 ---
 title: "Riparian Buffer"
-image: "/images/drawings/updated_local_riparian.jpg"
+image: "/images/drawings/final_ppt_complete/Slide30.JPG"
 alt: "Riparian buffer design principles with section detail showing stream corridor restoration"
 scaleLevel: "town"
 drawingType: "plan"

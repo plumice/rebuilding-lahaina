@@ -1,0 +1,14 @@
+---
+title: "Riparian Buffer Map"
+image: "/images/drawings/final_ppt_complete/Slide29.JPG"
+alt: "Plan showing the riparian corridor running mauka to makai through Lahaina as a restored ecological and public-access spine"
+scaleLevel: "town"
+drawingType: "plan"
+relatedSections: ["buffer-framework", "water-green-mobility-systems"]
+tags:
+  topic: [water, ecology]
+  scale: [town]
+  type: [proposal]
+---
+
+Plan showing the riparian corridor as a restored ecological spine linking mauka and makai, reconnecting streams, public access, and wetland edge conditions through Lahaina.

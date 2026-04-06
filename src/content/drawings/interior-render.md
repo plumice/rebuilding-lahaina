@@ -1,14 +1,14 @@
 ---
-title: "Community Space — Interior View"
-image: "/images/drawings/updated_night_render.jpg"
-alt: "Interior perspective of covered community gathering space with modular roof structure"
+title: "Community Space - Interior View"
+image: "/images/drawings/final_ppt_complete/Slide67.JPG"
+alt: "Interior and community renderings showing classroom courtyards, covered circulation, and shared gathering space"
 scaleLevel: "node"
 drawingType: "rendering"
-relatedSections: ["design-interventions", "module-system"]
+relatedSections: ["design-interventions", "module-system", "school-design-detail"]
 tags:
   topic: [housing, cultural-heritage]
   scale: [node]
   type: [proposal]
 ---
 
-Interior view of the shared gathering space — the modular roof structure creates a sheltered, open-air environment that connects indoor and outdoor community life.
+A set of final presentation renderings shows the covered circulation spine, classroom courtyards, and shared gathering space created by the modular roof structure.

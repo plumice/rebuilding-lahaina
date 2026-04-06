@@ -2,13 +2,13 @@
 title: "Before & After Site Documentation"
 image: "/images/drawings/postfire_aerial_satellite.jpg"
 alt: "Photographic documentation comparing Lahaina locations before and after the wildfire"
-scaleLevel: "town"
+scaleLevel: "site"
 drawingType: "photography"
 relatedSections: ["history-of-lahaina"]
 tags:
   topic: [fire]
-  scale: [town, site]
+  scale: [site]
   type: [documentation]
 ---
 
-Site visit documentation showing the condition of key locations including the elementary school site, the Banyan Tree area, and the coastal edge — before and after the 2023 wildfire.
+Site visit documentation showing the condition of key locations including the elementary school site, the Banyan Tree area, and the coastal edge before and after the 2023 wildfire.

@@ -1,6 +1,6 @@
 ---
 title: "Water Collection Hinterland"
-image: "/images/drawings/updated_local_watercollection.jpg"
+image: "/images/drawings/final_ppt_complete/Slide35.JPG"
 alt: "Map showing water capture zones above the highway reinforcing the historic ditch system"
 scaleLevel: "district"
 drawingType: "plan"

@@ -1,6 +1,6 @@
 ---
-title: "Elementary School — Aerial View"
-image: "/images/drawings/complete_ppt/Slide68.JPG"
+title: "Elementary School - Aerial View"
+image: "/images/drawings/final_ppt_complete/Slide56.JPG"
 alt: "Aerial perspective rendering of the proposed elementary school and surrounding neighborhood"
 scaleLevel: "node"
 drawingType: "rendering"
@@ -11,4 +11,4 @@ tags:
   type: [proposal]
 ---
 
-Aerial perspective showing the elementary school within its neighborhood context — the module system creating a campus of connected pavilions around green courtyards.
+Aerial perspective showing the elementary school within its neighborhood context, with the module system creating a campus of connected pavilions around green courtyards.

@@ -1,7 +1,7 @@
 ---
-title: "Module — Solar & Ventilation"
-image: "/images/drawings/complete_ppt/Slide67.JPG"
-alt: "Section showing heat flow, ventilation patterns, and passive cooling strategy for west-facing exposure"
+title: "Module - Solar Response"
+image: "/images/drawings/final_ppt_complete/Slide65.JPG"
+alt: "Section showing solar exposure and shading response for Lahaina's intense west-facing conditions"
 scaleLevel: "node"
 drawingType: "technical-section"
 relatedSections: ["module-system"]
@@ -11,4 +11,4 @@ tags:
   type: [proposal]
 ---
 
-Lahaina faces intense western sun. The module's deep overhangs, ventilation paths, and thermal stack effect create passive cooling without mechanical systems.
+Lahaina faces intense western sun. The module's orientation, deep overhangs, and shaded edge conditions reduce heat gain while supporting passive comfort.

@@ -1,6 +1,6 @@
 ---
 title: "Existing Green Infrastructure"
-image: "/images/drawings/complete_ppt/Slide40.JPG"
+image: "/images/drawings/final_ppt_complete/Slide40.JPG"
 alt: "Pre-fire map showing fragmented green spaces and limited tree canopy in Lahaina"
 scaleLevel: "town"
 drawingType: "analytical-map"
@@ -11,4 +11,4 @@ tags:
   type: [analysis]
 ---
 
-The pre-fire green infrastructure was fragmented — isolated patches of trees and small parks that provided no continuous ecological or stormwater function.
+The pre-fire green infrastructure was fragmented, with isolated patches of trees and small parks that provided no continuous ecological or stormwater function.

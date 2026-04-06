@@ -1,7 +1,7 @@
 ---
-title: "Module — Design Breakdown"
-image: "/images/drawings/complete_ppt/Slide62.JPG"
-alt: "Isometric 3D breakdown of the module showing five design aspects: vernacular roots, climate response, urban integration, community healing, and build strategy"
+title: "Module - Design Breakdown"
+image: "/images/drawings/final_ppt_complete/Slide58.JPG"
+alt: "Exploded isometric breakdown of the module showing roof, frame, columns, gutters, and wall assembly"
 scaleLevel: "node"
 drawingType: "diagram"
 relatedSections: ["module-system"]
@@ -11,4 +11,4 @@ tags:
   type: [proposal]
 ---
 
-The five design principles embedded in the module: (1) Vernacular Roots in Hawaiian hale construction, (2) Climate-Responsive Design for Lahaina's west-facing exposure, (3) Urban Integration with the street and boulevard, (4) Community Healing and Cultural identity, and (5) Build Strategy for phased, community-led construction.
+An exploded isometric shows how the module is assembled from roof shingles, rafters, beams, columns, gutters, and wall components within the 26x26-foot kit of parts.

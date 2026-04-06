@@ -1,7 +1,7 @@
 ---
-title: "Global Recovery Precedents"
-image: "/images/drawings/complete_ppt/Slide3.JPG"
-alt: "World map showing post-disaster recovery case studies referenced in the thesis"
+title: "Resilience Drivers & Community Anchors"
+image: "/images/drawings/final_ppt_complete/Slide3.JPG"
+alt: "Precedent diagram tracing disaster recovery drivers and urban community-anchor strategies that inform the Lahaina proposal"
 scaleLevel: "regional"
 drawingType: "diagram"
 relatedSections: ["resilience-drivers", "community-anchors", "literature-methodology"]
@@ -11,4 +11,4 @@ tags:
   type: [precedent]
 ---
 
-Global precedents mapped by recovery typology — disaster recovery (New Orleans, Kobe, Chile), urbanism of nodes (Medellín, Singapore, Netherlands), and cultural/symbolic nodes (Machado & Silvetti). Each precedent informs specific strategies in the Lahaina recovery plan.
+Comparative precedent framework tracing resilience drivers, community-led recovery, and urban community-anchor strategies. The diagram links international recovery cases to the civic and cultural node logic used in Lahaina.

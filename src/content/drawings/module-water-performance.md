@@ -1,7 +1,7 @@
 ---
-title: "Module — Water Capture"
-image: "/images/drawings/complete_ppt/Slide65.JPG"
-alt: "Section showing rainwater collection system with flow paths through module roof and filtration"
+title: "Module - Water Capture"
+image: "/images/drawings/final_ppt_complete/Slide64.JPG"
+alt: "Section showing rainwater collection through sloped roofs and shared gutters between modules"
 scaleLevel: "node"
 drawingType: "technical-section"
 relatedSections: ["module-system"]
@@ -11,4 +11,4 @@ tags:
   type: [proposal]
 ---
 
-Each module captures rainwater through sloped roofs directing flow into gutters between connected units. Volcanic gravel filtration cleans the water before it enters sub-grade storage tanks.
+Each module captures rainwater through sloped roofs directing flow into gutters between connected units before storage and reuse.

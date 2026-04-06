@@ -1,6 +1,6 @@
 ---
 title: "Existing Mobility Network"
-image: "/images/drawings/complete_ppt/Slide21.JPG"
+image: "/images/drawings/final_ppt_complete/Slide39.JPG"
 alt: "Pre-fire street network showing single-spine road system and evacuation bottlenecks"
 scaleLevel: "town"
 drawingType: "analytical-map"
@@ -11,4 +11,4 @@ tags:
   type: [analysis]
 ---
 
-The pre-fire road network centered on Front Street — a single-spine system that created fatal bottlenecks during wildfire evacuation.
+The pre-fire road network centered on Front Street, a single-spine system that created fatal bottlenecks during wildfire evacuation.

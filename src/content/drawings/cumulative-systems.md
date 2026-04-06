@@ -1,7 +1,7 @@
 ---
-title: "Cumulative Systems Plan"
-image: "/images/drawings/complete_ppt/Slide56.JPG"
-alt: "All systems overlaid — buffers, mobility, green infrastructure, water, community hubs, and density — in one comprehensive plan"
+title: "Integrated Framework Plan"
+image: "/images/drawings/final_ppt_complete/Slide54.JPG"
+alt: "Integrated plan linking buffers, circulation, the school, redensification, and the peri-urban park in one framework"
 scaleLevel: "town"
 drawingType: "composite-plan"
 relatedSections: ["buffer-framework", "water-green-mobility-systems", "redensification-hubs"]
@@ -11,4 +11,4 @@ tags:
   type: [proposal]
 ---
 
-Everything together — all four buffers, the mobility network, green infrastructure, water systems, community hubs, and redensification zones overlaid in a single comprehensive plan showing how every system works together.
+The integrated design framework shows how coastal protection, circulation, redensification, the school, and the peri-urban park reinforce one another across the full site.
