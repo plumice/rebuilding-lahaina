@@ -3,7 +3,7 @@ title: "The Water Crisis"
 chapter: "ch3-analysis"
 order: 4
 summary: "Stage 2 water shortage, aquifer designation, and the infrastructure blocking Lahaina's recovery."
-relatedDrawings: ["composite-regional-analysis"]
+relatedDrawings: ["diagnostic-overlay", "water-zones-mauka-makai", "water-collection-principles", "buffer-water-collection", "composite-regional-analysis"]
 relatedSources: ["wsp-highway-survey"]
 relatedTerms: []
 tags:
