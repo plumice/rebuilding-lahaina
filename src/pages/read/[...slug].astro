@@ -1,5 +1,6 @@
 ---
 import SectionLayout from '../../layouts/SectionLayout.astro';
+import SectionMap from '../../components/SectionMap.astro';
 import { getCollection, render } from 'astro:content';
 
 export async function getStaticPaths() {
@@ -21,6 +22,101 @@ export async function getStaticPaths() {
 
 const { section, prev, next } = Astro.props;
 const { Content } = await render(section);
+const slug = section.id;
+
+// Section-specific map layers
+const sectionMaps: Record<string, { layers: Array<{ name: string; file: string; color: string }>; center?: [number, number]; zoom?: number }> = {
+  'environmental-analysis': {
+    layers: [
+      { name: 'Existing Streams (DAR)', file: '/data/geojson/streams.geojson', color: '#4488cc' },
+      { name: 'Watersheds (CWRM)', file: '/data/geojson/watersheds.geojson', color: '#8855aa' },
+      { name: 'Aquifer Boundaries (DLNR)', file: '/data/geojson/aquifers.geojson', color: '#2ca89a' },
+      { name: 'SLR 3.2ft Flood Exposure', file: '/data/geojson/slr_exposure.geojson', color: '#cc4444' },
+    ],
+    center: [20.89, -156.66],
+    zoom: 13,
+  },
+  'water-crisis': {
+    layers: [
+      { name: 'Existing Streams (DAR)', file: '/data/geojson/streams.geojson', color: '#4488cc' },
+      { name: 'Historic Ditches (CWRM)', file: '/data/geojson/ditches.geojson', color: '#c4a265' },
+      { name: 'Aquifer Boundaries (DLNR)', file: '/data/geojson/aquifers.geojson', color: '#2ca89a' },
+      { name: 'Dams', file: '/data/geojson/dams.geojson', color: '#884444' },
+      { name: 'Wastewater Treatment', file: '/data/geojson/wwtp.geojson', color: '#aa6622' },
+    ],
+  },
+  'pioneer-mill-water-infrastructure': {
+    layers: [
+      { name: 'Historic Ditches (CWRM)', file: '/data/geojson/ditches.geojson', color: '#c4a265' },
+      { name: 'Existing Streams (DAR)', file: '/data/geojson/streams.geojson', color: '#4488cc' },
+      { name: 'Dams', file: '/data/geojson/dams.geojson', color: '#884444' },
+    ],
+    center: [20.89, -156.66],
+    zoom: 13,
+  },
+  'fire-analysis': {
+    layers: [
+      { name: 'Roads', file: '/data/geojson/roads_maui.geojson', color: '#888888' },
+      { name: 'Public Schools', file: '/data/geojson/schools_public.geojson', color: '#dd6699' },
+      { name: 'Historic Ditches (CWRM)', file: '/data/geojson/ditches.geojson', color: '#c4a265' },
+    ],
+  },
+  'buffer-framework': {
+    layers: [
+      { name: 'SLR 3.2ft Flood Exposure', file: '/data/geojson/slr_exposure.geojson', color: '#cc4444' },
+      { name: 'Existing Streams (DAR)', file: '/data/geojson/streams.geojson', color: '#4488cc' },
+      { name: 'Watersheds (CWRM)', file: '/data/geojson/watersheds.geojson', color: '#8855aa' },
+      { name: 'Historic Ditches (CWRM)', file: '/data/geojson/ditches.geojson', color: '#c4a265' },
+    ],
+    center: [20.89, -156.66],
+    zoom: 13,
+  },
+  'mobility-street-design': {
+    layers: [
+      { name: 'Roads', file: '/data/geojson/roads_maui.geojson', color: '#888888' },
+      { name: 'Sidewalks and Paths', file: '/data/geojson/sidewalks.geojson', color: '#44aa66' },
+      { name: 'Existing Bikeways', file: '/data/geojson/bikeways_existing.geojson', color: '#33bb55' },
+      { name: 'Proposed Bikeways', file: '/data/geojson/bikeways_proposed.geojson', color: '#33bb55' },
+    ],
+  },
+  'cultural-heritage-strategy': {
+    layers: [
+      { name: 'Streams with Cultural Resources', file: '/data/geojson/streams_cultural.geojson', color: '#cc6633' },
+      { name: 'SLR 3.2ft Flood Exposure', file: '/data/geojson/slr_exposure.geojson', color: '#cc4444' },
+      { name: 'Public Schools', file: '/data/geojson/schools_public.geojson', color: '#dd6699' },
+    ],
+  },
+  'water-green-mobility-systems': {
+    layers: [
+      { name: 'Existing Streams (DAR)', file: '/data/geojson/streams.geojson', color: '#4488cc' },
+      { name: 'Historic Ditches (CWRM)', file: '/data/geojson/ditches.geojson', color: '#c4a265' },
+      { name: 'Streams with Aquatic Resources', file: '/data/geojson/streams_aquatic.geojson', color: '#2299cc' },
+      { name: 'Roads', file: '/data/geojson/roads_maui.geojson', color: '#888888' },
+    ],
+    center: [20.89, -156.66],
+    zoom: 13,
+  },
+  'water-system-zones': {
+    layers: [
+      { name: 'Historic Ditches (CWRM)', file: '/data/geojson/ditches.geojson', color: '#c4a265' },
+      { name: 'Existing Streams (DAR)', file: '/data/geojson/streams.geojson', color: '#4488cc' },
+      { name: 'Hydrologic Units', file: '/data/geojson/hydro_units.geojson', color: '#6677bb' },
+      { name: 'Dams', file: '/data/geojson/dams.geojson', color: '#884444' },
+    ],
+    center: [20.89, -156.66],
+    zoom: 13,
+  },
+  'redensification-hubs': {
+    layers: [
+      { name: 'Roads', file: '/data/geojson/roads_maui.geojson', color: '#888888' },
+      { name: 'Public Schools', file: '/data/geojson/schools_public.geojson', color: '#dd6699' },
+      { name: 'Private Schools', file: '/data/geojson/schools_private.geojson', color: '#bb4477' },
+      { name: 'Sidewalks and Paths', file: '/data/geojson/sidewalks.geojson', color: '#44aa66' },
+    ],
+  },
+};
+
+const mapConfig = sectionMaps[slug];
 ---
 
 <SectionLayout
@@ -35,4 +131,12 @@ const { Content } = await render(section);
   next={next}
 >
   <Content />
+  {mapConfig && (
+    <SectionMap
+      id={`section-${slug}`}
+      layers={mapConfig.layers}
+      center={mapConfig.center}
+      zoom={mapConfig.zoom}
+    />
+  )}
 </SectionLayout>
