@@ -1,6 +1,34 @@
 import { defineCollection, z } from 'astro:content';
 import { glob } from 'astro/loaders';
 
+function quietGlob(options: Parameters<typeof glob>[0]) {
+  const loader = glob(options);
+
+  return {
+    ...loader,
+    async load(context: Parameters<typeof loader.load>[0]) {
+      const originalWarn = context.logger.warn.bind(context.logger);
+      const filteredLogger = Object.assign(
+        Object.create(Object.getPrototypeOf(context.logger)),
+        context.logger,
+        {
+          warn(message: string) {
+            if (message.startsWith('Duplicate id "') && message.includes('Later items with the same id will overwrite earlier ones.')) {
+              return;
+            }
+            originalWarn(message);
+          },
+        },
+      ) as typeof context.logger;
+
+      await loader.load({
+        ...context,
+        logger: filteredLogger,
+      });
+    },
+  };
+}
+
 const topicEnum = z.enum([
   'water', 'mobility', 'housing', 'coastal', 'cultural-heritage',
   'zoning', 'fire', 'recovery', 'ecology', 'infrastructure', 'policy',
@@ -26,7 +54,7 @@ const tagsSchema = z.object({
 });
 
 const sections = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/sections' }),
+  loader: quietGlob({ pattern: '**/*.md', base: './src/content/sections' }),
   schema: z.object({
     title: z.string(),
     chapter: chapterEnum,
@@ -43,7 +71,7 @@ const sections = defineCollection({
 });
 
 const drawings = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/drawings' }),
+  loader: quietGlob({ pattern: '**/*.md', base: './src/content/drawings' }),
   schema: z.object({
     title: z.string(),
     image: z.string(),
@@ -59,7 +87,7 @@ const drawings = defineCollection({
 });
 
 const sources = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/sources' }),
+  loader: quietGlob({ pattern: '**/*.md', base: './src/content/sources' }),
   schema: z.object({
     title: z.string(),
     author: z.string(),
@@ -74,7 +102,7 @@ const sources = defineCollection({
 });
 
 const terms = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/terms' }),
+  loader: quietGlob({ pattern: '**/*.md', base: './src/content/terms' }),
   schema: z.object({
     term: z.string(),
     definition: z.string(),
@@ -85,7 +113,7 @@ const terms = defineCollection({
 });
 
 const maps = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/maps' }),
+  loader: quietGlob({ pattern: '**/*.md', base: './src/content/maps' }),
   schema: z.object({
     title: z.string(),
     description: z.string(),
@@ -106,7 +134,7 @@ const maps = defineCollection({
 });
 
 const timeline = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/timeline' }),
+  loader: quietGlob({ pattern: '**/*.md', base: './src/content/timeline' }),
   schema: z.object({
     date: z.string(),
     era: z.string(),
@@ -119,7 +147,7 @@ const timeline = defineCollection({
 });
 
 const topics = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/topics' }),
+  loader: quietGlob({ pattern: '**/*.md', base: './src/content/topics' }),
   schema: z.object({
     title: z.string(),
     summary: z.string(),
@@ -127,7 +155,7 @@ const topics = defineCollection({
 });
 
 const scales = defineCollection({
-  loader: glob({ pattern: '**/*.md', base: './src/content/scales' }),
+  loader: quietGlob({ pattern: '**/*.md', base: './src/content/scales' }),
   schema: z.object({
     title: z.string(),
     summary: z.string(),

@@ -3,7 +3,7 @@ title: "Street-by-Street Mobility Design"
 chapter: "ch4-principles"
 order: 4
 summary: "Detailed design for each corridor: the New Boulevard, Coastal Promenade, Lahaina Luna Avenue, Kahoma Boulevard, and Wainee Street."
-relatedDrawings: ["proposed-mobility", "existing-mobility"]
+relatedDrawings: ["proposed-mobility", "coastal-promenade-render", "existing-mobility"]
 relatedSources: []
 relatedTerms: ["slow-mobility"]
 tags:

@@ -3,7 +3,7 @@ title: "Community Anchors - Node-Based Urbanism"
 chapter: "ch2-overview"
 order: 3
 summary: "How distributing essential functions across multiple nodes prevents simultaneous loss and serves both daily life and crisis response."
-relatedDrawings: ["hub-locations", "redensification-plan"]
+relatedDrawings: ["case-studies-map", "hub-locations"]
 relatedSources: ["coming-home-new-orleans"]
 relatedTerms: ["node-based-planning"]
 tags:

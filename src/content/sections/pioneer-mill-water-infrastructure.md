@@ -3,7 +3,7 @@ title: "Pioneer Mill Water Infrastructure"
 chapter: "ch3-analysis"
 order: 5
 summary: "Historic ditch systems, aquifer designation, and the water crisis blocking Lahaina's recovery."
-relatedDrawings: ["composite-regional-analysis"]
+relatedDrawings: ["regional-streams-ditches", "composite-regional-analysis"]
 relatedSources: ["wsp-highway-survey"]
 relatedTerms: []
 tags:
