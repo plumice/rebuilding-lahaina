@@ -3,7 +3,7 @@ title: "Community Hub Operations"
 chapter: "ch5-design"
 order: 7
 summary: "How the three community hubs function daily and convert to emergency facilities , program details, accessibility, and dual-use design."
-relatedDrawings: ["hub-locations", "school-floor-plan", "cumulative-systems"]
+relatedDrawings: ["hub-locations", "hub-render", "school-floor-plan", "school-sections", "cumulative-systems"]
 relatedSources: ["after-great-disasters"]
 relatedTerms: ["node-based-planning"]
 tags:
