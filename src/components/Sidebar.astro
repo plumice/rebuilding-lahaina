@@ -2,18 +2,29 @@
 import { getCollection } from 'astro:content';
 
 interface Props {
+  currentSectionId?: string;
   relatedDrawings?: string[];
   relatedSources?: string[];
   relatedTerms?: string[];
 }
 
-const { relatedDrawings = [], relatedSources = [], relatedTerms = [] } = Astro.props;
+const { currentSectionId, relatedDrawings = [], relatedSources = [], relatedTerms = [] } = Astro.props;
 
 const allDrawings = await getCollection('drawings');
 const allSources = await getCollection('sources');
 const allTerms = await getCollection('terms');
 
-const drawings = allDrawings.filter((d) => relatedDrawings.includes(d.id));
+const reverseLinkedDrawingIds = currentSectionId
+  ? allDrawings
+      .filter((d) => d.data.relatedSections.includes(currentSectionId))
+      .map((d) => d.id)
+  : [];
+
+const drawingIds = [...new Set([...relatedDrawings, ...reverseLinkedDrawingIds])];
+const drawingsById = new Map(allDrawings.map((d) => [d.id, d]));
+const drawings = drawingIds
+  .map((id) => drawingsById.get(id))
+  .filter((d): d is typeof allDrawings[number] => Boolean(d));
 const sources = allSources.filter((s) => relatedSources.includes(s.id));
 const terms = allTerms.filter((t) => relatedTerms.includes(t.id));
 ---

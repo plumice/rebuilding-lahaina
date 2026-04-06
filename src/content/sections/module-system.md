@@ -3,7 +3,7 @@ title: "The Module System"
 chapter: "ch5-design"
 order: 3
 summary: "A 26x26-foot building module using Hawaiian construction traditions, water capture, and solar response."
-relatedDrawings: []
+relatedDrawings: ["module-core", "module-connections", "module-assembly", "module-isometric", "module-water-performance", "module-solar-performance"]
 relatedSources: []
 relatedTerms: []
 tags:

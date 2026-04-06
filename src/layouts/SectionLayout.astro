@@ -11,6 +11,7 @@ interface Link {
 }
 
 interface Props {
+  sectionId?: string;
   title: string;
   chapter: string;
   summary: string;
@@ -22,7 +23,7 @@ interface Props {
   next?: Link;
 }
 
-const { title, chapter, summary, tags, relatedDrawings, relatedSources, relatedTerms, prev, next } = Astro.props;
+const { sectionId, title, chapter, summary, tags, relatedDrawings, relatedSources, relatedTerms, prev, next } = Astro.props;
 
 const chapterLabels: Record<string, string> = {
   'ch1-introduction': '01 — Introduction',
@@ -51,7 +52,7 @@ const chapterLabels: Record<string, string> = {
         <slot />
       </article>
 
-      <Sidebar relatedDrawings={relatedDrawings} relatedSources={relatedSources} relatedTerms={relatedTerms} />
+      <Sidebar currentSectionId={sectionId} relatedDrawings={relatedDrawings} relatedSources={relatedSources} relatedTerms={relatedTerms} />
     </div>
 
     <div class="mt-12 p-4 bg-surface border border-border rounded text-sm text-text-muted">
