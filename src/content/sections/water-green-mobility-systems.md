@@ -3,7 +3,7 @@ title: "Proposed Systems - Water, Green Infrastructure, and Mobility"
 chapter: "ch4-principles"
 order: 3
 summary: "Integrated urban systems connecting water capture, green corridors, and a new mobility network."
-relatedDrawings: []
+relatedDrawings: ["water-zones-mauka-makai", "water-collection-principles", "existing-green-infrastructure", "proposed-green-infrastructure", "existing-mobility", "proposed-mobility", "coastal-promenade-render", "cumulative-systems"]
 relatedSources: []
 relatedTerms: []
 tags:
