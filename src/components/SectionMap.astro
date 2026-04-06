@@ -1,0 +1,28 @@
+---
+import MapViewer from './MapViewer.astro';
+
+interface Layer {
+  name: string;
+  file: string;
+  color: string;
+}
+
+interface Props {
+  id: string;
+  layers: Layer[];
+  center?: [number, number];
+  zoom?: number;
+}
+
+const { id, layers, center = [20.8783, -156.6825], zoom = 14 } = Astro.props;
+---
+
+<div class="my-10">
+  <h3 class="text-[0.8rem] tracking-widest uppercase text-accent mb-3">Interactive Map</h3>
+  <div class="[&_>div:first-child]:!h-[300px] [&_>div:first-child]:md:!h-[400px]">
+    <MapViewer id={id} center={center} zoom={zoom} layers={layers} />
+  </div>
+  <p class="text-xs text-text-muted mt-2">
+    Data from <a href="https://geoportal.hawaii.gov" class="text-accent hover:text-text no-underline" target="_blank" rel="noopener">Hawaii State GIS</a>. <a href="/map/water-systems-overlay" class="text-accent hover:text-text no-underline">View full map with all 16 layers</a>.
+  </p>
+</div>
