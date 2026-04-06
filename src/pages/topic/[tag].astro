@@ -15,7 +15,7 @@ export async function getStaticPaths() {
 
 const { topic } = Astro.props;
 const { Content } = await render(topic);
-const tag = topic.id;
+const tag = topic.id as 'water' | 'mobility' | 'housing' | 'coastal' | 'cultural-heritage' | 'zoning' | 'fire' | 'recovery' | 'ecology' | 'infrastructure' | 'policy';
 
 const sections = (await getCollection('sections')).filter((s) => s.data.tags.topic.includes(tag));
 const drawings = (await getCollection('drawings')).filter((d) => d.data.tags.topic.includes(tag));

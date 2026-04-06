@@ -1,5 +1,5 @@
 ---
-term: "Ahupua'a"
+term: "Ahupuaʻa"
 definition: "Traditional Hawaiian land division extending from mountains (mauka) to sea (makai), integrating natural water systems for agriculture, community sustenance, and ecological balance. The ahupuaʻa organized land as continuous hydrological and social unit, with resource management distributed across elevation zones."
 category: "hawaiian"
 relatedSections: ["abstract", "key-terms", "research-questions", "resilience-drivers", "community-anchors", "literature-methodology", "history-of-lahaina", "environmental-analysis", "water-crisis", "pioneer-mill-water-infrastructure", "cultural-heritage-strategy", "buffer-framework", "water-green-mobility-systems", "water-system-zones", "results-discussion", "contribution"]

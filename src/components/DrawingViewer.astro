@@ -29,8 +29,8 @@ const { src, alt, title } = Astro.props;
     background: 'rgba(255, 255, 255, 0.95)',
     margin: 24,
   });
-  document.querySelectorAll('.zoomable').forEach((img) => {
-    img.addEventListener('keydown', (e) => {
+  document.querySelectorAll<HTMLImageElement>('.zoomable').forEach((img) => {
+    img.addEventListener('keydown', (e: KeyboardEvent) => {
       if (e.key === 'Enter' || e.key === ' ') {
         e.preventDefault();
         zoom.open({ target: img });

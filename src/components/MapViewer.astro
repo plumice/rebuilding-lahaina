@@ -10,12 +10,13 @@ interface Props {
   center: [number, number];
   zoom: number;
   layers: Layer[];
+  autoFit?: boolean;
 }
 
-const { id, center, zoom, layers } = Astro.props;
+const { id, center, zoom, layers, autoFit = false } = Astro.props;
 ---
 
-<div id={`map-${id}`} class="w-full h-[400px] md:h-[600px] bg-surface border border-border relative" data-center={JSON.stringify(center)} data-zoom={zoom} data-layers={JSON.stringify(layers)}>
+<div id={`map-${id}`} class="w-full h-[400px] md:h-[600px] bg-surface border border-border relative" data-center={JSON.stringify(center)} data-zoom={zoom} data-layers={JSON.stringify(layers)} data-auto-fit={autoFit}>
   <noscript>
     <p class="p-8 text-text-muted">Interactive map requires JavaScript.</p>
   </noscript>
@@ -46,6 +47,7 @@ const { id, center, zoom, layers } = Astro.props;
     const center = JSON.parse(mapEl.dataset.center!) as [number, number];
     const zoom = Number(mapEl.dataset.zoom);
     const layers = JSON.parse(mapEl.dataset.layers!) as Array<{ name: string; file: string; color: string }>;
+    const autoFit = mapEl.dataset.autoFit === 'true';
 
     const map = L.map(mapEl.id).setView(center, zoom);
 
@@ -90,7 +92,7 @@ const { id, center, zoom, layers } = Astro.props;
             fillOpacity: custom.fillOpacity ?? 0.1,
             dashArray: custom.dashArray || null,
           },
-          pointToLayer: (feature, latlng) => {
+          pointToLayer: (_feature, latlng) => {
             return L.circleMarker(latlng, {
               radius: 7,
               fillColor: layerDef.color,
@@ -113,6 +115,14 @@ const { id, center, zoom, layers } = Astro.props;
         layerMap.set(layerDef.name, geoLayer);
       } catch {
         // GeoJSON file not available yet — skip silently during development
+      }
+    }
+
+    // Fit map to show all loaded layer data
+    if (autoFit && layerMap.size > 0) {
+      const allBounds = L.featureGroup(Array.from(layerMap.values())).getBounds();
+      if (allBounds.isValid()) {
+        map.fitBounds(allBounds, { padding: [20, 20], maxZoom: zoom });
       }
     }
 

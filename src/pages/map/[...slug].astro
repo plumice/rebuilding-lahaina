@@ -38,6 +38,7 @@ const drawings = (await getCollection('drawings')).filter((d) => map.data.relate
         center={map.data.defaultCenter}
         zoom={map.data.defaultZoom}
         layers={map.data.layers}
+        autoFit={true}
       />
     </div>
 
