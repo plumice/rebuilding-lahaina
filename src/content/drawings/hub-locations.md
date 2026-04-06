@@ -1,7 +1,7 @@
 ---
 title: "Community Hub Network"
-image: "/images/drawings/complete_ppt/Slide48.JPG"
-alt: "Three community hub typologies positioned within walkable distance of all residential areas"
+image: "/images/drawings/final_ppt_complete/Slide47.JPG"
+alt: "Three community hub locations positioned within walkable distance of all residential areas"
 scaleLevel: "town"
 drawingType: "diagram"
 relatedSections: ["redensification-hubs", "community-anchors"]
@@ -11,4 +11,4 @@ tags:
   type: [proposal]
 ---
 
-Three community hubs — combining primary schools, health services, and emergency response — positioned as neighborhood anchors within walkable distance of the redensified residential core.
+Three community hubs combining primary school, health services, and emergency response are positioned as neighborhood anchors within walkable distance of the redensified residential core.

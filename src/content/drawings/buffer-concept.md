@@ -1,7 +1,7 @@
 ---
-title: "Buffer Framework Concept"
-image: "/images/drawings/complete_ppt/Slide25.JPG"
-alt: "Concept diagram showing the four buffer zones — coastal, riparian, peri-urban, and water collection"
+title: "Buffer Framework Base Plan"
+image: "/images/drawings/final_ppt_complete/Slide25.JPG"
+alt: "Base plan showing the coastal, riparian, and peri-urban buffer extents with the primary circulation framework"
 scaleLevel: "town"
 drawingType: "concept-diagram"
 relatedSections: ["buffer-framework"]
@@ -11,4 +11,4 @@ tags:
   type: [proposal]
 ---
 
-The organizing concept for the recovery plan — four buffer zones protecting the town from coast to hinterland.
+The base plan for the recovery framework showing how the coastal, riparian, and peri-urban buffers are distributed across Lahaina and tied to the primary circulation structure.

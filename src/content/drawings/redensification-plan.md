@@ -1,6 +1,6 @@
 ---
 title: "Redensification Plan"
-image: "/images/drawings/complete_ppt/Slide45.JPG"
+image: "/images/drawings/final_ppt_complete/Slide46.JPG"
 alt: "Proposed high-density housing plan showing 2,200 units centered on the new boulevard with typology breakdown"
 scaleLevel: "town"
 drawingType: "plan"
@@ -11,4 +11,4 @@ tags:
   type: [proposal]
 ---
 
-The redensification plan concentrating 2,200 new housing units along the boulevard. The data table shows the unit mix: townhomes, stacked apartments, and mixed-use buildings at a maximum of 4 stories.
+The redensification plan concentrates 2,200 new housing units along the boulevard. The data table shows the unit mix: townhomes, stacked apartments, and mixed-use buildings at a maximum of four stories.

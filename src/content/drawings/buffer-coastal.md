@@ -1,7 +1,7 @@
 ---
 title: "Coastal Buffer Map"
-image: "/images/drawings/updated_local_coastal.jpg"
-alt: "Plan showing the coastal buffer zone defined by sea level rise projections and Wainee Street boundary"
+image: "/images/drawings/final_ppt_complete/Slide26.JPG"
+alt: "Plan showing the coastal buffer zone defined by sea level rise projections and the inland retreat boundary"
 scaleLevel: "town"
 drawingType: "plan"
 relatedSections: ["buffer-framework", "environmental-analysis"]

@@ -1,6 +1,6 @@
 ---
 title: "Peri-Urban Buffer"
-image: "/images/drawings/updated_local_periurban.jpg"
+image: "/images/drawings/final_ppt_complete/Slide33.JPG"
 alt: "Agricultural transition zone between the proposed boulevard and highway serving as firebreak"
 scaleLevel: "district"
 drawingType: "diagram"
@@ -11,4 +11,4 @@ tags:
   type: [proposal]
 ---
 
-The peri-urban buffer creates an irrigated agricultural park between the boulevard and highway — a productive landscape that doubles as a firebreak.
+The peri-urban buffer creates an irrigated agricultural park between the boulevard and highway, a productive landscape that doubles as a firebreak.

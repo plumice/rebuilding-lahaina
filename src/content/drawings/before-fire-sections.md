@@ -1,8 +1,8 @@
 ---
-title: "Sections — Before Fire"
-image: "/images/drawings/complete_ppt/Slide53.JPG"
+title: "Sections - Before Fire"
+image: "/images/drawings/final_ppt_complete/Slide51.JPG"
 alt: "Cross-sections showing Lahaina's spatial condition before the 2023 wildfire"
-scaleLevel: "district"
+scaleLevel: "site"
 drawingType: "section"
 relatedSections: ["history-of-lahaina", "design-interventions"]
 tags:

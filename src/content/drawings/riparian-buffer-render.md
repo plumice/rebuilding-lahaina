@@ -1,6 +1,6 @@
 ---
-title: "Riparian Buffer — 3D View"
-image: "/images/drawings/complete_ppt/Slide31.JPG"
+title: "Riparian Buffer - 3D View"
+image: "/images/drawings/final_ppt_complete/Slide31.JPG"
 alt: "3D visualization of riparian buffer restoration showing stream restoration with vegetation and flood management"
 scaleLevel: "site"
 drawingType: "rendering"
@@ -11,4 +11,4 @@ tags:
   type: [proposal]
 ---
 
-Visualization of the restored riparian corridor — naturalized stream banks, native vegetation, flood management features, and public trail access.
+Visualization of the restored riparian corridor, with naturalized stream banks, native vegetation, flood management features, and public trail access.

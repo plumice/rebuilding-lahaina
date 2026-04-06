@@ -1,6 +1,6 @@
 ---
-title: "School — Program Details"
-image: "/images/drawings/complete_ppt/Slide60.JPG"
+title: "School - Program Details"
+image: "/images/drawings/final_ppt_complete/Slide60.JPG"
 alt: "Detailed zoom views of school functional areas: health offices, cafeteria, classrooms, and gymnasium"
 scaleLevel: "node"
 drawingType: "architectural-plan"
@@ -11,4 +11,4 @@ tags:
   type: [proposal]
 ---
 
-Four detailed views of the school's key functional areas — public access and health offices, cafeteria entrance, classroom wing, and gymnasium — showing how each zone operates within the mat-building framework.
+Four detailed views of the school's key functional areas, including health offices, cafeteria entrance, classroom wing, and gymnasium, show how each zone operates within the mat-building framework.

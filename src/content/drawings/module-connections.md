@@ -1,6 +1,6 @@
 ---
 title: "Module Connection Details"
-image: "/images/drawings/complete_ppt/Slide58.JPG"
+image: "/images/drawings/final_ppt_complete/Slide59.JPG"
 alt: "Technical drawings showing roof connections, gutter details, and wall-column joinery"
 scaleLevel: "node"
 drawingType: "detail"

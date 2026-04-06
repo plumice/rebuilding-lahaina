@@ -1,6 +1,6 @@
 ---
-title: "Coastal Buffer — 3D View"
-image: "/images/drawings/complete_ppt/Slide28.JPG"
+title: "Coastal Buffer - 3D View"
+image: "/images/drawings/final_ppt_complete/Slide28.JPG"
 alt: "Axonometric rendering of the coastal buffer zone showing integrated landscape design with green infrastructure and park areas"
 scaleLevel: "site"
 drawingType: "rendering"

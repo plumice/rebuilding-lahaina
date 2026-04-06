@@ -1,7 +1,7 @@
 ---
 title: "Module Assembly"
-image: "/images/drawings/complete_ppt/Slide59.JPG"
-alt: "Isometric diagram showing how individual modules connect and stack to form larger buildings"
+image: "/images/drawings/final_ppt_complete/Slide62.JPG"
+alt: "Module aggregation, runoff contribution, and repair scenarios showing how the kit of parts grows and adapts over time"
 scaleLevel: "node"
 drawingType: "diagram"
 relatedSections: ["module-system", "module-assembly-rules"]
@@ -11,4 +11,4 @@ tags:
   type: [proposal]
 ---
 
-The assembly logic — how individual 26x26-foot modules connect along their edges to create classroom wings, residential compounds, and community facilities. Labeled components show the structural and programmatic logic.
+The aggregation logic shows how 26x26-foot modules expand into larger clusters, support school-wide runoff capture, and remain repairable after damage without rebuilding the entire system.
