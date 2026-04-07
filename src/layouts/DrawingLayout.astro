@@ -17,11 +17,25 @@ interface Props {
   display?: {
     variant?: 'default' | 'board' | 'full';
   };
+  pageIntroTitle?: string;
+  pageIntroText?: string;
   relatedSections?: string[];
   tags: { topic: string[]; scale: string[]; type: string[] };
 }
 
-const { drawingId, title, image, alt, scaleLevel, drawingType, display = { variant: 'default' }, relatedSections = [], tags } = Astro.props;
+const {
+  drawingId,
+  title,
+  image,
+  alt,
+  scaleLevel,
+  drawingType,
+  display = { variant: 'default' },
+  pageIntroTitle,
+  pageIntroText,
+  relatedSections = [],
+  tags,
+} = Astro.props;
 
 const allSections = await getCollection('sections');
 const sections = allSections.filter((s) => relatedSections.includes(s.id));
@@ -53,6 +67,13 @@ const viewerVariant = display.variant && display.variant !== 'default'
     <h1 class="section-title mb-4">{title}</h1>
 
     <TagPills topics={tags.topic} scales={tags.scale} types={tags.type} />
+
+    {(pageIntroTitle || pageIntroText) && (
+      <div class="mt-8 max-w-3xl">
+        {pageIntroTitle && <div class="section-label mb-3">{pageIntroTitle}</div>}
+        {pageIntroText && <p class="text-lg leading-relaxed text-text-muted my-0">{pageIntroText}</p>}
+      </div>
+    )}
 
     <div class:list={['mt-8', hasCustomDiagram ? 'custom-diagram-block' : '']}>
       {CustomDiagram ? (

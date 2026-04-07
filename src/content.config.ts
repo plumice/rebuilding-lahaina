@@ -81,6 +81,8 @@ const drawings = defineCollection({
     display: z.object({
       variant: z.enum(['default', 'board', 'full']).default('default'),
     }).default({ variant: 'default' }),
+    pageIntroTitle: z.string().optional(),
+    pageIntroText: z.string().optional(),
     relatedSections: z.array(z.string()).default([]),
     tags: tagsSchema.extend({
       scale: z.array(scaleEnum).min(1),
