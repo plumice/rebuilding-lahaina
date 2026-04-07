@@ -1,6 +1,6 @@
 ---
 title: "Peri-Urban Buffer Map"
-image: "/images/drawings/final_ppt_complete/Slide32.JPG"
+image: "/images/drawings/updated_periurban_diagram.jpg"
 alt: "Plan showing the peri-urban firebreak and agricultural transition zone between the rebuilt town and the highway"
 scaleLevel: "district"
 drawingType: "plan"

@@ -1,6 +1,6 @@
 ---
 title: "Coastal Buffer Section"
-image: "/images/drawings/final_ppt_complete/Slide27.JPG"
+image: "/images/drawings/updated_coastal_diagram.jpg"
 alt: "Sectional strategy drawing showing retreat, public access, dunes, and coastal park interventions along the shoreline"
 scaleLevel: "site"
 drawingType: "section"
