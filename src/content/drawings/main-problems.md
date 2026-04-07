@@ -1,6 +1,6 @@
 ---
 title: "Five Key Problems"
-image: "/images/drawings/derived/figure_3_1_multi_scalar_framework_fixed.svg"
+image: "/images/drawings/derived/rebuildinglahaina_final_presentation_page_08.jpg"
 alt: "Diagram identifying five systemic problems: urban risk, weak coastal protection, displacement, lack of structure, and disconnected recovery"
 scaleLevel: "town"
 drawingType: "diagram"
