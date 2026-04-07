@@ -16,6 +16,11 @@ interface Props {
   display?: {
     variant?: 'default' | 'board' | 'full';
   };
+  supportImages?: Array<{
+    src: string;
+    alt: string;
+    variant?: 'board' | 'full';
+  }>;
   pageLayout?: 'default' | 'split-lead';
   bodyPosition?: 'after' | 'before';
   pageIntroTitle?: string;
@@ -32,6 +37,7 @@ const {
   scaleLevel,
   drawingType,
   display = { variant: 'default' },
+  supportImages = [],
   pageLayout = 'default',
   bodyPosition = 'after',
   pageIntroTitle,
@@ -85,6 +91,18 @@ const useSplitLead = pageLayout === 'split-lead' && bodyPosition === 'before' &&
         </div>
         <div class="split-lead-visual">
           <DrawingViewer src={image} alt={alt} title={title} variant={viewerVariant} />
+          {supportImages.length > 0 && (
+            <div class="support-image-stack">
+              {supportImages.map((supportImage) => (
+                <DrawingViewer
+                  src={supportImage.src}
+                  alt={supportImage.alt}
+                  title={title}
+                  variant={supportImage.variant ?? 'board'}
+                />
+              ))}
+            </div>
+          )}
         </div>
       </div>
     ) : (
@@ -100,6 +118,19 @@ const useSplitLead = pageLayout === 'split-lead' && bodyPosition === 'before' &&
         <div class="prose mt-8">
           <slot />
         </div>
+
+        {supportImages.length > 0 && (
+          <div class="support-image-stack mt-8">
+            {supportImages.map((supportImage) => (
+              <DrawingViewer
+                src={supportImage.src}
+                alt={supportImage.alt}
+                title={title}
+                variant={supportImage.variant ?? 'board'}
+              />
+            ))}
+          </div>
+        )}
       </>
     )}
 
@@ -137,6 +168,12 @@ const useSplitLead = pageLayout === 'split-lead' && bodyPosition === 'before' &&
 
   .split-lead-visual {
     min-width: 0;
+  }
+
+  .support-image-stack {
+    display: grid;
+    gap: 1.5rem;
+    margin-top: 1.5rem;
   }
 
   @media (min-width: 960px) {

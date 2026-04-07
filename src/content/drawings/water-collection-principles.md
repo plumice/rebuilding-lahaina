@@ -1,11 +1,15 @@
 ---
 title: "Water Collection Strategy"
-image: "/images/drawings/derived/rebuildinglahaina_final_presentation_page_30.jpg"
+image: "/images/drawings/derived/water-collection-strategy-original.jpeg"
 alt: "Diagram showing water collection pond system and distribution from mountain hinterland to town"
 scaleLevel: "district"
 drawingType: "diagram"
 display:
   variant: "board"
+supportImages:
+  - src: "/images/drawings/derived/water-system-performance-original.jpg"
+    alt: "Performance infographic testing the proposed water system under drought and flood scenarios"
+    variant: "board"
 pageLayout: "split-lead"
 bodyPosition: "before"
 relatedSections: ["water-crisis", "water-green-mobility-systems", "water-system-zones"]

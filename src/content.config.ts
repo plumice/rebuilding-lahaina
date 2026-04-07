@@ -81,6 +81,11 @@ const drawings = defineCollection({
     display: z.object({
       variant: z.enum(['default', 'board', 'full']).default('default'),
     }).default({ variant: 'default' }),
+    supportImages: z.array(z.object({
+      src: z.string(),
+      alt: z.string(),
+      variant: z.enum(['board', 'full']).default('board'),
+    })).default([]),
     pageLayout: z.enum(['default', 'split-lead']).default('default'),
     bodyPosition: z.enum(['after', 'before']).default('after'),
     pageIntroTitle: z.string().optional(),
