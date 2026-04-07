@@ -3,25 +3,37 @@ interface Props {
   src: string;
   alt: string;
   title: string;
+  variant?: 'board' | 'full';
 }
 
-const { src, alt, title } = Astro.props;
+const { src, alt, title, variant = 'full' } = Astro.props;
 ---
 
-<figure class="bg-surface border border-border p-4">
+<figure class:list={[
+  'drawing-figure',
+  variant === 'board'
+    ? 'mx-auto max-w-[56rem] border border-[#ddd8cf] bg-[#f7f3eb] p-3 sm:p-4'
+    : 'border border-border bg-surface p-4',
+]}>
   <img
     src={src}
     alt={alt}
-    class="w-full h-auto cursor-zoom-in zoomable"
+    class:list={[
+      'zoomable cursor-zoom-in',
+      variant === 'board' ? 'mx-auto block h-auto max-h-[78vh] w-auto max-w-full object-contain' : 'w-full h-auto',
+    ]}
     loading="lazy"
     tabindex="0"
     role="button"
     aria-label={`Press Enter to enlarge: ${title}`}
   />
-  <figcaption class="mt-3 text-[0.8rem] text-text-muted tracking-wide">
-    {title}
-  </figcaption>
 </figure>
+
+<style>
+  .drawing-figure {
+    margin: 0;
+  }
+</style>
 
 <script>
   import mediumZoom from 'medium-zoom';

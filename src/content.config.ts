@@ -78,6 +78,9 @@ const drawings = defineCollection({
     alt: z.string(),
     scaleLevel: scaleEnum,
     drawingType: z.string(),
+    display: z.object({
+      variant: z.enum(['default', 'board', 'full']).default('default'),
+    }).default({ variant: 'default' }),
     relatedSections: z.array(z.string()).default([]),
     tags: tagsSchema.extend({
       scale: z.array(scaleEnum).min(1),
