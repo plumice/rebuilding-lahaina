@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 960 1080">
+  <!-- Generator: Adobe Illustrator 30.0.0, SVG Export Plug-In . SVG Version: 2.1.1 Build 123)  -->
+  <defs>
+    <style>
+      .st0 {
+        font-size: 12px;
+      }
+
+      .st0, .st1, .st2, .st3, .st4, .st5, .st6, .st7, .st8, .st9, .st10, .st11 {
+        isolation: isolate;
+      }
+
+      .st0, .st2, .st10 {
+        font-family: Helvetica, Helvetica;
+      }
+
+      .st0, .st3, .st4 {
+        fill: #4a3a2a;
+      }
+
+      .st1, .st5, .st6, .st8, .st9, .st11 {
+        fill: none;
+      }
+
+      .st1, .st9 {
+        stroke: #b5ab99;
+      }
+
+      .st1, .st10 {
+        opacity: .5;
+      }
+
+      .st2 {
+        font-size: 6.5px;
+        opacity: .48;
+      }
+
+      .st2, .st7, .st10 {
+        fill: #6b5a3a;
+      }
+
+      .st3 {
+        font-size: 13px;
+      }
+
+      .st3, .st4 {
+        font-family: Helvetica-Bold, Helvetica;
+        font-weight: 700;
+      }
+
+      .st4 {
+        font-size: 10px;
+        letter-spacing: .2em;
+        opacity: .65;
+      }
+
+      .st5 {
+        stroke: #c4b8a8;
+        stroke-dasharray: 6 4;
+      }
+
+      .st5, .st12 {
+        stroke-width: 1.2px;
+      }
+
+      .st5, .st9 {
+        opacity: .45;
+      }
+
+      .st6 {
+        opacity: .3;
+      }
+
+      .st6, .st8, .st13, .st12, .st11 {
+        stroke: #6b5a3a;
+      }
+
+      .st6, .st11 {
+        stroke-width: .7px;
+      }
+
+      .st7 {
+        font-family: Helvetica-Oblique, Helvetica;
+        font-size: 10.5px;
+        font-style: oblique;
+        opacity: .62;
+      }
+
+      .st8 {
+        opacity: .25;
+        stroke-width: .8px;
+      }
+
+      .st13 {
+        fill: #8a7a62;
+      }
+
+      .st12 {
+        fill: #7a6a52;
+      }
+
+      .st9 {
+        stroke-width: 1.8px;
+      }
+
+      .st10 {
+        font-size: 7px;
+      }
+
+      .st11 {
+        opacity: .22;
+      }
+    </style>
+  </defs>
+  <line class="st6" x1="84.78" y1="155.5" x2="875.22" y2="155.5"/>
+  <text class="st4" transform="translate(124.78 152.5)"><tspan x="0" y="0">PRINCIPLES</tspan></text>
+  <text class="st4" transform="translate(526.8 152.5)"><tspan x="0" y="0">ACTIONS</tspan></text>
+  <line class="st8" x1="478.89" y1="167.5" x2="478.89" y2="922.5"/>
+  <path class="st12" d="M124.78,196.5l11,11-11,11-11-11,11-11Z"/>
+  <text class="st10" transform="translate(122.84 190.5)"><tspan x="0" y="0">1</tspan></text>
+  <text class="st3" transform="translate(164.78 204.5)"><tspan x="0" y="0">Residential can always rebuild</tspan></text>
+  <text class="st7" transform="translate(164.78 223.5)"><tspan x="0" y="0">NO displacement</tspan></text>
+  <line class="st1" x1="138.78" y1="207.5" x2="156.78" y2="207.5"/>
+  <path class="st12" d="M124.78,341.5l11,11-11,11-11-11,11-11Z"/>
+  <text class="st10" transform="translate(122.84 335.5)"><tspan x="0" y="0">2</tspan></text>
+  <text class="st3" transform="translate(164.78 349.5)"><tspan x="0" y="0">Space for everyone to return</tspan></text>
+  <text class="st7" transform="translate(164.78 368.5)"><tspan x="0" y="0">Public Access</tspan></text>
+  <line class="st1" x1="138.78" y1="352.5" x2="156.78" y2="352.5"/>
+  <path class="st12" d="M124.78,486.5l11,11-11,11-11-11,11-11Z"/>
+  <text class="st10" transform="translate(122.84 480.5)"><tspan x="0" y="0">3</tspan></text>
+  <text class="st3" transform="translate(164.78 494.5)"><tspan x="0" y="0">Multi-Functional Spaces</tspan></text>
+  <text class="st7" transform="translate(164.78 513.5)"><tspan x="0" y="0">Infrastructures</tspan></text>
+  <line class="st1" x1="138.78" y1="497.5" x2="156.78" y2="497.5"/>
+  <path class="st12" d="M124.78,631.5l11,11-11,11-11-11,11-11Z"/>
+  <text class="st10" transform="translate(122.84 625.5)"><tspan x="0" y="0">4</tspan></text>
+  <text class="st3" transform="translate(164.78 639.5)"><tspan x="0" y="0">Buffer Edges of the town</tspan></text>
+  <line class="st1" x1="138.78" y1="642.5" x2="156.78" y2="642.5"/>
+  <path class="st12" d="M124.78,776.5l11,11-11,11-11-11,11-11Z"/>
+  <text class="st10" transform="translate(122.84 770.5)"><tspan x="0" y="0">5</tspan></text>
+  <text class="st3" transform="translate(164.78 784.5)"><tspan x="0" y="0">Preserve Cultural Heritage</tspan></text>
+  <line class="st1" x1="138.78" y1="787.5" x2="156.78" y2="787.5"/>
+  <line class="st9" x1="124.78" y1="220.5" x2="124.78" y2="774.5"/>
+  <ellipse class="st13" cx="504.89" cy="207.5" rx="3.03" ry="7"/>
+  <text class="st2" transform="translate(503.95 195.5) scale(.43 1)"><tspan x="0" y="0">A</tspan></text>
+  <text class="st0" transform="translate(544.78 211.5)"><tspan x="0" y="0">Allow adaptation in place</tspan></text>
+  <line class="st1" x1="509.23" y1="207.5" x2="518.76" y2="207.5"/>
+  <ellipse class="st13" cx="504.89" cy="302.5" rx="3.03" ry="7"/>
+  <text class="st2" transform="translate(503.95 290.5) scale(.43 1)"><tspan x="0" y="0">B</tspan></text>
+  <text class="st0" transform="translate(544.78 306.5)"><tspan x="0" y="0">Establish zoning overlays for prioritized rebuilding</tspan></text>
+  <line class="st1" x1="509.23" y1="302.5" x2="518.76" y2="302.5"/>
+  <ellipse class="st13" cx="504.89" cy="397.5" rx="3.03" ry="7"/>
+  <text class="st2" transform="translate(503.87 385.5) scale(.43 1)"><tspan x="0" y="0">C</tspan></text>
+  <text class="st0" transform="translate(544.78 401.5)"><tspan x="0" y="0">Flexible housing prototypes for rapid reconstruction</tspan></text>
+  <line class="st1" x1="509.23" y1="397.5" x2="518.76" y2="397.5"/>
+  <ellipse class="st13" cx="504.89" cy="492.5" rx="3.03" ry="7"/>
+  <text class="st2" transform="translate(503.87 480.5) scale(.43 1)"><tspan x="0" y="0">D</tspan></text>
+  <text class="st0" transform="translate(544.78 496.5)"><tspan x="0" y="0">Pedestrian-friendly networks with public space access</tspan></text>
+  <line class="st1" x1="509.23" y1="492.5" x2="518.76" y2="492.5"/>
+  <ellipse class="st13" cx="504.89" cy="587.5" rx="3.03" ry="7"/>
+  <text class="st2" transform="translate(503.95 575.5) scale(.43 1)"><tspan x="0" y="0">E</tspan></text>
+  <text class="st0" transform="translate(544.78 591.5)"><tspan x="0" y="0">Community-driven housing models for fair distribution</tspan></text>
+  <line class="st1" x1="509.23" y1="587.5" x2="518.76" y2="587.5"/>
+  <ellipse class="st13" cx="504.89" cy="682.5" rx="3.03" ry="7"/>
+  <text class="st2" transform="translate(504.03 670.5) scale(.43 1)"><tspan x="0" y="0">F</tspan></text>
+  <text class="st0" transform="translate(544.78 686.5)"><tspan x="0" y="0">Green buffers to blend town and landscape</tspan></text>
+  <line class="st1" x1="509.23" y1="682.5" x2="518.76" y2="682.5"/>
+  <ellipse class="st13" cx="504.89" cy="777.5" rx="3.03" ry="7"/>
+  <text class="st2" transform="translate(503.8 765.5) scale(.43 1)"><tspan x="0" y="0">G</tspan></text>
+  <text class="st0" transform="translate(544.78 781.5)"><tspan x="0" y="0">Local materials and architectural styles</tspan></text>
+  <line class="st1" x1="509.23" y1="777.5" x2="518.76" y2="777.5"/>
+  <ellipse class="st13" cx="504.89" cy="872.5" rx="3.03" ry="7"/>
+  <text class="st2" transform="translate(503.87 860.5) scale(.43 1)"><tspan x="0" y="0">H</tspan></text>
+  <text class="st0" transform="translate(544.78 876.5)"><tspan x="0" y="0">Dual-purpose infrastructure</tspan></text>
+  <line class="st1" x1="509.23" y1="872.5" x2="518.76" y2="872.5"/>
+  <line class="st9" x1="504.89" y1="216.5" x2="504.89" y2="863.5"/>
+  <path class="st5" d="M137.78,207.5c315.1,0,367.11,0,363.21,0"/>
+  <path class="st5" d="M137.78,207.5c315.1,0,367.11,95,363.21,95"/>
+  <path class="st5" d="M137.78,207.5c315.1,0,367.11,190,363.21,190"/>
+  <path class="st5" d="M137.78,352.5c315.1,0,367.11,140,363.21,140"/>
+  <path class="st5" d="M137.78,352.5c315.1,0,367.11,235,363.21,235"/>
+  <path class="st5" d="M137.78,497.5c315.1,0,367.11,375,363.21,375"/>
+  <path class="st5" d="M137.78,642.5c315.1,0,367.11,40,363.21,40"/>
+  <path class="st5" d="M137.78,787.5c315.1,0,367.11-10,363.21-10"/>
+  <line class="st11" x1="84.78" y1="962.5" x2="875.22" y2="962.5"/>
+</svg>

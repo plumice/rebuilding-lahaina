@@ -5,7 +5,6 @@ import TagPills from '../components/TagPills.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
 import ResilienceDriversDiagram from '../components/diagrams/ResilienceDriversDiagram.astro';
-import DesignPrinciplesDiagram from '../components/diagrams/DesignPrinciplesDiagram.astro';
 
 interface Props {
   drawingId: string;
@@ -42,7 +41,6 @@ const sections = allSections.filter((s) => relatedSections.includes(s.id));
 
 const customDiagramRegistry = {
   'case-studies-map': ResilienceDriversDiagram,
-  'design-principles-overall': DesignPrinciplesDiagram,
 } as const;
 
 const CustomDiagram = customDiagramRegistry[drawingId as keyof typeof customDiagramRegistry];
