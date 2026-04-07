@@ -1,9 +1,11 @@
 ---
 title: "Design Principles"
-image: "/images/drawings/final_ppt_cropped/Slide20.JPG"
+image: "/images/drawings/derived/lahaina_design_principles_diagram.svg"
 alt: "Core design principles including residential rebuilding rights, public access, buffer edges, multi-functional spaces, and cultural preservation"
 scaleLevel: "town"
 drawingType: "diagram"
+display:
+  variant: "board"
 relatedSections: ["buffer-framework", "multi-scalar-diagnostic"]
 tags:
   topic: [recovery, housing, cultural-heritage]
@@ -12,4 +14,3 @@ tags:
 ---
 
 The guiding principles for recovery: every resident has the right to rebuild, space for everyone to return, no displacement, public access to the coast, buffer edges protecting the town, multi-functional spaces and infrastructure, and preservation of cultural heritage.
-
