@@ -6,8 +6,6 @@ import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
 import ResilienceDriversDiagram from '../components/diagrams/ResilienceDriversDiagram.astro';
 import DesignPrinciplesDiagram from '../components/diagrams/DesignPrinciplesDiagram.astro';
-import ProposedFrameworkDiagram from '../components/diagrams/ProposedFrameworkDiagram.astro';
-import MainProblemsDiagram from '../components/diagrams/MainProblemsDiagram.astro';
 
 interface Props {
   drawingId: string;
@@ -28,11 +26,10 @@ const sections = allSections.filter((s) => relatedSections.includes(s.id));
 const customDiagramRegistry = {
   'case-studies-map': ResilienceDriversDiagram,
   'design-principles-overall': DesignPrinciplesDiagram,
-  'proposed-framework-diagram': ProposedFrameworkDiagram,
-  'main-problems': MainProblemsDiagram,
 } as const;
 
 const CustomDiagram = customDiagramRegistry[drawingId as keyof typeof customDiagramRegistry];
+const hasCustomDiagram = Boolean(CustomDiagram);
 ---
 
 <BaseLayout title={title} description={alt}>
@@ -43,12 +40,12 @@ const CustomDiagram = customDiagramRegistry[drawingId as keyof typeof customDiag
       { label: title },
     ]} />
 
-    <div class="section-label">{scaleLevel} Scale — {drawingType}</div>
+    <div class="section-label">{scaleLevel} Scale - {drawingType}</div>
     <h1 class="section-title mb-4">{title}</h1>
 
     <TagPills topics={tags.topic} scales={tags.scale} types={tags.type} />
 
-    <div class="mt-8">
+    <div class:list={['mt-8', hasCustomDiagram ? 'custom-diagram-block' : '']}>
       {CustomDiagram ? (
         <CustomDiagram title={title} alt={alt} />
       ) : (
@@ -76,3 +73,9 @@ const CustomDiagram = customDiagramRegistry[drawingId as keyof typeof customDiag
     )}
   </div>
 </BaseLayout>
+
+<style>
+  .custom-diagram-block {
+    margin-top: 2.5rem;
+  }
+</style>
