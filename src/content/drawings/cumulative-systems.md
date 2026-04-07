@@ -1,6 +1,6 @@
 ---
 title: "Integrated Framework Plan"
-image: "/images/drawings/final_ppt_complete/Slide54.JPG"
+image: "/images/drawings/updated_local_all_buffers.jpg"
 alt: "Integrated plan linking buffers, circulation, the school, redensification, and the peri-urban park in one framework"
 scaleLevel: "town"
 drawingType: "composite-plan"

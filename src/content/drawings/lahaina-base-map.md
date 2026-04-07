@@ -1,6 +1,6 @@
 ---
 title: "Lahaina Base Map"
-image: "/images/drawings/final_ppt_complete/Slide21.JPG"
+image: "/images/drawings/updated_local_base.jpg"
 alt: "Base map of Lahaina showing topography, road network, runoff, and building footprints before analytical overlays"
 scaleLevel: "town"
 drawingType: "base-map"

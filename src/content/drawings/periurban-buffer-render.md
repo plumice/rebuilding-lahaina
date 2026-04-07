@@ -1,6 +1,6 @@
 ---
 title: "Peri-Urban Buffer - 3D View"
-image: "/images/drawings/final_ppt_complete/Slide34.JPG"
+image: "/images/drawings/updated_periurban_render.jpg"
 alt: "3D visualization of peri-urban agricultural buffer zone with water management and fire-resistant vegetation"
 scaleLevel: "site"
 drawingType: "rendering"

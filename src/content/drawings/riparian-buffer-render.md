@@ -1,6 +1,6 @@
 ---
 title: "Riparian Buffer - 3D View"
-image: "/images/drawings/final_ppt_complete/Slide31.JPG"
+image: "/images/drawings/updated_riparian_mouth.png"
 alt: "3D visualization of riparian buffer restoration showing stream restoration with vegetation and flood management"
 scaleLevel: "site"
 drawingType: "rendering"

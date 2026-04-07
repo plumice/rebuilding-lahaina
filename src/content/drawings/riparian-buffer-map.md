@@ -1,6 +1,6 @@
 ---
 title: "Riparian Buffer Map"
-image: "/images/drawings/final_ppt_complete/Slide29.JPG"
+image: "/images/drawings/updated_riparian_diagram.jpg"
 alt: "Plan showing the riparian corridor running mauka to makai through Lahaina as a restored ecological and public-access spine"
 scaleLevel: "town"
 drawingType: "plan"
