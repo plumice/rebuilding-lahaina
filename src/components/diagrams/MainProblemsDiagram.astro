@@ -1,0 +1,141 @@
+---
+import DiagramFrame from './DiagramFrame.astro';
+
+interface Props {
+  title: string;
+  alt: string;
+}
+
+const { title, alt } = Astro.props;
+
+const problems = [
+  {
+    title: '1. Urban Risk',
+    lines: ['Outdated systems, failing infrastructure, poor', 'evacuation planning, and no fire-adapted', 'design left Lahaina exposed.'],
+    y: 150,
+  },
+  {
+    title: '2. Weak Coastal Protection',
+    lines: ['The fire exposed the absence of natural and', 'engineered coastal defenses, highlighting', 'critical gaps in protection.'],
+    y: 280,
+  },
+  {
+    title: '3. Displacement & Cultural Erosion',
+    lines: ['Thousands displaced, with rising land', 'speculation and loss of access to ancestral land', 'and place.'],
+    y: 410,
+  },
+  {
+    title: '4. Lack of Structure',
+    lines: ['Lahaina lacks an integrated urban framework,', 'a connective backbone to support community', 'life and mobility.'],
+    y: 540,
+  },
+  {
+    title: '5. Disconnected, Top-Down Recovery',
+    lines: ['Government-led recovery efforts often overlook', 'local voices, leading to mistrust, fragmentation,', 'and misaligned priorities.'],
+    y: 670,
+  },
+];
+
+const frames = [
+  { label: 'REGIONAL', question: 'Where are the edges?', stroke: '#5b9a7c', x: 720, y: 175, w: 520, h: 370 },
+  { label: 'URBAN', question: 'How does the town connect?', stroke: '#f0a04e', x: 770, y: 235, w: 420, h: 250 },
+  { label: 'NEIGHBORHOOD', question: 'Where do people live and gather?', stroke: '#b6b4aa', x: 830, y: 295, w: 300, h: 140 },
+  { label: 'SITE', question: 'What gets built?', stroke: '#bf745d', x: 890, y: 350, w: 180, h: 72 },
+];
+---
+
+<DiagramFrame title={title} alt={alt}>
+  <svg viewBox="0 0 1400 820" aria-hidden="true">
+    <defs>
+      <linearGradient id="mp-down" x1="0%" x2="0%" y1="0%" y2="100%">
+        <stop offset="0%" stop-color="#74c7de"></stop>
+        <stop offset="100%" stop-color="#4d9ac5"></stop>
+      </linearGradient>
+      <linearGradient id="mp-up" x1="0%" x2="0%" y1="100%" y2="0%">
+        <stop offset="0%" stop-color="#d77a56"></stop>
+        <stop offset="100%" stop-color="#67b56b"></stop>
+      </linearGradient>
+      <marker id="mp-arrow-down" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto">
+        <path d="M0,0 L12,6 L0,12 z" fill="#56afd1"></path>
+      </marker>
+      <marker id="mp-arrow-up" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto">
+        <path d="M0,0 L12,6 L0,12 z" fill="#76b97a"></path>
+      </marker>
+    </defs>
+
+    <text x="24" y="50" font-size="26" font-style="italic" font-weight="700" fill="#111">Main Problems_Overall</text>
+
+    {problems.map((problem) => (
+      <g>
+        <text x="240" y={problem.y} text-anchor="middle" font-size="18" font-weight="700" fill="#222">{problem.title}</text>
+        {problem.lines.map((line, index) => (
+          <text x="240" y={problem.y + 32 + index * 24} text-anchor="middle" font-size="16" fill="#444">{line}</text>
+        ))}
+      </g>
+    ))}
+
+    <line x1="120" y1="388" x2="360" y2="388" stroke="#bdb7ae" stroke-width="1.5"></line>
+
+    <text x="760" y="172" font-size="18" font-weight="700" fill="#222">Figure 3.1:</text>
+    <text x="852" y="172" font-size="18" fill="#222">Multi-Scalar Framework Diagram</text>
+
+    {frames.map((frame) => (
+      <g>
+        <rect x={frame.x} y={frame.y} width={frame.w} height={frame.h} rx="22" fill="none" stroke={frame.stroke} stroke-width="12"></rect>
+        <text x={frame.x + frame.w / 2} y={frame.y + 28} text-anchor="middle" font-size="14" font-weight="700" fill={frame.stroke}>{frame.label}</text>
+        <text x={frame.x + frame.w / 2} y={frame.y + 54} text-anchor="middle" font-size="16" font-weight="700" fill="#222">{frame.question}</text>
+      </g>
+    ))}
+
+    <g font-size="13" fill="#303030">
+      <text x="820" y="235" font-weight="700">Variables Isolated</text>
+      <text x="820" y="256">• Watershed hydrology</text>
+      <text x="820" y="276">• Rainfall gradients</text>
+      <text x="986" y="256">• Sea-level rise</text>
+      <text x="986" y="276">• Fire risk zones</text>
+      <text x="1095" y="235" font-weight="700">Key Outputs</text>
+      <text x="1095" y="256">• Buffer edges defined</text>
+      <text x="1095" y="276">• Water capture zones identified</text>
+
+      <text x="850" y="340" font-weight="700">Variables Isolated</text>
+      <text x="850" y="361">• Street network redundancy</text>
+      <text x="850" y="381">• Zoning distribution</text>
+      <text x="850" y="401">• Damage patterns</text>
+      <text x="1010" y="361">• Drainage patterns</text>
+      <text x="1010" y="381">• Infrastructure capacity</text>
+      <text x="1105" y="340" font-weight="700">Key Outputs</text>
+      <text x="1105" y="361">• Mobility framework</text>
+      <text x="1105" y="381">• Densification zones</text>
+      <text x="1105" y="401">• Hub locations</text>
+
+      <text x="892" y="432" font-weight="700">Variables Isolated</text>
+      <text x="892" y="453">• Housing density</text>
+      <text x="892" y="473">• Hub distribution</text>
+      <text x="1026" y="453">• Walkability</text>
+      <text x="1026" y="473">• Tenure patterns</text>
+      <text x="1090" y="432" font-weight="700">Key Outputs</text>
+      <text x="1090" y="453">• 2,200 units across 84 acres</text>
+      <text x="1090" y="473">• 3 hub typologies</text>
+
+      <text x="942" y="510" font-weight="700">Variables Isolated</text>
+      <text x="942" y="531">• Building performance</text>
+      <text x="942" y="551">• Module logic</text>
+      <text x="942" y="571">• Environmental systems</text>
+      <text x="1042" y="510" font-weight="700">Key Outputs</text>
+      <text x="1042" y="531">• Elementary school prototype</text>
+      <text x="1042" y="551">• Modular construction</text>
+    </g>
+
+    <path d="M650 260 L650 648" stroke="url(#mp-down)" stroke-width="14" marker-end="url(#mp-arrow-down)"></path>
+    <path d="M650 430 L650 648" stroke="url(#mp-down)" stroke-width="14" marker-end="url(#mp-arrow-down)"></path>
+    <path d="M1270 650 L1270 230" stroke="url(#mp-up)" stroke-width="14" marker-end="url(#mp-arrow-up)"></path>
+    <path d="M1210 650 L1210 300" stroke="url(#mp-up)" stroke-width="14" marker-end="url(#mp-arrow-up)"></path>
+
+    <text x="605" y="428" text-anchor="middle" font-size="18" font-weight="700" fill="#333">Decisions</text>
+    <text x="605" y="452" text-anchor="middle" font-size="18" font-weight="700" fill="#333">Cascade Down</text>
+    <text x="1320" y="432" text-anchor="middle" font-size="18" font-weight="700" fill="#333">Constraints</text>
+    <text x="1320" y="456" text-anchor="middle" font-size="18" font-weight="700" fill="#333">Cascade Up</text>
+
+    <text x="962" y="620" text-anchor="middle" font-size="13" fill="#666">Source: Thesis methodology (Section 3A): Tulane Public Space Studio framework</text>
+  </svg>
+</DiagramFrame>
