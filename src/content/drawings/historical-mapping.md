@@ -1,6 +1,6 @@
 ---
 title: "Historical Mapping"
-image: "/images/drawings/final_ppt_complete/Slide44.JPG"
+image: "/images/drawings/updated_local_historical.jpg"
 alt: "Town-scale map locating Lahaina's key heritage sites and historic districts along the coast"
 scaleLevel: "town"
 drawingType: "analytical-map"

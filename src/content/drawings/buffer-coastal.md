@@ -1,6 +1,6 @@
 ---
 title: "Coastal Buffer Map"
-image: "/images/drawings/final_ppt_complete/Slide26.JPG"
+image: "/images/drawings/updated_local_coastal.jpg"
 alt: "Plan showing the coastal buffer zone defined by sea level rise projections and the inland retreat boundary"
 scaleLevel: "town"
 drawingType: "plan"

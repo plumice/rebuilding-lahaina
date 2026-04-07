@@ -1,6 +1,6 @@
 ---
 title: "Water Capture Network"
-image: "/images/drawings/final_ppt_complete/Slide42.JPG"
+image: "/images/drawings/updated_local_water_proposed.jpg"
 alt: "Proposed water capture network showing collection zones, channels, and directional flow from the hinterland toward town"
 scaleLevel: "town"
 drawingType: "plan"

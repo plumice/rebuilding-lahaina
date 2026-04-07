@@ -12,7 +12,7 @@ tags:
   type: [documentation]
 ---
 
-A contradiction runs through post-disaster literature: recovery frameworks that succeed in one context often fail when transplanted to another, yet the underlying vulnerabilities , infrastructure neglect, housing precarity, fragmented governance , recur with striking consistency. Lahaina exhibits all of these. Five questions structure the investigation:
+A contradiction runs through post-disaster literature: recovery frameworks that succeed in one context often fail when transplanted to another, yet the underlying vulnerabilities of infrastructure neglect, housing precarity, and fragmented governance recur with striking consistency. Lahaina exhibits all of these. Five questions structure the investigation:
 
 ## Research Questions
 
@@ -24,4 +24,4 @@ A contradiction runs through post-disaster literature: recovery frameworks that 
 
 ## Hypothesis
 
-The working hypothesis is that integrated water systems and resilient housing , structured around a clear multi-scalar framework , form the foundation of long-term recovery. Cultural identity and historical continuity, when treated as operational components rather than symbolic references, strengthen the legitimacy and social cohesion of reconstruction. Lessons from global precedents indicate that recovery efforts anchored in community-driven processes and adaptive design perform more consistently over time and resist common cycles of post-disaster inequity. Iterative, multi-scalar methodologies , moving from regional systems through district organization to site-specific interventions , enhance the adaptability and coherence of the recovery framework.
+The working hypothesis is that integrated water systems and resilient housing, structured around a clear multi-scalar framework, form the foundation of long-term recovery. Cultural identity and historical continuity, when treated as operational components rather than symbolic references, strengthen the legitimacy and social cohesion of reconstruction. Lessons from global precedents indicate that recovery efforts anchored in community-driven processes and adaptive design perform more consistently over time and resist common cycles of post-disaster inequity. Iterative, multi-scalar methodologies, moving from regional systems through district organization to site-specific interventions, enhance the adaptability and coherence of the recovery framework.

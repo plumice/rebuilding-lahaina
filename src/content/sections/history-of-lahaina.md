@@ -3,7 +3,7 @@ title: "History of Lahaina"
 chapter: "ch3-analysis"
 order: 1
 summary: "From royal capital to tourism economy, key spatial events that shaped the town."
-relatedDrawings: ["historical-timeline", "pre-fire-aerial", "post-fire-aerial", "before-after-photos", "burnt-unburnt-overlay", "fire-footprint-before-after", "before-fire-sections", "current-condition-sections"]
+relatedDrawings: ["historical-timeline", "pre-fire-aerial", "post-fire-aerial", "burnt-unburnt-overlay", "fire-footprint-before-after", "before-fire-sections", "current-condition-sections", "historical-mapping"]
 relatedSources: []
 relatedTerms: ["ahupuaa"]
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "Displacement & Redensification"
-image: "/images/drawings/final_ppt_complete/Slide45.JPG"
+image: "/images/drawings/updated_local_density_before.jpg"
 alt: "Map showing 6,000-7,000 displaced residents and the scale of the proposed redensification response"
 scaleLevel: "town"
 drawingType: "analytical-map"

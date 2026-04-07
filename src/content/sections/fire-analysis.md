@@ -3,7 +3,7 @@ title: "The 2023 Wildfire - Cause, Spread, and Damage"
 chapter: "ch3-analysis"
 order: 6
 summary: "How the August 2023 wildfire ignited, spread through Lahaina, and exposed systemic infrastructure failures."
-relatedDrawings: ["fire-footprint-before-after", "burnt-unburnt-overlay", "current-condition-sections", "before-after-photos"]
+relatedDrawings: ["fire-footprint-before-after", "burnt-unburnt-overlay", "current-condition-sections"]
 relatedSources: ["frontline-documentary"]
 relatedTerms: ["wui-acronym"]
 tags:
