@@ -20,7 +20,7 @@ By holistically targeting these systemic weaknesses through scalable site-specif
 
 ## Sources & Notes
 
-- PBS FRONTLINE, "Maui's Deadly Firestorm," December 17, 2024 , documentary examining the causes of the wildfire and infrastructure failures.
-- U.S. Census Bureau, American Community Survey, Lahaina Census-Designated Place, 2019–2023 , demographic and housing data.
-- On the ahupuʻa system: Kamanamaikalani Beamer, *No Mākou Ka Mana: Liberating the Nation* (Honolulu: Kamehameha Publishing, 2014).
-- Recovery status: Maui County Office of Recovery, Status Reports, 2024–2025; FEMA disaster assistance records.
+- PBS FRONTLINE, "Maui's Deadly Firestorm," December 17, 2024, documentary examining the causes of the wildfire and infrastructure failures.
+- U.S. Census Bureau, American Community Survey, Lahaina Census-Designated Place, 2019-2023, demographic and housing data.
+- On the ahupuaʻa system: Kamanamaikalani Beamer, *No Mākou Ka Mana: Liberating the Nation* (Honolulu: Kamehameha Publishing, 2014).
+- Recovery status: Maui County Office of Recovery, Status Reports, 2024-2025; FEMA disaster assistance records.

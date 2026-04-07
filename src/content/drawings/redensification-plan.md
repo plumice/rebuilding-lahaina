@@ -1,6 +1,6 @@
 ---
 title: "Redensification Plan"
-image: "/images/drawings/final_ppt_complete/Slide46.JPG"
+image: "/images/drawings/updated_local_redensification.jpg"
 alt: "Proposed high-density housing plan showing 2,200 units centered on the new boulevard with typology breakdown"
 scaleLevel: "town"
 drawingType: "plan"

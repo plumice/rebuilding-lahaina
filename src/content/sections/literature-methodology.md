@@ -3,7 +3,7 @@ title: "Literature Review & Research Methodology"
 chapter: "ch2-overview"
 order: 4
 summary: "Theoretical frameworks informing the thesis and the iterative multi-scalar design methodology."
-relatedDrawings: ["case-studies-map", "resilience-evaluation"]
+relatedDrawings: ["case-studies-map"]
 relatedSources: ["after-great-disasters", "resilience-stability", "yamuna-river-project", "urban-water-plan", "shock-doctrine", "disaster-inc", "coming-home-new-orleans"]
 relatedTerms: ["post-disaster-urbanism", "adaptive-recovery"]
 tags:

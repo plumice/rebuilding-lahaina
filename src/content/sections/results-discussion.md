@@ -3,7 +3,7 @@ title: "Results & Discussion"
 chapter: "ch5-design"
 order: 8
 summary: "Evaluating the recovery framework against the five hypotheses and assessing feasibility, scalability, and limitations."
-relatedDrawings: ["resilience-evaluation", "cumulative-systems"]
+relatedDrawings: ["cumulative-systems"]
 relatedSources: ["after-great-disasters", "resilience-thinking"]
 relatedTerms: ["adaptive-recovery", "vulnerability-cycles"]
 tags:

@@ -1,6 +1,6 @@
 ---
 title: "Peri-Urban Buffer"
-image: "/images/drawings/final_ppt_complete/Slide33.JPG"
+image: "/images/drawings/updated_local_periurban.jpg"
 alt: "Agricultural transition zone between the proposed boulevard and highway serving as firebreak"
 scaleLevel: "district"
 drawingType: "diagram"

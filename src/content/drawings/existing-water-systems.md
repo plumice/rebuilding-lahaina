@@ -1,6 +1,6 @@
 ---
 title: "Existing Water Systems"
-image: "/images/drawings/final_ppt_complete/Slide41.JPG"
+image: "/images/drawings/updated_local_water_systems.jpg"
 alt: "Map of streams, ditches, collection pools, retention areas, and water infrastructure across Lahaina"
 scaleLevel: "town"
 drawingType: "analytical-map"
