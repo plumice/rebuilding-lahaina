@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="900" viewBox="0 0 1800 900">
+
+  <defs>
+    <!-- Panel sky gradient -->
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#bfe1f3"/>
+      <stop offset="100%" stop-color="#ffffff"/>
+    </linearGradient>
+
+    <!-- Ground tones -->
+    <linearGradient id="soil" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#b98a5a"/>
+      <stop offset="100%" stop-color="#8a5f39"/>
+    </linearGradient>
+
+    <!-- Water -->
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9fd3f1"/>
+      <stop offset="100%" stop-color="#2f86b9"/>
+    </linearGradient>
+
+    <!-- Arrows -->
+    <marker id="arrow" markerWidth="16" markerHeight="16" refX="14" refY="8"
+            orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0,0 L16,8 L0,16 z" fill="#2f5f88"/>
+    </marker>
+
+    <style>
+      .title { font-family: Helvetica, Arial, sans-serif; font-size: 36px; font-weight: 800; fill:#000; }
+      .panelTitle { font-family: Helvetica, Arial, sans-serif; font-size: 34px; font-weight: 800; fill:#000; }
+      .lbl { font-family: Helvetica, Arial, sans-serif; font-size: 24px; font-weight: 600; fill:#000; }
+      .small { font-family: Helvetica, Arial, sans-serif; font-size: 20px; fill:#000; }
+      .frame { stroke:#000; stroke-width:3; fill:none; }
+      .arrow { stroke:#2f5f88; stroke-width:6; fill:none; marker-end:url(#arrow); stroke-linecap:round; stroke-linejoin:round; }
+      .river { stroke:#2f86b9; stroke-width:10; fill:none; stroke-linecap:round; stroke-linejoin:round; }
+    </style>
+  </defs>
+
+  <!-- Global background -->
+  <rect x="0" y="0" width="1800" height="900" fill="#fff"/>
+
+  <!-- Panels -->
+  <g id="panelA">
+    <rect x="40" y="60" width="860" height="750" fill="url(#sky)"/>
+    <rect x="40" y="60" width="860" height="750" class="frame"/>
+    <text x="60" y="110" class="panelTitle">A. Drought Scenario (Chronic)</text>
+
+    <!-- Isometric block (simplified) -->
+    <!-- top surface -->
+    <path d="M140 240 L520 150 L820 290 L440 380 Z"
+          fill="#d8d3b0" stroke="#000" stroke-width="2" stroke-linejoin="round"/>
+    <!-- left face -->
+    <path d="M140 240 L440 380 L440 720 L140 580 Z"
+          fill="url(#soil)" stroke="#000" stroke-width="2" stroke-linejoin="round"/>
+    <!-- right face -->
+    <path d="M440 380 L820 290 L820 630 L440 720 Z"
+          fill="#9a6a3e" stroke="#000" stroke-width="2" stroke-linejoin="round"/>
+
+    <!-- Water bodies (drought: smaller) -->
+    <path d="M210 290 C250 255, 315 255, 345 285
+             C365 305, 360 335, 330 350
+             C300 365, 245 360, 225 340
+             C205 320, 195 305, 210 290 Z"
+          fill="url(#water)" opacity="0.9" stroke="#000" stroke-width="2"/>
+    <text x="85" y="255" class="lbl">Reservoir</text>
+
+    <!-- River -->
+    <path d="M320 330 C375 355, 455 335, 520 300
+             C600 260, 690 270, 760 310"
+          class="river" opacity="0.75"/>
+
+    <!-- Recycled water plant -->
+    <ellipse cx="430" cy="430" rx="75" ry="35" fill="#cfd7dd" stroke="#000" stroke-width="2"/>
+    <rect x="355" y="430" width="150" height="70" fill="#cfd7dd" stroke="#000" stroke-width="2"/>
+    <text x="350" y="520" class="lbl">Recycled</text>
+    <text x="350" y="548" class="lbl">Water Plant</text>
+
+    <!-- Agricultural fields -->
+    <rect x="585" y="360" width="170" height="70" fill="#a9c88a" stroke="#000" stroke-width="2"/>
+    <g stroke="#6a8f57" stroke-width="4">
+      <line x1="595" y1="372" x2="745" y2="372"/>
+      <line x1="595" y1="388" x2="745" y2="388"/>
+      <line x1="595" y1="404" x2="745" y2="404"/>
+      <line x1="595" y1="420" x2="745" y2="420"/>
+    </g>
+    <text x="610" y="455" class="lbl">Agricultural</text>
+    <text x="635" y="483" class="lbl">fields</text>
+
+    <!-- Urban -->
+    <g fill="#c9c9c9" stroke="#000" stroke-width="2">
+      <rect x="700" y="470" width="22" height="45"/>
+      <rect x="725" y="450" width="28" height="65"/>
+      <rect x="757" y="475" width="22" height="40"/>
+      <rect x="785" y="458" width="30" height="57"/>
+      <rect x="820" y="485" width="25" height="30"/>
+    </g>
+    <text x="740" y="540" class="lbl">Urban</text>
+
+    <!-- Deep well -->
+    <rect x="140" y="440" width="20" height="160" fill="#bfc8cf" stroke="#000" stroke-width="2"/>
+    <rect x="130" y="440" width="40" height="30" fill="#bfc8cf" stroke="#000" stroke-width="2"/>
+    <text x="70" y="520" class="lbl">Deep</text>
+    <text x="70" y="548" class="lbl">Well</text>
+
+    <!-- Drought arrows (fewer / controlled) -->
+    <path d="M330 350 C355 385, 385 405, 420 415" class="arrow"/>
+    <path d="M465 465 C525 500, 610 505, 705 500" class="arrow"/>
+    <path d="M455 465 C520 440, 585 420, 640 405" class="arrow"/>
+    <path d="M160 470 C210 520, 320 560, 420 530" class="arrow"/>
+
+    <!-- Inset chart: Water Storage decreasing -->
+    <rect x="560" y="130" width="300" height="180" fill="#fff" stroke="#000" stroke-width="2"/>
+    <text x="640" y="165" class="lbl">Water Storage</text>
+    <text x="590" y="260" class="small" transform="rotate(-90 590,260)">Water Storage</text>
+    <g stroke="#000" stroke-width="2">
+      <line x1="590" y1="285" x2="840" y2="285"/>
+      <line x1="590" y1="155" x2="590" y2="285"/>
+    </g>
+    <path d="M600 170 C650 170, 680 190, 705 215
+             C730 240, 760 260, 835 265"
+          stroke="#2f86b9" stroke-width="5" fill="none"/>
+  </g>
+
+  <g id="panelB">
+    <rect x="900" y="60" width="860" height="750" fill="url(#sky)"/>
+    <rect x="900" y="60" width="860" height="750" class="frame"/>
+    <text x="920" y="110" class="panelTitle">B. Flood Scenario (Acute)</text>
+
+    <!-- Isometric block -->
+    <path d="M1000 240 L1380 150 L1680 290 L1300 380 Z"
+          fill="#bcd7b2" stroke="#000" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M1000 240 L1300 380 L1300 720 L1000 580 Z"
+          fill="url(#soil)" stroke="#000" stroke-width="2" stroke-linejoin="round"/>
+    <path d="M1300 380 L1680 290 L1680 630 L1300 720 Z"
+          fill="#9a6a3e" stroke="#000" stroke-width="2" stroke-linejoin="round"/>
+
+    <!-- Reservoir (larger) -->
+    <path d="M1080 285 C1125 245, 1210 245, 1250 285
+             C1280 315, 1275 360, 1235 385
+             C1195 410, 1115 405, 1088 372
+             C1060 340, 1055 310, 1080 285 Z"
+          fill="url(#water)" stroke="#000" stroke-width="2"/>
+    <text x="940" y="255" class="lbl">Reservoir</text>
+    <text x="1180" y="300" class="lbl">Reservoir</text>
+
+    <!-- Floodplain basin -->
+    <path d="M1505 355 C1545 340, 1600 355, 1625 385
+             C1650 415, 1645 455, 1610 470
+             C1575 485, 1520 475, 1500 450
+             C1480 425, 1480 370, 1505 355 Z"
+          fill="url(#water)" opacity="0.75" stroke="#000" stroke-width="2"/>
+    <text x="1540" y="520" class="lbl">Floodplain</text>
+    <text x="1560" y="548" class="lbl">Basin</text>
+
+    <!-- River network (more intense) -->
+    <path d="M1225 355 C1275 380, 1340 370, 1405 340
+             C1465 312, 1540 320, 1605 360" class="river" opacity="0.9"/>
+    <path d="M1250 385 C1290 430, 1340 470, 1410 510
+             C1485 552, 1560 585, 1640 610" class="river" opacity="0.7"/>
+    <path d="M1170 350 C1140 395, 1125 445, 1120 505" class="river" opacity="0.7"/>
+
+    <!-- Retention basin -->
+    <path d="M1185 480 C1230 455, 1290 470, 1310 505
+             C1330 540, 1310 585, 1260 595
+             C1210 605, 1170 575, 1170 540
+             C1170 510, 1165 495, 1185 480 Z"
+          fill="url(#water)" opacity="0.85" stroke="#000" stroke-width="2"/>
+    <text x="1200" y="560" class="lbl">Retention</text>
+    <text x="1215" y="588" class="lbl">Basin</text>
+
+    <!-- Urban -->
+    <g fill="#c9c9c9" stroke="#000" stroke-width="2">
+      <rect x="1580" y="500" width="22" height="45"/>
+      <rect x="1605" y="480" width="28" height="65"/>
+      <rect x="1637" y="505" width="22" height="40"/>
+      <rect x="1665" y="488" width="30" height="57"/>
+      <rect x="1700" y="515" width="25" height="30"/>
+    </g>
+    <text x="1615" y="565" class="lbl">Urban</text>
+
+    <!-- Deep well -->
+    <rect x="1000" y="440" width="20" height="160" fill="#bfc8cf" stroke="#000" stroke-width="2"/>
+    <rect x="990" y="440" width="40" height="30" fill="#bfc8cf" stroke="#000" stroke-width="2"/>
+    <text x="930" y="520" class="lbl">Deep</text>
+    <text x="930" y="548" class="lbl">Well</text>
+
+    <!-- Flood arrows (many) -->
+    <path d="M1200 360 C1225 410, 1260 450, 1285 480" class="arrow"/>
+    <path d="M1350 370 C1390 410, 1460 450, 1510 380" class="arrow"/>
+    <path d="M1400 510 C1445 545, 1505 565, 1580 590" class="arrow"/>
+    <path d="M1260 595 C1320 620, 1400 635, 1480 640" class="arrow"/>
+    <path d="M1100 380 C1120 430, 1145 465, 1180 485" class="arrow"/>
+    <path d="M1500 450 C1510 500, 1500 540, 1470 585" class="arrow"/>
+
+    <!-- Inset chart: Flow rate spike -->
+    <rect x="1420" y="130" width="300" height="180" fill="#fff" stroke="#000" stroke-width="2"/>
+    <text x="1535" y="165" class="lbl">Flow Rate</text>
+    <text x="1450" y="260" class="small" transform="rotate(-90 1450,260)">Flow Rate</text>
+    <g stroke="#000" stroke-width="2">
+      <line x1="1450" y1="285" x2="1700" y2="285"/>
+      <line x1="1450" y1="155" x2="1450" y2="285"/>
+    </g>
+    <path d="M1460 275
+             C1490 275, 1500 275, 1510 270
+             C1525 262, 1530 190, 1550 160
+             C1560 145, 1575 210, 1585 235
+             C1600 270, 1630 275, 1695 275"
+          stroke="#2f86b9" stroke-width="5" fill="none"/>
+  </g>
+
+</svg>
