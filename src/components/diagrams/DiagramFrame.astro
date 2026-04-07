@@ -1,31 +1,35 @@
 ---
 interface Props {
-  title: string;
+  title?: string;
   alt: string;
 }
 
-const { title, alt } = Astro.props;
+const { alt } = Astro.props;
 ---
 
-<figure class="bg-surface border border-border p-4">
+<figure class="diagram-frame">
   <div class="diagram-shell" role="img" aria-label={alt}>
     <slot />
   </div>
-  <figcaption class="mt-3 text-[0.8rem] text-text-muted tracking-wide">
-    {title}
-  </figcaption>
 </figure>
 
 <style>
+  .diagram-frame {
+    margin: 0;
+  }
+
   .diagram-shell {
     width: 100%;
-    overflow: hidden;
+    overflow: visible;
+    padding-block: 1rem;
+    border-top: 1px solid #ddd8cf;
+    border-bottom: 1px solid #ddd8cf;
   }
 
   .diagram-shell :global(svg) {
     display: block;
     width: 100%;
     height: auto;
-    background: #fff;
+    background: transparent;
   }
- </style>
+</style>
