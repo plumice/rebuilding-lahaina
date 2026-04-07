@@ -1,6 +1,6 @@
 ---
 title: "The Module - Core Principles"
-image: "/images/drawings/final_ppt_complete/Slide57.JPG"
+image: "/images/drawings/final_ppt_cropped/Slide57.JPG"
 alt: "Core design principles of the 26x26-foot module shown with the base Hawaiian-inspired building unit"
 scaleLevel: "node"
 drawingType: "diagram"
@@ -12,3 +12,4 @@ tags:
 ---
 
 The 26x26-foot module is the basic building unit of the recovery plan, shaped by vernacular roots, climate response, urban integration, community healing, and a modular build strategy.
+

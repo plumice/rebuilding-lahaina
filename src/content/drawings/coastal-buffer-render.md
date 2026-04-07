@@ -1,6 +1,6 @@
 ---
 title: "Coastal Buffer - 3D View"
-image: "/images/drawings/final_ppt_complete/Slide28.JPG"
+image: "/images/drawings/final_ppt_cropped/Slide28.JPG"
 alt: "Axonometric rendering of the coastal buffer zone showing integrated landscape design with green infrastructure and park areas"
 scaleLevel: "site"
 drawingType: "rendering"
@@ -12,3 +12,4 @@ tags:
 ---
 
 3D perspective of the coastal buffer zone showing how public park, heritage sites, and ecological restoration work together at the shoreline.
+

@@ -1,6 +1,6 @@
 ---
 title: "Community Space - Interior View"
-image: "/images/drawings/final_ppt_complete/Slide67.JPG"
+image: "/images/drawings/final_ppt_cropped/Slide67.JPG"
 alt: "Interior and community renderings showing classroom courtyards, covered circulation, and shared gathering space"
 scaleLevel: "node"
 drawingType: "rendering"
@@ -12,3 +12,4 @@ tags:
 ---
 
 A set of final presentation renderings shows the covered circulation spine, classroom courtyards, and shared gathering space created by the modular roof structure.
+

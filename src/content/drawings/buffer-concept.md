@@ -1,6 +1,6 @@
 ---
 title: "Buffer Framework Base Plan"
-image: "/images/drawings/final_ppt_complete/Slide25.JPG"
+image: "/images/drawings/final_ppt_cropped/Slide25.JPG"
 alt: "Base plan showing the coastal, riparian, and peri-urban buffer extents with the primary circulation framework"
 scaleLevel: "town"
 drawingType: "concept-diagram"
@@ -12,3 +12,4 @@ tags:
 ---
 
 The base plan for the recovery framework showing how the coastal, riparian, and peri-urban buffers are distributed across Lahaina and tied to the primary circulation structure.
+

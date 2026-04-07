@@ -1,6 +1,6 @@
 ---
 title: "Water Collection Strategy"
-image: "/images/drawings/final_ppt_complete/Slide37.JPG"
+image: "/images/drawings/final_ppt_cropped/Slide37.JPG"
 alt: "Diagram showing water collection pond system and distribution from mountain hinterland to town"
 scaleLevel: "district"
 drawingType: "diagram"
@@ -12,3 +12,4 @@ tags:
 ---
 
 The water collection strategy shows how ponds, ditches, and distribution systems capture mountain rainfall and deliver it to the town, reducing dependence on the overstressed aquifer.
+
