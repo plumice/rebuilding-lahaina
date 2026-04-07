@@ -16,6 +16,8 @@ interface Props {
   display?: {
     variant?: 'default' | 'board' | 'full';
   };
+  pageLayout?: 'default' | 'split-lead';
+  bodyPosition?: 'after' | 'before';
   pageIntroTitle?: string;
   pageIntroText?: string;
   relatedSections?: string[];
@@ -30,6 +32,8 @@ const {
   scaleLevel,
   drawingType,
   display = { variant: 'default' },
+  pageLayout = 'default',
+  bodyPosition = 'after',
   pageIntroTitle,
   pageIntroText,
   relatedSections = [],
@@ -51,6 +55,7 @@ const viewerVariant = display.variant && display.variant !== 'default'
   : inferredBoardImage
     ? 'board'
     : 'full';
+const useSplitLead = pageLayout === 'split-lead' && bodyPosition === 'before' && !hasCustomDiagram;
 ---
 
 <BaseLayout title={title} description={alt}>
@@ -73,17 +78,30 @@ const viewerVariant = display.variant && display.variant !== 'default'
       </div>
     )}
 
-    <div class:list={['mt-8', hasCustomDiagram ? 'custom-diagram-block' : '']}>
-      {CustomDiagram ? (
-        <CustomDiagram title={title} alt={alt} />
-      ) : (
-        <DrawingViewer src={image} alt={alt} title={title} variant={viewerVariant} />
-      )}
-    </div>
+    {useSplitLead ? (
+      <div class="split-lead mt-8">
+        <div class="prose split-lead-copy">
+          <slot />
+        </div>
+        <div class="split-lead-visual">
+          <DrawingViewer src={image} alt={alt} title={title} variant={viewerVariant} />
+        </div>
+      </div>
+    ) : (
+      <>
+        <div class:list={['mt-8', hasCustomDiagram ? 'custom-diagram-block' : '']}>
+          {CustomDiagram ? (
+            <CustomDiagram title={title} alt={alt} />
+          ) : (
+            <DrawingViewer src={image} alt={alt} title={title} variant={viewerVariant} />
+          )}
+        </div>
 
-    <div class="prose mt-8">
-      <slot />
-    </div>
+        <div class="prose mt-8">
+          <slot />
+        </div>
+      </>
+    )}
 
     {sections.length > 0 && (
       <div class="mt-12">
@@ -105,5 +123,31 @@ const viewerVariant = display.variant && display.variant !== 'default'
 <style>
   .custom-diagram-block {
     margin-top: 2.5rem;
+  }
+
+  .split-lead {
+    display: grid;
+    gap: 2rem;
+    align-items: start;
+  }
+
+  .split-lead-copy {
+    margin-top: 0;
+  }
+
+  .split-lead-visual {
+    min-width: 0;
+  }
+
+  @media (min-width: 960px) {
+    .split-lead {
+      grid-template-columns: minmax(18rem, 24rem) minmax(0, 1fr);
+      gap: 2.5rem;
+    }
+
+    .split-lead-copy {
+      position: sticky;
+      top: 6.5rem;
+    }
   }
 </style>

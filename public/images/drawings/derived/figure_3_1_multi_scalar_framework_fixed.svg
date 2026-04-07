@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="900" height="1100" viewBox="0 0 900 1100"
+     xmlns="http://www.w3.org/2000/svg">
+
+  <defs>
+    <marker id="arrow"
+            markerWidth="14"
+            markerHeight="14"
+            refX="12"
+            refY="7"
+            orient="auto"
+            markerUnits="userSpaceOnUse">
+      <path d="M0,0 L14,7 L0,14 z" fill="#000"/>
+    </marker>
+  </defs>
+
+  <!-- Boxes and labels -->
+  <g font-family="Helvetica, Arial, sans-serif" fill="#000">
+
+    <rect x="250" y="120" width="400" height="100" rx="18" ry="18"
+          fill="#9ecae1" stroke="#000" stroke-width="2"/>
+    <text x="280" y="165" font-size="26" font-weight="600">REGIONAL</text>
+    <text x="280" y="195" font-size="26" font-weight="600">SCALE</text>
+
+    <rect x="250" y="280" width="400" height="100" rx="18" ry="18"
+          fill="#6baed6" stroke="#000" stroke-width="2"/>
+    <text x="280" y="325" font-size="26" font-weight="600">URBAN</text>
+    <text x="280" y="355" font-size="26" font-weight="600">SCALE</text>
+
+    <rect x="250" y="440" width="400" height="100" rx="18" ry="18"
+          fill="#b2df8a" stroke="#000" stroke-width="2"/>
+    <text x="280" y="485" font-size="26" font-weight="600">NEIGHBORHOOD</text>
+    <text x="280" y="515" font-size="26" font-weight="600">SCALE</text>
+
+    <rect x="250" y="600" width="400" height="100" rx="18" ry="18"
+          fill="#7fc97f" stroke="#000" stroke-width="2"/>
+    <text x="280" y="645" font-size="26" font-weight="600">SITE</text>
+    <text x="280" y="675" font-size="26" font-weight="600">SCALE</text>
+
+  </g>
+
+  <!-- Downward arrows -->
+  <g stroke="#000" stroke-width="3"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     fill="none"
+     marker-end="url(#arrow)">
+    <line x1="450" y1="220" x2="450" y2="280"/>
+    <line x1="450" y1="380" x2="450" y2="440"/>
+    <line x1="450" y1="540" x2="450" y2="600"/>
+  </g>
+
+  <!-- Feedback loops -->
+  <g stroke="#000" stroke-width="2.5"
+     stroke-linecap="round"
+     stroke-linejoin="round"
+     fill="none"
+     stroke-dasharray="8,6"
+     marker-end="url(#arrow)">
+    <path d="M240 650 C140 650, 140 500, 240 500"/>
+    <path d="M240 500 C140 500, 140 340, 240 340"/>
+    <path d="M240 340 C140 340, 140 180, 240 180"/>
+  </g>
+
+  <!-- Feedback label -->
+  <text x="130" y="430"
+        font-family="Helvetica, Arial, sans-serif"
+        font-size="20"
+        font-weight="500"
+        transform="rotate(-90 130,430)">
+    FEEDBACK LOOPS
+  </text>
+
+</svg>
