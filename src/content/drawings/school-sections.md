@@ -1,6 +1,6 @@
 ---
 title: "School Sections"
-image: "/images/drawings/final_ppt_complete/Slide61.JPG"
+image: "/images/drawings/final_ppt_cropped/Slide61.JPG"
 alt: "Two cross-sections through the elementary school showing modular roof forms and spatial organization"
 scaleLevel: "node"
 drawingType: "section"
@@ -12,3 +12,4 @@ tags:
 ---
 
 Two sections through the school, spanning 520 and 468 feet, reveal how the pitched-roof modules create varied interior spaces. The repetition of the 26x26 unit generates a rhythmic, humane architecture.
+

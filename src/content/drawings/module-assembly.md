@@ -1,6 +1,6 @@
 ---
 title: "Module Assembly"
-image: "/images/drawings/final_ppt_complete/Slide62.JPG"
+image: "/images/drawings/final_ppt_cropped/Slide62.JPG"
 alt: "Module aggregation, runoff contribution, and repair scenarios showing how the kit of parts grows and adapts over time"
 scaleLevel: "node"
 drawingType: "diagram"
@@ -12,3 +12,4 @@ tags:
 ---
 
 The aggregation logic shows how 26x26-foot modules expand into larger clusters, support school-wide runoff capture, and remain repairable after damage without rebuilding the entire system.
+

@@ -1,6 +1,6 @@
 ---
 title: "Community Hub Typology Matrix"
-image: "/images/drawings/final_ppt_complete/Slide48.JPG"
+image: "/images/drawings/final_ppt_cropped/Slide48.JPG"
 alt: "Matrix comparing the three community hub types, their daily uses, emergency roles, and spatial distribution"
 scaleLevel: "town"
 drawingType: "diagram"
@@ -12,3 +12,4 @@ tags:
 ---
 
 Matrix defining the three community hub types that anchor the recovery framework, including their daily programs, emergency functions, and service distribution logic.
+
