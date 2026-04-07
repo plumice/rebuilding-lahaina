@@ -1,0 +1,119 @@
+---
+import DiagramFrame from './DiagramFrame.astro';
+
+interface Props {
+  title: string;
+  alt: string;
+}
+
+const { title, alt } = Astro.props;
+---
+
+<DiagramFrame title={title} alt={alt}>
+  <svg viewBox="0 0 1400 820" aria-hidden="true">
+    <defs>
+      <linearGradient id="pf-blue" x1="0%" x2="100%" y1="0%" y2="0%">
+        <stop offset="0%" stop-color="#4587c6"></stop>
+        <stop offset="100%" stop-color="#68a6dd"></stop>
+      </linearGradient>
+      <linearGradient id="pf-orange" x1="0%" x2="100%" y1="0%" y2="0%">
+        <stop offset="0%" stop-color="#e47d33"></stop>
+        <stop offset="100%" stop-color="#f1a14e"></stop>
+      </linearGradient>
+      <marker id="pf-blue-arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+        <path d="M0,0 L12,6 L0,12 z" fill="#4b8fd2"></path>
+      </marker>
+      <marker id="pf-orange-arrow" markerWidth="12" markerHeight="12" refX="9" refY="6" orient="auto">
+        <path d="M0,0 L12,6 L0,12 z" fill="#ec7a33"></path>
+      </marker>
+    </defs>
+
+    <text x="26" y="48" font-size="27" font-style="italic" font-weight="700" fill="#111">Hypothesis</text>
+    <text x="24" y="86" font-size="14" font-style="italic" fill="#444">
+      If Lahaina's post-fire recovery is guided by a multi-scalar, system-integrated framework rooted in the ahupua'a model,
+    </text>
+    <text x="24" y="106" font-size="14" font-style="italic" fill="#444">
+      linking coast, urban fabric, peri-urban buffer, and hinterland, then it can restore ecological function and support community return.
+    </text>
+
+    <ellipse cx="560" cy="540" rx="260" ry="170" fill="rgba(244, 219, 106, 0.55)" stroke="#e7c65d" stroke-width="2"></ellipse>
+    <ellipse cx="885" cy="390" rx="280" ry="175" fill="rgba(203, 181, 138, 0.58)" stroke="#b99f6d" stroke-width="2"></ellipse>
+    <ellipse cx="835" cy="498" rx="270" ry="165" fill="rgba(144, 190, 93, 0.55)" stroke="#8ca857" stroke-width="2"></ellipse>
+    <ellipse cx="725" cy="420" rx="292" ry="165" fill="rgba(77, 171, 203, 0.46)" stroke="#439fbe" stroke-width="2"></ellipse>
+
+    <ellipse cx="695" cy="465" rx="148" ry="102" fill="#e8ecec" stroke="#6a7373" stroke-width="2"></ellipse>
+    <text x="695" y="448" text-anchor="middle" font-size="18" font-weight="700" fill="#333">Protected</text>
+    <text x="695" y="474" text-anchor="middle" font-size="18" font-weight="700" fill="#333">Urban Core</text>
+
+    <rect x="604" y="426" width="28" height="28" rx="4" fill="#7bb7db" opacity="0.95"></rect>
+    <text x="586" y="456" font-size="14" fill="#444" text-anchor="end">Utility</text>
+    <rect x="786" y="474" width="28" height="28" rx="4" fill="#7bb7db" opacity="0.95"></rect>
+    <text x="822" y="495" font-size="14" fill="#444">Distributed</text>
+    <text x="822" y="513" font-size="14" fill="#444">Cisterns</text>
+    <rect x="706" y="552" width="28" height="28" rx="4" fill="#7bb7db" opacity="0.95"></rect>
+    <text x="720" y="604" font-size="14" fill="#444" text-anchor="middle">Groundwater</text>
+    <text x="720" y="622" font-size="14" fill="#444" text-anchor="middle">Recharge</text>
+
+    <g fill="#3a3a3a" font-size="15" font-weight="600">
+      <text x="382" y="536">1. Coastal Buffer</text>
+      <text x="382" y="558">(Yellow/Blue)</text>
+      <text x="876" y="270">4. Hinterland</text>
+      <text x="876" y="292">Catchment</text>
+      <text x="876" y="314">(Tan/Brown)</text>
+      <text x="900" y="552">2. Peri-Urban</text>
+      <text x="900" y="574">Buffer (Green)</text>
+      <text x="730" y="360">3. Riparian Buffer</text>
+      <text x="730" y="382">(Blue/Teal)</text>
+    </g>
+
+    <g fill="#5d5d5d" font-size="14">
+      <text x="250" y="648">Nearshore Zone</text>
+      <text x="282" y="668">(Sea)</text>
+      <text x="1120" y="610">Wildfire</text>
+      <text x="1110" y="632">Threat</text>
+      <text x="460" y="462">Living</text>
+      <text x="452" y="480">Shoreline</text>
+      <text x="497" y="594">Elevated</text>
+      <text x="498" y="612">Pathways</text>
+      <text x="936" y="446">Agricultural</text>
+      <text x="946" y="464">Terraces</text>
+      <text x="984" y="404">Gravity</text>
+      <text x="990" y="422">Water</text>
+      <text x="988" y="440">Flow</text>
+      <text x="1006" y="322">Reforestation</text>
+      <text x="826" y="622">Distributed</text>
+      <text x="826" y="640">Infrastructure</text>
+      <text x="846" y="658">Network</text>
+      <text x="855" y="604">Irrigated</text>
+      <text x="844" y="622">Agricultural</text>
+      <text x="858" y="640">Park</text>
+      <text x="926" y="618">Community</text>
+      <text x="942" y="636">Gardens</text>
+      <text x="1040" y="566">Fire Pressure</text>
+      <text x="1045" y="584">Attenuation</text>
+      <text x="320" y="528">Surge</text>
+      <text x="308" y="546">Pressure</text>
+    </g>
+
+    <path d="M205 565 L318 500" stroke="url(#pf-blue)" stroke-width="18" marker-end="url(#pf-blue-arrow)"></path>
+    <path d="M248 620 L358 555" stroke="url(#pf-blue)" stroke-width="18" marker-end="url(#pf-blue-arrow)"></path>
+    <path d="M1070 560 L980 520" stroke="url(#pf-orange)" stroke-width="18" marker-end="url(#pf-orange-arrow)"></path>
+    <path d="M1080 618 L1004 584" stroke="url(#pf-orange)" stroke-width="18" marker-end="url(#pf-orange-arrow)"></path>
+    <path d="M666 548 L596 514" stroke="url(#pf-blue)" stroke-width="12" marker-end="url(#pf-blue-arrow)"></path>
+    <path d="M704 566 L704 610" stroke="url(#pf-blue)" stroke-width="12" marker-end="url(#pf-blue-arrow)"></path>
+    <path d="M770 554 L844 586" stroke="url(#pf-blue)" stroke-width="12" marker-end="url(#pf-blue-arrow)"></path>
+    <path d="M798 444 L878 392" stroke="url(#pf-blue)" stroke-width="12" marker-end="url(#pf-blue-arrow)"></path>
+    <path d="M792 486 L872 520" stroke="url(#pf-blue)" stroke-width="12" marker-end="url(#pf-blue-arrow)"></path>
+    <path d="M620 428 L560 360" stroke="url(#pf-blue)" stroke-width="12" marker-end="url(#pf-blue-arrow)"></path>
+    <path d="M888 336 L808 304" stroke="url(#pf-blue)" stroke-width="12" marker-end="url(#pf-blue-arrow)"></path>
+
+    <circle cx="388" cy="502" r="28" fill="#f7f5e8" stroke="#d3b859" stroke-width="2"></circle>
+    <circle cx="450" cy="448" r="28" fill="#f7f5e8" stroke="#d3b859" stroke-width="2"></circle>
+    <circle cx="510" cy="582" r="28" fill="#f7f5e8" stroke="#d3b859" stroke-width="2"></circle>
+    <circle cx="960" cy="366" r="28" fill="#eef3e4" stroke="#88a463" stroke-width="2"></circle>
+    <circle cx="1008" cy="278" r="28" fill="#f6efdf" stroke="#b49868" stroke-width="2"></circle>
+    <circle cx="864" cy="522" r="28" fill="#eef3e4" stroke="#88a463" stroke-width="2"></circle>
+    <circle cx="938" cy="596" r="28" fill="#eef3e4" stroke="#88a463" stroke-width="2"></circle>
+    <circle cx="860" cy="228" r="28" fill="#f6efdf" stroke="#b49868" stroke-width="2"></circle>
+  </svg>
+</DiagramFrame>

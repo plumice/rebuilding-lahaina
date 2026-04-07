@@ -1,0 +1,77 @@
+---
+import DiagramFrame from './DiagramFrame.astro';
+
+interface Props {
+  title: string;
+  alt: string;
+}
+
+const { title, alt } = Astro.props;
+
+const principles = [
+  { label: 'Residential can always rebuild', sublabel: 'NO displacement', y: 145, actions: [0, 1, 6] },
+  { label: 'Space for everyone to return', sublabel: 'Public Access', y: 290, actions: [2, 3] },
+  { label: 'Multi-Functional Spaces', sublabel: 'Infrastructure', y: 436, actions: [3, 4, 6] },
+  { label: 'Buffer Edges of the town', sublabel: '', y: 582, actions: [5] },
+  { label: 'Preserve Cultural Heritage', sublabel: '', y: 728, actions: [5] },
+];
+
+const actions = [
+  'Allow adaptation in place',
+  'Establish zoning overlays for prioritized rebuilding',
+  'Flexible housing prototypes for rapid reconstruction',
+  'Pedestrian-friendly networks with public space access',
+  'Community-driven housing models for fair distribution',
+  'Green buffers to blend town and landscape',
+  'Local materials and architectural styles',
+  'Dual-purpose infrastructure',
+];
+---
+
+<DiagramFrame title={title} alt={alt}>
+  <svg viewBox="0 0 1400 860" aria-hidden="true">
+    <text x="26" y="54" font-size="26" font-style="italic" font-weight="700" fill="#111">Overall Design Principles</text>
+
+    <line x1="430" y1="90" x2="1324" y2="90" stroke="#d7d3cc" stroke-width="1.5"></line>
+    <text x="470" y="84" font-size="12" letter-spacing="5" fill="#9e998f">PRINCIPLES</text>
+    <text x="970" y="84" font-size="12" letter-spacing="5" fill="#9e998f">ACTIONS</text>
+
+    <line x1="480" y1="108" x2="480" y2="740" stroke="#d2cec7" stroke-width="2"></line>
+    <line x1="945" y1="108" x2="945" y2="780" stroke="#d2cec7" stroke-width="2"></line>
+
+    {principles.map((item) => (
+      <g>
+        <polygon points={`${480},${item.y - 16} ${496},${item.y} ${480},${item.y + 16} ${464},${item.y}`} fill="#8a7455"></polygon>
+        <circle cx="480" cy={item.y - 34} r="3.5" fill="#d6d2ca"></circle>
+        <circle cx="480" cy={item.y + 34} r="3.5" fill="#d6d2ca"></circle>
+        <text x="526" y={item.y + 2} font-size="16" font-weight="700" fill="#262626">{item.label}</text>
+        {item.sublabel && <text x="526" y={item.y + 24} font-size="14" font-style="italic" fill="#b0aca6">{item.sublabel}</text>}
+      </g>
+    ))}
+
+    {actions.map((action, index) => {
+      const y = 138 + index * 86;
+      return (
+        <g>
+          <ellipse cx="945" cy={y} rx="5" ry="11" fill="#9b8b68"></ellipse>
+          <text x="990" y={y + 5} font-size="16" fill="#313131">{action}</text>
+        </g>
+      );
+    })}
+
+    {principles.flatMap((item) =>
+      item.actions.map((actionIndex) => {
+        const actionY = 138 + actionIndex * 86;
+        return (
+          <path
+            d={`M 496 ${item.y} C 650 ${item.y}, 760 ${actionY}, 945 ${actionY}`}
+            fill="none"
+            stroke="#d8d5cf"
+            stroke-width="2.2"
+            stroke-dasharray="7 8"
+          ></path>
+        );
+      }),
+    )}
+  </svg>
+</DiagramFrame>

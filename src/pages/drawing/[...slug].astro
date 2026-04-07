@@ -15,6 +15,7 @@ const { Content } = await render(drawing);
 ---
 
 <DrawingLayout
+  drawingId={drawing.id}
   title={drawing.data.title}
   image={drawing.data.image}
   alt={drawing.data.alt}

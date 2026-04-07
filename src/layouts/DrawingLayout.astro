@@ -4,8 +4,13 @@ import DrawingViewer from '../components/DrawingViewer.astro';
 import TagPills from '../components/TagPills.astro';
 import Breadcrumbs from '../components/Breadcrumbs.astro';
 import { getCollection } from 'astro:content';
+import ResilienceDriversDiagram from '../components/diagrams/ResilienceDriversDiagram.astro';
+import DesignPrinciplesDiagram from '../components/diagrams/DesignPrinciplesDiagram.astro';
+import ProposedFrameworkDiagram from '../components/diagrams/ProposedFrameworkDiagram.astro';
+import MainProblemsDiagram from '../components/diagrams/MainProblemsDiagram.astro';
 
 interface Props {
+  drawingId: string;
   title: string;
   image: string;
   alt: string;
@@ -15,10 +20,19 @@ interface Props {
   tags: { topic: string[]; scale: string[]; type: string[] };
 }
 
-const { title, image, alt, scaleLevel, drawingType, relatedSections = [], tags } = Astro.props;
+const { drawingId, title, image, alt, scaleLevel, drawingType, relatedSections = [], tags } = Astro.props;
 
 const allSections = await getCollection('sections');
 const sections = allSections.filter((s) => relatedSections.includes(s.id));
+
+const customDiagramRegistry = {
+  'case-studies-map': ResilienceDriversDiagram,
+  'design-principles-overall': DesignPrinciplesDiagram,
+  'proposed-framework-diagram': ProposedFrameworkDiagram,
+  'main-problems': MainProblemsDiagram,
+} as const;
+
+const CustomDiagram = customDiagramRegistry[drawingId as keyof typeof customDiagramRegistry];
 ---
 
 <BaseLayout title={title} description={alt}>
@@ -35,7 +49,11 @@ const sections = allSections.filter((s) => relatedSections.includes(s.id));
     <TagPills topics={tags.topic} scales={tags.scale} types={tags.type} />
 
     <div class="mt-8">
-      <DrawingViewer src={image} alt={alt} title={title} />
+      {CustomDiagram ? (
+        <CustomDiagram title={title} alt={alt} />
+      ) : (
+        <DrawingViewer src={image} alt={alt} title={title} />
+      )}
     </div>
 
     <div class="prose mt-8">
