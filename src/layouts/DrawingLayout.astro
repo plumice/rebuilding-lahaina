@@ -14,11 +14,14 @@ interface Props {
   alt: string;
   scaleLevel: string;
   drawingType: string;
+  display?: {
+    variant?: 'default' | 'board' | 'full';
+  };
   relatedSections?: string[];
   tags: { topic: string[]; scale: string[]; type: string[] };
 }
 
-const { drawingId, title, image, alt, scaleLevel, drawingType, relatedSections = [], tags } = Astro.props;
+const { drawingId, title, image, alt, scaleLevel, drawingType, display = { variant: 'default' }, relatedSections = [], tags } = Astro.props;
 
 const allSections = await getCollection('sections');
 const sections = allSections.filter((s) => relatedSections.includes(s.id));
@@ -30,6 +33,12 @@ const customDiagramRegistry = {
 
 const CustomDiagram = customDiagramRegistry[drawingId as keyof typeof customDiagramRegistry];
 const hasCustomDiagram = Boolean(CustomDiagram);
+const inferredBoardImage = image.includes('/final_ppt_cropped/') || image.includes('/images/drawings/updated_');
+const viewerVariant = display.variant && display.variant !== 'default'
+  ? display.variant
+  : inferredBoardImage
+    ? 'board'
+    : 'full';
 ---
 
 <BaseLayout title={title} description={alt}>
@@ -49,7 +58,7 @@ const hasCustomDiagram = Boolean(CustomDiagram);
       {CustomDiagram ? (
         <CustomDiagram title={title} alt={alt} />
       ) : (
-        <DrawingViewer src={image} alt={alt} title={title} />
+        <DrawingViewer src={image} alt={alt} title={title} variant={viewerVariant} />
       )}
     </div>
 
