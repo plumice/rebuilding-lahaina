@@ -9,11 +9,11 @@ interface Props {
 const { title, alt } = Astro.props;
 
 const principles = [
-  { label: 'Residential can always rebuild', sublabel: 'NO displacement', y: 145, actions: [0, 1, 6] },
-  { label: 'Space for everyone to return', sublabel: 'Public Access', y: 290, actions: [2, 3] },
-  { label: 'Multi-Functional Spaces', sublabel: 'Infrastructure', y: 436, actions: [3, 4, 6] },
-  { label: 'Buffer Edges of the town', sublabel: '', y: 582, actions: [5] },
-  { label: 'Preserve Cultural Heritage', sublabel: '', y: 728, actions: [5] },
+  { label: 'Residential can always rebuild', sublabel: 'NO displacement', y: 120, actions: [0, 1, 6] },
+  { label: 'Space for everyone to return', sublabel: 'Public Access', y: 260, actions: [2, 3] },
+  { label: 'Multi-Functional Spaces', sublabel: 'Infrastructure', y: 400, actions: [3, 4, 7] },
+  { label: 'Buffer Edges of the town', sublabel: '', y: 540, actions: [5] },
+  { label: 'Preserve Cultural Heritage', sublabel: '', y: 680, actions: [6] },
 ];
 
 const actions = [
@@ -29,15 +29,13 @@ const actions = [
 ---
 
 <DiagramFrame title={title} alt={alt}>
-  <svg viewBox="0 0 1400 860" aria-hidden="true">
-    <text x="26" y="54" font-size="26" font-style="italic" font-weight="700" fill="#111">Overall Design Principles</text>
+  <svg viewBox="0 0 1400 780" aria-hidden="true">
+    <line x1="430" y1="54" x2="1324" y2="54" stroke="#d7d3cc" stroke-width="1.5"></line>
+    <text x="470" y="48" font-size="12" letter-spacing="5" fill="#9e998f">PRINCIPLES</text>
+    <text x="970" y="48" font-size="12" letter-spacing="5" fill="#9e998f">ACTIONS</text>
 
-    <line x1="430" y1="90" x2="1324" y2="90" stroke="#d7d3cc" stroke-width="1.5"></line>
-    <text x="470" y="84" font-size="12" letter-spacing="5" fill="#9e998f">PRINCIPLES</text>
-    <text x="970" y="84" font-size="12" letter-spacing="5" fill="#9e998f">ACTIONS</text>
-
-    <line x1="480" y1="108" x2="480" y2="740" stroke="#d2cec7" stroke-width="2"></line>
-    <line x1="945" y1="108" x2="945" y2="780" stroke="#d2cec7" stroke-width="2"></line>
+    <line x1="480" y1="72" x2="480" y2="700" stroke="#d2cec7" stroke-width="2"></line>
+    <line x1="945" y1="72" x2="945" y2="720" stroke="#d2cec7" stroke-width="2"></line>
 
     {principles.map((item) => (
       <g>
@@ -50,7 +48,7 @@ const actions = [
     ))}
 
     {actions.map((action, index) => {
-      const y = 138 + index * 86;
+      const y = 102 + index * 78;
       return (
         <g>
           <ellipse cx="945" cy={y} rx="5" ry="11" fill="#9b8b68"></ellipse>
@@ -61,7 +59,7 @@ const actions = [
 
     {principles.flatMap((item) =>
       item.actions.map((actionIndex) => {
-        const actionY = 138 + actionIndex * 86;
+        const actionY = 102 + actionIndex * 78;
         return (
           <path
             d={`M 496 ${item.y} C 650 ${item.y}, 760 ${actionY}, 945 ${actionY}`}

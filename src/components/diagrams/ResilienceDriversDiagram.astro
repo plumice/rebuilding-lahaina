@@ -30,7 +30,7 @@ const nodeCases = [
 const driverBlocks = [
   {
     x: 542,
-    y: 255,
+    y: 222,
     color: '#4f6d9c',
     title: 'Systemic Drivers',
     lines: [
@@ -43,7 +43,7 @@ const driverBlocks = [
   },
   {
     x: 542,
-    y: 402,
+    y: 360,
     color: '#75a86d',
     title: 'Community-Led Recovery',
     lines: [
@@ -57,7 +57,7 @@ const driverBlocks = [
   },
   {
     x: 542,
-    y: 585,
+    y: 536,
     color: '#b05b67',
     title: 'Cultural Resilience Drivers',
     lines: [
@@ -72,7 +72,7 @@ const driverBlocks = [
 const nodeBlocks = [
   {
     x: 822,
-    y: 245,
+    y: 214,
     color: '#4da86a',
     title: 'Functional Node',
     lines: [
@@ -86,7 +86,7 @@ const nodeBlocks = [
   },
   {
     x: 822,
-    y: 446,
+    y: 406,
     color: '#b05b67',
     title: 'Cultural/Symbolic Node',
     lines: [
@@ -100,7 +100,7 @@ const nodeBlocks = [
 ---
 
 <DiagramFrame title={title} alt={alt}>
-  <svg viewBox="0 0 1400 840" aria-hidden="true">
+  <svg viewBox="0 0 1400 760" aria-hidden="true">
     <defs>
       <marker id="rd-arrowhead" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
         <path d="M0,0 L10,5 L0,10 z" fill="#c76366"></path>
@@ -110,34 +110,32 @@ const nodeBlocks = [
       </marker>
     </defs>
 
-    <text x="42" y="48" font-size="26" font-weight="700" fill="#111">Disaster Recovery / Catalyst of Resilience Drivers</text>
+    <line x1="90" y1="84" x2="1310" y2="84" stroke="#111" stroke-dasharray="2 8" stroke-width="2"></line>
+    <line x1="736" y1="48" x2="736" y2="590" stroke="#111" stroke-dasharray="2 8" stroke-width="2"></line>
+    <line x1="90" y1="590" x2="1310" y2="590" stroke="#111" stroke-dasharray="2 8" stroke-width="2"></line>
 
-    <line x1="90" y1="116" x2="1310" y2="116" stroke="#111" stroke-dasharray="2 8" stroke-width="2"></line>
-    <line x1="736" y1="78" x2="736" y2="658" stroke="#111" stroke-dasharray="2 8" stroke-width="2"></line>
-    <line x1="90" y1="658" x2="1310" y2="658" stroke="#111" stroke-dasharray="2 8" stroke-width="2"></line>
-
-    <text x="390" y="88" text-anchor="middle" font-size="18" font-weight="600" fill="#333">Disaster Recovery</text>
-    <text x="390" y="110" text-anchor="middle" font-size="16" fill="#555">Catalyst of Resilience Drivers</text>
-    <text x="1115" y="88" text-anchor="middle" font-size="18" font-weight="600" fill="#333">Urbanism of Nodes</text>
-    <text x="1115" y="110" text-anchor="middle" font-size="16" fill="#555">Catalyst of Community Anchors</text>
+    <text x="390" y="52" text-anchor="middle" font-size="18" font-weight="600" fill="#333">Disaster Recovery</text>
+    <text x="390" y="74" text-anchor="middle" font-size="16" fill="#555">Catalyst of Resilience Drivers</text>
+    <text x="1115" y="52" text-anchor="middle" font-size="18" font-weight="600" fill="#333">Urbanism of Nodes</text>
+    <text x="1115" y="74" text-anchor="middle" font-size="16" fill="#555">Catalyst of Community Anchors</text>
 
     {recoveryCases.map((group, index) => {
-      const y = 168 + index * 102;
+      const y = 124 + index * 74;
       return (
         <g>
           {group.map((line, lineIndex) => (
-            <text x="92" y={y + lineIndex * 22} font-size="16" fill="#202020">{line}</text>
+            <text x="92" y={y + lineIndex * 20} font-size="15" fill="#202020">{line}</text>
           ))}
         </g>
       );
     })}
 
     {nodeCases.map((group, index) => {
-      const y = 168 + index * 99;
+      const y = 124 + index * 86;
       return (
         <g>
           {group.map((line, lineIndex) => (
-            <text x="1286" y={y + lineIndex * 22} text-anchor="end" font-size="16" fill="#202020">{line}</text>
+            <text x="1286" y={y + lineIndex * 20} text-anchor="end" font-size="15" fill="#202020">{line}</text>
           ))}
         </g>
       );
@@ -145,41 +143,41 @@ const nodeBlocks = [
 
     {driverBlocks.map((block) => (
       <g>
-        <circle cx={block.x - 26} cy={block.y + 30} r="3.5" fill="#111"></circle>
-        <circle cx={block.x - 26} cy={block.y + 62} r="3.5" fill="#111"></circle>
+        <circle cx={block.x - 26} cy={block.y + 26} r="3.5" fill="#111"></circle>
+        <circle cx={block.x - 26} cy={block.y + 56} r="3.5" fill="#111"></circle>
         <text x={block.x} y={block.y} font-size="17" font-weight="700" fill={block.color}>{block.title}</text>
         {block.lines.map((line, index) => (
-          <text x={block.x} y={block.y + 28 + index * 20} font-size="15" font-weight="600" fill={block.color}>{line}</text>
+          <text x={block.x} y={block.y + 28 + index * 18} font-size="14" font-weight="600" fill={block.color}>{line}</text>
         ))}
       </g>
     ))}
 
     {nodeBlocks.map((block) => (
       <g>
-        <circle cx={block.x - 26} cy={block.y + 26} r="3.5" fill="#111"></circle>
-        <circle cx={block.x - 26} cy={block.y + 58} r="3.5" fill="#111"></circle>
+        <circle cx={block.x - 26} cy={block.y + 24} r="3.5" fill="#111"></circle>
+        <circle cx={block.x - 26} cy={block.y + 52} r="3.5" fill="#111"></circle>
         <text x={block.x} y={block.y} font-size="17" font-weight="700" fill={block.color}>{block.title}</text>
         {block.lines.map((line, index) => (
-          <text x={block.x} y={block.y + 26 + index * 20} font-size="15" font-weight="600" fill={block.color}>{line}</text>
+          <text x={block.x} y={block.y + 24 + index * 18} font-size="14" font-weight="600" fill={block.color}>{line}</text>
         ))}
       </g>
     ))}
 
-    {[190, 315, 440, 565, 625].map((y) => (
-      <path d={`M345 ${y} C 410 ${y - 30}, 455 ${y - 15}, 505 ${y + 8}`} fill="none" stroke="#d7d7d7" stroke-width="2.5" stroke-dasharray="7 10" marker-end="url(#rd-mini)"></path>
+    {[166, 240, 314, 388, 462].map((y) => (
+      <path d={`M345 ${y} C 410 ${y - 24}, 455 ${y - 12}, 505 ${y + 8}`} fill="none" stroke="#d7d7d7" stroke-width="2.5" stroke-dasharray="7 10" marker-end="url(#rd-mini)"></path>
     ))}
-    {[300, 430, 560].map((y) => (
-      <path d={`M960 ${y} C 1012 ${y - 30}, 1060 ${y - 10}, 1118 ${y + 12}`} fill="none" stroke="#d7d7d7" stroke-width="2.5" stroke-dasharray="7 10" marker-end="url(#rd-mini)"></path>
+    {[210, 308, 406].map((y) => (
+      <path d={`M960 ${y} C 1012 ${y - 24}, 1060 ${y - 8}, 1118 ${y + 12}`} fill="none" stroke="#d7d7d7" stroke-width="2.5" stroke-dasharray="7 10" marker-end="url(#rd-mini)"></path>
     ))}
 
-    <path d="M352 154 C 400 126, 442 132, 444 182 L 444 606 C 444 664, 470 704, 524 706" fill="none" stroke="#c76366" stroke-width="3.5" marker-end="url(#rd-arrowhead)"></path>
-    <path d="M1092 360 C 1058 300, 1030 304, 1028 364 L 1028 646 C 1028 684, 1000 712, 952 714" fill="none" stroke="#c76366" stroke-width="3.5" marker-end="url(#rd-arrowhead)"></path>
+    <path d="M352 118 C 400 94, 442 100, 444 144 L 444 544 C 444 586, 470 618, 524 624" fill="none" stroke="#c76366" stroke-width="3.5" marker-end="url(#rd-arrowhead)"></path>
+    <path d="M1092 258 C 1058 214, 1030 218, 1028 268 L 1028 560 C 1028 596, 1000 624, 952 634" fill="none" stroke="#c76366" stroke-width="3.5" marker-end="url(#rd-arrowhead)"></path>
 
-    <text x="444" y="724" text-anchor="middle" font-size="16" font-weight="600" fill="#333">Lahaina's Native Hawaiian</text>
-    <text x="444" y="746" text-anchor="middle" font-size="16" font-weight="600" fill="#333">heritage</text>
-    <text x="1028" y="724" text-anchor="middle" font-size="16" font-weight="600" fill="#333">Lahaina's potential for integrating</text>
-    <text x="1028" y="746" text-anchor="middle" font-size="16" font-weight="600" fill="#333">water sensitive spaces</text>
+    <text x="444" y="662" text-anchor="middle" font-size="16" font-weight="600" fill="#333">Lahaina's Native Hawaiian</text>
+    <text x="444" y="684" text-anchor="middle" font-size="16" font-weight="600" fill="#333">heritage</text>
+    <text x="1028" y="662" text-anchor="middle" font-size="16" font-weight="600" fill="#333">Lahaina's potential for integrating</text>
+    <text x="1028" y="684" text-anchor="middle" font-size="16" font-weight="600" fill="#333">water sensitive spaces</text>
 
-    <text x="640" y="764" text-anchor="middle" font-size="64" fill="#efede9" font-weight="700">Lahaina</text>
+    <text x="640" y="710" text-anchor="middle" font-size="64" fill="#efede9" font-weight="700">Lahaina</text>
   </svg>
 </DiagramFrame>
