@@ -13,4 +13,4 @@ tags:
   type: [proposal]
 ---
 
-The diagram distills the thesis argument into one image: a protected urban core supported by coastal, riparian, peri-urban, and hinterland systems working together as one recovery framework.
+The diagram distills the recovery argument into one image: a protected urban core supported by coastal, riparian, peri-urban, and hinterland systems working together as one framework.

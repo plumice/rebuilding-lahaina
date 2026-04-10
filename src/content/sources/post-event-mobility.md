@@ -13,4 +13,4 @@ relatedSections:
   - fire-analysis
 ---
 
-The evacuation analysis is referenced in the thesis's discussion of mobility failures during the 2023 fire. Dead-end streets turned into trap points, with residents funneled back toward impassable routes. The proposed mobility framework inverts this condition: every street now connects to the arterial spine, removing trap points, and any point inside the re-densification zone has at least two independent egress routes.
+The evacuation analysis documents mobility failures during the 2023 fire. Dead-end streets turned into trap points, with residents funneled back toward impassable routes. The proposed mobility framework inverts this condition: every street now connects to the arterial spine, removing trap points, and any point inside the re-densification zone has at least two independent egress routes.

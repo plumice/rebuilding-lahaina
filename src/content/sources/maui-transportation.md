@@ -13,4 +13,4 @@ relatedSections:
   - fire-analysis
 ---
 
-Pre-fire road network data cited in the thesis for baseline mobility analysis. The thesis describes how before the fire, streets were designed to prioritize cars, with limited alternative routes inland causing traffic gridlock during peak tourist and commuter periods. The data informs the proposed mobility redesign centered on the new boulevard.
+Pre-fire road network data provides baseline mobility analysis. Before the fire, streets were designed to prioritize cars, with limited alternative routes inland causing traffic gridlock during peak tourist and commuter periods. The data informs the proposed mobility redesign centered on the new boulevard.

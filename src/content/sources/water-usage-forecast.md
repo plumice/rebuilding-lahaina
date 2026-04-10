@@ -13,4 +13,4 @@ relatedSections:
   - water-system-zones
 ---
 
-Referenced alongside the Stage 2 Water Shortage declaration in the thesis's analysis of infrastructure constraints on recovery. The forecast projects water demand versus supply through 2028 and quantifies the 41.8% deficit that blocks issuance of new water meters and slows reconstruction.
+Referenced alongside the Stage 2 Water Shortage declaration in the analysis of infrastructure constraints on recovery. The forecast projects water demand versus supply through 2028 and quantifies the 41.8% deficit that blocks issuance of new water meters and slows reconstruction.

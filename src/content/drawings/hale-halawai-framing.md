@@ -11,4 +11,4 @@ tags:
   type: [documentation]
 ---
 
-Reference from HAR Chapter 15-110, Rules Pertaining to Indigenous Hawaiian Architecture Structures. The structural hierarchy of the hale maps directly to the thesis module system: the relationship between pou (posts), lohelau (wall plate), and o'a (rafters) informs the post-and-beam hierarchy of the 26-foot module. Source: Hawaii Administrative Rules, Chapter 15-110. Available at https://www.capitol.hawaii.gov/
+Reference from HAR Chapter 15-110, Rules Pertaining to Indigenous Hawaiian Architecture Structures. The structural hierarchy of the hale maps directly to the module system: the relationship between pou (posts), lohelau (wall plate), and o'a (rafters) informs the post-and-beam hierarchy of the 26-foot module. Source: Hawaii Administrative Rules, Chapter 15-110. Available at https://www.capitol.hawaii.gov/

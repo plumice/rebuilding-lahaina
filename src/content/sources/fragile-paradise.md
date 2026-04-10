@@ -13,4 +13,4 @@ relatedSections:
   - disaster-gentrification
 ---
 
-Referenced in the thesis bibliography. Blackford's analysis of tourism-driven transformation of Maui provides historical context for the economic conditions that preceded the 2023 fire, where tourism replaced plantation agriculture as the economic base and restructured housing away from long-term rental toward visitor accommodation.
+Blackford's analysis of tourism-driven transformation of Maui provides historical context for the economic conditions that preceded the 2023 fire, where tourism replaced plantation agriculture as the economic base and restructured housing away from long-term rental toward visitor accommodation.

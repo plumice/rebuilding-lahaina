@@ -13,4 +13,4 @@ relatedSections:
   - environmental-analysis
 ---
 
-Referenced in the thesis for soil productivity grading (A through E) that forms the basis for land-use planning and zoning decisions in the Lahaina watershed area.
+Soil productivity grading (A through E) forms the basis for land-use planning and zoning decisions in the Lahaina watershed area.

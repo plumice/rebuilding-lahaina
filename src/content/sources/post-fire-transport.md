@@ -13,4 +13,4 @@ relatedSections:
   - fire-analysis
 ---
 
-Referenced in the thesis for post-fire transportation damage assessment. The thesis notes that approximately 2.2 miles of major roadway, including segments of Front Street, face inundation risks from sea-level rise independent of fire damage, informing the decision to shift the primary corridor inland to the new boulevard.
+Post-fire transportation damage assessment. Approximately 2.2 miles of major roadway, including segments of Front Street, face inundation risks from sea-level rise independent of fire damage, informing the decision to shift the primary corridor inland to the new boulevard.

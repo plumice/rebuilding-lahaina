@@ -11,4 +11,4 @@ tags:
   type: [precedent]
 ---
 
-Ground floor and first floor plans of St. Xavier's Primary School in Ahmedabad, designed by Charles Correa. The thesis describes how "Correa's later works, including St. Xavier's Primary School in Ahmedabad and Bharat Bhavan, extend the mat logic to educational and civic programs, demonstrating how classrooms, shared learning spaces, courtyards, and semi-open thresholds can be arranged as a distributed system rather than stacked vertically." This precedent directly informs the Lahaina Primary School design.
+Ground floor and first floor plans of St. Xavier's Primary School in Ahmedabad, designed by Charles Correa. Correa's later works, including St. Xavier's Primary School in Ahmedabad and Bharat Bhavan, extend the mat logic to educational and civic programs, demonstrating how classrooms, shared learning spaces, courtyards, and semi-open thresholds can be arranged as a distributed system rather than stacked vertically. This precedent directly informs the Lahaina Primary School design.

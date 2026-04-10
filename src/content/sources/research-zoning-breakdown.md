@@ -14,4 +14,4 @@ relatedSections:
   - district-typologies
 ---
 
-Author's research note analyzing all 17 zoning types in post-fire Lahaina, identifying which zones are promising versus problematic for rebuilding. The analysis informed the thesis's re-densification strategy, including the finding that pre-fire zoning produced a "bad middle ground" -- housing not dense enough to support robust transit or services, yet not dispersed enough to provide defensible space against wildfires.
+Analysis of zoning types in post-fire Lahaina, identifying which zones are promising versus problematic for rebuilding. Pre-fire zoning produced a "bad middle ground": housing not dense enough to support robust transit or services, yet not dispersed enough to provide defensible space against wildfires. This finding informed the re-densification strategy.

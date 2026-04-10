@@ -13,4 +13,4 @@ relatedSections:
   - school-design-detail
 ---
 
-Van Eyck's theoretical essay establishes the configurative discipline that informs the module aggregation logic in the thesis. The thesis references this alongside the Amsterdam Orphanage as a precedent for how the mat typology supports community-scale occupation through spatial continuity, flexible clustering, and a balance between shared and private zones.
+Van Eyck's theoretical essay establishes the configurative discipline that informs the module aggregation logic. The Amsterdam Orphanage serves as a precedent for how the mat typology supports community-scale occupation through spatial continuity, flexible clustering, and a balance between shared and private zones.

@@ -18,9 +18,9 @@ relatedSections:
   - mobility-street-design
 ---
 
-The County of Maui Historic Commission's *Architectural Style Book for Lahaina* documents the town's built heritage from pre-contact Hawaiian structures through missionary-era construction to plantation-period buildings. The thesis notes the document predates the fire by over fifty years but inventories the architectural character that was destroyed and establishes reference for reconstruction decisions about material, scale, and typology. Pole-and-grass construction, adobe, coral lime, imported lumber, early reinforced concrete -- the sequence documents adaptation to local conditions and available materials across successive periods. The Style Book is not a design manual but a record of what Lahaina built when builders used what they had.
+The County of Maui Historic Commission's *Architectural Style Book for Lahaina* documents the town's built heritage from pre-contact Hawaiian structures through missionary-era construction to plantation-period buildings. The document predates the fire by over fifty years but inventories the architectural character that was destroyed and establishes reference for reconstruction decisions about material, scale, and typology. Pole-and-grass construction, adobe, coral lime, imported lumber, early reinforced concrete -- the sequence documents adaptation to local conditions and available materials across successive periods. The Style Book is not a design manual but a record of what Lahaina built when builders used what they had.
 
-Historic district overlays (HD-1, HD-2) referenced in the thesis permit fire-resistant materials and contemporary construction methods where they replicate pre-fire character: wood-frame appearance, corrugated metal roofing, covered lanai, and a 35-foot height maximum per the Style Book.
+Historic district overlays (HD-1, HD-2) permit fire-resistant materials and contemporary construction methods where they replicate pre-fire character: wood-frame appearance, corrugated metal roofing, covered lanai, and a 35-foot height maximum per the Style Book.
 
 ## External Links
 
