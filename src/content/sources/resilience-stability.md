@@ -14,4 +14,4 @@ relatedSections:
   - key-terms
 ---
 
-Referenced in the thesis bibliography as foundational theory. Holling's distinction between resilience and stability in ecological systems informs the thesis's conceptual framework for adaptive recovery, where the goal is not to restore pre-disaster conditions but to build capacity for absorbing future disturbance.
+Holling's distinction between resilience and stability in ecological systems is foundational theory. The conceptual framework for adaptive recovery builds on this work, where the goal is not to restore pre-disaster conditions but to build capacity for absorbing future disturbance.

@@ -14,7 +14,7 @@ relatedSections:
   - disaster-gentrification
 ---
 
-Referenced in the thesis for official tracking of recovery progress. The thesis cites these reports alongside FEMA data for the status of site clearance, water shortage conditions, and community response, noting that recovery status and water shortage conditions constrain every phase of rebuilding.
+These reports provide official tracking of recovery progress. Alongside FEMA data, they document the status of site clearance, water shortage conditions, and community response. Recovery status and water shortage conditions constrain every phase of rebuilding.
 
 ## External Links
 

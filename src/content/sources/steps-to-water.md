@@ -13,4 +13,4 @@ relatedSections:
   - design-interventions
 ---
 
-Referenced in the thesis bibliography. Livingston's documentation of India's ancient stepwells provides a precedent for the thesis's principle that water infrastructure should be visible and integrated into public space rather than buried -- cisterns as shaded gathering spaces, pump houses as community centers.
+Livingston's documentation of India's ancient stepwells provides a precedent for the principle that water infrastructure should be visible and integrated into public space rather than buried -- cisterns as shaded gathering spaces, pump houses as community centers.

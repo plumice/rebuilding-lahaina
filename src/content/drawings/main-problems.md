@@ -15,7 +15,7 @@ tags:
   type: [analysis]
 ---
 
-The thesis frames Lahaina's rebuilding challenge as five linked problems that reinforce one another across scale. The diagram distills that chain of risk into a single framework, while the page carries the explanatory text more clearly than the slide board did.
+Lahaina's rebuilding challenge breaks down into five linked problems that reinforce one another across scale. The diagram distills that chain of risk into a single framework, while the page carries the explanatory text more clearly than the slide board did.
 
 ### The five problems
 

@@ -13,4 +13,4 @@ relatedSections:
   - literature-methodology
 ---
 
-Cited in the thesis endnotes on displacement risks in riverfront development. Ghertner's analysis of how aesthetic governance displaces communities in Delhi informs the thesis's warning that green infrastructure and riverfront beautification must not become gentrification tools, a concern applied directly to Lahaina's riparian buffer and coastal park proposals.
+Ghertner's analysis of how aesthetic governance displaces communities in Delhi informs a critical warning: green infrastructure and riverfront beautification must not become gentrification tools. This concern applies directly to Lahaina's riparian buffer and coastal park proposals.

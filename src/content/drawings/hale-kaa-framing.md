@@ -11,4 +11,4 @@ tags:
   type: [documentation]
 ---
 
-The Hale Ka'a (rolling house) gable framing from HAR Chapter 15-110 introduces diagonal bracing (holo) not present in the hip-roofed Hale Halawai. The thesis module adopts the steep roof pitch characteristic of both hale types while using mass timber to achieve contemporary structural performance. Source: Hawaii Administrative Rules, Chapter 15-110.
+The Hale Ka'a (rolling house) gable framing from HAR Chapter 15-110 introduces diagonal bracing (holo) not present in the hip-roofed Hale Halawai. The module adopts the steep roof pitch characteristic of both hale types while using mass timber to achieve contemporary structural performance. Source: Hawaii Administrative Rules, Chapter 15-110.

@@ -14,4 +14,4 @@ relatedSections:
   - pioneer-mill-water-infrastructure
 ---
 
-Author's research note analyzing cultural versus aquatic stream resources in the Lahaina watershed. The analysis examines how the natural stream network -- including Kahoma Stream, Kaua'ula Stream, and smaller intermittent channels -- historically fed complex wetland systems, and how twentieth-century channelization severed these connections.
+Analysis of cultural versus aquatic stream resources in the Lahaina watershed. The natural stream network, including Kahoma Stream, Kauaʻula Stream, and smaller intermittent channels, historically fed complex wetland systems. Twentieth-century channelization severed these connections.

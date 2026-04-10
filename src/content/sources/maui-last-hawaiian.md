@@ -14,4 +14,4 @@ relatedSections:
   - history-of-lahaina
 ---
 
-Robert Wenkam's *Maui: The Last Hawaiian Place* documents the island before mass tourism transformed its economy and landscape. The thesis describes the photographs and text as recording what has been lost. The book functions as historical conscience -- evidence of conditions that recovery might reference without pretending to restore.
+Robert Wenkam's *Maui: The Last Hawaiian Place* documents the island before mass tourism transformed its economy and landscape. The photographs and text record what has been lost. The book functions as historical conscience -- evidence of conditions that recovery might reference without pretending to restore.

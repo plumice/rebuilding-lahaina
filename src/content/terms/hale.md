@@ -7,7 +7,7 @@ tags:
   topic: [cultural-heritage, housing]
 ---
 
-Traditional Hawaiian house. The thesis module design draws directly from traditional hale construction as defined in Maui County's Indigenous Hawaiian Architecture regulations (HAR 15-110).
+Traditional Hawaiian house. The module design draws directly from traditional hale construction as defined in Maui County's Indigenous Hawaiian Architecture regulations (HAR 15-110).
 
 The module's structural hierarchy maps to traditional hale construction: the wood ridge (kauhuhu) as main ridgepole; hipped rafters (o'a) spanning the module; top edge beam (lohelau kua) as upper wall plate; bottom edge beam (lohelau) as lower wall plate; and 8-inch columns (pou kihi) as corner posts. The module exceeds IHA structural minimums for Hale Halawai (assembly hall, 30' x 60') while maintaining the same hierarchical logic -- heavy corner posts to wall plates to ridge beam to rafters.
 

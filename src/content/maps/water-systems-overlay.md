@@ -60,7 +60,7 @@ tags:
   type: [analysis]
 ---
 
-Interactive map of the Lahaina recovery area from coast to mountain summit. Toggle GIS layers to explore the water systems, infrastructure, transportation networks, and hazard zones that define the thesis analysis. All data sourced from Hawaii State GIS ([geoportal.hawaii.gov](https://geoportal.hawaii.gov)), DLNR, CWRM, and FEMA.
+Interactive map of the Lahaina recovery area from coast to mountain summit. Toggle GIS layers to explore the water systems, infrastructure, transportation networks, and hazard zones that define the recovery analysis. All data sourced from Hawaii State GIS ([geoportal.hawaii.gov](https://geoportal.hawaii.gov)), DLNR, CWRM, and FEMA.
 
 16 layers organized by topic:
 

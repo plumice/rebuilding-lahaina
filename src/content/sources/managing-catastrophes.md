@@ -13,4 +13,4 @@ relatedSections:
   - research-questions
 ---
 
-Referenced in the thesis bibliography. Reissberg's risk management frameworks with Hawaiian examples of island fragility contribute to the thesis's understanding of vulnerability cycles and systemic weaknesses in infrastructure, planning, and governance that produce recurring patterns of risk and recovery failure.
+Reissberg's risk management frameworks with Hawaiian examples of island fragility illuminate vulnerability cycles and systemic weaknesses in infrastructure, planning, and governance that produce recurring patterns of risk and recovery failure.
