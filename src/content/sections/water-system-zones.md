@@ -3,8 +3,8 @@ title: "Water System - Zone by Zone"
 chapter: "ch4-principles"
 order: 5
 summary: "The five water capture and distribution zones from mountain hinterland to coast, with specific strategies for each."
-relatedDrawings: ["water-zones-mauka-makai", "water-collection-principles", "water-collection-render", "buffer-water-collection"]
-relatedSources: ["wsp-highway-survey", "stage2-water-shortage", "rainfall-atlas"]
+relatedDrawings: ["buffer-water-collection", "water-capture-ponds-render", "water-collection-principles", "water-collection-render", "water-zones-mauka-makai"]
+relatedSources: ["rainfall-atlas", "stage2-water-shortage", "steps-to-water", "wsp-highway-survey"]
 relatedTerms: ["integrated-water-systems", "cwrm-acronym"]
 tags:
   topic: [water, infrastructure]

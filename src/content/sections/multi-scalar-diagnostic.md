@@ -3,7 +3,7 @@ title: "Multi-Scalar Diagnostic"
 chapter: "ch4-principles"
 order: 1
 summary: "A framework analyzing Lahaina from regional to neighborhood scale to identify intervention points."
-relatedDrawings: ["main-problems", "regional-topography", "composite-regional-analysis", "diagnostic-overlay", "design-principles-overall", "proposed-framework-diagram"]
+relatedDrawings: ["composite-regional-analysis", "design-principles-overall", "diagnostic-overlay", "main-problems", "principles-overall-urban", "proposed-framework-diagram", "regional-topography"]
 relatedSources: []
 relatedTerms: []
 tags:

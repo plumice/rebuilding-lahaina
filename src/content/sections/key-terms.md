@@ -4,8 +4,8 @@ chapter: "ch2-overview"
 order: 1
 summary: "Core terminology used throughout the thesis, including Hawaiian language terms."
 relatedDrawings: []
-relatedSources: []
-relatedTerms: ["ahupuaa", "adaptive-recovery", "fema-acronym"]
+relatedSources: ["managing-catastrophes"]
+relatedTerms: ["adaptive-recovery", "ahupuaa", "cultural-resilience", "fema-acronym", "permeable-frameworks", "social-cohesion"]
 tags:
   topic: [cultural-heritage]
   scale: [regional]

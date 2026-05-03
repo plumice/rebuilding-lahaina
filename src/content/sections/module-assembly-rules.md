@@ -3,7 +3,7 @@ title: "Module Assembly & Aggregation"
 chapter: "ch5-design"
 order: 5
 summary: "How the 26x26-foot module connects, clusters, and grows, the architectural grammar of recovery."
-relatedDrawings: ["module-core", "module-connections", "module-assembly", "module-isometric"]
+relatedDrawings: ["module-assembly", "module-baseline-section", "module-connections", "module-core", "module-isometric"]
 relatedSources: ["indigenous-architecture-rules"]
 relatedTerms: ["hale", "resilient-housing"]
 tags:

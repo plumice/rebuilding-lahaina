@@ -14,4 +14,4 @@ relatedSections:
   - water-green-mobility-systems
 ---
 
-The buffer zone framework organizes Lahaina's edges through four zones: coastal, riparian, peri-urban, and hinterland. These function as adaptive landscapes operating through three logics: attenuation (absorbing environmental forces), connection (linking separate systems), and occupation (programming buffers for active human use).
+See thesis, §3C Design Principles, pp. 48–58.

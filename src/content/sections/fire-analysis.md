@@ -4,7 +4,7 @@ chapter: "ch3-analysis"
 order: 6
 summary: "How the August 2023 wildfire ignited, spread through Lahaina, and exposed systemic infrastructure failures."
 relatedDrawings: ["fire-footprint-before-after", "burnt-unburnt-overlay", "current-condition-sections"]
-relatedSources: ["frontline-documentary"]
+relatedSources: ["frontline-documentary", "post-fire-transport"]
 relatedTerms: ["wui-acronym"]
 tags:
   topic: [fire, infrastructure]

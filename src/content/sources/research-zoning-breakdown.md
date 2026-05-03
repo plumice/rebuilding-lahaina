@@ -14,4 +14,4 @@ relatedSections:
   - district-typologies
 ---
 
-Analysis of zoning types in post-fire Lahaina, identifying which zones are promising versus problematic for rebuilding. Pre-fire zoning produced a "bad middle ground": housing not dense enough to support robust transit or services, yet not dispersed enough to provide defensible space against wildfires. This finding informed the re-densification strategy.
+See thesis, §3D Systems, pp. 76–79.

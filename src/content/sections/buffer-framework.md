@@ -3,9 +3,9 @@ title: "The Four-Buffer Framework"
 chapter: "ch4-principles"
 order: 2
 summary: "Coastal, riparian, peri-urban, and water collection zones forming the backbone of the recovery plan."
-relatedDrawings: ["buffer-concept", "buffer-framework-diagram", "buffer-coastal", "buffer-riparian", "buffer-periurban", "buffer-water-collection", "buffers-composite"]
-relatedSources: []
-relatedTerms: []
+relatedDrawings: ["buffer-coastal", "buffer-concept", "buffer-framework-diagram", "buffer-periurban", "buffer-riparian", "buffer-water-collection", "buffers-composite", "coastal-buffer-section", "existing-water-systems", "lahaina-base-map", "periurban-buffer-map", "periurban-buffer-render", "riparian-buffer-map", "riparian-buffer-render"]
+relatedSources: ["back-to-future-caves"]
+relatedTerms: ["slr-acronym"]
 tags:
   topic: [coastal, water, ecology, fire]
   scale: [regional, district, town]

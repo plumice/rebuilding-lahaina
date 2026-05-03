@@ -4,7 +4,7 @@ chapter: "ch5-design"
 order: 4
 summary: "The mat-building precedents, program requirements, floor plan logic, and emergency conversion design for the Lahaina elementary school."
 relatedDrawings: ["school-aerial-render", "school-floor-plan", "school-sections", "school-zoom-details", "school-axonometric", "st-xaviers-school-plans"]
-relatedSources: ["mat-building", "aldo-van-eyck", "space-and-learning", "charles-correa"]
+relatedSources: ["aldo-van-eyck", "charles-correa", "kenneth-frampton-correa", "mat-building", "space-and-learning"]
 relatedTerms: ["hale"]
 tags:
   topic: [housing, recovery, cultural-heritage]
