@@ -4,7 +4,7 @@ chapter: "ch3-analysis"
 order: 3
 summary: "How Lahaina's land use patterns concentrated vulnerability and complicate recovery."
 relatedDrawings: ["displacement-analysis"]
-relatedSources: ["west-maui-community-plan"]
+relatedSources: ["lsb-classifications", "west-maui-community-plan"]
 relatedTerms: ["disaster-gentrification"]
 tags:
   topic: [zoning, housing, policy]

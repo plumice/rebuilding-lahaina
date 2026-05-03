@@ -4,7 +4,7 @@ chapter: "ch3-analysis"
 order: 2
 summary: "Water systems, rainfall patterns, streams, and sea level rise projections for West Maui."
 relatedDrawings: ["regional-topography", "regional-rainfall", "regional-streams-ditches", "sea-level-rise", "composite-regional-analysis"]
-relatedSources: []
+relatedSources: ["sea-level-rise-report"]
 relatedTerms: []
 tags:
   topic: [water, ecology, coastal]

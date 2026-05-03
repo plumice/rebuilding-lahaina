@@ -3,7 +3,7 @@ title: "Design Interventions"
 chapter: "ch5-design"
 order: 2
 summary: "Key sites including the elementary school, Banyan Tree civic space, and coastal promenade."
-relatedDrawings: ["school-aerial-render", "school-axonometric", "school-floor-plan", "school-sections", "school-zoom-details", "interior-render", "coastal-promenade-render", "coastal-buffer-render", "coast-to-periurban-plan", "coast-to-periurban-sections"]
+relatedDrawings: ["coast-to-periurban-plan", "coast-to-periurban-sections", "coastal-buffer-render", "coastal-promenade-render", "hub-typology-matrix", "interior-render", "school-aerial-render", "school-axonometric", "school-floor-plan", "school-sections", "school-zoom-details"]
 relatedSources: []
 relatedTerms: []
 tags:

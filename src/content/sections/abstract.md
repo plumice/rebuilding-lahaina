@@ -4,7 +4,7 @@ chapter: "ch1-introduction"
 order: 2
 summary: "Thesis scope, methods, and broader implications for disaster-resilient urbanism."
 relatedDrawings: ["main-problems"]
-relatedSources: []
+relatedSources: ["census-lahaina", "maui-recovery-status"]
 relatedTerms: ["ahupuaa", "adaptive-recovery"]
 tags:
   topic: [recovery, infrastructure]

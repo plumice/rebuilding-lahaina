@@ -4,8 +4,8 @@ chapter: "ch3-analysis"
 order: 7
 summary: "How post-disaster recovery can displace the communities it's meant to serve, and policy mechanisms to prevent it in Lahaina."
 relatedDrawings: ["displacement-analysis"]
-relatedSources: ["shock-doctrine", "disaster-inc"]
-relatedTerms: ["disaster-gentrification"]
+relatedSources: ["disaster-inc", "fema-recovery", "fragile-paradise", "shock-doctrine"]
+relatedTerms: ["disaster-gentrification", "dlnr-acronym"]
 tags:
   topic: [housing, policy, recovery]
   scale: [town]

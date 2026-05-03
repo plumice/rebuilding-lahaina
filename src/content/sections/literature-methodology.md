@@ -4,8 +4,8 @@ chapter: "ch2-overview"
 order: 4
 summary: "Theoretical frameworks informing the thesis and the iterative multi-scalar design methodology."
 relatedDrawings: ["case-studies-map"]
-relatedSources: ["after-great-disasters", "resilience-stability", "yamuna-river-project", "urban-water-plan", "shock-doctrine", "disaster-inc", "coming-home-new-orleans"]
-relatedTerms: ["post-disaster-urbanism", "adaptive-recovery"]
+relatedSources: ["after-great-disasters", "coming-home-new-orleans", "disaster-inc", "el-parque-del-agua", "resilience-stability", "rule-by-aesthetics", "shock-doctrine", "urban-water-plan", "van-eyck-configurative", "yamuna-river-project"]
+relatedTerms: ["adaptive-recovery", "ltrp-acronym", "post-disaster-urbanism"]
 tags:
   topic: [recovery, policy]
   scale: [regional]
