@@ -14,6 +14,7 @@ An academic thesis website for "Rebuilding Post Disasters: Lahaina" (M.Arch, Tul
 - **No em dashes (—) in content.** The author does not use them. Use commas, periods, or semicolons instead.
 - **"structures" not "homes"** — the thesis says "2,200 structures" not "2,200 homes."
 - **Hawaiian diacriticals matter.** Preserve ʻokina (ʻ) and kahakō (ā, ē, ī, ō, ū) in all Hawaiian words: Mokuʻula, Nāhiʻenaʻena, ahupuaʻa, Kāʻanapali, Hawaiʻi, etc.
+- **First-person voice is intentional, not editorial drift.** The thesis is partly written in first-person — especially the methodology, scale-by-scale diagnostic, key-terms intro, buffer framework, and the dedication/acknowledgements. Do NOT rewrite "I compiled / I conducted / I assembled / I tested / I selected / I went to Hawaiʻi" passages or the "we expect / we can imagine" rhetorical we. All 20 such instances across 8 section files were verified verbatim against `thesis_source.txt` on 2026-05-16. The site's third-person framing wraps thesis voice intentionally; preserve the contrast.
 
 ### Source Linking
 - Every data source, agency, or referenced work should link to its public URL where available.

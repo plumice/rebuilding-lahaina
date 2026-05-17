@@ -63,14 +63,15 @@ In rough priority order:
    the *other* repo (`plumice/singhakhil-site`) — push status TBD; check
    that repo separately.
 
-2. **Editorial first-person sweep.** Section bodies still have residual
-   author voice — examples spotted but not rewritten:
-   - `sections/literature-methodology.md` line ~85: "When I went to
-     Hawaiʻi, I met with people…"
-   - same file: "the methodology I drew from", "I assembled this
-     glossary as a discipline"
-   These read first-person in a site otherwise framed third-person /
-   voiceless. Estimated 30 min to grep + rewrite.
+2. **~~Editorial first-person sweep.~~** _Resolved 2026-05-16_ — investigated
+   and cancelled. The 20 first-person instances flagged across 8 section
+   files (`buffer-framework`, `contribution`, `dedication`,
+   `hub-operations`, `key-terms`, `literature-methodology`,
+   `multi-scalar-diagnostic`) were all verified verbatim against
+   `thesis_source.txt`. They are thesis voice, not editorial accretion —
+   methodology and diagnostic sections are written in first-person in the
+   thesis itself. CODEX.md now explicitly notes this is intentional so
+   future passes don't re-flag it.
 
 3. **Operational hardening.** During this session, the
    `Deploy to GitHub Pages` workflow was found jammed since 2026-04-07
