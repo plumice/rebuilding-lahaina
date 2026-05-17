@@ -1,7 +1,7 @@
 ---
 title: "Five Key Problems"
 image: "/images/drawings/derived/main-problems-original.jpg"
-alt: "Diagram identifying five systemic problems: urban risk, weak coastal protection, displacement, lack of structure, and disconnected recovery"
+alt: "Multi-scalar framework diagram showing how regional, urban, neighborhood, and site scales each isolate variables and produce key outputs that structure the recovery methodology"
 scaleLevel: "town"
 drawingType: "diagram"
 display:

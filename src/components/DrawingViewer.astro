@@ -12,15 +12,17 @@ const { src, alt, title, variant = 'full' } = Astro.props;
 <figure class:list={[
   'drawing-figure',
   variant === 'board'
-    ? 'mx-auto max-w-[56rem] border border-[#ddd8cf] bg-[#f7f3eb] p-3 sm:p-4'
-    : 'border border-border bg-surface p-4',
+    ? 'mx-auto max-w-[56rem] border border-[#e8e4dc] bg-[#f9f7f3] p-4 sm:p-6'
+    : 'border border-[#ececea] bg-[#fafaf9] p-4 sm:p-6',
 ]}>
   <img
     src={src}
     alt={alt}
     class:list={[
       'zoomable cursor-zoom-in',
-      variant === 'board' ? 'mx-auto block h-auto max-h-[78vh] w-auto max-w-full object-contain' : 'w-full h-auto',
+      variant === 'board'
+        ? 'mx-auto block h-auto max-h-[78vh] w-auto max-w-full object-contain'
+        : 'mx-auto block h-auto max-h-[85vh] w-auto max-w-full object-contain',
     ]}
     loading="lazy"
     tabindex="0"

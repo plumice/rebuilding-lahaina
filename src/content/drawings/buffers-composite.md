@@ -1,14 +1,14 @@
 ---
-title: "Complete Buffer System"
+title: "Integrated Framework Plan"
 image: "/images/drawings/updated_local_all_buffers.jpg"
-alt: "All four buffer zones overlaid — coastal, riparian, peri-urban, and water collection — in one comprehensive plan"
+alt: "Integrated plan linking all four buffer zones with circulation, redensification, the school, and the peri-urban park in one composite framework"
 scaleLevel: "town"
 drawingType: "composite-plan"
-relatedSections: ["buffer-framework"]
+relatedSections: ["buffer-framework", "water-green-mobility-systems", "redensification-hubs"]
 tags:
-  topic: [coastal, water, ecology, fire]
+  topic: [coastal, water, ecology, fire, housing, mobility]
   scale: [town, district]
   type: [proposal]
 ---
 
-The complete four-buffer framework in a single composite plan, showing how coastal, riparian, peri-urban, and water collection zones work together.
+The integrated design framework showing how coastal protection, riparian corridors, the peri-urban park, circulation, and redensification reinforce one another across the full site.

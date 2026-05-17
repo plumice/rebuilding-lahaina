@@ -1,7 +1,7 @@
 ---
-title: "Design Principles - Overall & Urban"
+title: "Principles & Spatial Application"
 image: "/images/drawings/final_ppt_cropped/Slide23.JPG"
-alt: "Diagram showing overall recovery principles and their spatial translation into Lahaina's urban section"
+alt: "Two-panel board showing recovery principles on the left and their spatial translation into Lahaina's urban section on the right"
 scaleLevel: "town"
 drawingType: "diagram"
 relatedSections: ["buffer-framework", "community-anchors", "design-interventions"]

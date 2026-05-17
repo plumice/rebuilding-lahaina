@@ -3,10 +3,10 @@
   "type": "module",
   "version": "0.0.1",
   "scripts": {
-    "dev": "astro dev",
-    "start": "astro dev",
-    "build": "astro check && astro build",
-    "postbuild": "npx pagefind --site dist",
+    "dev": "COPYFILE_DISABLE=1 astro dev",
+    "start": "COPYFILE_DISABLE=1 astro dev",
+    "build": "COPYFILE_DISABLE=1 astro check && COPYFILE_DISABLE=1 astro build",
+    "postbuild": "find dist -name '._*' -delete 2>/dev/null; COPYFILE_DISABLE=1 npx pagefind --site dist",
     "preview": "astro preview",
     "astro": "astro"
   },

@@ -15,4 +15,9 @@ dist/
 # OS
 .DS_Store
 Thumbs.db
+._*
 public/downloads/final_as_thesis.pdf
+
+# local tooling / build artifacts
+output/
+.playwright-cli/

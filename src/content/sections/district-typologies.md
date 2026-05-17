@@ -3,7 +3,7 @@ title: "Three District Typologies"
 chapter: "ch5-design"
 order: 6
 summary: "Boulevard District, Riparian Edge District, and Coastal Edge District, how housing character varies across the recovery zone."
-relatedDrawings: ["redensification-plan", "housing-typologies", "displacement-analysis"]
+relatedDrawings: ["redensification-plan", "displacement-analysis"]
 relatedSources: ["west-maui-community-plan"]
 relatedTerms: ["resilient-housing", "disaster-gentrification"]
 tags:

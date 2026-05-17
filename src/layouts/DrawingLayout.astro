@@ -55,7 +55,7 @@ const customDiagramRegistry = {
 
 const CustomDiagram = customDiagramRegistry[drawingId as keyof typeof customDiagramRegistry];
 const hasCustomDiagram = Boolean(CustomDiagram);
-const inferredBoardImage = image.includes('/final_ppt_cropped/') || image.includes('/images/drawings/updated_');
+const inferredBoardImage = image.includes('/final_ppt_cropped/') || image.includes('/final_ppt_complete/') || image.includes('/images/drawings/updated_') || image.includes('/images/drawings/derived/') || image.includes('/images/drawings/reference/');
 const viewerVariant = display.variant && display.variant !== 'default'
   ? display.variant
   : inferredBoardImage
@@ -72,20 +72,22 @@ const useSplitLead = pageLayout === 'split-lead' && bodyPosition === 'before' &&
       { label: title },
     ]} />
 
-    <div class="section-label">{scaleLevel} Scale - {drawingType}</div>
-    <h1 class="section-title mb-4">{title}</h1>
+    <div class="section-label">{drawingType}</div>
+    <h1 class="section-title mb-6">{title}</h1>
 
-    <TagPills topics={tags.topic} scales={tags.scale} types={tags.type} />
+    <div class="mb-10">
+      <TagPills topics={tags.topic} scales={tags.scale} types={tags.type} />
+    </div>
 
     {(pageIntroTitle || pageIntroText) && (
-      <div class="mt-8 max-w-3xl">
+      <div class="mb-10 max-w-3xl">
         {pageIntroTitle && <div class="section-label mb-3">{pageIntroTitle}</div>}
         {pageIntroText && <p class="text-lg leading-relaxed text-text-muted my-0">{pageIntroText}</p>}
       </div>
     )}
 
     {useSplitLead ? (
-      <div class="split-lead mt-8">
+      <div class="split-lead mt-10">
         <div class="prose split-lead-copy">
           <slot />
         </div>
@@ -107,7 +109,7 @@ const useSplitLead = pageLayout === 'split-lead' && bodyPosition === 'before' &&
       </div>
     ) : (
       <>
-        <div class:list={['mt-8', hasCustomDiagram ? 'custom-diagram-block' : '']}>
+        <div class:list={[hasCustomDiagram ? 'custom-diagram-block' : '']}>
           {CustomDiagram ? (
             <CustomDiagram title={title} alt={alt} />
           ) : (
@@ -115,12 +117,12 @@ const useSplitLead = pageLayout === 'split-lead' && bodyPosition === 'before' &&
           )}
         </div>
 
-        <div class="prose mt-8">
+        <div class="prose mt-12">
           <slot />
         </div>
 
         {supportImages.length > 0 && (
-          <div class="support-image-stack mt-8">
+          <div class="support-image-stack mt-14">
             {supportImages.map((supportImage) => (
               <DrawingViewer
                 src={supportImage.src}
@@ -172,8 +174,8 @@ const useSplitLead = pageLayout === 'split-lead' && bodyPosition === 'before' &&
 
   .support-image-stack {
     display: grid;
-    gap: 1.5rem;
-    margin-top: 1.5rem;
+    gap: 2.5rem;
+    margin-top: 2rem;
   }
 
   @media (min-width: 960px) {
