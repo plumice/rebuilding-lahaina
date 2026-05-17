@@ -39,4 +39,4 @@ Lahaina was 83% renter-occupied before the fire. Renters held no deeds, carried 
 ## Primary Sources
 
 - [Maui Recovers](https://www.mauirecovers.org/)
-- [West Maui Community Plan](https://www.mauicounty.gov/2625/West-Maui-Community-Plan)
+- [West Maui Community Plan Update 2022 (Maui County)](https://www.mauicounty.gov/2476/West-Maui-Community-Plan-Update-2022)

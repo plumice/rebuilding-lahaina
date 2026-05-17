@@ -24,4 +24,5 @@ The material vocabulary also matters. Alday and Jover describe their approach as
 
 ## External Links
 
-- [Alday Jover Architects](https://www.aldayjover.com/en/projects/water-park/)
+- [The Water Park, Zaragoza — project documentation (Landezine)](https://landezine.com/the-water-park-zaragoza-by-aldayjover/)
+- [The Water Park — Arquitectura Viva](https://arquitecturaviva.com/works/the-water-park)

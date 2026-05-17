@@ -24,4 +24,4 @@ Post-disaster land markets concentrate benefits among those with capital. The pa
 
 ## Primary Sources
 
-- [West Maui Community Plan](https://www.mauicounty.gov/2625/West-Maui-Community-Plan)
+- [West Maui Community Plan Update 2022 (Maui County)](https://www.mauicounty.gov/2476/West-Maui-Community-Plan-Update-2022)

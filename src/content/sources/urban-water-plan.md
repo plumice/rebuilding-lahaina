@@ -22,4 +22,5 @@ Implementation remains uneven, but the conceptual framework demonstrates that wa
 
 ## External Links
 
-- [Living with Water](https://livingwithwater.com/)
+- [Living With Water (Waggonner & Ball)](https://wbae.com/living-with-water-2/)
+- [Greater New Orleans Urban Water Plan (Waggonner & Ball)](https://www.wbae.com/project/greater-new-orleans-urban-water-plan)

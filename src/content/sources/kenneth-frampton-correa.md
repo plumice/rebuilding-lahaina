@@ -1,7 +1,8 @@
 ---
 title: "Charles Correa (Frampton Critical Analysis)"
 author: "Frampton, Kenneth"
-publisher: "Perennial Press, 2000"
+publisher: "Perennial Press"
+date: "2000"
 sourceType: "book"
 relevance: "Critical analysis of Correa's tropical architecture; informs climate-responsive design strategies for the Lahaina module"
 tags:

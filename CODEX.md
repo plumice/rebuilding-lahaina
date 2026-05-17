@@ -2,6 +2,11 @@
 
 This document provides context for any AI agent (Codex, Claude, etc.) working on this codebase.
 
+> **For content-only work** (anything under `src/content/`), also load
+> `.claude/skills/thesis-content-audit/SKILL.md`. It encodes the rules below
+> plus the validated audit scripts (`scripts/audit_xrefs.py`,
+> `scripts/audit_sources.py`) and known-good baselines.
+
 ## What This Is
 
 An academic thesis website for "Rebuilding Post Disasters: Lahaina" (M.Arch, Tulane, 2025) by Akhil Singh. It is a public resource for Lahaina residents, planners, researchers, and architects. Every word of content is sourced from the thesis document or the author's verified research files.

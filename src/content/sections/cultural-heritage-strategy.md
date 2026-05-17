@@ -37,4 +37,5 @@ Lahaina was the royal capital of the Hawaiian Kingdom before it became a plantat
 ## Primary Sources
 
 - [NPS Lahaina Historic District](https://www.nps.gov/places/lahaina-historic-district.htm)
-- [Friends of Moku'ula](https://www.friendsofmokuula.org/)
+- [Lahaina Restoration Foundation — Mokuʻula restoration work](https://lahainarestoration.org/)
+- [Mokuʻula project site](https://www.mokuula.com/) (Friends of Mokuʻula was dissolved circa 2017; the work continues under the Lahaina Restoration Foundation)
