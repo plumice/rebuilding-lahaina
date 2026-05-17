@@ -73,7 +73,7 @@ In rough priority order:
    thesis itself. CODEX.md now explicitly notes this is intentional so
    future passes don't re-flag it.
 
-3. **Operational hardening.** During this session, the
+3. **Operational hardening.** During the 2026-05-03 session, the
    `Deploy to GitHub Pages` workflow was found jammed since 2026-04-07
    — two stuck runs (24089878221, 24248810641) blocked the
    `concurrency: group: pages` lane. Cancelled them; manual deploy via
@@ -81,6 +81,18 @@ In rough priority order:
    underlying risk (silent multi-week deploy halt because news-update
    commits use `[skip ci]` and didn't trigger fresh deploys) suggests
    adding a CI alert / staleness check on the deploys workflow.
+
+   _2026-05-17 update:_ a worse failure mode discovered — GitHub Pages
+   was **disabled on the repo entirely** sometime between 2026-05-03 and
+   2026-05-17. `gh api repos/.../pages` returned 404, the deploy job
+   failed with `Failed to create deployment (status: 404) ... Ensure
+   GitHub Pages has been enabled`, and the custom domain config
+   (cname) was wiped. Re-enabled via `gh api ... -X POST -f
+   build_type=workflow` then `... -X PUT -f cname=rebuildinglahaina.org`.
+   Then Cloudflare needed a cache purge + SSL/TLS mode set to "Flexible"
+   to bridge until the new Pages cert provisioned. Any staleness check
+   should therefore also probe the live URL for a 200 response, not just
+   workflow success — workflow can be green while Pages serves 404s.
 
 4. **`/live` events archive.** Currently `scripts/fetch-news.mjs`
    overwrites `public/data/news.json` each run, capped at 8 items —
@@ -95,8 +107,17 @@ In rough priority order:
    - Add a `/live` route that paginates the archive.
 
 5. **Smaller follow-ups.**
-   - `npm audit` flagged 12 vulns (9 mod, 3 high) on `npm i` — likely
-     transitive dep noise; worth a 5-min scan.
+   - **Workflow Node 20 deprecation — DEADLINE 2026-06-02.** The
+     2026-05-17 deploy annotated: `actions/checkout@v4`,
+     `actions/setup-node@v4`, `actions/upload-artifact@v4` (transitive,
+     via deploy-pages) all still run on Node.js 20. GitHub will force
+     these to Node.js 24 on 2026-06-02 and remove Node 20 from runners
+     on 2026-09-16. Bump action versions before the June deadline or
+     the deploy workflow will break. See:
+     <https://github.blog/changelog/2025-09-19-deprecation-of-node-20-on-github-actions-runners/>
+   - `npm audit` flagged 14 vulns (1 low, 8 moderate, 5 high) on `npm i`
+     in 2026-05-17 session — likely transitive dep noise; worth a 5-min
+     scan.
    - Dead external URL sweep on source citation links (slow,
      network-bound).
    - The local working copy at
