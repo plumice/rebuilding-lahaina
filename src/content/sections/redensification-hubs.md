@@ -3,7 +3,7 @@ title: "Redensification & Community Hubs"
 chapter: "ch5-design"
 order: 1
 summary: "A plan for 2,200 new housing units within a walkable core, anchored by three community hubs."
-relatedDrawings: ["redensification-plan", "hub-locations", "displacement-analysis", "buffers-composite"]
+relatedDrawings: ["redensification-plan", "hub-locations", "displacement-analysis", "buffers-composite", "housing-typologies"]
 relatedSources: []
 relatedTerms: []
 tags:

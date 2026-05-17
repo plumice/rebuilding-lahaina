@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 680 440">
+  <style>
+    text { font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+    .h1 { font-size: 12px; font-weight: 700; fill: #2a2a2a; letter-spacing: 0.4px; }
+    .h2 { font-size: 10px; fill: #999; }
+    .zn { font-size: 9px; font-weight: 700; fill: #fff; letter-spacing: 0.6px; }
+    .zd { font-size: 8px; fill: rgba(255,255,255,0.75); }
+    .zv { font-size: 13px; font-weight: 700; fill: #fff; }
+    .hero { font-size: 22px; font-weight: 700; fill: #2a2a2a; }
+    .cap { font-size: 9px; font-weight: 600; fill: #999; letter-spacing: 1px; }
+    .label { font-size: 10px; fill: #999; }
+    .body { font-size: 10px; fill: #555; }
+    .src { font-size: 9px; fill: #bbb; }
+  </style>
+
+  <rect width="680" height="440" fill="#fff"/>
+
+  <text x="32" y="30" class="h1">DISTRIBUTED WATER CAPTURE</text>
+  <text x="32" y="44" class="h2">Five zones, mountain to coast  /  Each zone attenuates demand incrementally</text>
+  <line x1="32" y1="56" x2="648" y2="56" stroke="#eee" stroke-width="0.75"/>
+
+  <!-- Direction labels -->
+  <text x="32" y="72" style="font-size:8px; fill:#3a6341; font-weight:600; letter-spacing:1px;">MAUKA</text>
+  <text x="648" y="72" text-anchor="end" style="font-size:8px; fill:#2a6080; font-weight:600; letter-spacing:1px;">MAKAI</text>
+
+  <!-- Zone strip -->
+  <rect x="32" y="80" width="116" height="60" rx="3" fill="#3a6341"/>
+  <text x="90" y="98" text-anchor="middle" class="zn">ZONE 1</text>
+  <text x="90" y="110" text-anchor="middle" class="zd">Hinterland / > 1,000 ft</text>
+  <text x="90" y="130" text-anchor="middle" class="zv">80+ in/yr</text>
+
+  <rect x="154" y="80" width="112" height="60" rx="3" fill="#4a7a4a"/>
+  <text x="210" y="98" text-anchor="middle" class="zn">ZONE 2</text>
+  <text x="210" y="110" text-anchor="middle" class="zd">Collection Ponds</text>
+  <text x="210" y="130" text-anchor="middle" class="zv">0.5 ac/10 ac</text>
+
+  <rect x="272" y="80" width="112" height="60" rx="3" fill="#4a8a6a"/>
+  <text x="328" y="98" text-anchor="middle" class="zn">ZONE 3</text>
+  <text x="328" y="110" text-anchor="middle" class="zd">Interception / Hwy 30</text>
+  <text x="328" y="130" text-anchor="middle" class="zv">Bioretention</text>
+
+  <rect x="390" y="80" width="112" height="60" rx="3" fill="#3a7a8a"/>
+  <text x="446" y="98" text-anchor="middle" class="zn">ZONE 4</text>
+  <text x="446" y="110" text-anchor="middle" class="zd">Peri-Urban / 200-1,000 ft</text>
+  <text x="446" y="130" text-anchor="middle" class="zv">25-yr storm</text>
+
+  <rect x="508" y="80" width="140" height="60" rx="3" fill="#2a6080"/>
+  <text x="578" y="98" text-anchor="middle" class="zn">ZONE 5</text>
+  <text x="578" y="110" text-anchor="middle" class="zd">Building Scale / Town</text>
+  <text x="578" y="130" text-anchor="middle" class="zv">429K gal/yr</text>
+
+  <!-- Arrows -->
+  <polygon points="150,110 153,106 153,114" fill="#999" opacity="0.3"/>
+  <polygon points="268,110 271,106 271,114" fill="#999" opacity="0.3"/>
+  <polygon points="386,110 389,106 389,114" fill="#999" opacity="0.3"/>
+  <polygon points="504,110 507,106 507,114" fill="#999" opacity="0.3"/>
+
+  <!-- Key metrics -->
+  <line x1="32" y1="158" x2="648" y2="158" stroke="#eee" stroke-width="0.75"/>
+
+  <text x="32" y="180" class="cap">DITCH NETWORK</text>
+  <text x="32" y="200" class="hero">~50 mi</text>
+  <text x="32" y="214" class="label">Rehabilitable ditches + flumes</text>
+
+  <line x1="185" y1="170" x2="185" y2="218" stroke="#eee" stroke-width="0.75"/>
+  <text x="205" y="180" class="cap">WSP STRUCTURES</text>
+  <text x="205" y="200" class="hero">11</text>
+  <text x="205" y="214" class="label">At 1,000-3,000 ft elevation</text>
+
+  <line x1="370" y1="170" x2="370" y2="218" stroke="#eee" stroke-width="0.75"/>
+  <text x="390" y="180" class="cap">TARGET OFFSET</text>
+  <text x="390" y="200" class="hero">30%</text>
+  <text x="390" y="214" class="label">Non-potable from captured water</text>
+
+  <line x1="546" y1="170" x2="546" y2="218" stroke="#eee" stroke-width="0.75"/>
+  <text x="566" y="180" class="cap">DISTRIBUTION</text>
+  <text x="566" y="200" style="font-size:18px; font-weight:700; fill:#2a2a2a;">Gravity-fed</text>
+  <text x="566" y="214" class="label">No pump dependence</text>
+
+  <!-- Comparison -->
+  <line x1="32" y1="234" x2="648" y2="234" stroke="#eee" stroke-width="0.75"/>
+
+  <text x="32" y="258" class="cap" style="fill:#c0392b;">2023 FAILURE</text>
+  <circle cx="40" cy="276" r="2.5" fill="#c0392b" opacity="0.3"/>
+  <text x="50" y="280" class="body">Grid-dependent pumps collapsed when power was cut</text>
+  <circle cx="40" cy="296" r="2.5" fill="#c0392b" opacity="0.3"/>
+  <text x="50" y="300" class="body">Single water pressure source with no backup</text>
+  <circle cx="40" cy="316" r="2.5" fill="#c0392b" opacity="0.3"/>
+  <text x="50" y="320" class="body">Dry ditches conducted fire instead of suppressing it</text>
+
+  <line x1="342" y1="248" x2="342" y2="326" stroke="#eee" stroke-width="0.75"/>
+  <text x="362" y="258" class="cap" style="fill:#27864a;">PROPOSED SYSTEM</text>
+  <circle cx="370" cy="276" r="2.5" fill="#27864a" opacity="0.3"/>
+  <text x="380" y="280" class="body">Gravity-fed from hinterland — no pumps needed</text>
+  <circle cx="370" cy="296" r="2.5" fill="#27864a" opacity="0.3"/>
+  <text x="380" y="300" class="body">Redundant supply from three independent zones</text>
+  <circle cx="370" cy="316" r="2.5" fill="#27864a" opacity="0.3"/>
+  <text x="380" y="320" class="body">Collection ponds as fire-suppression reserve</text>
+
+  <!-- Key insight -->
+  <line x1="32" y1="340" x2="648" y2="340" stroke="#eee" stroke-width="0.75"/>
+  <rect x="32" y="352" width="616" height="32" rx="3" fill="#f7f7f5"/>
+  <text x="340" y="368" text-anchor="middle" class="body" style="fill:#2a2a2a; font-weight:500;">No single zone solves the crisis. Resilience comes from cumulative attenuation across all five layers.</text>
+  <text x="340" y="380" text-anchor="middle" class="label">Single point of failure -> Redundant, gravity-fed, distributed reserves</text>
+
+  <line x1="32" y1="400" x2="648" y2="400" stroke="#eee" stroke-width="0.75"/>
+  <text x="32" y="420" class="src">Sources: CWRM; WSP Highway Survey 2024; DWS Stage 2; Rainfall Atlas of Hawaii</text>
+  <text x="32" y="434" class="src">1 MGD = 1 million gallons per day</text>
+</svg>
