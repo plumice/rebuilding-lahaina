@@ -12,7 +12,7 @@ tags:
   type: [proposal]
 ---
 
-The fire displaced 6,000-7,000 residents and destroyed approximately 2,200 homes. The recovery plan proposes rebuilding these units at higher density within a compact, walkable zone centered on the new boulevard.
+The fire displaced 6,000-7,000 residents and destroyed approximately 2,200 structures. The recovery plan proposes rebuilding these units at higher density within a compact, walkable zone centered on the new boulevard.
 
 The redensification strategy distributes housing across three district typologies. The Boulevard District concentrates 4-story mixed-use buildings along the main spine, retail and services at ground level, apartments above. The Riparian Edge District steps down toward stream corridors, with predominantly residential buildings at 2-3 stories. The Coastal Edge District integrates heritage preservation with housing, maintaining view corridors to the ocean while keeping building heights modest.
 

@@ -14,7 +14,7 @@ An academic thesis website for "Rebuilding Post Disasters: Lahaina" (M.Arch, Tul
 ## Critical Rules
 
 ### Content Integrity
-- **ALL section body text is verbatim from thesis_v31.docx.** Do not rewrite, paraphrase, or "improve" any section content.
+- **Section bodies originate from `Thesis_V31.docx` and include documented post-V31 author additions.** Canonical source: `/Users/akhil/Library/CloudStorage/OneDrive-Personal/THESIS/CURRENT WRITING/Thesis_V31.docx`. The website's `thesis_source.txt` is a working extract that has been extended by the author with ~2,000 words across sections 2A, 3B, 3C, 3D (glossary expansions, table entries, and 4 substantive paragraphs of new analysis). All post-V31 drift was audited on 2026-05-17 and recorded at `docs/drift-audit/2026-05-17-v31-vs-website-drift.md`. Do not paraphrase or "improve" existing prose — but new authorial additions are welcome and must be tracked in the next drift audit. Re-run `python3 scripts/drift_audit.py` after substantive content changes to keep the audit current.
 - **No fabrication.** Do not add facts, citations, statistics, precedents, or claims that are not in the thesis or the author's research files at `F:\ACADEMIC\masters_of_architecture\thesis_rebuilding_lahaina\`.
 - **No em dashes (—) in content.** The author does not use them. Use commas, periods, or semicolons instead.
 - **"structures" not "homes"** — the thesis says "2,200 structures" not "2,200 homes."

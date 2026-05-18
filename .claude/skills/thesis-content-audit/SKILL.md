@@ -26,10 +26,14 @@ Trigger this on:
 
 These are NON-negotiable. Violations of the letter are violations of the spirit.
 
-1. **Section bodies are verbatim from `thesis_v31.docx`.** Do not rewrite,
-   paraphrase, or "improve". If a change touches a section body, it must
-   be either (a) the user's explicit request to add/remove material, or
-   (b) restoring drift back toward the verbatim source.
+1. **Section bodies originate from `Thesis_V31.docx` and include documented
+   post-V31 author additions.** Canonical source: `/Users/akhil/Library/CloudStorage/OneDrive-Personal/THESIS/CURRENT WRITING/Thesis_V31.docx`.
+   The 2026-05-17 drift audit (`docs/drift-audit/2026-05-17-v31-vs-website-drift.md`)
+   confirmed ~2,000 words of author additions across sections 2A, 3B, 3C, 3D
+   (glossary expansions, table entries, 4 substantive analytical paragraphs).
+   Do NOT paraphrase or "improve" existing prose. New authorial additions
+   ARE welcome; record them by re-running `python3 scripts/drift_audit.py`
+   after substantive content changes.
 2. **No fabrication.** Do not invent facts, citations, statistics,
    precedents, or claims. Anything added must come from the thesis,
    from `thesis_source.txt`, or from the author's research files at
