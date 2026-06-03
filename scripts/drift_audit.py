@@ -15,9 +15,13 @@ import sys
 import difflib
 from pathlib import Path
 
-V31_PATH = "/tmp/thesis_v31_extracted.txt"
+CANONICAL_DOCX = "/Users/akhil/Library/CloudStorage/OneDrive-Personal/THESIS/CURRENT WRITING/Thesis_V32.docx"
+CANONICAL_EXTRACT = "/tmp/thesis_v32_extracted.txt"
 SRC_PATH = "thesis_source.txt"
-OUT_PATH = "docs/drift-audit/2026-05-17-v31-vs-website-drift.md"
+OUT_PATH = "docs/drift-audit/2026-05-18-v32-vs-website-drift.md"
+
+# Back-compat (legacy variable name still used elsewhere)
+V31_PATH = CANONICAL_EXTRACT
 
 SECTIONS_TO_AUDIT = ["2A", "3B", "3C", "3D"]
 MATCH_THRESHOLD = 0.55  # similarity ratio to consider paragraphs "the same"
@@ -111,9 +115,30 @@ def short(s, n=200):
     return s if len(s) <= n else s[:n].rsplit(" ", 1)[0] + "…"
 
 
+def ensure_canonical_extract():
+    """Re-extract canonical .docx → .txt if extract missing or older than docx."""
+    docx_p = Path(CANONICAL_DOCX)
+    txt_p = Path(CANONICAL_EXTRACT)
+    if not docx_p.exists():
+        sys.stderr.write(f"!! Canonical thesis not found: {docx_p}\n")
+        sys.exit(2)
+    if txt_p.exists() and txt_p.stat().st_mtime >= docx_p.stat().st_mtime:
+        return  # extract is fresh
+    sys.stderr.write(f"Extracting {docx_p.name} → {txt_p} ...\n")
+    from docx import Document
+    doc = Document(str(docx_p))
+    lines = [p.text.strip() for p in doc.paragraphs if p.text.strip()]
+    for i, t in enumerate(doc.tables):
+        lines.append(f"\n[TABLE {i+1}]")
+        for row in t.rows:
+            lines.append(" | ".join(c.text.strip() for c in row.cells))
+    txt_p.write_text("\n".join(lines), encoding="utf-8")
+
+
 def main():
     root = Path(__file__).resolve().parent.parent
-    v31_text = Path(V31_PATH).read_text(encoding="utf-8", errors="replace")
+    ensure_canonical_extract()
+    v31_text = Path(CANONICAL_EXTRACT).read_text(encoding="utf-8", errors="replace")
     src_text = (root / SRC_PATH).read_text(encoding="utf-8", errors="replace")
 
     v31_sec = split_sections(v31_text)

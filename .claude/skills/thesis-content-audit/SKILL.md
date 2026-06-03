@@ -26,14 +26,18 @@ Trigger this on:
 
 These are NON-negotiable. Violations of the letter are violations of the spirit.
 
-1. **Section bodies originate from `Thesis_V31.docx` and include documented
-   post-V31 author additions.** Canonical source: `/Users/akhil/Library/CloudStorage/OneDrive-Personal/THESIS/CURRENT WRITING/Thesis_V31.docx`.
-   The 2026-05-17 drift audit (`docs/drift-audit/2026-05-17-v31-vs-website-drift.md`)
-   confirmed ~2,000 words of author additions across sections 2A, 3B, 3C, 3D
-   (glossary expansions, table entries, 4 substantive analytical paragraphs).
-   Do NOT paraphrase or "improve" existing prose. New authorial additions
-   ARE welcome; record them by re-running `python3 scripts/drift_audit.py`
-   after substantive content changes.
+1. **`Thesis_V32.docx` is the canonical source of truth.** Path:
+   `/Users/akhil/Library/CloudStorage/OneDrive-Personal/THESIS/CURRENT WRITING/Thesis_V32.docx`.
+   V32 = V31 + four substantive author paragraphs backfilled on 2026-05-18.
+   V31 remains the as-submitted archive — do not edit. Section bodies on
+   the website should match V32 verbatim. The 2026-05-18 drift audit
+   (`docs/drift-audit/2026-05-18-v32-vs-website-drift.md`) lists 77
+   smaller divergences (glossary expansions, brief notes) that still
+   need to be either back-ported into V32 or removed from the website.
+   Workflow: edit V32 first → re-extract → propagate to website. Do NOT
+   edit website prose directly; do NOT paraphrase or "improve" V32
+   content. Re-run `python3 scripts/drift_audit.py` after any V32 or
+   website content change.
 2. **No fabrication.** Do not invent facts, citations, statistics,
    precedents, or claims. Anything added must come from the thesis,
    from `thesis_source.txt`, or from the author's research files at
