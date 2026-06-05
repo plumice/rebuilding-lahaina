@@ -26,18 +26,18 @@ Trigger this on:
 
 These are NON-negotiable. Violations of the letter are violations of the spirit.
 
-1. **`Thesis_V32.docx` is the canonical source of truth.** Path:
-   `/Users/akhil/Library/CloudStorage/OneDrive-Personal/THESIS/CURRENT WRITING/Thesis_V32.docx`.
-   V32 = V31 + four substantive author paragraphs backfilled on 2026-05-18.
-   V31 remains the as-submitted archive — do not edit. Section bodies on
-   the website should match V32 verbatim. The 2026-05-18 drift audit
-   (`docs/drift-audit/2026-05-18-v32-vs-website-drift.md`) lists 77
-   smaller divergences (glossary expansions, brief notes) that still
-   need to be either back-ported into V32 or removed from the website.
-   Workflow: edit V32 first → re-extract → propagate to website. Do NOT
-   edit website prose directly; do NOT paraphrase or "improve" V32
-   content. Re-run `python3 scripts/drift_audit.py` after any V32 or
-   website content change.
+1. **Canonical thesis lives in the T7 thesis project, not this repo.**
+   Working canonical: `/Volumes/T7 Shield/ACADEMIC/masters_of_architecture/thesis_rebuilding_lahaina/01_writing/current/thesis_v32.docx`
+   (byte-identical clone of v31 established 2026-05-18). v31 preserved
+   as immutable baseline. Edits to v32 follow the structured Tier 0–G
+   plan in `THESIS_FACTS/sources/v32_upgrade_targets.md`. Operational
+   map: `THESIS_MAP.md` in the project root — READ FIRST before any v32
+   work. Website section bodies should match v32 verbatim. Do NOT
+   paraphrase, "improve", or directly insert paragraphs into v32 from
+   website work — additions go through the Tier A–F upgrade pipeline.
+   Drift between v32 and website is diagnosed with
+   `python3 scripts/drift_audit.py`; resolution is handled deliberately
+   in the thesis project, never by editing website prose to mask drift.
 2. **No fabrication.** Do not invent facts, citations, statistics,
    precedents, or claims. Anything added must come from the thesis,
    from `thesis_source.txt`, or from the author's research files at

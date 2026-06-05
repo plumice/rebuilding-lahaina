@@ -15,7 +15,7 @@ import sys
 import difflib
 from pathlib import Path
 
-CANONICAL_DOCX = "/Users/akhil/Library/CloudStorage/OneDrive-Personal/THESIS/CURRENT WRITING/Thesis_V32.docx"
+CANONICAL_DOCX = "/Volumes/T7 Shield/ACADEMIC/masters_of_architecture/thesis_rebuilding_lahaina/01_writing/current/thesis_v32.docx"
 CANONICAL_EXTRACT = "/tmp/thesis_v32_extracted.txt"
 SRC_PATH = "thesis_source.txt"
 OUT_PATH = "docs/drift-audit/2026-05-18-v32-vs-website-drift.md"
@@ -149,16 +149,18 @@ def main():
     out_path = root / OUT_PATH
 
     lines = []
-    lines.append("# V31.docx vs Website Drift Audit")
+    lines.append("# Thesis v32.docx vs Website Drift Audit (diagnostic)")
     lines.append("")
-    lines.append("**Generated:** 2026-05-17")
     lines.append(f"**Tool:** `scripts/drift_audit.py`")
     lines.append(f"**Match threshold:** {MATCH_THRESHOLD} (paragraphs with similarity below this are flagged as added/removed)")
     lines.append("")
-    lines.append("Compares `/Users/akhil/Library/CloudStorage/OneDrive-Personal/THESIS/CURRENT WRITING/Thesis_V31.docx`")
+    lines.append(f"Compares `{CANONICAL_DOCX}`")
     lines.append("against `thesis_source.txt` for each of the four drifted sections (2A, 3B, 3C, 3D).")
     lines.append("")
-    lines.append("**For each drifted paragraph, decide: KEEP (it's intentional post-V31 author work) or RESTORE (remove and match V31).**")
+    lines.append("**This is a diagnostic report.** Drift is not a hit-list of website edits to make.")
+    lines.append("Drift between v32 and the website is resolved deliberately through the structured Tier 0–G")
+    lines.append("upgrade plan in the T7 thesis project (`THESIS_FACTS/sources/v32_upgrade_targets.md`).")
+    lines.append("Section content on the website should match v32 verbatim; new content goes through the plan.")
     lines.append("")
     lines.append("---")
     lines.append("")
