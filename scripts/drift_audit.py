@@ -15,7 +15,7 @@ import sys
 import difflib
 from pathlib import Path
 
-CANONICAL_DOCX = "/Volumes/T7 Shield/ACADEMIC/masters_of_architecture/thesis_rebuilding_lahaina/01_writing/current/thesis_v32.docx"
+CANONICAL_DOCX = "/Volumes/T7 Shield/05_ACADEMIC/masters_of_architecture/thesis_rebuilding_lahaina/01_writing/current/thesis_v32.docx"
 CANONICAL_EXTRACT = "/tmp/thesis_v32_extracted.txt"
 SRC_PATH = "thesis_source.txt"
 OUT_PATH = "docs/drift-audit/2026-05-18-v32-vs-website-drift.md"

@@ -6,7 +6,7 @@ description: Use when modifying, reviewing, or auditing content in the Rebuildin
 # Thesis Content Audit
 
 A consolidated reference for working on the `src/content/` of the
-Rebuilding Lahaina thesis website (`/Volumes/T7 Shield/Projects/rebuilding-lahaina`).
+Rebuilding Lahaina thesis website (`/Volumes/T7 Shield/04_CODE/rebuilding-lahaina`).
 Wraps the rules in `CODEX.md` with the validated audit tooling so any agent
 working on this site can verify changes before committing.
 
@@ -27,7 +27,7 @@ Trigger this on:
 These are NON-negotiable. Violations of the letter are violations of the spirit.
 
 1. **Canonical thesis lives in the T7 thesis project, not this repo.**
-   Working canonical: `/Volumes/T7 Shield/ACADEMIC/masters_of_architecture/thesis_rebuilding_lahaina/01_writing/current/thesis_v32.docx`
+   Working canonical: `/Volumes/T7 Shield/05_ACADEMIC/masters_of_architecture/thesis_rebuilding_lahaina/01_writing/current/thesis_v32.docx`
    (byte-identical clone of v31 established 2026-05-18). v31 preserved
    as immutable baseline. Edits to v32 follow the structured Tier 0–G
    plan in `THESIS_FACTS/sources/v32_upgrade_targets.md`. Operational
@@ -41,7 +41,7 @@ These are NON-negotiable. Violations of the letter are violations of the spirit.
 2. **No fabrication.** Do not invent facts, citations, statistics,
    precedents, or claims. Anything added must come from the thesis,
    from `thesis_source.txt`, or from the author's research files at
-   `F:\ACADEMIC\masters_of_architecture\thesis_rebuilding_lahaina\`.
+   `F:\05_ACADEMIC\masters_of_architecture\thesis_rebuilding_lahaina\`.
 3. **No em-dashes (—) in content.** The author does not use them. Use
    commas, periods, or semicolons.
 4. **"structures" not "homes"** — the thesis says "2,200 structures."
