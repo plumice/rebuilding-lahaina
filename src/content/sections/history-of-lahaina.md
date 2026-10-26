@@ -78,4 +78,4 @@ One hundred two people died. Most victims were elderly, disabled, or otherwise u
 
 More than 2,200 structures burned. The historic core of Lahaina, Front Street, the commercial district, residential neighborhoods extending inland, was destroyed in hours. The Banyan Tree survived but sustained severe damage. Heritage sites, multi-generational businesses, homes where families had lived for decades. Gone.
 
-The fire did not discriminate by property value. Its aftermath would. More than 80 percent of Lahaina's pre-fire residents were renters. They lost possessions, housing, and without property ownership, any automatic claim to return.
+The fire did not discriminate by property value. Its aftermath would. Nearly half of Lahaina's pre-fire residents were renters, a markedly higher share than Maui County overall. After the fire, renters made up roughly 89 percent of FEMA-assisted displaced residents. They lost possessions, housing, and without property ownership, any automatic claim to return.
