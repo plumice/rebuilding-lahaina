@@ -13,8 +13,42 @@ function stripHtml(html) {
   return html.replace(/<[^>]*>/g, '').trim();
 }
 
+// Lahaina recovery and redevelopment only. Google News `when:` limits results by age.
+const QUERIES = [
+  'Lahaina rebuild',
+  'Lahaina recovery',
+  'Lahaina wildfire',
+  'Lahaina housing',
+  'Lahaina permits',
+  'Maui wildfire recovery',
+  'Maui fire rebuilding',
+].map((q) => encodeURIComponent(`${q} when:60d`));
+
+const MAX_AGE_DAYS = 60;
+
+// A headline counts when it names Lahaina, or names Maui/West Maui together with a recovery term.
+const RECOVERY_TERMS = [
+  'wildfire', 'fire', 'burn', 'rebuild', 'recover', 'housing', 'permit', 'survivor',
+  'displaced', 'fema', 'debris', 'settlement', 'redevelop', 'long-term', 'resilien',
+  'temporary', 'kauhale', 'zoning', 'water', 'land use', 'reconstruct',
+];
+// Sports and tourism promotion that share the word "Maui".
+const EXCLUDE_TERMS = [
+  'invitational', 'basketball', 'football', 'ncaa', 'prediction', 'pick', ' vs ', 'vs.',
+  'golf', 'pga', 'sentry', 'tournament', 'semifinal', 'semis', 'bracket', 'ole miss',
+  'odds', 'betting', 'volleyball', 'surf contest',
+];
+
+function isRelevant(title) {
+  const t = ` ${title.toLowerCase()} `;
+  if (EXCLUDE_TERMS.some((w) => t.includes(w))) return false;
+  if (t.includes('lahaina')) return true;
+  const placeHit = t.includes('maui') || t.includes('hawaii') || t.includes('hawaiʻi');
+  return placeHit && RECOVERY_TERMS.some((w) => t.includes(w));
+}
+
 async function fetchNews() {
-  const queries = ['Lahaina+Maui', 'Maui+Hawaii+recovery'];
+  const queries = QUERIES;
   const allItems = [];
 
   for (const query of queries) {
@@ -37,19 +71,18 @@ async function fetchNews() {
         const sourceMatch = itemXml.match(/<source[^>]*>([\s\S]*?)<\/source>/);
 
         if (titleMatch && linkMatch) {
-          const title = stripHtml(extractCDATA(titleMatch[1]));
-          if (
-            !title.toLowerCase().includes('maui') &&
-            !title.toLowerCase().includes('lahaina') &&
-            !title.toLowerCase().includes('hawaii') &&
-            !title.toLowerCase().includes('wildfire')
-          ) {
-            continue;
-          }
+          const source = sourceMatch ? stripHtml(extractCDATA(sourceMatch[1])) : 'Google News';
+          let title = stripHtml(extractCDATA(titleMatch[1]));
+          if (title.endsWith(` - ${source}`)) title = title.slice(0, -(source.length + 3));
+          title = title.replace(/^News:\s*/i, '');
+          if (!isRelevant(title)) continue;
+          const date = pubDateMatch ? pubDateMatch[1].trim() : '';
+          const ageDays = date ? (Date.now() - new Date(date).getTime()) / 86400000 : Infinity;
+          if (!(ageDays <= MAX_AGE_DAYS)) continue;
           allItems.push({
             title,
             link: extractCDATA(linkMatch[1]).trim(),
-            source: sourceMatch ? stripHtml(extractCDATA(sourceMatch[1])) : 'Google News',
+            source,
             date: pubDateMatch ? pubDateMatch[1].trim() : '',
           });
         }
@@ -59,12 +92,20 @@ async function fetchNews() {
     }
   }
 
-  // Deduplicate by title prefix
-  const seen = new Set();
+  // Sort newest first so the earliest copy of a repeated story is dropped
+  allItems.sort((a, b) => (b.date ? Date.parse(b.date) : 0) - (a.date ? Date.parse(a.date) : 0));
+
+  // Deduplicate: the same story often runs at several outlets under slightly different headlines
+  const STOP = new Set(['the', 'a', 'an', 'of', 'to', 'in', 'on', 'for', 'and', 'news', 'maui', 'lahaina', 'with', 'at', 'is', 'as', 'by']);
+  const words = (t) => new Set(t.toLowerCase().replace(/[^a-z0-9ʻāēīōū ]/g, ' ').split(/\s+/).filter((w) => w.length > 2 && !STOP.has(w)));
+  const kept = [];
   const unique = allItems.filter((item) => {
-    const key = item.title.toLowerCase().slice(0, 50);
-    if (seen.has(key)) return false;
-    seen.add(key);
+    const w = words(item.title);
+    for (const k of kept) {
+      const inter = [...w].filter((x) => k.has(x)).length;
+      if (inter / Math.min(w.size, k.size || 1) >= 0.6) return false;
+    }
+    kept.push(w);
     return true;
   });
 
@@ -74,6 +115,11 @@ async function fetchNews() {
     const dateB = b.date ? new Date(b.date).getTime() : 0;
     return dateB - dateA;
   });
+
+  if (unique.length === 0) {
+    console.log('No relevant items found; keeping the existing news.json.');
+    return;
+  }
 
   const output = {
     items: unique.slice(0, 8),
