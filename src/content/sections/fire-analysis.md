@@ -18,7 +18,7 @@ Five years before the catastrophe, Lahaina burned. A brush fire ignited in the h
 
 ## August 8, 2023
 
-Hurricane Dora passed south of the Hawaiian Islands that morning, generating sustained winds exceeding 60 miles per hour across West Maui's leeward slopes. The National Weather Service had issued a red flag warning: dry conditions, high temperatures, extreme wind, no rain. A brush fire started near Lahainaluna Road around 6:30 a.m., likely sparked by downed power lines. Fire crews responded. Police went door to door with evacuation orders.
+Hurricane Dora passed south of the Hawaiian Islands that morning, generating wind gusts exceeding 60 miles per hour (locally approaching 80) across West Maui's leeward slopes. The National Weather Service had issued a red flag warning: dry conditions, high temperatures, extreme wind, no rain. A brush fire started near Lahainaluna Road around 6:30 a.m., likely sparked by downed power lines. Fire crews responded. Police went door to door with evacuation orders.
 
 By early afternoon, incident commanders announced the fire "100% contained", meaning the perimeter was controlled, not that flames were extinguished. Crews left the scene around 2:00 p.m. Some residents returned home. Others continued with their day.
 
@@ -40,15 +40,15 @@ The road network funneled residents toward the coast rather than away from dange
 
 One hundred two people died. Most victims were elderly, disabled, or otherwise unable to evacuate quickly. Many died in vehicles, trapped in traffic. Others sheltered in place and were overtaken by flames moving faster than anyone anticipated.
 
-More than 2,200 structures burned. The historic core of Lahaina, Front Street, the commercial district, residential neighborhoods extending inland, was destroyed in hours. The Banyan Tree survived but sustained severe damage. Heritage sites, multi-generational businesses, homes where families had lived for decades, gone.
+More than 2,200 structures were damaged or destroyed. The historic core of Lahaina, Front Street, the commercial district, residential neighborhoods extending inland, was destroyed in hours. The Banyan Tree survived but sustained severe damage. Heritage sites, multi-generational businesses, homes where families had lived for decades, gone.
 
 The fire did not discriminate by property value. Its aftermath would. Nearly half of Lahaina's pre-fire residents were renters, a markedly higher share than Maui County overall. After the fire, renters made up roughly 89 percent of FEMA-assisted displaced residents. They lost possessions, housing, and without property ownership, any automatic claim to return.
 
 ## Recovery Landscape
 
-FEMA established presence within days of the fire, providing emergency shelter, debris removal coordination, and disaster assistance funding. As of early 2025, over 1,500 sites have been cleared and approximately $3 billion in federal aid allocated. Temporary housing has taken multiple forms: hotels, prefabricated units, stays with relatives. Eighteen months after the fire, thousands remain in transitional situations. More than 1,500 families have left Hawaiʻi entirely.
+FEMA established presence within days of the fire, providing emergency shelter, debris removal coordination, and disaster assistance funding. As of early 2025, over 1,500 sites have been cleared and approximately $3 billion in total federal support (FEMA and partner agencies) allocated. Temporary housing has taken multiple forms: hotels, prefabricated units, stays with relatives. Eighteen months after the fire, thousands remain in transitional situations. State tax-filing analysis indicates the fire reduced Maui's population by at least 1,000 residents, with roughly 430–510 moving out of state entirely.
 
-The regulatory environment complicates rebuilding. West Maui operates under a Stage 2 Water Shortage declaration restricting new meter connections, the permits required to rebuild destroyed homes. Peak demand exceeds system capacity by over 40 percent. Fire survivors face an absurd condition: their destroyed homes no longer have active meters, and re-establishing service may count as new demand in a system with none to spare.
+The regulatory environment complicates rebuilding. West Maui operates under a Stage 2 Water Shortage declaration restricting new meter connections, the permits required to rebuild destroyed homes. (The Stage 2 declaration was lifted in March 2026 after heavy rainfall temporarily improved reservoir levels; the structural supply deficit persists.) Peak demand exceeds system capacity by over 40 percent. Fire survivors face an absurd condition: their destroyed homes no longer have active meters, and re-establishing service may count as new demand in a system with none to spare.
 
 Community organizations have mobilized where government response falls short. Lahaina Strong established a protest camp demanding conversion of short-term vacation rentals to long-term housing. In August 2024, Maui County pledged to convert 7,000 units, a response to sustained pressure. That same month, the state, county, Hawaiian Electric, and several large landowners agreed to a $4 billion settlement with fire victims, without admitting liability.
 
@@ -60,7 +60,7 @@ Recovery efforts in Lahaina are fragmented across federal, state, county, and co
 
 ### Federal Response (FEMA and Army Corps)
 
-FEMA designated the Lahaina fire a major disaster within days, activating Individual Assistance and Public Assistance programs. The agency's operations have followed standard protocol: emergency shelter, debris removal, direct financial assistance. Over 1,500 properties cleared of hazardous materials and structural debris. Approximately $3 billion in federal aid committed. Hotel accommodations extended repeatedly for the roughly 6,700 individuals still without permanent housing as of late 2024.
+FEMA designated the Lahaina fire a major disaster within days, activating Individual Assistance and Public Assistance programs. The agency's operations have followed standard protocol: emergency shelter, debris removal, direct financial assistance. Over 1,500 properties cleared of hazardous materials and structural debris. Approximately $3 billion in total federal support (FEMA and partner agencies) committed. Hotel accommodations extended repeatedly for the roughly 6,700 individuals still without permanent housing as of late 2024.
 
 The federal response performs crisis management. It does not perform recovery. FEMA's mandate ends where long-term housing production, infrastructure redesign, and land use planning begin. The agency has no control over water allocation, zoning reform, or speculative land markets. Eighteen months after the fire, emergency operations continue because permanent solutions have not materialized. The transition that would allow displaced residents to return falls outside federal scope.
 
@@ -68,7 +68,7 @@ The federal response performs crisis management. It does not perform recovery. F
 
 In June 2022, the Commission on Water Resource Management designated the Lahaina Aquifer Sector as a Water Management Area, shifting permit from county to state level. This designation, predating the fire by fourteen months, now governs every rebuilding effort. State water use permits stack on top of county building permits. The regulatory architecture was designed for resource conservation, not emergency reconstruction.
 
-Governor Green invoked emergency housing powers and set a target of 3,000 new units for displaced residents. As of early 2025, fewer than 200 are under construction. Emergency powers can waive procedural requirements; they cannot produce land, water, or construction labor that does not exist. A property sale moratorium intended to prevent speculation within the burn zone was legally challenged, narrowly scoped, and sidestepped by investors acquiring parcels on the perimeter.
+Governor Green invoked emergency housing powers and set a target of 3,000 new units for displaced residents. As of June 2026, the County's Recovery Dashboard reported 572 rebuilding permits issued, 310 homes under construction, and 234 completed. Emergency powers can waive procedural requirements; they cannot produce land, water, or construction labor that does not exist. A property sale moratorium intended to prevent speculation within the burn zone was legally challenged, narrowly scoped, and sidestepped by investors acquiring parcels on the perimeter.
 
 The Maui County Office of Recovery coordinates planning across agencies. Coordination is not implementation. The Maui Long-Term Recovery Plan identifies objectives for housing, infrastructure repair, and economic revitalization. It does not resolve funding gaps, jurisdictional conflicts, or the procedural delays embedded in normal permitting. Water infrastructure proposals remain conceptual. A property owner rebuilding a single residence on its original footprint navigates the same approval pathway as a developer seeking subdivision or use change. No expedited track exists for fire survivors returning to compliant conditions.
 
@@ -84,7 +84,7 @@ Firewise programs operate at neighborhood scale, residents clearing brush, creat
 
 ### Private Sector Proposals
 
-Insurance companies have paid over $2 billion in claims. They are now contesting the $4 billion settlement reached in August 2024 between fire victims and the state, county, Hawaiian Electric, and major landowners. The settlement did not include admission of liability. Litigation will continue for years.
+Insurance companies have paid over $2.6 billion in claims as of early 2025. They are now contesting the $4 billion settlement reached in August 2024 between fire victims and the state, county, Hawaiian Electric, and major landowners. The settlement did not include admission of liability. Litigation will continue for years.
 
 Hawaiian Electric's responsibility is documented. A Bureau of Alcohol, Tobacco, Firearms and Explosives investigation confirmed that a downed company power line ignited the fire when the utility restored service on August 8. The company had not implemented preemptive power shutoffs despite red flag conditions. In July 2024, Hawaiian Electric announced a Public Safety Power Shutoff program and began replacing wooden poles with metal. These are future-oriented measures. They do not address the decisions that preceded the fire.
 

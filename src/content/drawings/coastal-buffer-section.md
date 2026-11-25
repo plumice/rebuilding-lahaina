@@ -20,4 +20,4 @@ Sectional strategy for the coastal buffer showing retreat, coastal park interven
 - **Dune and vegetated buffer**: A restored dune system and native coastal planting protect the inland edge.
 - **Promenade**: Front Street reprogrammed as a pedestrian-priority coastal walkway connecting heritage sites.
 
-The section also shows the mauka-to-makai relationship and the ahupua'a system logic at the regional scale.
+The section also shows the mauka-to-makai relationship and the ahupuaʻa system logic at the regional scale.

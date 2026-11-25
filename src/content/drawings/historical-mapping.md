@@ -11,4 +11,4 @@ tags:
   type: [documentation]
 ---
 
-Town-scale mapping of Lahaina's key heritage sites and historic districts, locating the Banyan Tree, Moku'ula area, churches, missions, cemeteries, and shoreline landmarks within the broader urban fabric.
+Town-scale mapping of Lahaina's key heritage sites and historic districts, locating the Banyan Tree, Mokuʻula area, churches, missions, cemeteries, and shoreline landmarks within the broader urban fabric.

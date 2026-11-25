@@ -2,7 +2,7 @@
 title: "Redensification & Community Hubs"
 chapter: "ch5-design"
 order: 1
-summary: "A plan for 2,200 new housing units within a walkable core, anchored by three community hubs."
+summary: "A plan for 2,200 new housing units within a walkable core, anchored by four community hubs."
 relatedDrawings: ["redensification-plan", "hub-locations", "displacement-analysis", "buffers-composite", "housing-typologies"]
 relatedSources: []
 relatedTerms: []
@@ -18,4 +18,4 @@ The redensification strategy distributes housing across three district typologie
 
 Maximum height is capped at 4 stories throughout, respecting the town's character while achieving the density needed to house returning residents. The mix includes townhomes (25%), stacked apartments (35%), and mixed-use buildings (10%), with the remainder as single-family and duplex infill.
 
-Three community hubs anchor the residential fabric. Each hub combines a primary school with health services and emergency response facilities, positioned within walkable distance of surrounding neighborhoods. These are not single-purpose buildings but hybrid institutions: a school gymnasium doubles as an emergency shelter, a health clinic serves as a first-response triage point, and shared courtyards function as both playground and community gathering space.
+Four community hubs anchor the residential fabric. Each hub combines a primary school with health services and emergency response facilities, positioned within walkable distance of surrounding neighborhoods. These are not single-purpose buildings but hybrid institutions: a school gymnasium doubles as an emergency shelter, a health clinic serves as a first-response triage point, and shared courtyards function as both playground and community gathering space.

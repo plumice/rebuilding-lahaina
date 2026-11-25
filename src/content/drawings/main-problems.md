@@ -1,7 +1,7 @@
 ---
 title: "Five Key Problems"
-image: "/images/drawings/derived/main-problems-original.jpg"
-alt: "Multi-scalar framework diagram showing how regional, urban, neighborhood, and site scales each isolate variables and produce key outputs that structure the recovery methodology"
+image: "/images/drawings/labelled/multi_scalar_framework.png"
+alt: "Multi-scalar framework diagram: nested regional, urban, neighborhood, and site panels, each posing its question (Where are the edges? How does the town connect? Where do people live and gather? What gets built?) with its variables and outputs; decisions cascade down and constraints cascade up"
 scaleLevel: "town"
 drawingType: "diagram"
 display:

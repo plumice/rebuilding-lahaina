@@ -7,7 +7,7 @@ tags:
   topic: [recovery, policy]
 ---
 
-Long-Term Recovery Plan -- the framework guiding Lahaina's multi-year rebuilding process.
+Long-Term Recovery Plan: the framework guiding Lahaina's multi-year rebuilding process.
 
 The Maui Long-Term Recovery Plan identifies objectives for housing, infrastructure repair, and economic revitalization. It does not resolve funding gaps, jurisdictional conflicts, or the procedural delays embedded in normal permitting. Water infrastructure proposals remain conceptual. A property owner rebuilding a single residence on its original footprint navigates the same approval pathway as a developer seeking subdivision or use change. No expedited track exists for fire survivors returning to compliant conditions.
 

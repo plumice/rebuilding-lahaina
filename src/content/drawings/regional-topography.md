@@ -1,5 +1,5 @@
 ---
-title: "Regional Topography — Mauka to Makai"
+title: "Regional Topography: Mauka to Makai"
 image: "/images/drawings/updated_regional_base.jpg"
 alt: "Topographic map of West Maui showing coast-to-peak elevation and building footprints"
 scaleLevel: "regional"

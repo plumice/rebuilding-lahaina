@@ -19,8 +19,8 @@ Three connection types define how modules join, each echoing Hawaiian lashing an
 |---|---|---|
 | Column to base | Pinned / bolted | Stone foundation post pockets |
 | Column to wall plate | Notched beam-over-post | Pou-to-lohelau traditional joint |
-| Ridge to rafter | Wrapped / lapped | Kauhuhu-to-o'a lashing point |
+| Ridge to rafter | Wrapped / lapped | Kauhuhu-to-oʻa lashing point |
 | Rafter to wall plate | Birdsmouth / notched | O'a-to-lohelau bearing |
 | Gutter to column (Y-joint) | Custom connector | Modern adaptation for water harvesting |
 
-The module is not a literal hale replica — it is a performative translation of Hawaiian building logic into a contemporary kit-of-parts system.
+The module is not a literal hale replica; it is a performative translation of Hawaiian building logic into a contemporary kit-of-parts system.

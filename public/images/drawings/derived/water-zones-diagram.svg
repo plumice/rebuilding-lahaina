@@ -92,7 +92,7 @@
   <line x1="342" y1="248" x2="342" y2="326" stroke="#eee" stroke-width="0.75"/>
   <text x="362" y="258" class="cap" style="fill:#27864a;">PROPOSED SYSTEM</text>
   <circle cx="370" cy="276" r="2.5" fill="#27864a" opacity="0.3"/>
-  <text x="380" y="280" class="body">Gravity-fed from hinterland — no pumps needed</text>
+  <text x="380" y="280" class="body">Gravity-fed from hinterland, no pumps needed</text>
   <circle cx="370" cy="296" r="2.5" fill="#27864a" opacity="0.3"/>
   <text x="380" y="300" class="body">Redundant supply from three independent zones</text>
   <circle cx="370" cy="316" r="2.5" fill="#27864a" opacity="0.3"/>

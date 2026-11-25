@@ -1,15 +1,11 @@
 ---
 title: "Water Collection Strategy"
-image: "/images/drawings/derived/water-collection-strategy-original.jpeg"
-alt: "Diagram showing water collection pond system and distribution from mountain hinterland to town"
+image: "/images/drawings/placeholder_image_will_be_updated.svg"
+alt: "Placeholder: image will be updated"
 scaleLevel: "district"
 drawingType: "diagram"
 display:
-  variant: "board"
-supportImages:
-  - src: "/images/drawings/derived/water-system-performance-original.jpg"
-    alt: "Performance infographic testing the proposed water system under drought and flood scenarios"
-    variant: "board"
+  variant: "default"
 pageLayout: "split-lead"
 bodyPosition: "before"
 relatedSections: ["water-crisis", "water-green-mobility-systems", "water-system-zones"]
@@ -31,7 +27,7 @@ The water collection strategy tests how Lahaina's water system can perform under
 ### Actions
 
 - Reopen or strengthen ditch networks to move water deliberately through the district. WSP's 2024 survey identified **11 rehabilitable water-control structures** at 1,000–3,000 feet elevation.
-- Build storage ponds and retention basins — sized at **0.5 acres per 10 acres** drainage area — that hold water in drought and slow water in flood.
+- Build storage ponds and retention basins, sized at **0.5 acres per 10 acres** drainage area, that hold water in drought and slow water in flood.
 - Limit public access in sensitive collection areas where hydrological performance and ecological recovery need protection.
 
 ### Performance targets (see support image below)

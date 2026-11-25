@@ -54,7 +54,7 @@ Five years before the catastrophe, Lahaina burned. A brush fire ignited in the h
 
 ### August 8, 2023
 
-Hurricane Dora passed south of the Hawaiian Islands that morning, generating sustained winds exceeding 60 miles per hour across West Maui's leeward slopes. The National Weather Service had issued a red flag warning: dry conditions, high temperatures, extreme wind, no rain. A brush fire started near Lahainaluna Road around 6:30 a.m., likely sparked by downed power lines. Fire crews responded. Police went door to door with evacuation orders.
+Hurricane Dora passed south of the Hawaiian Islands that morning, generating wind gusts exceeding 60 miles per hour (locally approaching 80) across West Maui's leeward slopes. The National Weather Service had issued a red flag warning: dry conditions, high temperatures, extreme wind, no rain. A brush fire started near Lahainaluna Road around 6:30 a.m., likely sparked by downed power lines. Fire crews responded. Police went door to door with evacuation orders.
 
 By early afternoon, incident commanders announced the fire "100% contained," meaning the perimeter was controlled, not that flames were extinguished. Crews left the scene around 2:00 p.m. Some residents returned home. Others continued with their day.
 
@@ -76,6 +76,6 @@ The road network funneled residents toward the coast rather than away from dange
 
 One hundred two people died. Most victims were elderly, disabled, or otherwise unable to evacuate quickly. Many died in vehicles, trapped in traffic. Others sheltered in place and were overtaken by flames moving faster than anyone anticipated.
 
-More than 2,200 structures burned. The historic core of Lahaina, Front Street, the commercial district, residential neighborhoods extending inland, was destroyed in hours. The Banyan Tree survived but sustained severe damage. Heritage sites, multi-generational businesses, homes where families had lived for decades. Gone.
+More than 2,200 structures were damaged or destroyed. The historic core of Lahaina, Front Street, the commercial district, residential neighborhoods extending inland, was destroyed in hours. The Banyan Tree survived but sustained severe damage. Heritage sites, multi-generational businesses, homes where families had lived for decades. Gone.
 
 The fire did not discriminate by property value. Its aftermath would. Nearly half of Lahaina's pre-fire residents were renters, a markedly higher share than Maui County overall. After the fire, renters made up roughly 89 percent of FEMA-assisted displaced residents. They lost possessions, housing, and without property ownership, any automatic claim to return.

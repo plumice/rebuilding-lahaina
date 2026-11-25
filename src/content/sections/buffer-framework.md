@@ -40,7 +40,7 @@ The re-densification zone occupies approximately 84 acres between the riparian a
 
 ### No Displacement
 
-Lahaina was 48% renter-occupied before the fire, well above Maui County's 35%. Renters held no deeds, carried no homeowner's insurance, and have no automatic claim in a recovery system structured around property ownership. Over 1,500 families have already relocated off-island permanently. The framework intervenes directly: inclusionary zoning requiring 20% affordable units in any project exceeding ten units; community land trust acquisition prioritized within the coastal buffer; right-of-first-refusal for displaced renters on rebuilt units within their former census tract. Speculative purchases within the burn zone require disclosure of intent and carry anti-flip provisions for 36 months. These mechanisms do not guarantee equity. They make displacement harder to execute and more expensive to pursue.
+Lahaina was 48% renter-occupied before the fire, well above Maui County's 35%. Renters held no deeds, carried no homeowner's insurance, and have no automatic claim in a recovery system structured around property ownership. Over 1,500 families have already relocated off-island permanently. The framework intervenes directly: inclusionary zoning requiring 20% affordable units in any project of ten or more units; community land trust acquisition prioritized within the coastal buffer; right-of-first-refusal for displaced renters on rebuilt units within their former census tract. Speculative purchases within the burn zone require disclosure of intent and carry anti-flip provisions for 36 months. These mechanisms do not guarantee equity. They make displacement harder to execute and more expensive to pursue.
 
 ### Public Access
 

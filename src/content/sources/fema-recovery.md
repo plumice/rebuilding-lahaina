@@ -4,7 +4,7 @@ author: "FEMA / EPA"
 publisher: "FEMA / EPA"
 date: "2023-2025"
 sourceType: "report"
-relevance: "Approximately $3 billion in federal aid; 1,500+ sites cleared; wastewater infrastructure rebuild progress"
+relevance: "Approximately $3 billion in total federal support (FEMA and partner agencies); 1,500+ sites cleared; wastewater infrastructure rebuild progress"
 tags:
   topic: [recovery, infrastructure]
   type: [data]
@@ -16,7 +16,7 @@ relatedSections:
   - redensification-hubs
 ---
 
-FEMA disaster assistance data (DR-4724) tracks the federal response. As of early 2025, over 1,500 sites have been cleared and approximately $3 billion in federal aid allocated. FEMA established presence within days of the fire, providing emergency shelter, debris removal coordination, and disaster assistance funding. Hotel accommodations were extended repeatedly for roughly 6,700 individuals still without permanent housing as of late 2024. The critical distinction: the federal response performs crisis management but does not perform recovery. FEMA's mandate ends where long-term housing production, infrastructure redesign, and land use planning begin.
+FEMA disaster assistance data (DR-4724) tracks the federal response. As of early 2025, over 1,500 sites have been cleared and approximately $3 billion in total federal support (FEMA and partner agencies) allocated. FEMA established presence within days of the fire, providing emergency shelter, debris removal coordination, and disaster assistance funding. Hotel accommodations were extended repeatedly for roughly 6,700 individuals still without permanent housing as of late 2024. The critical distinction: the federal response performs crisis management but does not perform recovery. FEMA's mandate ends where long-term housing production, infrastructure redesign, and land use planning begin.
 
 ## External Links
 

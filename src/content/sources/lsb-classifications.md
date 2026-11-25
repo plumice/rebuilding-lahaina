@@ -1,7 +1,7 @@
 ---
 title: "Land Study Bureau Agricultural Classifications"
-author: "LSB (University of Hawai'i)"
-publisher: "LSB (University of Hawai'i)"
+author: "LSB (University of Hawaiʻi)"
+publisher: "LSB (University of Hawaiʻi)"
 date: "1960s"
 sourceType: "report"
 relevance: "Soil productivity grading (A through E) forming the basis for land-use planning and zoning decisions"

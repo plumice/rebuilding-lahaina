@@ -1,7 +1,7 @@
 ---
 title: "Integrated Framework Plan"
-image: "/images/drawings/updated_local_all_buffers.jpg"
-alt: "Integrated plan linking all four buffer zones with circulation, redensification, the school, and the peri-urban park in one composite framework"
+image: "/images/drawings/labelled/buffers_with_water_and_core.jpg"
+alt: "Plan of the coastal, riparian, peri-urban, and hinterland buffers around the re-densification core, with water collection zones 1 and 2 and the coastal promenade, highway, and street labels"
 scaleLevel: "town"
 drawingType: "composite-plan"
 relatedSections: ["buffer-framework", "water-green-mobility-systems", "redensification-hubs"]

@@ -114,7 +114,7 @@ const { id, center, zoom, layers, autoFit = false } = Astro.props;
         }).addTo(map);
         layerMap.set(layerDef.name, geoLayer);
       } catch {
-        // GeoJSON file not available yet — skip silently during development
+        // GeoJSON file not available yet, skip silently during development
       }
     }
 

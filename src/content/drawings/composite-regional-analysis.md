@@ -1,7 +1,7 @@
 ---
 title: "Composite Regional Analysis"
-image: "/images/drawings/updated_regional_composite.jpg"
-alt: "Combined systems map identifying developable edges and constraint zones across West Maui"
+image: "/images/drawings/labelled/regional_systems_overlay.jpg"
+alt: "Regional systems overlay of West Maui from mauka to makai: streams, ditches, rainfall contours, the Pioneer Mill ditch network, elevation zones, and a sea level rise key, with an island rainfall inset"
 scaleLevel: "regional"
 drawingType: "composite-map"
 relatedSections: ["environmental-analysis", "multi-scalar-diagnostic"]

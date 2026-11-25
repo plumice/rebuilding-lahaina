@@ -4,10 +4,6 @@ image: "/images/drawings/updated_local_coastal.jpg"
 alt: "Plan showing the coastal buffer zone defined by sea level rise projections and the inland retreat boundary"
 scaleLevel: "town"
 drawingType: "plan"
-supportImages:
-  - src: "/images/drawings/derived/sea-level-rise-chart.svg"
-    alt: "Grouped bar chart showing sea level rise projections from 2040 to 2100 under three scenarios with impact annotations"
-    variant: "board"
 relatedSections: ["buffer-framework", "environmental-analysis"]
 tags:
   topic: [coastal, water]
@@ -19,7 +15,7 @@ The coastal buffer defined by sea level rise analysis. Wainee Street marks the i
 
 ### Dimensions
 
-The buffer extends **150–300 feet** from current mean high water, defined by the SLR-XA boundary and the 0–20-foot contour. Under NOAA intermediate projections, 3.2 feet of sea level rise is expected by 2100 — the design accommodates this within the retreat zone.
+The buffer extends **150–300 feet** from current mean high water, defined by the SLR-XA boundary and the 0–20-foot contour. Under NOAA intermediate projections, 3.2 feet of sea level rise is expected by 2100; the design accommodates this within the retreat zone.
 
 ### Key rules
 

@@ -1,7 +1,7 @@
 ---
 title: "Community Space - Interior View"
-image: "/images/drawings/final_ppt_cropped/Slide67.JPG"
-alt: "Interior and community renderings showing classroom courtyards, covered circulation, and shared gathering space"
+image: "/images/drawings/labelled/school_renders.jpg"
+alt: "Four school renders: an aerial view of the modular campus, the covered corridor with classrooms, the shaded courtyard, and the courtyard at night with a gathering under the trees"
 scaleLevel: "node"
 drawingType: "rendering"
 relatedSections: ["design-interventions", "module-system", "school-design-detail"]

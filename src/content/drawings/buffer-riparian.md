@@ -15,7 +15,7 @@ Stream corridor restoration along Kahoma Stream and its tributaries, from the up
 
 ### Dimensions
 
-The buffer extends **50–100 feet** from stream centerline, widened where flood modeling indicates broader inundation risk. Public access is concentrated at designated nodes — bridges, overlooks, gathering areas — rather than continuous along the stream edge, balancing recreational use with ecological protection.
+The buffer extends **50–100 feet** from stream centerline, widened where flood modeling indicates broader inundation risk. Public access is concentrated at designated nodes (bridges, overlooks, gathering areas) rather than continuous along the stream edge, balancing recreational use with ecological protection.
 
 ### Key moves
 

@@ -25,4 +25,4 @@ An exploded isometric shows how the module is assembled from roof shingles, raft
 8. Customizable wall connector panels
 9. 26' x 26' foundation base
 
-The structural correspondence maps directly to traditional hale construction as defined in Maui County's Indigenous Hawaiian Architecture regulations (HAR SS15-110), exceeding IHA structural minimums for Hale Halawai while maintaining the same hierarchical logic.
+The structural correspondence maps directly to traditional hale construction as defined in Maui County's Indigenous Hawaiian Architecture regulations (County of Maui Rules §15-110), exceeding IHA structural minimums for Hale Halawai while maintaining the same hierarchical logic.
