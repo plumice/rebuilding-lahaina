@@ -1,18 +1,11 @@
 ---
 title: "Water System: Full Data Sheet"
-image: "/images/drawings/derived/water-system-performance-original.jpg"
-alt: "Performance infographic testing the proposed water system under drought and flood scenarios with capacity targets and zone breakdown"
+image: "/images/drawings/placeholder_image_will_be_updated.svg"
+alt: "Placeholder: image will be updated"
 scaleLevel: "district"
 drawingType: "data-sheet"
 display:
-  variant: "board"
-supportImages:
-  - src: "/images/drawings/derived/water-zones-diagram.svg"
-    alt: "Five-zone distributed water capture diagram from mauka to makai with key metrics"
-    variant: "board"
-  - src: "/images/drawings/final_ppt_cropped/Slide37.JPG"
-    alt: "Complete water collection board showing principles, three-zone strategy, and performance testing from the final presentation"
-    variant: "board"
+  variant: "default"
 relatedSections: ["water-crisis", "water-system-zones", "water-green-mobility-systems", "pioneer-mill-water-infrastructure"]
 tags:
   topic: [water, infrastructure]

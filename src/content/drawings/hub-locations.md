@@ -11,4 +11,4 @@ tags:
   type: [proposal]
 ---
 
-Three community hubs combining primary school, health services, and emergency response are positioned as neighborhood anchors within walkable distance of the redensified residential core.
+Four community hubs combining primary school, health services, and emergency response are positioned as neighborhood anchors within walkable distance of the redensified residential core.

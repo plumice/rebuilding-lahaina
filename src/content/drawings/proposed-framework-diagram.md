@@ -1,7 +1,7 @@
 ---
 title: "Proposed Recovery Framework"
-image: "/images/drawings/derived/proposed-framework-graphic-v2.jpg"
-alt: "Hypothesis diagram showing four-buffer framework with coastal, peri-urban, riparian, and hinterland zones surrounding a protected urban core"
+image: "/images/drawings/placeholder_image_will_be_updated.svg"
+alt: "Placeholder: image will be updated"
 scaleLevel: "town"
 drawingType: "diagram"
 pageIntroTitle: "Hypothesis"

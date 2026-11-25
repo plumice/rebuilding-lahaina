@@ -1,7 +1,7 @@
 ---
 title: "Module Assembly"
-image: "/images/drawings/final_ppt_cropped/Slide62.JPG"
-alt: "Module aggregation, runoff contribution, and repair scenarios showing how the kit of parts grows and adapts over time"
+image: "/images/drawings/placeholder_image_will_be_updated.svg"
+alt: "Placeholder: image will be updated"
 scaleLevel: "node"
 drawingType: "diagram"
 relatedSections: ["module-system", "module-assembly-rules"]

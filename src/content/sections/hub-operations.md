@@ -2,7 +2,7 @@
 title: "Community Hub Operations"
 chapter: "ch5-design"
 order: 7
-summary: "How the three community hubs function daily and convert to emergency facilities, program details, accessibility, and dual-use design."
+summary: "How the four community hubs function daily and convert to emergency facilities, program details, accessibility, and dual-use design."
 relatedDrawings: ["hub-locations", "school-floor-plan", "school-sections", "buffers-composite"]
 relatedSources: ["after-great-disasters"]
 relatedTerms: ["node-based-planning"]
@@ -12,7 +12,7 @@ tags:
   type: [proposal]
 ---
 
-The three community hubs are not single-purpose buildings. Each combines daily community service with emergency response capacity, designed so that the transition from one mode to the other requires no reconstruction, only reorganization.
+The four community hubs are not single-purpose buildings. Each combines daily community service with emergency response capacity, designed so that the transition from one mode to the other requires no reconstruction, only reorganization.
 
 ## Hub 1: Primary School (Lahaina Luna x Boulevard)
 
@@ -28,15 +28,15 @@ Emergency mode: Clinic scales to triage capacity. First response vehicles, fire 
 
 PBS FRONTLINE documented that during the 2023 fire, there was no nearby emergency medical capacity, injured residents faced dangerous transport delays. This hub eliminates that gap.
 
-## Hub 3: Community and First Response
+## Hubs 3 and 4: Community and First Response
 
-Daily operation: Community gathering space oriented toward the Coastal Edge District and heritage sites. Programming connects to coastal promenade visitors and cultural tourism. Small-scale first response presence.
+Daily operation: Community gathering space oriented toward the Coastal Edge District and heritage sites. Programming connects to coastal promenade visitors and cultural tourism. Small-scale first response presence. This hub type sits at two sites, at the northern and southern ends of the re-densification core.
 
-Emergency mode: Backup capacity if Hub 1 or 2 is compromised. Waterfront deployment via boulevard and Wainee Street for coastal emergencies. Cultural space converts to emergency coordination for southern neighborhoods.
+Emergency mode: Backup capacity if Hub 1 or 2 is compromised, and for each other. Waterfront deployment via boulevard and Wainee Street for coastal emergencies. Cultural space converts to emergency coordination for southern neighborhoods.
 
-## Why Three Hubs
+## Why Four Hubs
 
-Redundancy. If one hub is damaged or overwhelmed, the other two maintain coverage. The five-minute walk radius analysis shows every residence in the redensification zone falls within walking distance of at least one hub, vehicle-independent access is essential because roads may be compromised during emergencies.
+Redundancy. If one hub is damaged or overwhelmed, the other three maintain coverage. The five-minute walk radius analysis shows every residence in the redensification zone falls within walking distance of at least one hub, vehicle-independent access is essential because roads may be compromised during emergencies.
 
 The hubs are positioned at major intersections, Lahaina Luna Avenue, Kahoma Boulevard, and Wainee Street, reinforcing the mobility framework. Emergency vehicles travel between hubs via the boulevard without navigating residential streets.
 
