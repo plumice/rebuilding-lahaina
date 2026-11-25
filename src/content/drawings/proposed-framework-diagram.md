@@ -5,7 +5,7 @@ alt: "Hypothesis diagram showing four-buffer framework with coastal, peri-urban,
 scaleLevel: "town"
 drawingType: "diagram"
 pageIntroTitle: "Hypothesis"
-pageIntroText: "If Lahaina's post-fire recovery is guided by a multi-scalar, system-integrated framework rooted in the ahupua'a model, linking coast, urban fabric, peri-urban buffer, and hinterland, and supported by modular, climate-adaptive architecture and community-anchored nodes, then it can achieve a resilient rebuilding process that restores ecological function, prevents displacement, preserves cultural identity, and provides a replicable model for post-disaster urbanism in climate-vulnerable regions worldwide."
+pageIntroText: "If Lahaina's post-fire recovery is guided by a multi-scalar, system-integrated framework rooted in the ahupuaʻa model, linking coast, urban fabric, peri-urban buffer, and hinterland, and supported by modular, climate-adaptive architecture and community-anchored nodes, then it can achieve a resilient rebuilding process that restores ecological function, prevents displacement, preserves cultural identity, and provides a replicable model for post-disaster urbanism in climate-vulnerable regions worldwide."
 relatedSections: ["buffer-framework", "multi-scalar-diagnostic"]
 tags:
   topic: [recovery, water, coastal, fire]

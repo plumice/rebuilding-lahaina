@@ -1,9 +1,13 @@
 ---
 title: "Coast to Peri-Urban Plan"
-image: "/images/drawings/final_ppt_cropped/Slide50.JPG"
-alt: "Full transect plan showing the relationship between coastal buffer, urban core, and peri-urban edge"
+image: "/images/drawings/labelled/coast_to_periurban_plan.jpg"
+alt: "Coast to peri-urban plan from the harbor and coastal edge inland to the elementary school grounds"
 scaleLevel: "site"
 drawingType: "plan"
+supportImages:
+  - src: "/images/drawings/final_ppt_cropped/Slide50.JPG"
+    alt: "Presentation board of the coast to peri-urban plan with its buffer descriptions"
+    variant: "board"
 relatedSections: ["design-interventions", "buffer-framework"]
 tags:
   topic: [coastal, housing, ecology]

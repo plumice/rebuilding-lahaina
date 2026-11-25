@@ -11,7 +11,7 @@ tags:
   type: [proposal]
 ---
 
-Lahaina faces intense western sun — the same conditions that intensified the 2023 fire. The three-module assembly operates as a solar protection system: the steep 45-degree roof pitch deflects high-angle midday sun; adjacent shading modules block low-angle western afternoon sun; and the 8-foot wall height below the roof maintains shaded interior volume.
+Lahaina faces intense western sun, the same conditions that intensified the 2023 fire. The three-module assembly operates as a solar protection system: the steep 45-degree roof pitch deflects high-angle midday sun; adjacent shading modules block low-angle western afternoon sun; and the 8-foot wall height below the roof maintains shaded interior volume.
 
 ### Performance
 

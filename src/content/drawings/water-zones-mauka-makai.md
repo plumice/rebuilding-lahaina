@@ -1,5 +1,5 @@
 ---
-title: "Water Zones — Mauka to Makai"
+title: "Water Zones: Mauka to Makai"
 image: "/images/drawings/updated_local_water_systems.jpg"
 alt: "Diagram showing water capture and distribution zones from mountain to coast"
 scaleLevel: "district"

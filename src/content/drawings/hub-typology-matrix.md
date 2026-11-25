@@ -15,9 +15,9 @@ The three community hubs are sized and programmed to serve daily life and conver
 
 ### Hub types
 
-1. **Hub 1 — Lahaina Luna Park** (elementary school & community center): daily education and recreation; emergency shelter and coordination point.
-2. **Hub 2 — Kahoma Health Campus** (clinic & senior center): primary care, mental health services, senior programs; emergency medical triage.
-3. **Hub 3 — Coastal Neighborhood Center** (fire station & gathering hall): first response, neighborhood meetings; emergency staging and supply distribution.
+1. **Hub 1: Lahaina Luna Park** (elementary school & community center): daily education and recreation; emergency shelter and coordination point.
+2. **Hub 2: Kahoma Health Campus** (clinic & senior center): primary care, mental health services, senior programs; emergency medical triage.
+3. **Hub 3: Coastal Neighborhood Center** (fire station & gathering hall): first response, neighborhood meetings; emergency staging and supply distribution.
 
 ### Spatial distribution logic
 

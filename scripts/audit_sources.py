@@ -63,6 +63,7 @@ KNOWN_ANTI_BOT_HOSTS = {
     "www.fema.gov",
     "landezine.com",
     "westmaui.wearemaui.org",
+    "www.mauicounty.gov",  # CivicPlus anti-bot; DocumentCenter/View/4434 opened in a browser 2026-11-25
 }
 
 socket.setdefaulttimeout(URL_TIMEOUT)

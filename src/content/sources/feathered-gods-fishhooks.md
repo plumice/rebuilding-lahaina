@@ -14,4 +14,4 @@ relatedSections:
   - key-terms
 ---
 
-Alongside Beamer's *No Makou Ka Mana*, Kirch provides pre-contact settlement context. Kirch's work on irrigated agriculture and coastal aquaculture systems (pages 189-212) provides the archaeological framework for understanding the ahupua'a land division system and the resource networks that sustained pre-contact Hawaiian population at Lahaina.
+Alongside Beamer's *No Makou Ka Mana*, Kirch provides pre-contact settlement context. Kirch's work on irrigated agriculture and coastal aquaculture systems (pages 189-212) provides the archaeological framework for understanding the ahupuaʻa land division system and the resource networks that sustained pre-contact Hawaiian population at Lahaina.

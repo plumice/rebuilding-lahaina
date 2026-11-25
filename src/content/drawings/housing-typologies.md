@@ -11,4 +11,4 @@ tags:
   type: [proposal]
 ---
 
-The range of housing types proposed for the redensified core — townhomes, stacked apartments, mixed-use buildings, and single-family infill — organized by density, height, and program.
+The range of housing types proposed for the redensified core (townhomes, stacked apartments, mixed-use buildings, and single-family infill) organized by density, height, and program.

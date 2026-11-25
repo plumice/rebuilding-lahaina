@@ -19,7 +19,7 @@ Current demand exceeds reliable supply by 41.8% (6.04 MGD vs. 4.26 MGD). The dis
 
 ### Five zones
 
-1. **Hinterland collection** (above 1,000 ft): Rehabilitated ditch intakes and gravity-fed reservoirs capture rainfall exceeding 80 in/year. Gravity distribution eliminates pump dependence — critical because pump-dependent systems failed when power was cut during the 2023 fire.
+1. **Hinterland collection** (above 1,000 ft): Rehabilitated ditch intakes and gravity-fed reservoirs capture rainfall exceeding 80 in/year. Gravity distribution eliminates pump dependence, critical because pump-dependent systems failed when power was cut during the 2023 fire.
 2. **Collection ponds** (topographic pockets): Retention basins sized at 0.5 acres programmable surface per 10 acres drainage area; dual-use as public space during dry conditions and emergency fire-suppression reserves.
 3. **Interception corridor** (Highway 30): Swales, bioretention cells, and subsurface storage intercept runoff before it crosses impervious road surfaces and is lost to the ocean.
 4. **Peri-urban distribution** (200–1,000 ft): Retention basins sized for 25-year storm events feed irrigated agriculture that maintains the firebreak function year-round.

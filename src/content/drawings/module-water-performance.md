@@ -5,8 +5,8 @@ alt: "Section showing rainwater collection through sloped roofs and shared gutte
 scaleLevel: "node"
 drawingType: "technical-section"
 supportImages:
-  - src: "/images/drawings/derived/module-water-yield.svg"
-    alt: "Water capture funnel diagram showing 57,460 sq ft roof catchment yielding 429,801 gallons annually at 80% efficiency"
+  - src: "/images/drawings/labelled/module_and_aggregation_water.jpg"
+    alt: "Module exploded axonometric and aggregation axonometric with the water capture key: 337 gallons per inch of rain per 26 by 26 foot (676 sq ft) module at 80 percent collection, with flow outward along the valley to adaptable storage"
     variant: "board"
 relatedSections: ["module-system"]
 tags:

@@ -2,7 +2,7 @@
 title: "Cultural Heritage & Preservation"
 chapter: "ch3-analysis"
 order: 8
-summary: "Lahaina's cultural significance, the Moku'ula restoration, and how Hawaiian identity shapes the recovery framework."
+summary: "Lahaina's cultural significance, the Mokuʻula restoration, and how Hawaiian identity shapes the recovery framework."
 relatedDrawings: ["historical-timeline", "historical-mapping", "alii-houses", "pili-grass-hale", "hale-foundation-detail", "hale-halawai-framing", "hale-halawai-hip-alternate", "hale-kaa-framing"]
 relatedSources: ["architectural-style-book", "feathered-gods-fishhooks", "hawaiian-kingdom", "native-land-foreign-desires", "new-architecture-indigenous", "no-makou-ka-mana"]
 relatedTerms: ["ahupuaa", "mauka", "makai", "hale"]
@@ -37,5 +37,5 @@ Lahaina was the royal capital of the Hawaiian Kingdom before it became a plantat
 ## Primary Sources
 
 - [NPS Lahaina Historic District](https://www.nps.gov/places/lahaina-historic-district.htm)
-- [Lahaina Restoration Foundation — Mokuʻula restoration work](https://lahainarestoration.org/)
+- [Lahaina Restoration Foundation: Mokuʻula restoration work](https://lahainarestoration.org/)
 - [Mokuʻula project site](https://www.mokuula.com/) (Friends of Mokuʻula was dissolved circa 2017; the work continues under the Lahaina Restoration Foundation)

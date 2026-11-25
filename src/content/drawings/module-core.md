@@ -11,7 +11,7 @@ tags:
   type: [proposal]
 ---
 
-The 26x26-foot module (**676 sq ft**) is the basic building unit of the recovery plan. Its structural hierarchy maps directly to traditional Hawaiian hale construction as defined in Maui County's Indigenous Hawaiian Architecture regulations (HAR SS15-110).
+The 26x26-foot module (**676 sq ft**) is the basic building unit of the recovery plan. Its structural hierarchy maps directly to traditional Hawaiian hale construction as defined in Maui County's Indigenous Hawaiian Architecture regulations (County of Maui Rules §15-110).
 
 ### Core dimensions
 
@@ -23,4 +23,4 @@ The 26x26-foot module (**676 sq ft**) is the basic building unit of the recovery
 | Roof pitch | ~45 degrees |
 | Column diameter | 8" |
 
-The post-and-beam system uses mass timber (glulam or CLT) to achieve the 26-foot clear span with corner posts alone — a scalar translation of vernacular logic into contemporary structural capacity. Traditional hale at the scale of Hale Halawai (up to 30' x 60') required multiple intermediate posts; the module eliminates them.
+The post-and-beam system uses mass timber (glulam or CLT) to achieve the 26-foot clear span with corner posts alone, a scalar translation of vernacular logic into contemporary structural capacity. Traditional hale at the scale of Hale Halawai (up to 30' x 60') required multiple intermediate posts; the module eliminates them.

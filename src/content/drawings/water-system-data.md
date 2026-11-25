@@ -1,5 +1,5 @@
 ---
-title: "Water System — Full Data Sheet"
+title: "Water System: Full Data Sheet"
 image: "/images/drawings/derived/water-system-performance-original.jpg"
 alt: "Performance infographic testing the proposed water system under drought and flood scenarios with capacity targets and zone breakdown"
 scaleLevel: "district"
@@ -7,9 +7,6 @@ drawingType: "data-sheet"
 display:
   variant: "board"
 supportImages:
-  - src: "/images/drawings/derived/water-deficit-chart.svg"
-    alt: "Bar chart comparing reliable supply (4.26 MGD) against current demand (6.04 MGD) showing 41.8% deficit"
-    variant: "board"
   - src: "/images/drawings/derived/water-zones-diagram.svg"
     alt: "Five-zone distributed water capture diagram from mauka to makai with key metrics"
     variant: "board"
@@ -36,7 +33,7 @@ This page consolidates the water system's quantitative argument in one place: th
 | Aquifer management designation | June 2022 (CWRM) |
 | Stage 2 Water Shortage declaration | September 2025 |
 
-The Department of Water Supply cannot process new water meters in West Maui. Thousands of displaced residents cannot return — not because lots are uncleared, but because there is no water to serve new construction.
+The Department of Water Supply cannot process new water meters in West Maui. Thousands of displaced residents cannot return, not because lots are uncleared, but because there is no water to serve new construction.
 
 ## What was lost
 
@@ -49,9 +46,9 @@ West Maui receives over **80 inches of rainfall per year** above 1,000 feet. Pio
 | High-elevation reservoirs | Unmaintained since 1999 |
 | Municipal pump stations | Failed during 2023 fire (power loss) |
 
-During the 2023 fire, dry overgrown ditches served as corridors for invasive fire-prone grasses — conducting fire rather than suppressing it.
+During the 2023 fire, dry overgrown ditches served as corridors for invasive fire-prone grasses, conducting fire rather than suppressing it.
 
-## The proposed system — zone by zone
+## The proposed system: zone by zone
 
 The distributed capture strategy does not replace the aquifer. It reduces dependence on it, targeting **30% of non-potable demand** met through captured rainfall and diverted stream flow.
 

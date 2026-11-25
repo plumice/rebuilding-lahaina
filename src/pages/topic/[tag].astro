@@ -81,7 +81,7 @@ const maps = (await getCollection('maps')).filter((m) => m.data.tags.topic.inclu
         <h2 class="font-serif text-xl mb-4">Sources</h2>
         <div class="grid gap-4">
           {sources.map((s) => (
-            <ContentCard title={s.data.title} href={`/source/${s.id}`} description={`${s.data.author} — ${s.data.relevance}`} label={s.data.sourceType} />
+            <ContentCard title={s.data.title} href={`/source/${s.id}`} description={`${s.data.author}: ${s.data.relevance}`} label={s.data.sourceType} />
           ))}
         </div>
       </div>

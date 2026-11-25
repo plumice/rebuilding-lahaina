@@ -11,4 +11,4 @@ tags:
   type: [proposal]
 ---
 
-The proposed green infrastructure network connects four continuous corridors — coastal promenade, riparian streams, coastal park, and agricultural edge — replacing the fragmented pre-fire landscape.
+The proposed green infrastructure network connects four continuous corridors (coastal promenade, riparian streams, coastal park, and agricultural edge) replacing the fragmented pre-fire landscape.

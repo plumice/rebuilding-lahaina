@@ -4,10 +4,6 @@ image: "/images/drawings/updated_local_redensification.jpg"
 alt: "Proposed high-density housing plan showing 2,200 units centered on the new boulevard with typology breakdown"
 scaleLevel: "town"
 drawingType: "plan"
-supportImages:
-  - src: "/images/drawings/derived/redensification-chart.svg"
-    alt: "Horizontal bar chart showing unit mix: 1,050 stacked apartments, 710 townhomes, 220 mixed-use across 84 acres"
-    variant: "board"
 relatedSections: ["redensification-hubs"]
 tags:
   topic: [housing, recovery]

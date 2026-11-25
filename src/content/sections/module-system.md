@@ -66,7 +66,7 @@ Joint types echo Hawaiian lashing and plantation-era timber connections, maintai
 |---|---|---|
 | Column to Base | Pinned / bolted | Stone foundation post pockets |
 | Column to Wall Plate | Notched beam-over-post | Pou-to-lohelau traditional joint |
-| Ridge to Rafter | Wrapped / lapped | Kauhuhu-to-o'a lashing point |
+| Ridge to Rafter | Wrapped / lapped | Kauhuhu-to-oʻa lashing point |
 | Rafter to Wall Plate | Birdsmouth / notched | O'a-to-lohelau bearing |
 | Gutter to Column (Y-joint) | Custom connector | Modern adaptation for water harvesting |
 
@@ -74,7 +74,7 @@ The module is not a literal hale replica; it is a scalar and performative transl
 
 ## Hawaiian Hale Construction
 
-The module's structural hierarchy directly maps to traditional hale construction as defined in Maui County's Indigenous Hawaiian Architecture regulations (HAR SS15-110). The structural correspondence translates as follows: the wood ridge (kauhuhu) as main ridgepole; hipped rafters (o'a) spanning the module; top edge beam (lohelau kua) as upper wall plate; bottom edge beam (lohelau) as lower wall plate; and 8-inch columns (pou kihi) as corner posts. The module exceeds IHA structural minimums for Hale Halawai (assembly hall, 30' x 60') while maintaining the same hierarchical logic: heavy corner posts to wall plates to ridge beam to rafters.
+The module's structural hierarchy directly maps to traditional hale construction as defined in Maui County's Indigenous Hawaiian Architecture regulations (County of Maui Rules §15-110). The structural correspondence translates as follows: the wood ridge (kauhuhu) as main ridgepole; hipped rafters (oʻa) spanning the module; top edge beam (lohelau kua) as upper wall plate; bottom edge beam (lohelau) as lower wall plate; and 8-inch columns (pou kihi) as corner posts. The module exceeds IHA structural minimums for Hale Halawai (assembly hall, 30' x 60') while maintaining the same hierarchical logic: heavy corner posts to wall plates to ridge beam to rafters.
 
 ## Reaction to Elevation
 

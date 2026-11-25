@@ -1,5 +1,5 @@
 ---
-title: "Managing Natural Catastrophes"
+title: "Managing Natural Catastrophies: Viable Systems to Prevent Human Tragedy—The Hawaiʻian Example"
 author: "Reissberg, Anja Christina"
 publisher: "Campus Verlag"
 date: "2013"

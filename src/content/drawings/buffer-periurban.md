@@ -11,7 +11,7 @@ tags:
   type: [proposal]
 ---
 
-The peri-urban buffer creates an irrigated agricultural park between the boulevard and Highway 30 — a productive landscape that doubles as a firebreak.
+The peri-urban buffer creates an irrigated agricultural park between the boulevard and Highway 30, a productive landscape that doubles as a firebreak.
 
 ### Dimensions
 
@@ -25,4 +25,4 @@ The dry grasslands in this zone provided the fuel that carried the 2023 fire int
 
 - **15% of fresh produce** consumed in West Maui sourced locally by 2035
 - Emergency water reserves independent of municipal supply
-- Low-mobility zone for walking, cycling, and agricultural vehicles — no through-traffic
+- Low-mobility zone for walking, cycling, and agricultural vehicles, no through-traffic

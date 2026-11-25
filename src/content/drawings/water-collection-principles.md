@@ -31,7 +31,7 @@ The water collection strategy tests how Lahaina's water system can perform under
 ### Actions
 
 - Reopen or strengthen ditch networks to move water deliberately through the district. WSP's 2024 survey identified **11 rehabilitable water-control structures** at 1,000–3,000 feet elevation.
-- Build storage ponds and retention basins — sized at **0.5 acres per 10 acres** drainage area — that hold water in drought and slow water in flood.
+- Build storage ponds and retention basins, sized at **0.5 acres per 10 acres** drainage area, that hold water in drought and slow water in flood.
 - Limit public access in sensitive collection areas where hydrological performance and ecological recovery need protection.
 
 ### Performance targets (see support image below)
