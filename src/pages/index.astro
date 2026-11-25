@@ -12,15 +12,15 @@ const featured = drawings.slice(0, 3);
   <!-- HERO WITH FLOATING NEWS BULLETIN -->
   <div class="relative">
     <!-- Hero background -->
-    <div class="min-h-[75vh] md:min-h-[90vh] flex flex-col justify-end px-6 md:px-16 pb-12 md:pb-16 pt-16 md:pt-20 relative overflow-hidden">
+    <div class="min-h-[75vh] md:min-h-[90vh] flex flex-col justify-end px-6 md:px-16 pb-12 md:pb-16 pt-[40vh] md:pt-20 relative overflow-hidden">
       <!-- Cover image background -->
       <img
         src="/images/drawings/cover_hero.jpg"
         alt="Aerial rendering of proposed Lahaina recovery showing coastal promenade, green infrastructure, and reef"
-        class="absolute inset-0 w-full h-full object-cover"
+        class="hero-img absolute inset-x-0 top-0 w-full h-[52vh] md:inset-0 md:h-full object-cover"
       />
       <!-- Gradient overlay for text readability -->
-      <div class="absolute inset-0" style="background: linear-gradient(180deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.85) 55%, #ffffff 100%);"></div>
+      <div class="hero-fade absolute inset-0"></div>
 
       <div class="relative z-10 grid grid-cols-1 lg:grid-cols-[1fr_440px] gap-12 max-w-7xl mx-auto w-full items-end">
         <!-- Left bottom corner: Title and intro -->
@@ -129,3 +129,17 @@ const featured = drawings.slice(0, 3);
     </a>
   </section>
 </BaseLayout>
+
+<style>
+  /* Mobile: the drawing reads as a clear band at the top, framed on the town and promenade, then fades into the page. */
+  .hero-img { object-position: 18% 40%; }
+  .hero-fade {
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,0) 26vh, rgba(255,255,255,0.75) 42vh, #ffffff 52vh, #ffffff 100%);
+  }
+  @media (min-width: 768px) {
+    .hero-img { object-position: center; }
+    .hero-fade {
+      background: linear-gradient(180deg, rgba(255,255,255,0.3) 0%, rgba(255,255,255,0.85) 55%, #ffffff 100%);
+    }
+  }
+</style>
